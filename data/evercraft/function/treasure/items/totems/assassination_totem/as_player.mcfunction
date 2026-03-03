@@ -1,0 +1,1 @@
+execute as @a[advancements={evercraft:treasure/items/totems/totem_of_assassination=true}] at @s run function evercraft:treasure/items/totems/assassination_totem/effects

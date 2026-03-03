@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "head": {
+        "predicates": {
+  "minecraft:custom_data": {"armor": "rn_helmet"}
+      }      },
+      "chest": {
+        "predicates": {
+  "minecraft:custom_data": {"armor": "rn_chest"}
+      }      },
+      "legs": {
+        "predicates": {
+  "minecraft:custom_data": {"armor": "rn_legs"}
+      }      },
+      "feet": {
+        "predicates": {
+  "minecraft:custom_data": {"armor": "rn_boots"}
+      }      }
+    }
+  }
+}

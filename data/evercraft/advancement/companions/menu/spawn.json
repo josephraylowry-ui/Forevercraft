@@ -1,0 +1,8 @@
+{
+    "__comment": "DISABLED \u2014 V1 pet menu replaced by menu_v2. This advancement was triggering the old minecart menu when holding the PetMenuKey wooden sword.",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

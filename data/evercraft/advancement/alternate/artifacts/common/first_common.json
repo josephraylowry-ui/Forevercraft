@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/collection_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Humble Beginnings",
+      "color": "white"
+    },
+    "description": {
+      "text": "Find your first Common artifact"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

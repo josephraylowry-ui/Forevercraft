@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/boss_and_brew",
+  "display": {
+    "icon": {"id": "minecraft:iron_chestplate"},
+    "title": {"text": "Seasoned Adventurer", "color": "aqua"},
+    "description": {"text": "50 total interactions across new systems"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/not_even_scratched",
+  "display": {
+    "icon": {"id": "minecraft:grass_block"},
+    "title": {"text": "Overworld Protector", "color": "aqua"},
+    "description": {"text": "Defeat all 6 Overworld World Bosses"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

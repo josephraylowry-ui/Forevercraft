@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/the_archivist",
+  "display": {
+    "icon": {"id": "minecraft:bookshelf"},
+    "title": {"text": "Library of Ages", "color": "light_purple"},
+    "description": {"text": "Complete 15 lore sets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

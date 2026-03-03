@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/exquisite/twentyfive_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "text": "Trim Master",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Activate all trim effects"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

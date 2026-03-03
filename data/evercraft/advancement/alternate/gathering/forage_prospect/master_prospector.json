@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/master_forager",
+  "display": {
+    "icon": {"id": "minecraft:diamond"},
+    "title": {"text": "Master Prospector", "color": "dark_purple"},
+    "description": {"text": "Mine 100 prospect nodes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

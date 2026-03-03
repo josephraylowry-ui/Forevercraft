@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/uncommon/five_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:egg"
+    },
+    "title": {"text": "Growing Menagerie", "color": "blue"},
+    "description": {"text": "Adopt 10 different pets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

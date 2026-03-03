@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/rare/play_fifty_hours",
+  "display": {
+    "icon": {"id": "minecraft:chest"},
+    "title": {"text": "Treasure Hunter", "color": "aqua"},
+    "description": {"text": "Open 500 chests total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

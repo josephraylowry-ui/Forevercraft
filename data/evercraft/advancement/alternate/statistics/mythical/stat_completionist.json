@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/mythical/play_thousand_hours",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Statistical Anomaly",
+      "color": "gold"
+    },
+    "description": {
+      "text": "1000 hours, 10M blocks walked, 1M broken"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

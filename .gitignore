@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Debug & test functions
+**/debug*.mcfunction
+**/test*.mcfunction
+**/test/
+
+# IDE
+.vscode/
+.idea/

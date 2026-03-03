@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/ten_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {"text": "Lucky Strike", "color": "blue"},
+    "description": {"text": "Use Fortune Bonus artifact to get extra loot"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/twenty_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {"text": "Deep Connection", "color": "aqua"},
+    "description": {"text": "Raise a pet's relationship to 2500 RP"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

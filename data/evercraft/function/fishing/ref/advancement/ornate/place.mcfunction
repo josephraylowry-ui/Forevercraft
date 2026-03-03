@@ -1,0 +1,6 @@
+# Handle Fishing Crate placement - ornate
+# Revoke advancement immediately so it can trigger again
+advancement revoke @s only evercraft:fishing/core/ornate/place
+
+# Find the placed barrel nearby and start animation
+execute positioned ~ ~1.6 ~ run function evercraft:crate_anim/find_placed_barrel {tier:"ornate",system_tag:"fishing_crate",plot_start:20,skin:"ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2ODYzNSwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkZW5BcHBsZUdIRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGFlZDAxZjE4Yjc5MDhjZTBiMTFjNjViMTFjMGE1NjgwMDlmY2IyZWY2NWQ3YThjOTEzN2NkYjY3YTM0YTJkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",nbt_key:"fc_rarity",nbt_val:"ornate"}

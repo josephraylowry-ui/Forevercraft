@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/first_bite",
+  "display": {
+    "icon": {"id": "minecraft:cooked_porkchop"},
+    "title": {"text": "Short Order Cook", "color": "white"},
+    "description": {"text": "Cook 5 meals"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_common"}
+}

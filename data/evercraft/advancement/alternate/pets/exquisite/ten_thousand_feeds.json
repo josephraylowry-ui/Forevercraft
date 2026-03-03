@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/five_thousand_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {"text": "Feast Provider", "color": "light_purple"},
+    "description": {"text": "Feed pets 10,000 times total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

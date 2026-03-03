@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/common/sleep_ten",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "text": "Dedicated",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Play for 10 hours"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

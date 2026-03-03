@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 2,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:mushroom_stew", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:bowl", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:beetroot_soup", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:glass_bottle", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:paper", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:copper_nugget", "weight": 15},
+        {"type": "minecraft:item", "name": "minecraft:iron_nugget", "weight": 5},
+        {"type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 5},
+        {"type": "minecraft:item", "name": "minecraft:large_fern", "weight": 4},
+        {"type": "minecraft:item", "name": "minecraft:powder_snow_bucket", "weight": 2},
+        {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 1, "quality": 100}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:empty", "weight": 90},
+        {"type": "minecraft:loot_table", "value": "evercraft:artifacts/common/main", "weight": 3, "quality": 20},
+        {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 7, "quality": 5}
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/unemployed_gift"
+}

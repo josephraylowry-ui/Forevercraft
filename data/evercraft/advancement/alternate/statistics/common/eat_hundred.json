@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/common/walk_ten_thousand",
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "text": "Well Fed",
+      "color": "white"
+    },
+    "description": {
+      "text": "Eat 100 food items"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

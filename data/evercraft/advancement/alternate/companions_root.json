@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {"text": "Companions & Quests", "color": "yellow", "bold": true},
+    "description": {"text": "Befriend pets and complete quests", "color": "gray"},
+    "background": "minecraft:block/oak_planks",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "iron_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["minecraft:iron_pickaxe"]}
+        ]
+      }
+    }
+  }
+}

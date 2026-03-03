@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": [
+        "minecraft:wheat",
+        "minecraft:carrots",
+        "minecraft:potatoes",
+        "minecraft:beetroots",
+        "minecraft:melon_stem",
+        "minecraft:pumpkin_stem",
+        "minecraft:nether_wart",
+        "minecraft:sweet_berry_bush",
+        "minecraft:cocoa",
+        "minecraft:torchflower_crop",
+        "minecraft:pitcher_crop",
+        "minecraft:farmland"
+      ]
+    }
+  }
+}

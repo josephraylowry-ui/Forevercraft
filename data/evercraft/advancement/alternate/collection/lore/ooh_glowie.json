@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection_root",
+  "display": {
+    "icon": {"id": "minecraft:amethyst_shard"},
+    "title": {"text": "Ooh, Glowie!", "color": "white"},
+    "description": {"text": "Find your first lore fragment"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_common"}
+}

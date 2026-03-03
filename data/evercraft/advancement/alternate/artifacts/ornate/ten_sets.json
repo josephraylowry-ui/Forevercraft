@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/five_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
+    },
+    "title": {"text": "Set Enthusiast", "color": "dark_purple"},
+    "description": {"text": "Complete 10 different artifact sets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

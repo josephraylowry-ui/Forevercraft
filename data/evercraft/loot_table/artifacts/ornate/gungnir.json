@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": "Gungnir",
+                "minecraft:lore": [
+                  {
+                    "text": "Ornate Artifact",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "The Allfather's spear that",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "never misses its mark.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "Thrown: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Always returns to owner",
+                        "color": "gold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "+4 Throwing Damage",
+                    "color": "yellow"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "gungnir",
+                  "is_artifact": true,
+                  "ability": "true_strike",
+                  "tier": "ornate"
+                },
+                "minecraft:enchantments": {}
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

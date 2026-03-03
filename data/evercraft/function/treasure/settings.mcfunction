@@ -1,0 +1,1 @@
+function evercraft:treasure/settings/get with storage evercraft:treasure/settings

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/exquisite/hundred_treasure",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "text": "Exquisite Crate Fisher",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Get an Exquisite fishing crate"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

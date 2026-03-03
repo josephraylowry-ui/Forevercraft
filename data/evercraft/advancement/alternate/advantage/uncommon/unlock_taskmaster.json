@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/uncommon/unlock_victorian",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "text": "Task Force",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Unlock the Taskmaster tree"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

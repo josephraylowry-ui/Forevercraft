@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/ornate/forty_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:lodestone"
+    },
+    "title": {"text": "Maximum Power", "color": "dark_purple"},
+    "description": {"text": "Have a pet at maximum ability multiplier (1.5x)"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

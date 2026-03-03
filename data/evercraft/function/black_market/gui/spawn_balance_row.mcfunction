@@ -1,0 +1,2 @@
+# Black Market — Spawn Balance Row (Macro)
+$execute rotated ~ 0 positioned ^0.15 ^1.01 ^1.78 run summon text_display ~ ~ ~ {brightness:{block:15,sky:15},shadow_radius:0f,Tags:["BM.El","BM.SlotEl","BM.BalTxt"],billboard:"center",text:[{text:"Pending: ",color:"gray"},{text:"$(bal) NI",color:"gold",bold:true}],background:1,shadow:1b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.35f,0.35f,0.35f]}}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_11"
+          ],
+          "predicates": {
+  "minecraft:custom_data": "{spawn:\"mt.blacksmith\"}"
+      }        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/items/hacks/blacksmith"
+  }
+}

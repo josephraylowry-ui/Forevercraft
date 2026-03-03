@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/encounters/chance_meeting",
+  "display": {
+    "icon": {"id": "minecraft:name_tag"},
+    "title": {"text": "Wanderer's Fate", "color": "aqua"},
+    "description": {"text": "Complete 5 random encounters"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

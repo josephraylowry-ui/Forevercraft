@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/forevercraft_master",
+  "display": {
+    "icon": {"id": "minecraft:ender_pearl"},
+    "title": {"text": "Realm Walker", "color": "gold"},
+    "description": {"text": "Engage with every system across all dimensions"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

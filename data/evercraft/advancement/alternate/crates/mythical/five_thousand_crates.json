@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/exquisite/two_thousand_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Legendary Unboxer", "color": "gold"},
+    "description": {"text": "Open 5000 crates total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

@@ -1,0 +1,2 @@
+execute as @s[tag=Pets.Hidden] run return run function evercraft:companions/handler/player/visible_status
+execute as @s[tag=!Pets.Visible] run return run function evercraft:companions/handler/player/hidden_status

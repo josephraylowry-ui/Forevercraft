@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/system_master_combat",
+  "display": {
+    "icon": {"id": "minecraft:anvil"},
+    "title": {"text": "System Master: Crafting", "color": "aqua"},
+    "description": {"text": "Cook 20 + forge 10 + transmute 15"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

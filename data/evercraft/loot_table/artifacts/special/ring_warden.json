@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text": "Warden Ring", "color": "#FFAA00", "italic": false},
+                "minecraft:lore": [
+                  {"text": "Carved from sculk-touched bone.", "color": "gray", "italic": false},
+                  "",
+                  {"text": "Effect: Strength II", "color": "red", "italic": false},
+                  {"text": "Immunity to Darkness", "color": "dark_aqua", "italic": false},
+                  "",
+                  {"text": "Exquisite Ring", "color": "light_purple", "italic": false}
+                ],
+                "minecraft:custom_data": {"artifact": "ring_warden", "is_artifact": true, "ring": true},
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

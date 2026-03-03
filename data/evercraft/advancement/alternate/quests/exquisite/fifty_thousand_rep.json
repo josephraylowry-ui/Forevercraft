@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/exquisite/ten_village_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {"text": "Living Legend", "color": "light_purple"},
+    "description": {"text": "Earn 50,000 reputation total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

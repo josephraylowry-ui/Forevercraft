@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "hit_with_lightning_smash": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{item:{components:{\"minecraft:custom_data\":{ability:\"lightning_smash\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:artifacts/abilities/lightning_smash"
+  }
+}

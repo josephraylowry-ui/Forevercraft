@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/fifty_artifacts",
+  "display": {
+    "icon": {"id": "minecraft:gold_ingot"},
+    "title": {"text": "Ring Lord", "color": "dark_purple"},
+    "description": {"text": "Own all 13 accessory rings simultaneously"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

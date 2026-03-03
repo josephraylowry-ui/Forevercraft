@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/ornate/exquisite_crate",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Ocean's Bounty", "color": "dark_purple"},
+    "description": {"text": "Open 50 fishing crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

@@ -1,0 +1,3 @@
+kill @s
+
+$summon armor_stand ~-0.75 ~ ~-0.75 {CustomNameVisible:0b,CustomName:"$(lastName)",data:{player_name:"$(lastName)"},Team:"mt.necromancy",NoGravity:true,Invulnerable:1b,Marker:0b,Small:true,Invisible:1b,DisabledSlots:4144959,Passengers:[{id:"minecraft:block_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1f,0f],scale:[1.5f,3f,1.5f]},block_state:{Name:"minecraft:skeleton_skull"}}],equipment:{feet:{id:"minecraft:acacia_button",count:1,components:{"minecraft:enchantments":{"evercraft:treasure/technical/necromancy":1}}}}}

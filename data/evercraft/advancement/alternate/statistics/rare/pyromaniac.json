@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/rare/jump_hundred_thousand",
+  "display": {
+    "icon": {"id": "minecraft:flint_and_steel"},
+    "title": {"text": "Pyromaniac", "color": "aqua"},
+    "description": {"text": "Use flint and steel 500 times"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

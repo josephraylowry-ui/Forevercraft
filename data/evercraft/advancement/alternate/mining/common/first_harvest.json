@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/common/hundred_blocks",
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "text": "Green Thumb",
+      "color": "white"
+    },
+    "description": {
+      "text": "Harvest your first crop"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

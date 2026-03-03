@@ -1,0 +1,28 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "text": "The Void Awaits",
+      "color": "white"
+    },
+    "description": {
+      "text": "Enter the End"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "enter_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

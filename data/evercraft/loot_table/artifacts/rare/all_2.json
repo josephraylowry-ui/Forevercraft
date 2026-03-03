@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:loot_table", "value": "evercraft:artifacts/rare/fantasy_shovel"}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:loot_table", "value": "evercraft:artifacts/rare/sinitic_hoe"}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:loot_table", "value": "evercraft:artifacts/rare/axeblade"}]
+    },
+    {
+      "rolls": 1,
+      "entries": [{"type": "minecraft:loot_table", "value": "evercraft:artifacts/rare/blossom_fishing_rod"}]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/mythical/fishing_crate_mythical",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Ultimate Angler",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Catch 50000 fish"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/eternal_champion",
+  "display": {
+    "icon": {"id": "minecraft:end_crystal"},
+    "title": {"text": "The Absolute", "color": "gold"},
+    "description": {"text": "Earn every other Mythical achievement"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

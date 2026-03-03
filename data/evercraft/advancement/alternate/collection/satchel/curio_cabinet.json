@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/satchel/trinket_collector",
+  "display": {
+    "icon": {"id": "minecraft:barrel"},
+    "title": {"text": "Curio Cabinet", "color": "aqua"},
+    "description": {"text": "Store 10 artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

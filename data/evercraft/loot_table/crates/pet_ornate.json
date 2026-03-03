@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/alien", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/allay", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/armadillo", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/creeper", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/dolphin", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/enderman", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/fox", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/frog", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/frozen_zombie", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/ghast", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/hoglin", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/knight", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/koala", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/monkey", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/mossy_zombie", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/mule", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/owl", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/panda", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/penguin", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/polar_bear", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/rabbit", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/sniffer", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/strider", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:lead"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/whistle"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/menu"}
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/items/pet_treat"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "comment": "DREAM AEGIS - 0.01% chance",
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9999
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:artifacts/mythical/dream_aegis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

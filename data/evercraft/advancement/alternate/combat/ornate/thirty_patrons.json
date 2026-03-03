@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/ornate/fifty_patron_mobs",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "text": "Patron Master",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Defeat 30 mob patrons"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

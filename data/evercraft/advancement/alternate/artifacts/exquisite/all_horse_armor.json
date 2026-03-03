@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/exquisite/hundred_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {"text": "Equestrian", "color": "light_purple"},
+    "description": {"text": "Collect all horse armor artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {"text": "Growth & Skills", "color": "dark_purple", "bold": true},
+    "description": {"text": "Level up your advantage trees", "color": "gray"},
+    "background": "minecraft:block/amethyst_block",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "iron_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["minecraft:iron_pickaxe"]}
+        ]
+      }
+    }
+  }
+}

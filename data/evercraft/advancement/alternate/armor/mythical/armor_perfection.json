@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/mythical/all_set_bonuses",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Armor Perfection",
+      "color": "gold"
+    },
+    "description": {
+      "text": "All 27 sets, all trims, all bonuses"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

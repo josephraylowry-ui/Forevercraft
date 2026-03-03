@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/village_champion",
+  "display": {
+    "icon": {"id": "minecraft:painting"},
+    "title": {"text": "The Renaissance Player", "color": "dark_purple"},
+    "description": {"text": "Interact with every new system"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

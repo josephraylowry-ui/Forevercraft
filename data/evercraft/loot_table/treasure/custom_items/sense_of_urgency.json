@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:armor_stand",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:item_model": "minecraft:structure_block",
+                      "minecraft:entity_data": {
+                        "id": "minecraft:armor_stand",
+                        "Tags": [
+                          "mt.sense_of_urgency"
+                        ]
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "Grants Haste II to everyone in a ",
+                          "color": "gray",
+                          "italic": false
+                        },
+                        {
+                          "text": "20 block radius every 2s, 20 times. ",
+                          "color": "gray",
+                          "italic": false
+                        }
+                      ],                      
+                      "minecraft:item_name": "{\"text\":\"Sense of Urgency\"}",
+                      "minecraft:rarity": "rare",
+                      "minecraft:custom_data": {
+                        "mt.sense_of_urgency": 1
+                      }
+                    }
+                  }
+                ]
+              }
+        ]
+      }
+    ]
+  }

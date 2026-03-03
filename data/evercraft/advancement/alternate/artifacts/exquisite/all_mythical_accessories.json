@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/all_passive_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {"text": "Mythical Trinkets", "color": "light_purple"},
+    "description": {"text": "Collect all Mythical accessories"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/companions/party/dungeon_party",
+  "display": {
+    "icon": {"id": "minecraft:ender_eye"},
+    "title": {"text": "Boss Raid Party", "color": "light_purple"},
+    "description": {"text": "Defeat a World Boss with a full party"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

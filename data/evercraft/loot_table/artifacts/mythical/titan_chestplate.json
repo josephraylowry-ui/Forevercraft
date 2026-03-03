@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Titan's Shroud Chestplate",
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Artifact",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Plate armor infused with the",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "crushing pressure of the abyss.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "\u25c6 Tidal Shell: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Abyssal Protection",
+                        "color": "aqua"
+                      }
+                    ]
+                  },
+                  "",
+                  {
+                    "text": "Set: Tempest (0/4)",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "2pc: Conduit Power + Fishing Dream Rate",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "4pc: Water Walking + Tidal Horn",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "5pc: Riptide Surge (trident)",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "titan_chestplate",
+                  "is_artifact": true,
+                  "tier": "mythical",
+                  "artifact_set": "titan"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "evercraft:titan_armor"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "evercraft:titan_toughness"
+                  },
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "evercraft:titan_knockback"
+                  },
+                  {
+                    "type": "minecraft:luck",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "evercraft:titan_luck"
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "evercraft:titan_water_move"
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4,
+                    "minecraft:unbreaking": 3,
+                    "minecraft:thorns": 3
+                  }
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/rare/haste_three_surge",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "text": "Tunnel Rat",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Mine 20000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

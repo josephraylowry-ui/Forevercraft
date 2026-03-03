@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/max_rp",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {"text": "Legendary Menagerie", "color": "light_purple"},
+    "description": {"text": "Adopt 70 different pets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

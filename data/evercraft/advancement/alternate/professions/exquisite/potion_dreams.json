@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/professions/exquisite/five_thousand_trades",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "text": "Dream Buyer",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Buy a Potion of Dreams VI from the Bartender"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

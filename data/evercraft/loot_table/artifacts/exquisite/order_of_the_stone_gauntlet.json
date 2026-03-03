@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": "Order of the Stone Gauntlet",
+                "minecraft:lore": [
+                  {
+                    "text": "Exquisite Artifact",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Forged by the legendary Order,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "imbued with their unbreaking will.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {"text": "Dancer Class", "color": "#DA70D6", "bold": true, "italic": false},
+                  {"text": "\u25c6 Evasion: ", "color": "gray", "italic": false, "extra": [{"text": "+5% dodge per gauntlet", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Flurry: ", "color": "gray", "italic": false, "extra": [{"text": "Shift+Use \u2014 45s auto-swing", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Heal on Hit: ", "color": "gray", "italic": false, "extra": [{"text": "12.5% chance", "color": "dark_gray"}]}
+                ],
+                "minecraft:consumable": {"consume_seconds": 999999},
+                "minecraft:custom_data": {
+                  "artifact": "order_of_the_stone_gauntlet",
+                  "is_artifact": true,
+                  "dancer": true,
+                  "tier": "exquisite"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.6,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

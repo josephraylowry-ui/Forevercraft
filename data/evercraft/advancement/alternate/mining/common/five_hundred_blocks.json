@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/common/find_diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "Tunneler",
+      "color": "white"
+    },
+    "description": {
+      "text": "Mine 500 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

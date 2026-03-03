@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/ornate/thirty_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {"text": "Exquisite Challenge", "color": "dark_purple"},
+    "description": {"text": "Complete an Exquisite quest"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

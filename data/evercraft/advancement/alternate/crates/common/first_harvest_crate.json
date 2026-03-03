@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/common/first_fishing_crate",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Bountiful Barrel", "color": "white"},
+    "description": {"text": "Open your first harvest crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

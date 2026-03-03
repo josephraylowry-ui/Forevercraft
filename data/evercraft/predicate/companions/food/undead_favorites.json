@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "items": [
+                    "minecraft:rotten_flesh",
+                    "minecraft:bone",
+                    "minecraft:bone_meal",
+                    "minecraft:spider_eye",
+                    "minecraft:fermented_spider_eye"
+                ]
+            }
+        }
+    }
+}

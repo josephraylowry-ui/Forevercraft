@@ -1,3 +1,0 @@
-execute if score $waypoint_menu_id wawo.technical = $unique_waypoint_id wawo.waypoint_hub.id run return run function wawo:waypoint_hub/interact/right_click/menu/build/dialog with storage eden:temp waypoint_hub.menu
-execute store result storage eden:temp waypoint_hub.menu.waypoint_id int 1 run scoreboard players add $waypoint_menu_id wawo.technical 1
-function wawo:waypoint_hub/interact/right_click/menu/build/init with storage eden:temp waypoint_hub.menu

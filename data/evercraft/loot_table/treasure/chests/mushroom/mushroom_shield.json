@@ -1,0 +1,769 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1 Armor", "color": "blue", "italic": false},
+                {"text": "+1 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-10% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1.5 Armor", "color": "blue", "italic": false},
+                {"text": "+1.5 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-7.5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.075,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+2 Armor", "color": "blue", "italic": false},
+                {"text": "+2 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1 Armor", "color": "blue", "italic": false},
+                {"text": "+1.5 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-7.5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.075,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1 Armor", "color": "blue", "italic": false},
+                {"text": "+2 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1.5 Armor", "color": "blue", "italic": false},
+                {"text": "+1 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-7.5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.075,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+2 Armor", "color": "blue", "italic": false},
+                {"text": "+1 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 9999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {"text": "Mushroom Shield", "color": "gold", "italic": true},
+                "minecraft:lore": [
+                  {"text": "", "color": "white", "italic": false},
+                  {"text": "Ability:", "color": "green", "italic": false},
+                  {"text": "Gains Regeneration II for 5", "color": "gray", "italic": false},
+                  {"text": "seconds while blocking damage.", "color": "gray", "italic": false}
+                ],
+                "minecraft:base_color": "light_blue",
+                "minecraft:banner_patterns": [
+                  {"color": "white", "pattern": "cross"},
+                  {"color": "red", "pattern": "half_horizontal"},
+                  {"color": "light_blue", "pattern": "curly_border"},
+                  {"color": "light_blue", "pattern": "stripe_top"},
+                  {"color": "light_gray", "pattern": "stripe_bottom"},
+                  {"color": "brown", "pattern": "triangles_bottom"}
+                ],
+                "minecraft:custom_data": {"weapon": "mushroom_shield", "mt": "weapon", "tank": true, "tier": "uncommon"}
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text": " "},
+                {"text": "Tank Class", "color": "#5B9BD5", "bold": true, "italic": false},
+                {"text": "◆ Resistance I ", "color": "gray", "italic": false, "extra": [{"text": "(Mainhand)", "color": "dark_gray"}]},
+                {"text": "◆ Taunt & Shield Bash", "color": "gray", "italic": false},
+                {"text": " "},
+                {"text": "Knight Class", "color": "#FFD700", "bold": true, "italic": false},
+                {"text": "◆ Spore Cloud ", "color": "gray", "italic": false, "extra": [{"text": "(Offhand Shift+Use)", "color": "dark_gray"}]},
+                {"text": "  Poison enemies + Regen self", "color": "dark_gray", "italic": false},
+                {"text": " "},
+                {"text": "When in Off Hand:", "color": "gray", "italic": false},
+                {"text": "+1 Armor", "color": "blue", "italic": false},
+                {"text": "+1 Armor Toughness", "color": "blue", "italic": false},
+                {"text": "-5% Speed", "color": "red", "italic": false},
+                {"text": "Unbreakable", "color": "blue", "italic": false}
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "mushroom_shield_speed",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_armor",
+                  "attribute": "minecraft:armor",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "mushroom_shield_toughness",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "evercraft:shield_damage",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "evercraft:shield_knockback",
+                  "attribute": "minecraft:attack_knockback",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {"minecraft:attribute_modifiers": false}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

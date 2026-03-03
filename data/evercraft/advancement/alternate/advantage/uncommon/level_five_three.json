@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/uncommon/five_trees",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "text": "Triple Threat",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Reach level 5 in 3 trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

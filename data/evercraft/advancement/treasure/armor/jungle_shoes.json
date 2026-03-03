@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "biomes": "#minecraft:is_jungle"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "evercraft:treasure/items/armor/jungle_shoes"
+    }
+  }

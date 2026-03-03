@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/twentyfive_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {"text": "Patron's Bounty", "color": "aqua"},
+    "description": {"text": "Get 3 artifacts from Mob Patrons"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Permafrost",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Weapon: Frozen Biomes",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Arrows inflict Slowness II for ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3 seconds on hit. Critical shots ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "freeze the target for 1 second.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "shivering_bow",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "min": 3,
+                  "max": 5
+                },
+                "minecraft:punch": {
+                  "min": 1,
+                  "max": 2
+                },
+                "minecraft:infinity": 1
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Permafrost",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Weapon: Frozen Biomes",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Arrows inflict Slowness II for ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3 seconds on hit. Critical shots ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "freeze the target for 1 second.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "shivering_bow",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "min": 4,
+                  "max": 6
+                },
+                "minecraft:punch": {
+                  "min": 2,
+                  "max": 3
+                },
+                "minecraft:flame": 1,
+                "minecraft:infinity": 1
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Permafrost",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Weapon: Frozen Biomes",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Arrows inflict Slowness II for ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3 seconds on hit. Critical shots ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "freeze the target for 1 second.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "shivering_bow",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "min": 5,
+                  "max": 7
+                },
+                "minecraft:punch": {
+                  "min": 2,
+                  "max": 4
+                },
+                "minecraft:infinity": 1
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

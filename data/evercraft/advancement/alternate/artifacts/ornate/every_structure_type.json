@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/five_ancient_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {"text": "Structure Explorer", "color": "dark_purple"},
+    "description": {"text": "Get an artifact from every structure type"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

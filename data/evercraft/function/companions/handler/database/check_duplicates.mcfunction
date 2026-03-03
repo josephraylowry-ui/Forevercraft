@@ -1,0 +1,3 @@
+$execute if data entity @e[type=marker, tag=Pets.Marker, predicate=evercraft:companions/check_id, limit=1] data.Pets[{components:{"minecraft:profile":{properties:[{},{value:"$(name)"}]}}}] run return run tellraw @s [{text:"You already have a ", color:"red"},{nbt:"SelectedItem.components.\"minecraft:custom_name\"",entity:"@s",interpret:true},{text:" in your possesion.",color:"red"}]
+
+execute run return run function evercraft:companions/handler/database/store_pet

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/common/first_pet",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {"text": "Hidden Talent", "color": "white"},
+    "description": {"text": "Have a pet ability activate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

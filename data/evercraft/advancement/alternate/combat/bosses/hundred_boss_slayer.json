@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/the_hollow_crown",
+  "display": {
+    "icon": {"id": "minecraft:netherite_sword"},
+    "title": {"text": "Hundred Boss Slayer", "color": "gold"},
+    "description": {"text": "Defeat 100 World Bosses"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

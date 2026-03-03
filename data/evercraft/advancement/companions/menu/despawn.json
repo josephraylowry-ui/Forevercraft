@@ -1,0 +1,8 @@
+{
+    "__comment": "DISABLED \u2014 V1 pet menu replaced by menu_v2.",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

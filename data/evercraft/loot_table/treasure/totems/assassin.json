@@ -1,0 +1,65 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Activation gives Strength IV ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "and blindings all enemies ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                 "mode": "replace_all"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Totem of Assassination",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {
+                    "weapon": "totem_assassin",
+                    "mt": "weapon"
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "assassin",
+                    "attribute": "minecraft:attack_damage",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

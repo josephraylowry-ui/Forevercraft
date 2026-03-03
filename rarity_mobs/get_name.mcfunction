@@ -1,2 +1,0 @@
-$data modify storage eden:settings mob_manager.rarity_mobs.$(type).first_name set from storage eden:database names.rarity_mobs.first.$(first_name)
-$data modify storage eden:settings mob_manager.rarity_mobs.$(type).last_name set from storage eden:database names.rarity_mobs.last.$(last_name)

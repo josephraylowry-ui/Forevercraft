@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/common/first_armor",
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "text": "Set Starter",
+      "color": "white"
+    },
+    "description": {
+      "text": "Activate a 2-piece set bonus"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

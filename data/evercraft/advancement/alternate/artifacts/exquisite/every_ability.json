@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/all_weapon_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {"text": "Ability Completionist", "color": "light_purple"},
+    "description": {"text": "Use every artifact ability at least once"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

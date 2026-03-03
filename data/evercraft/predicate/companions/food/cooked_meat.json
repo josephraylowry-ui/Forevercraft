@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "items": [
+                    "minecraft:cooked_beef",
+                    "minecraft:cooked_porkchop",
+                    "minecraft:cooked_chicken",
+                    "minecraft:cooked_mutton",
+                    "minecraft:cooked_rabbit"
+                ]
+            }
+        }
+    }
+}

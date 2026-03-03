@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/exquisite/five_thousand_fish",
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "text": "Quintuple Catch",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Catch 5 fish at once (max)"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

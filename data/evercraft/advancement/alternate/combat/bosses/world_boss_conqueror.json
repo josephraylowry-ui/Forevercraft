@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/boss_rush",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "World Boss Conqueror", "color": "gold"},
+    "description": {"text": "Defeat every unique World Boss"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_world_boss_conqueror"}
+}

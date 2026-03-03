@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/mythical/max_combat_trees",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "text": "Gathering Mastery",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Max all gathering trees (Fishing, Mining, Gathering)"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/five_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {"text": "Rising Challenger", "color": "blue"},
+    "description": {"text": "Complete a Rare quest"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

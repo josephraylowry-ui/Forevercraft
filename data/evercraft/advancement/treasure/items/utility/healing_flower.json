@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:armor_stand"
+                ],
+                "predicates": {
+                  "minecraft:custom_data": "{\"mt.healing_flower\":1}"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "evercraft:treasure/items/utility/healing_flower/use"
+    }
+  }
+  

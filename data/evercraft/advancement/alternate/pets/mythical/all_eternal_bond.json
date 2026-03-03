@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/mythical/all_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {"text": "Unbreakable Bonds", "color": "gold"},
+    "description": {"text": "Raise ALL pets to Eternal Bond"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

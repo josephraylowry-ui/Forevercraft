@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:barrel",
+          "predicates": {
+            "minecraft:custom_data": "{fc_rarity:\"rare\",fc_stat:0b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:fishing/ref/advancement/rare/open"
+  }
+}

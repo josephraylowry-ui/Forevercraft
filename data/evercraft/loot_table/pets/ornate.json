@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/blue_dragon", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/penguin", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/red_dragon", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/warden", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/fox", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/polar_bear", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/strider", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/allay", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/sniffer", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/frog", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/giraffe", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/koala", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/skeleton_horse", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/arctic_fox", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/vex", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/deloris", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/moobloom", "weight": 1}
+      ]
+    }
+  ]
+}

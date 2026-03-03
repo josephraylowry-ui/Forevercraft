@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/rare_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {"text": "Trusted Ally", "color": "blue"},
+    "description": {"text": "Reach Friend reputation in a village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

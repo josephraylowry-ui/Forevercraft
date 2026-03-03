@@ -1,0 +1,15 @@
+{
+  "comment": "Default armor pool - max 2 pieces per chest",
+  "pools": [
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 0, "max": 2},
+      "entries": [
+        {"type": "minecraft:item", "weight": 2, "name": "minecraft:diamond_helmet", "functions": [{"function": "minecraft:enchant_with_levels", "levels": 30, "options": "#minecraft:in_enchanting_table"}]},
+        {"type": "minecraft:item", "weight": 2, "name": "minecraft:diamond_chestplate", "functions": [{"function": "minecraft:enchant_with_levels", "levels": 30, "options": "#minecraft:in_enchanting_table"}]},
+        {"type": "minecraft:item", "weight": 2, "name": "minecraft:diamond_leggings", "functions": [{"function": "minecraft:enchant_with_levels", "levels": 30, "options": "#minecraft:in_enchanting_table"}]},
+        {"type": "minecraft:item", "weight": 2, "name": "minecraft:diamond_boots", "functions": [{"function": "minecraft:enchant_with_levels", "levels": 30, "options": "#minecraft:in_enchanting_table"}]},
+        {"type": "minecraft:empty", "weight": 8}
+      ]
+    }
+  ]
+}

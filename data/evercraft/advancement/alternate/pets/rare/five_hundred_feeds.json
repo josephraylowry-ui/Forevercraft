@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/two_hundred_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {"text": "Dedicated Caretaker", "color": "aqua"},
+    "description": {"text": "Feed pets 500 times total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

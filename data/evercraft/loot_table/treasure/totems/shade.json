@@ -1,0 +1,65 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:totem_of_undying",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "When activated teleports the user a short ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "distance away, replacing them with Jo-. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Totem of Shade",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {
+                    "weapon": "totemshade",
+                    "mt": "weapon"
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "id": "shade",
+                    "attribute": "minecraft:attack_speed",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_total",
+                    "slot": "offhand"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

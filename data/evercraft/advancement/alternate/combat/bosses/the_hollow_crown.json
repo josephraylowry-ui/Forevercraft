@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/world_boss_conqueror",
+  "display": {
+    "icon": {"id": "minecraft:golden_helmet"},
+    "title": {"text": "The Hollow Crown", "color": "gold"},
+    "description": {"text": "Defeat the Hollow King 5 times"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

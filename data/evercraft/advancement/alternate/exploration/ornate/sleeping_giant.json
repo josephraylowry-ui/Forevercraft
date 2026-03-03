@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {"id": "minecraft:end_crystal"},
+    "title": {"text": "The Sleeping Giant", "color": "dark_purple", "italic": true},
+    "description": {"text": "Witness a full moon, harvest moon, and new moon"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

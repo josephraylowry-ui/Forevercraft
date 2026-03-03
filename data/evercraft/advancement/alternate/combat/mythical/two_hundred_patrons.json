@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/mythical/master_all_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Patron Annihilator",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Defeat 200 mob patrons"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

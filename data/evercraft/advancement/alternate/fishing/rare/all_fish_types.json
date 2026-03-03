@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/rare/twenty_treasure",
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {"text": "Complete Collection", "color": "aqua"},
+    "description": {"text": "Catch every type of fish"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

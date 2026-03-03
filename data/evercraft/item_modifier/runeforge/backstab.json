@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"backstab\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Backstab", "color": "dark_red", "italic": false}], "mode": "append"}
+]

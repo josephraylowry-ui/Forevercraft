@@ -1,0 +1,1 @@
+# This function is no longer used - fire aspect is handled in tick.mcfunction

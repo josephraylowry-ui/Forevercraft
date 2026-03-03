@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Miner's Anecdote",
+                  "author": "The Old Prospector",
+                  "pages": [
+                    {
+                      "text": "\n\n   §7§lMINER'S\n   ANECDOTE§r\n\n§7§oTales and truths\nfrom one who spent\na lifetime listening\nto the stones...§r\n\n§8— The Old Prospector"
+                    },
+                    {
+                      "text": "§7§lThe Speaking Stones§r\n\n§7§oEvery block you\nbreak whispers back.\nMost never hear it.\n\nBut sometimes, the\nearth rewards those\nwho listen... with\ntreasures beyond\ncommon ore.§r"
+                    },
+                    {
+                      "text": "§7§lOf Fortune's Touch§r\n\n§7§oA pickaxe blessed\nwith fortune does\nmore than multiply\nyour gems, child.\n\nIt tells the earth\nyou are worthy of\nher deeper secrets.\nThe dreams follow.§r"
+                    },
+                    {
+                      "text": "§7§lThe Gentle Hand§r\n\n§7§oSome miners prefer\nthe silk touch —\na gentler way.\n\nThe earth remembers\nkindness too. She\noffers different\ngifts to those who\ntake without\ndestroying.§r"
+                    },
+                    {
+                      "text": "§7§lThe Dreamer's Path§r\n\n§7§oThe rarest veins\nonly reveal themselves\nto dreamers who have\nproven themselves.\n\nBuild your dreams\nfirst, young one.\nThen the mountains\nwill open for you.§r"
+                    },
+                    {
+                      "text": "§7§lEach Land Remembers§r\n\n§7§oThe frozen peaks\nhide frost. The\nbadlands guard\norcish steel. The\nvoid's edge holds\nmythril.\n\nWhere you dig\nmatters as much\nas how you dig.§r"
+                    },
+                    {
+                      "text": "§7§lThe Journey Below§r\n\n§7§oThey speak of tools\nthat can harvest\nentire veins... of\narmor that lets you\nsee in the dark.\n\nSuch things exist\nfor those whose\ndreams burn bright.\n\n§8Dig deep, friend.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Miner's Anecdote",
+                  "color": "gray",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Wisdom from the deep places",
+                    "color": "dark_gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "miners_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

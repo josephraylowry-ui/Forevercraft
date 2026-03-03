@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/common/second_set",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "text": "Bonus Activated",
+      "color": "white"
+    },
+    "description": {
+      "text": "Have a set bonus ability trigger"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

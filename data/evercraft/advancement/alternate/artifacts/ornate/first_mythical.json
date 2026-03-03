@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/first_exquisite",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {"text": "Mythical Discovery", "color": "dark_purple"},
+    "description": {"text": "Find your first Mythical artifact"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

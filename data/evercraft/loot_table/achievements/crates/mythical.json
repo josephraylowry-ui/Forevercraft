@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:container_loot": {
+                  "loot_table": "evercraft:crates/mythical"
+                },
+                "minecraft:custom_data": {
+                  "ac_rarity": "mythical",
+                  "ac_stat": false
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_name": {"text": "Mythical Achievement Crate", "bold": true, "italic": true, "color": "gold"},
+                "minecraft:lore": [
+                  {"text": "Place to reveal your reward!", "color": "gray", "italic": true}
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

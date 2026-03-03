@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "minecraft:custom_data": "{armor:\"savanna_helmet\"}"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "#evercraft:treasure/gold_edibles"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/items/food/gold_edibles"
+  }
+}

@@ -1,2 +1,0 @@
-$execute if items entity @s weapon.mainhand $(item) run return run item modify entity @s weapon.mainhand [{"function": "minecraft:set_count","count": -1,"add": true}]
-$execute if items entity @s weapon.offhand $(item) run return run item modify entity @s weapon.offhand [{"function": "minecraft:set_count","count": -1,"add": true}]

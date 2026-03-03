@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/mythical/all_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {"text": "Eternal Curator", "color": "gold"},
+    "description": {"text": "Own every possible artifact simultaneously"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

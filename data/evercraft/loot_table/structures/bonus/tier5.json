@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "comment": "Tier 5 (Exquisite structures) - 15% base chance, bonus container: 80% ornate, 20% exquisite",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/ornate/main", "weight": 80},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/exquisite/main", "weight": 20}
+      ]
+    },
+    {
+      "rolls": 1,
+      "comment": "DREAM AEGIS - 0.01% chance",
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9999
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:artifacts/mythical/dream_aegis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

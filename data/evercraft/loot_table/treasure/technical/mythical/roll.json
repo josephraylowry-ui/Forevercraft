@@ -1,0 +1,97 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:air"
+                }
+              },
+              {
+                "function": "minecraft:fill_player_head",
+                "entity": "this"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "treasure": 1,
+                    "biome": "armor",
+                    "tier": "mythical",
+                    "animation": 53,
+                    "spawn_duration": 46,
+                    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NzEzNSwKICAicHJvZmlsZUlkIiA6ICI3OThlZWM3OGYzNGU0MGJhYjlmNjk0ODIwYzM3ZTcxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbENoYW5vbk1DIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0ZDNmNDY0NmYxMWRlODY2MDhkZTY0NjM2NmE4YmU4YThlOWQ4MjA3ZjhhZDRjZDU2YzQzOTk2Y2JhZWMwOTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:air"
+                }
+              },
+              {
+                "function": "minecraft:fill_player_head",
+                "entity": "this"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "treasure": 1,
+                    "biome": "weapon",
+                    "tier": "mythical",
+                    "animation": 53,
+                    "spawn_duration": 46,
+                    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NzEzNSwKICAicHJvZmlsZUlkIiA6ICI3OThlZWM3OGYzNGU0MGJhYjlmNjk0ODIwYzM3ZTcxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbENoYW5vbk1DIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0ZDNmNDY0NmYxMWRlODY2MDhkZTY0NjM2NmE4YmU4YThlOWQ4MjA3ZjhhZDRjZDU2YzQzOTk2Y2JhZWMwOTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:air"
+                }
+              },
+              {
+                "function": "minecraft:fill_player_head",
+                "entity": "this"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_data": {
+                    "treasure": 1,
+                    "biome": "utility",
+                    "tier": "mythical",
+                    "animation": 53,
+                    "spawn_duration": 46,
+                    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NzEzNSwKICAicHJvZmlsZUlkIiA6ICI3OThlZWM3OGYzNGU0MGJhYjlmNjk0ODIwYzM3ZTcxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbENoYW5vbk1DIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0ZDNmNDY0NmYxMWRlODY2MDhkZTY0NjM2NmE4YmU4YThlOWQ4MjA3ZjhhZDRjZDU2YzQzOTk2Y2JhZWMwOTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

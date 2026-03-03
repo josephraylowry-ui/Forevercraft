@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/every_structure_type",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {"text": "Dungeon Master", "color": "gold"},
+    "description": {"text": "Collect all artifacts from all structure types"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

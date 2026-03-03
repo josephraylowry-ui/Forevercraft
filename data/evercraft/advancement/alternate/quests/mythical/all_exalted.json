@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/mythical/all_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {"text": "Exalted Everywhere", "color": "gold"},
+    "description": {"text": "Reach Exalted in all villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

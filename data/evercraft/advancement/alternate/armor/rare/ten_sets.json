@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/rare/exquisite_full_set",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "Set Expert",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Equip 10 different full armor sets"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

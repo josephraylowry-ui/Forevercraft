@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/ornate/quad_catch",
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "text": "Legendary Angler",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Catch 2000 fish"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

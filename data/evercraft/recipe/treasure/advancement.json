@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@"
+  ],
+  "key": {
+    "@": "minecraft:chain_command_block"
+  },
+  "result": {
+    "id": "minecraft:acacia_stairs"
+  },
+  "show_notification": false
+}

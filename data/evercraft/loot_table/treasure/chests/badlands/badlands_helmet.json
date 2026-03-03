@@ -1,0 +1,3525 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Dragonslayer Helmet",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Badlands",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Crossbow arrows have a 150% increase",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in damage and will always do crit damage.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Fireworks are silent and go further.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "badlands_helmet",
+                  "mt": "armor"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "id": "badlands_helmet",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 2,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "minecraft:blast_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:respiration": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

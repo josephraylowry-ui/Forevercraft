@@ -1,0 +1,16 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": { "id": "minecraft:ender_eye" },
+    "title": { "text": "Rift Survivor", "color": "dark_purple" },
+    "description": { "text": "Kill 10 rift mobs in a single Dimensional Rift" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": { "trigger": "minecraft:impossible" }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

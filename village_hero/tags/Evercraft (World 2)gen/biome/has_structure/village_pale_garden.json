@@ -1,9 +1,0 @@
-{ 
-	"values": [
-	"minecraft:pale_garden",
-	{
-		"id": "biomeswevegone:pale_bog",
-		"required": false
-	}
-	]
-}

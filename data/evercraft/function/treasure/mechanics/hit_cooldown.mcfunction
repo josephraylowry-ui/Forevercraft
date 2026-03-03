@@ -1,0 +1,1 @@
+scoreboard players set @s mt.hit_cooldown 0

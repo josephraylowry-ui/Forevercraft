@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/world_events/rift_pioneer",
+  "display": {
+    "icon": {"id": "minecraft:sea_lantern"},
+    "title": {"text": "Aurora Dancer", "color": "light_purple"},
+    "description": {"text": "Harvest 500 crops across all Aurora Blooms"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

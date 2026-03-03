@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/common/unlock_agility",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "Hardy Soul",
+      "color": "white"
+    },
+    "description": {
+      "text": "Unlock the Vitality tree"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

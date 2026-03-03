@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/ornate/play_hundred_hours",
+  "display": {
+    "icon": {"id": "minecraft:trident"},
+    "title": {"text": "Aquatic Explorer", "color": "dark_purple"},
+    "description": {"text": "Swim 100,000 blocks underwater"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

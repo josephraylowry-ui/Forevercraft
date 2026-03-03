@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/rare/honored_rep",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {"text": "Far Traveler", "color": "aqua"},
+    "description": {"text": "Complete quests in 5 different villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

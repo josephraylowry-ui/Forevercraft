@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/exquisite/craft_million",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Time Lord",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Play for 1000 hours"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

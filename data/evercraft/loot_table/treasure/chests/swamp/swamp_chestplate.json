@@ -1,0 +1,3562 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 5.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "min": 1,
+                  "max": 6
+                },
+                "minecraft:projectile_protection": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:fire_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:blast_protection": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:respiration": {
+                  "min": 0,
+                  "max": 5
+                },
+                "minecraft:aqua_affinity": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:knockback_resistance",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor_toughness",
+                  "amount": 4.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "id": "swamp_chestplate",
+                  "attribute": "minecraft:armor",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Crystal Chestplate",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Armor: Swamp",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Has a 15% chance to lose garbage ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "upon being hit causing random debuffs ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "to all enemies. Also granting the user",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "immunity to most negative effects. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "armor": "swamp_chestplate",
+                  "mt": "armor"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

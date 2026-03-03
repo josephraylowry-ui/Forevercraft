@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/first_common",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {"text": "Ancient Warrior", "color": "white"},
+    "description": {"text": "Use an artifact weapon to kill a mob"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

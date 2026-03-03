@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/three_acquaintance",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {"text": "Speed Runner", "color": "blue"},
+    "description": {"text": "Complete a quest in under 5 minutes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

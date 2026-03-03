@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {"text": "Exploration & World", "color": "aqua", "bold": true},
+    "description": {"text": "Discover biomes and track your journey", "color": "gray"},
+    "background": "minecraft:block/end_stone",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "iron_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["minecraft:iron_pickaxe"]}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/uncommon/five_mob_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Full Collection", "color": "blue"},
+    "description": {"text": "Open every type of crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

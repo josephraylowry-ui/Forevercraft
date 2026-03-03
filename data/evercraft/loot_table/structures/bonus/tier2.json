@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "comment": "Tier 2 (Uncommon structures) - 6% base chance, bonus container: 70% uncommon, 22% rare, 6% ornate, 2% exquisite",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/uncommon/main", "weight": 70},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/rare/main", "weight": 22},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/ornate/main", "weight": 6},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/exquisite/main", "weight": 2}
+      ]
+    },
+    {
+      "rolls": 1,
+      "comment": "DREAM AEGIS - 0.01% chance",
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9999
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:artifacts/mythical/dream_aegis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

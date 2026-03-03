@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/professions/rare/two_hundred_trades",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Adventurer's Friend",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Buy from the Retired Adventurer"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

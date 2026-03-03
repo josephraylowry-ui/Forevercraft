@@ -1,2 +1,0 @@
-$execute store result storage eden:temp mob_manager.head.playerhead.rolled_id int 1 run random value 1..$(max_id)
-function mob_manager:mob_equipment/playerheads/get_storage_entry with storage eden:temp mob_manager.head.playerhead

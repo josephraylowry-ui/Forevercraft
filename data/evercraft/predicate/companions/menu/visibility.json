@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "player.cursor": {
+                "items": "ender_eye",
+                "predicates": {
+                    "custom_data": {
+                        "Visibility": true
+                    }
+                }
+            }
+        }
+    }
+}

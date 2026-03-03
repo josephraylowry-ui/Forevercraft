@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/transmute/alchemists_touch",
+  "display": {
+    "icon": {"id": "minecraft:gold_ingot"},
+    "title": {"text": "Lead into Gold", "color": "aqua"},
+    "description": {"text": "Transmute 25 items"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

@@ -1,2 +1,0 @@
-execute if items entity @s weapon.mainhand minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/weapon/exec {slot:"mainhand",data:"SelectedItem"}
-execute if items entity @s weapon.offhand minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/weapon/exec {slot:"offhand",data:"equipment.offhand"}

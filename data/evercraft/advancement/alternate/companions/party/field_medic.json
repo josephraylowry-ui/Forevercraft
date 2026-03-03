@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/companions/party/rally_cry_master",
+  "display": {
+    "icon": {"id": "minecraft:splash_potion"},
+    "title": {"text": "Field Medic", "color": "dark_purple"},
+    "description": {"text": "Activate Field Medic combo"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

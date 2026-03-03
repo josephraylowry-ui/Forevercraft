@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/world_events/storm_rider",
+  "display": {
+    "icon": {"id": "minecraft:amethyst_block"},
+    "title": {"text": "Dream Walker", "color": "dark_purple"},
+    "description": {"text": "Experience 5 instances of The Dreaming"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

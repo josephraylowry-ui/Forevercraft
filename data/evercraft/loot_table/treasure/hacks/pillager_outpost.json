@@ -1,0 +1,77 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:item_model": "command_block",
+                  "minecraft:custom_data": {
+                    "spawn": "mt.pillager_outpost"
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "sound": "intentionally_empty",
+                    "has_consume_particles": false
+                  },
+                  "minecraft:use_cooldown": {
+                    "seconds": 5,
+                    "cooldown_group": "evercraft:treasure/hack"
+                  },
+                  "damage_resistant": {"types": "#minecraft:is_fire"},
+                  "minecraft:rarity": "rare",
+                  "!max_damage": {},
+                  "!damage": {},
+                  "!minecraft:tool": {},
+                  "minecraft:max_stack_size": 16
+                }
+              },
+              {
+                "function": "minecraft:toggle_tooltips",
+                "toggles": {
+                  "minecraft:attribute_modifiers": false
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Pillager Outpost Hack",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "  "
+                  },
+                  {
+                    "text": "Spawn a Pillager Outpost right in ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "front of you. Use with caution. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

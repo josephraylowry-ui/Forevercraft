@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/common/first_multi_catch",
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "text": "Skilled",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Reach level 10 in any tree"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

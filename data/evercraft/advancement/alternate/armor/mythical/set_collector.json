@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/armor/mythical/all_twenty_seven_sets",
+  "display": {
+    "icon": {"id": "minecraft:armor_stand"},
+    "title": {"text": "Set Collector", "color": "gold"},
+    "description": {"text": "Equip every one of the 27 armor sets at least once"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

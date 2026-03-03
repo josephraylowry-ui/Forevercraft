@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/uncommon/nether_fortress",
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine"
+    },
+    "title": {
+      "text": "Ocean Explorer",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Find an Ocean Monument"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

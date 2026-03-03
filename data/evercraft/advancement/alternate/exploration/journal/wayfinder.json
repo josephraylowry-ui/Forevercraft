@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/journal/dear_diary",
+  "display": {
+    "icon": {"id": "minecraft:compass"},
+    "title": {"text": "Wayfinder", "color": "blue"},
+    "description": {"text": "Record 10 journal entries"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

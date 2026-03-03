@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/rare/all_patron_tiers",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "text": "Warmonger",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Kill 5000 mobs"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

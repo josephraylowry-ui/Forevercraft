@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LSL",
+    "NCN",
+    "LNL"
+  ],
+  "key": {
+    "L": "minecraft:lodestone",
+    "S": "minecraft:nether_star",
+    "N": "minecraft:netherite_ingot",
+    "C": "minecraft:campfire"
+  },
+  "result": {
+    "id": "minecraft:lodestone",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:custom_name": {"text": "Hearthstone", "color": "gold", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Place to claim your home.", "color": "gray", "italic": false},
+        {"text": "64x64 zone with tier buffs + chunk loading.", "color": "dark_gray", "italic": false},
+        {"text": "Upgrade with Netherite Ingots.", "color": "dark_gray", "italic": false}
+      ],
+      "minecraft:custom_data": {"hearthstone": true, "evercraft_item": true},
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

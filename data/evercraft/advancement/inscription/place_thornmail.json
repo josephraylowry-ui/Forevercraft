@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:polished_deepslate"
+          }
+        ],
+        "item": {
+          "items": ["minecraft:polished_deepslate"],
+          "predicates": {
+            "minecraft:custom_data": "{inscription_stone:1b,rune_type:\"thornmail\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:inscription/place_rune/thornmail"
+  }
+}

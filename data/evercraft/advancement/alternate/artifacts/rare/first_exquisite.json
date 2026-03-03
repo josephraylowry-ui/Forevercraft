@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/first_ornate",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {"text": "Exquisite Taste", "color": "aqua"},
+    "description": {"text": "Find your first Exquisite artifact"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

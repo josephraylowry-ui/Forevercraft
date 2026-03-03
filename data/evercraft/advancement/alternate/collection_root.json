@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {"text": "Collection & Artifacts", "color": "light_purple", "bold": true},
+    "description": {"text": "Collect artifacts and complete armor sets", "color": "gray"},
+    "background": "minecraft:block/deepslate_tiles",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "iron_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["minecraft:iron_pickaxe"]}
+        ]
+      }
+    }
+  }
+}

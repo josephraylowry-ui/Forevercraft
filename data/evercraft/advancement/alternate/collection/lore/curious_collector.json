@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/ooh_glowie",
+  "display": {
+    "icon": {"id": "minecraft:spyglass"},
+    "title": {"text": "Curious Collector", "color": "blue"},
+    "description": {"text": "Find 10 lore fragments"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

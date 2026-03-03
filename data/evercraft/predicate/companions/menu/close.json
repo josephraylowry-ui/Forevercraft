@@ -1,0 +1,1 @@
+{"condition":"entity_properties","entity":"this","predicate":{"slots":{"player.cursor":{"items":"barrier","components":{"minecraft:max_stack_size":1}}}}}

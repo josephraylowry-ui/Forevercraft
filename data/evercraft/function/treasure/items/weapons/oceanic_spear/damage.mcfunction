@@ -1,0 +1,1 @@
+$damage @s 13 evercraft:treasure/oceanic_spear by $(hexUUID)

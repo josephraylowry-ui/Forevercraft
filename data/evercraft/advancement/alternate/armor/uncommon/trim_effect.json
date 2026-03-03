@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/uncommon/ornate_full_set",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "text": "Trim Power",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Activate a trim effect"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {"id": "minecraft:dragon_head"},
+    "title": {"text": "Legend Eternal", "color": "gold", "italic": true},
+    "description": {"text": "Max Dreams, max a tree, collect 200 artifacts, and adopt 50 pets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

@@ -1,0 +1,7 @@
+# Give the player a Graviton Core
+# Use /function evercraft:artifacts/graviton_core/give
+
+give @s minecraft:nether_star[minecraft:custom_name={text:"Graviton Core",color:"dark_purple",bold:true,italic:false},minecraft:lore=[{text:"A fragment of collapsed void matter",color:"gray",italic:false},{text:"that bends reality around it.",color:"gray",italic:false},'',{text:"Abilities:",color:"gold",italic:false},{text:"  \u2022 Item Magnet",color:"aqua",italic:false},{text:"    Attracts items within 8 blocks",color:"dark_gray",italic:false},{text:"  \u2022 XP Magnet",color:"green",italic:false},{text:"    Attracts XP orbs within 16 blocks",color:"dark_gray",italic:false},{text:"  \u2022 Gravity Well",color:"yellow",italic:false},{text:"    Slows nearby hostile mobs",color:"dark_gray",italic:false},{text:"  \u2022 Void Pull",color:"light_purple",italic:false},{text:"    Deflects incoming projectiles",color:"dark_gray",italic:false},'',{text:"Keep in inventory for passive effects",color:"dark_purple",italic:true},'',{text:"Mythical Artifact",color:"gold",bold:true,italic:false}],minecraft:custom_data={graviton_core:true,is_artifact:true},minecraft:rarity=epic,minecraft:enchantment_glint_override=true] 1
+
+tellraw @s ["",{text:"You received a ",color:"gray"},{text:"Graviton Core",color:"dark_purple",bold:true},{text:"!",color:"gray"}]
+playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 0.3 1.8

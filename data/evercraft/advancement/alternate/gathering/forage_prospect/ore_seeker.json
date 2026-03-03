@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/bush_whacker",
+  "display": {
+    "icon": {"id": "minecraft:raw_copper"},
+    "title": {"text": "Ore Seeker", "color": "white"},
+    "description": {"text": "Mine your first prospect node"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_common"}
+}

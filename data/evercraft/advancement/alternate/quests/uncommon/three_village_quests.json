@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/friend_rep",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {"text": "Village Hopper", "color": "blue"},
+    "description": {"text": "Complete quests in 3 different villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

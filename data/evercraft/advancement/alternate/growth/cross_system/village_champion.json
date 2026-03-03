@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/system_master_gathering",
+  "display": {
+    "icon": {"id": "minecraft:bell"},
+    "title": {"text": "Village Champion", "color": "dark_purple"},
+    "description": {"text": "Reach Legend rank in any village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

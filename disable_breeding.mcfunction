@@ -1,2 +1,0 @@
-execute store result storage eden:temp mob_manager.breed_check int 1 run data get entity @s Age
-execute if predicate {"condition":"minecraft:value_check","value":{"type":"minecraft:storage","storage":"eden:temp","path":"mob_manager.breed_check"},"range":{"min":0}} run data modify entity @s Age set value 2400

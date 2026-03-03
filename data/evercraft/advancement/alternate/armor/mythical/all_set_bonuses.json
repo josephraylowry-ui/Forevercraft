@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/mythical/armor_completionist",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Bonus Master",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Trigger every set bonus ability"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

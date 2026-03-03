@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SSN",
+    "SGS",
+    "DSS"
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "N": "minecraft:iron_nugget",
+    "G": "minecraft:gold_ingot",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:wooden_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {"text":"Cooking Utensil","color":"gold","italic":false},
+      "minecraft:lore": [
+        {"text":"Use near a campfire to cook meals","color":"gray","italic":false},
+        "",
+        {"text":"Right-click to open the Campfire Kitchen","color":"dark_gray","italic":true}
+      ],
+      "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+      "minecraft:consumable": {"consume_seconds":0,"animation":"eat","sound":"minecraft:entity.generic.eat","has_consume_particles":false},
+
+      "minecraft:custom_data": {"cooking_utensil":true,"evercraft_item":true}
+    }
+  }
+}

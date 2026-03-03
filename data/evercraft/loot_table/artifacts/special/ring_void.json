@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": {"text": "Void Ring", "color": "#8c0691", "bold": true, "italic": false},
+                "minecraft:lore": [
+                  {"text": "A ring that touches the void itself.", "color": "gray", "italic": false},
+                  "",
+                  {"text": "Effects:", "color": "gold", "italic": false},
+                  {"text": "  • Resistance II", "color": "blue", "italic": false},
+                  {"text": "  • Fire Resistance", "color": "red", "italic": false},
+                  {"text": "  • Slow Falling", "color": "white", "italic": false},
+                  "",
+                  {"text": "Mythical Ring", "color": "gold", "bold": true, "italic": false}
+                ],
+                "minecraft:custom_data": {"artifact": "ring_void", "is_artifact": true, "ring": true},
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

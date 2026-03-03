@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/culinary_virtuoso",
+  "display": {
+    "icon": {"id": "minecraft:written_book"},
+    "title": {"text": "The Complete Cookbook", "color": "light_purple"},
+    "description": {"text": "Cook every recipe in every category"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/ornate/two_hundred_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Exquisite Encounter", "color": "dark_purple"},
+    "description": {"text": "Open an Exquisite crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

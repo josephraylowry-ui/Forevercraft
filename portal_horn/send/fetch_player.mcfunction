@@ -1,2 +1,0 @@
-$data modify storage eden:temp portal_horn.player set from storage eden:database portal_horn.$(id).name
-$data modify storage eden:temp portal_horn.requestor set from storage eden:database portal_horn.$(requestor_id).name

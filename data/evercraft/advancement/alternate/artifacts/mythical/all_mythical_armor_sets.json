@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/exquisite/all_exquisite_armor_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {"text": "Mythical Wardrobe", "color": "gold"},
+    "description": {"text": "Equip all 7 Mythical armor sets"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

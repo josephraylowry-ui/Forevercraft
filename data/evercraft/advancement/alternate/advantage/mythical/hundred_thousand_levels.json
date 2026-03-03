@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/mythical/max_all_trees",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Lifetime Investment",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Spend 100000 levels total"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

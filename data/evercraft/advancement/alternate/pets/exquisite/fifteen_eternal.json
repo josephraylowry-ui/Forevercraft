@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/ten_thousand_feeds",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {"text": "Eternal Dynasty", "color": "light_purple"},
+    "description": {"text": "Raise 15 pets to Eternal Bond"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

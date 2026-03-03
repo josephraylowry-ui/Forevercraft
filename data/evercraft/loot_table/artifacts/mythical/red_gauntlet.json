@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": "Red Gauntlet",
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Artifact",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Crimson-forged knuckles that",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "burn with unstoppable fury.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {"text": "Dancer Class", "color": "#DA70D6", "bold": true, "italic": false},
+                  {"text": "\u25c6 Evasion: ", "color": "gray", "italic": false, "extra": [{"text": "+5% dodge per gauntlet", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Flurry: ", "color": "gray", "italic": false, "extra": [{"text": "Shift+Use \u2014 45s auto-swing", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Heal on Hit: ", "color": "gray", "italic": false, "extra": [{"text": "15% chance", "color": "dark_gray"}]}
+                ],
+                "minecraft:consumable": {"consume_seconds": 999999},
+                "minecraft:custom_data": {
+                  "artifact": "red_gauntlet",
+                  "is_artifact": true,
+                  "dancer": true,
+                  "tier": "mythical"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 11,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -1.6,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

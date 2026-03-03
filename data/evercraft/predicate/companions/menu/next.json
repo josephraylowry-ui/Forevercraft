@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "player.cursor": {
+                "items": "arrow",
+                "predicates": {
+                    "custom_data": {
+                        "NextPage": true
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/uncommon/die_ten",
+  "display": {
+    "icon": {"id": "minecraft:red_bed"},
+    "title": {"text": "Nomad", "color": "blue"},
+    "description": {"text": "Sleep in a bed 50 times"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

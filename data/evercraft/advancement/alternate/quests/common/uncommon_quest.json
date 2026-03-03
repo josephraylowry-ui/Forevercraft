@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/common/common_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {"text": "Stepping Up", "color": "white"},
+    "description": {"text": "Complete an Uncommon quest"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

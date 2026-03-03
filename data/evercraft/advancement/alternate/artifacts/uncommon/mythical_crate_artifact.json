@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/ten_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": {"text": "Mythical Unboxing", "color": "blue"},
+    "description": {"text": "Get an artifact from a Mythical crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

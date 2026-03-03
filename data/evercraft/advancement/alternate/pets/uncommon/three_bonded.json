@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/common/bonded_pet",
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {"text": "Bonded Trio", "color": "blue"},
+    "description": {"text": "Raise 3 pets to Bonded"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

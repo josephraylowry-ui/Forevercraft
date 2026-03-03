@@ -1,0 +1,31 @@
+# Bramble Pet Passive Abilities
+# - Thorned Hide: Armor scaling
+# - Nettlesting: Periodic wither on undead (tag trigger)
+
+data modify storage evercraft:companions math.string set string entity @e[type=item_display, tag=Pet, predicate=evercraft:companions/check_id, limit=1] item.components."minecraft:profile".properties[{name:"level"}].value
+scoreboard players set #value Pets.Calc 0
+function evercraft:companions/handler/math/string_to_int
+
+tag @s add Pets.Pufferfish
+
+# Armor scaling based on level (0.5 -> 4.0)
+execute if score #value Pets.Calc matches 1..7 run attribute @s armor base set 0.5
+execute if score #value Pets.Calc matches 8..12 run attribute @s armor base set 0.684
+execute if score #value Pets.Calc matches 13..17 run attribute @s armor base set 0.868
+execute if score #value Pets.Calc matches 18..22 run attribute @s armor base set 1.053
+execute if score #value Pets.Calc matches 23..27 run attribute @s armor base set 1.237
+execute if score #value Pets.Calc matches 28..32 run attribute @s armor base set 1.421
+execute if score #value Pets.Calc matches 33..37 run attribute @s armor base set 1.605
+execute if score #value Pets.Calc matches 38..42 run attribute @s armor base set 1.789
+execute if score #value Pets.Calc matches 43..47 run attribute @s armor base set 1.974
+execute if score #value Pets.Calc matches 48..52 run attribute @s armor base set 2.158
+execute if score #value Pets.Calc matches 53..57 run attribute @s armor base set 2.342
+execute if score #value Pets.Calc matches 58..62 run attribute @s armor base set 2.526
+execute if score #value Pets.Calc matches 63..67 run attribute @s armor base set 2.711
+execute if score #value Pets.Calc matches 68..72 run attribute @s armor base set 2.895
+execute if score #value Pets.Calc matches 73..77 run attribute @s armor base set 3.079
+execute if score #value Pets.Calc matches 78..82 run attribute @s armor base set 3.263
+execute if score #value Pets.Calc matches 83..87 run attribute @s armor base set 3.447
+execute if score #value Pets.Calc matches 88..92 run attribute @s armor base set 3.632
+execute if score #value Pets.Calc matches 93..97 run attribute @s armor base set 3.816
+execute if score #value Pets.Calc matches 98..100 run attribute @s armor base set 4.0

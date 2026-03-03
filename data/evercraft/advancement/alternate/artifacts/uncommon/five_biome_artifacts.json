@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/biome_artifact",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {"text": "Biome Explorer", "color": "blue"},
+    "description": {"text": "Collect 5 biome-specific artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

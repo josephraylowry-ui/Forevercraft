@@ -1,0 +1,6 @@
+# Handle Harvest Crate placement - common
+# Revoke advancement immediately so it can trigger again
+advancement revoke @s only evercraft:harvest/core/common/place
+
+# Find the placed barrel nearby and start animation
+execute positioned ~ ~1.6 ~ run function evercraft:crate_anim/find_placed_barrel {tier:"common",system_tag:"harvest_crate",plot_start:10,skin:"ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NTMyNiwKICAicHJvZmlsZUlkIiA6ICI5ZjJiY2M1M2U4YzM0OTY4YTc5Yzc0NTExYWQ2NmQyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWJveWlvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M1M2UxYTgwYTQ4ODEyZTJlYmFiYTU0YTRiMjczM2RjMTFjNDc2ZTI0NDJlMzcwYzNjOWRjMWQ0OTc5NzE4ZDIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",nbt_key:"hc_rarity",nbt_val:"common"}

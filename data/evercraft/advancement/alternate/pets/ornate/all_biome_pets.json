@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/ornate/ten_soulbound",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {"text": "World Wanderer", "color": "dark_purple"},
+    "description": {"text": "Adopt pets from all 24 biomes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

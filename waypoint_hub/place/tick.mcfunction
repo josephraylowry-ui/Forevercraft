@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand,tag=wawo.waypoint_hub.spawner] at @s run function wawo:waypoint_hub/place/init with storage eden:settings warping_wonders.waypoint_hub

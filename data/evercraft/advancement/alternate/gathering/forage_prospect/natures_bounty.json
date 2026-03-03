@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/prospectors_eye",
+  "display": {
+    "icon": {"id": "minecraft:flowering_azalea"},
+    "title": {"text": "Nature's Bounty", "color": "aqua"},
+    "description": {"text": "Forage 50 bushes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

@@ -1,0 +1,7 @@
+# Transmute achievement checks
+execute as @a[scores={ach.transmutes_done=1..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/matter_shift=true}] run advancement grant @s only evercraft:alternate/collection/transmute/matter_shift
+execute as @a[scores={ach.transmutes_done=10..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/alchemists_touch=true}] run advancement grant @s only evercraft:alternate/collection/transmute/alchemists_touch
+execute as @a[scores={ach.transmutes_done=25..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/lead_into_gold=true}] run advancement grant @s only evercraft:alternate/collection/transmute/lead_into_gold
+execute as @a[scores={ach.transmutes_done=50..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/essence_weaver=true}] run advancement grant @s only evercraft:alternate/collection/transmute/essence_weaver
+execute as @a[scores={ach.transmutes_done=100..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/molecular_maestro=true}] run advancement grant @s only evercraft:alternate/collection/transmute/molecular_maestro
+execute as @a[scores={ach.transmutes_done=250..}] unless entity @s[advancements={evercraft:alternate/collection/transmute/the_philosophers_stone=true}] run advancement grant @s only evercraft:alternate/collection/transmute/the_philosophers_stone

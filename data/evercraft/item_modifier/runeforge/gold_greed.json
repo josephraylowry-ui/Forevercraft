@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"gold_greed\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Gold Greed", "color": "gold", "italic": false}], "mode": "append"}
+]

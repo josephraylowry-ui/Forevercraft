@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Elder's Anecdote",
+                  "author": "The Village Elder",
+                  "pages": [
+                    {
+                      "text": "\n\n     §6§lELDER'S\n    ANECDOTE§r\n\n§7§oWelcome, traveler.\nSit by my fire awhile,\nand let an old soul\nshare what little\nwisdom he has found...§r\n\n§8— The Village Elder"
+                    },
+                    {
+                      "text": "§6§lThe Four Gifts§r\n\n§7§oThis land rewards\nthose who work it.\n\nWhether you mine the\ndeeps, fish the waters,\ntend the fields, or\nface the wild beasts —\ntreasure finds those\nwho persist.§r"
+                    },
+                    {
+                      "text": "§6§lOf Dreams§r\n\n§7§oWe all dream, child.\nBut some dream more\nvividly than others.\n\nThe brighter your\ndreams burn within,\nthe more the world\nseems to... notice you.\nAnd gift you in kind.§r"
+                    },
+                    {
+                      "text": "§6§lBrightening Dreams§r\n\n§7§oI've seen crystals\nthat amplify dreams.\nRabbit feet blessed\nby strange magic.\nPotions that taste\nlike hope.\n\nSeek them. Let your\ndreams grow.§r"
+                    },
+                    {
+                      "text": "§6§lAncient Relics§r\n\n§7§oHundreds of artifacts\nscattered across this\nland. Weapons of\nlegend. Armor blessed\nby forgotten powers.\nTrinkets that hum\nwith quiet magic.\n\nFind them. Collect\nthem. Learn them.§r"
+                    },
+                    {
+                      "text": "§6§lLoyal Spirits§r\n\n§7§oSpirits wait in\ntreasure chests to\nbond with you. Some\ncommon as house cats.\nOthers mythical —\ndragons, phoenixes,\nbeings from beyond.\n\nThey grow alongside\nyou.§r"
+                    },
+                    {
+                      "text": "§6§lThe Armor of Myths§r\n\n§7§oFive legendary sets\nof armor exist, they\nsay. Dragon fire.\nOcean depths. Living\nnature. The miner's\njourney. The explorer's\npath.\n\nGather them, and\nbecome legend.§r"
+                    },
+                    {
+                      "text": "§6§lSafe Travels§r\n\n§7§oHorns that call to\nfriends across any\ndistance. Dials bound\nto lodestones. Hubs\nthat connect worlds.\n\nThe old magic still\nworks for those who\nknow how to use it.\n\n§8Dream well, traveler.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Elder's Anecdote",
+                  "color": "gold",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Wisdom from the fireside",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "elders_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

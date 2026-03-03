@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_name": {
+                  "text": "Vital Carrot",
+                  "color": "red",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Horse Enhancement",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Eat while looking at a tamed horse",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "to permanently increase its max health.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "+4 Max Health",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "horse_enhancement": "health",
+                  "enhancement_value": 4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

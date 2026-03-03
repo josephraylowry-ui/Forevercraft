@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "items": [
+                    "minecraft:beef",
+                    "minecraft:porkchop",
+                    "minecraft:chicken",
+                    "minecraft:mutton",
+                    "minecraft:rabbit"
+                ]
+            }
+        }
+    }
+}

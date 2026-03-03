@@ -1,6 +1,0 @@
-schedule function mob_manager:rarity_mobs/particles/init 10t
-
-execute if data storage eden:settings mob_manager.rarity_mobs.common{particles:"enabled"} as @e[type=!#mob_manager:invalid_for_settings,tag=mob_manager.rarity_mobs.common] at @s anchored eyes run function mob_manager:rarity_mobs/particles/common
-execute if data storage eden:settings mob_manager.rarity_mobs.rare{particles:"enabled"} as @e[type=!#mob_manager:invalid_for_settings,tag=mob_manager.rarity_mobs.rare] at @s anchored eyes run function mob_manager:rarity_mobs/particles/rare
-execute if data storage eden:settings mob_manager.rarity_mobs.legendary{particles:"enabled"} as @e[type=!#mob_manager:invalid_for_settings,tag=mob_manager.rarity_mobs.legendary] at @s anchored eyes run function mob_manager:rarity_mobs/particles/legendary
-execute if data storage eden:settings mob_manager.rarity_mobs.mythical{particles:"enabled"} as @e[type=!#mob_manager:invalid_for_settings,tag=mob_manager.rarity_mobs.mythic] at @s anchored eyes run function mob_manager:rarity_mobs/particles/mythic

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/ornate/eternal_bond",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {"text": "Soulbound Legion", "color": "dark_purple"},
+    "description": {"text": "Raise 10 pets to Soulbound"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/all_system_sprint",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "Forevercraft Master", "color": "gold"},
+    "description": {"text": "Reach mastery in all major systems"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

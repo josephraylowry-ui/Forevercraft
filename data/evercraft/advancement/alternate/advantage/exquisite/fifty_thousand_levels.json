@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/exquisite/level_twentyfive_three",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "text": "Enormous Investment",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Spend 50000 levels on trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

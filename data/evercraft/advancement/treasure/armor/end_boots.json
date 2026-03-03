@@ -1,0 +1,34 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "feet": {
+                "items": "minecraft:leather_boots",
+                "predicates": {
+                  "minecraft:custom_data": "{armor:\"end_boots\"}"
+                }
+              }
+            }
+          },
+          "damage": {
+            "dealt": 5,
+            "type": {
+              "tags": [
+                {
+                  "id": "minecraft:is_fall",
+                  "expected": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "evercraft:treasure/items/armor/end/pearl"
+    }
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 0,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:poisonous_potato",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

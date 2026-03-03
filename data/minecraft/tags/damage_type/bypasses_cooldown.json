@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player_attack",
+    "minecraft:arrow",
+    "minecraft:trident",
+    "minecraft:mace_smash",
+    "minecraft:fireworks",
+    "minecraft:thorns",
+    "minecraft:mob_attack",
+    "minecraft:mob_attack_no_aggro",
+    "minecraft:mob_projectile",
+    "minecraft:fireball",
+    "minecraft:unattributed_fireball",
+    "minecraft:wither_skull",
+    "minecraft:wind_charge",
+    "minecraft:sonic_boom",
+    "minecraft:sting",
+    "minecraft:thrown",
+    "minecraft:magic",
+    "minecraft:indirect_magic",
+    "minecraft:explosion",
+    "minecraft:player_explosion",
+    "minecraft:dragon_breath",
+    "minecraft:lightning_bolt"
+  ]
+}

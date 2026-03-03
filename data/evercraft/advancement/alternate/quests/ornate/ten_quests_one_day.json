@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/ornate/five_honored",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {"text": "Unstoppable", "color": "dark_purple"},
+    "description": {"text": "Complete 10 quests in one day"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

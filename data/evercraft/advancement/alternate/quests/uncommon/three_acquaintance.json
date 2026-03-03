@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/ten_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_banner_pattern"
+    },
+    "title": {"text": "Social Butterfly", "color": "blue"},
+    "description": {"text": "Reach Acquaintance in 3 villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

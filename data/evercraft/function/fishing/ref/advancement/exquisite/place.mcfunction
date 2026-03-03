@@ -1,0 +1,6 @@
+# Handle Fishing Crate placement - exquisite
+# Revoke advancement immediately so it can trigger again
+advancement revoke @s only evercraft:fishing/core/exquisite/place
+
+# Find the placed barrel nearby and start animation
+execute positioned ~ ~1.6 ~ run function evercraft:crate_anim/find_placed_barrel {tier:"exquisite",system_tag:"fishing_crate",plot_start:25,skin:"ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NjM1NywKICAicHJvZmlsZUlkIiA6ICJmNzM0MmExODMxZDA0ZDA5ODc4Y2ViOTVmOTUxYTllMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3RNMWtzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI1ODY4MWY2YmFjZjE4MTVhYTNmMjc4N2E4MjJiNDQwZmJjZmViZTdkZDJjOGEyN2Y5OGRlNTk4NmI3MTBmMGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",nbt_key:"fc_rarity",nbt_val:"exquisite"}

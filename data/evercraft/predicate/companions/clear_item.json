@@ -1,0 +1,119 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "player.cursor": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "petMenu": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "petMenu": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "petMenu": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "player.cursor": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "MenuItem": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "inventory.*": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "MenuItem": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "hotbar.*": {
+                        "items": "#evercraft:companions/menu_items",
+                        "components": {
+                            "minecraft:max_stack_size": 1
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "MenuItem": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/ore_seeker",
+  "display": {
+    "icon": {"id": "minecraft:fern"},
+    "title": {"text": "Gatherer's Path", "color": "blue"},
+    "description": {"text": "Forage 10 bushes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

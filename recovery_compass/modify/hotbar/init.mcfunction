@@ -1,9 +1,0 @@
-execute if items entity @s hotbar.0 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"0"}
-execute if items entity @s hotbar.1 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"1"}
-execute if items entity @s hotbar.2 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"2"}
-execute if items entity @s hotbar.3 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"3"}
-execute if items entity @s hotbar.4 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"4"}
-execute if items entity @s hotbar.5 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"5"}
-execute if items entity @s hotbar.6 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"6"}
-execute if items entity @s hotbar.7 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"7"}
-execute if items entity @s hotbar.8 minecraft:recovery_compass run function wawo:recovery_compass/modify/hotbar/exec {slot:"8"}

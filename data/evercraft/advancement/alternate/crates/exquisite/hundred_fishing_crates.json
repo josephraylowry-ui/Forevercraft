@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/exquisite/mythical_crate",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Tidal Treasure", "color": "light_purple"},
+    "description": {"text": "Open 100 fishing crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

@@ -1,1 +1,0 @@
-$execute if items entity @e[type=minecraft:player,distance=..$(min_distance)] weapon.mainhand minecraft:armor_stand[minecraft:custom_data={items: "waypoint_hub"}] positioned ^ ^1 ^ run function wawo:waypoint_hub/properties/radius_particles/exec with storage eden:settings warping_wonders.waypoint_hub

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/something_stirs",
+  "display": {
+    "icon": {"id": "minecraft:shield"},
+    "title": {"text": "Not Even Scratched", "color": "blue"},
+    "description": {"text": "Defeat a World Boss without dying"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

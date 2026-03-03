@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/structure_cooldown",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "text": "Triple Expert",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Reach level 20 in 3 trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

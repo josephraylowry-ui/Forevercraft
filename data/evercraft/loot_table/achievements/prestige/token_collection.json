@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "prestige_token": true,
+                  "prestige_tab": "collection"
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {"text": "✦ Prestige Token: Collection ✦", "bold": true, "color": "light_purple"},
+                "minecraft:lore": [
+                  {"text": "You have mastered Collection & Artifacts!", "color": "gray", "italic": false},
+                  "",
+                  {"text": "Right-click", "color": "yellow", "bold": true, "italic": false},
+                  {"text": "to reset this advancement tree", "color": "gray", "italic": false},
+                  {"text": "and earn all rewards again!", "color": "gray", "italic": false},
+                  "",
+                  {"text": "★ Prestige Bonus: +50% XP ★", "color": "gold", "italic": false}
+                ],
+                "minecraft:item_model": "minecraft:nether_star"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

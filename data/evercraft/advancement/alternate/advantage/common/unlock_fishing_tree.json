@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/common/unlock_dexterity",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "text": "Fishing Novice",
+      "color": "white"
+    },
+    "description": {
+      "text": "Unlock the Fishing tree"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

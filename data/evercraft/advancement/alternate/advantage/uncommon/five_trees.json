@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/uncommon/level_ten",
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "text": "Well Rounded",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Unlock 5 different trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

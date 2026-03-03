@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/exquisite/travel_million",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "text": "Structure Master",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Find all structure types"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

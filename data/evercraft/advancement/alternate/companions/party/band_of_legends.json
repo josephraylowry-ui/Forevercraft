@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/companions/party/boss_raid_party",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "Band of Legends", "color": "gold"},
+    "description": {"text": "Discover every party combo"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

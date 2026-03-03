@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/all_ornate_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {"text": "Beloved by Many", "color": "light_purple"},
+    "description": {"text": "Have 10 pets at max relationship"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

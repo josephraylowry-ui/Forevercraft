@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Morning Star",
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  {
+                    "text": "Uncommon Artifact",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "A spiked flanged weapon that",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "crushes armor with each swing.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "Passive: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "+1 Attack Damage",
+                        "color": "dark_aqua"
+                      }
+                    ]
+                  },
+                  "",
+                  {"text": "Berserker Class", "color": "#DC143C", "bold": true, "italic": false},
+                  {"text": "\u25c6 Dual Axes: ", "color": "gray", "italic": false, "extra": [{"text": "2x speed, -7 armor, -5\u2764", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Rage: ", "color": "gray", "italic": false, "extra": [{"text": "Right-click \u2014 10s auto-swing + Str II", "color": "dark_gray"}]}
+                ],
+                "minecraft:consumable": {"consume_seconds": 999999},
+                "minecraft:custom_data": {
+                  "artifact": "uncommon_morning_star",
+                  "is_artifact": true,
+                  "tier": "uncommon"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

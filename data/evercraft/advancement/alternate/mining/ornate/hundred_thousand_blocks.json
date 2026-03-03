@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/ornate/twenty_thousand_crops",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "text": "Core Driller",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Mine 100000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

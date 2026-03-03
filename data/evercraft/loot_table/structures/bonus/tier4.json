@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "comment": "Tier 4 (Ornate structures) - 12% base chance, bonus container: 80% rare, 15% ornate, 5% exquisite",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/rare/main", "weight": 80},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/ornate/main", "weight": 15},
+        {"type": "minecraft:loot_table", "value": "evercraft:structures/exquisite/main", "weight": 5}
+      ]
+    },
+    {
+      "rolls": 1,
+      "comment": "DREAM AEGIS - 0.01% chance",
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9999
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:artifacts/mythical/dream_aegis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

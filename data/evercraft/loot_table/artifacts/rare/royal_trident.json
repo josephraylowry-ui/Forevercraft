@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_name": "Royal Trident",
+                "minecraft:lore": [
+                  {
+                    "text": "Rare Artifact",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "A symbol of royal authority,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "blessed by the crown.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {"text": "Javelin Class", "color": "#00CED1", "bold": true, "italic": false},
+                  {"text": "\u25c6 Melee: ", "color": "gray", "italic": false, "extra": [{"text": "Health Boost I (10s)", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Thrown: ", "color": "gray", "italic": false, "extra": [{"text": "Heal 2 hearts", "color": "dark_gray"}]}
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "royal_trident",
+                  "is_artifact": true,
+                  "tier": "rare",
+                  "javelin": true,
+                  "javelin_id": 3
+                },
+                "minecraft:enchantments": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

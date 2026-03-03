@@ -1,0 +1,23 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {"id": "minecraft:iron_pickaxe"},
+    "title": {"text": "The Journey Begins", "color": "white", "italic": true},
+    "description": {"text": "Craft your first iron pickaxe and enter the world of Evercraft"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "iron_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": ["minecraft:iron_pickaxe"]}
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

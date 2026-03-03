@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/master_prospector",
+  "display": {
+    "icon": {"id": "minecraft:spore_blossom"},
+    "title": {"text": "Nature's Champion", "color": "light_purple"},
+    "description": {"text": "Forage 250 bushes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

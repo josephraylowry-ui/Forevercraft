@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/five_hundred_feeds",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {"text": "Exquisite Unboxing", "color": "aqua"},
+    "description": {"text": "Get a pet from an Exquisite crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/collection/lore/library_of_ages",
+  "display": {
+    "icon": {"id": "minecraft:dragon_egg"},
+    "title": {"text": "The Omniscient", "color": "gold"},
+    "description": {"text": "Complete every lore set"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

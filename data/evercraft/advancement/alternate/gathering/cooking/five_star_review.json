@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/battle_rations",
+  "display": {
+    "icon": {"id": "minecraft:cake"},
+    "title": {"text": "Five-Star Review", "color": "dark_purple"},
+    "description": {"text": "Learn 15 unique recipes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

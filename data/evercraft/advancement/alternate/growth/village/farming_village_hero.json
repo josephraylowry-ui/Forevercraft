@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/village/fishing_hamlet_hero",
+  "display": {
+    "icon": {"id": "minecraft:golden_hoe"},
+    "title": {"text": "Farming Village Hero", "color": "dark_purple"},
+    "description": {"text": "Reach Legend rank in a Farming village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

@@ -1,0 +1,1 @@
+execute store result score @a[scores={mt.epic_chance=99999999..}] mt.epic_chance run scoreboard players get #chance_epic mt.var

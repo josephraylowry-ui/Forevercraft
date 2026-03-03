@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/exquisite/play_five_hundred_hours",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "text": "Eternal Walker",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Walk 10000000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

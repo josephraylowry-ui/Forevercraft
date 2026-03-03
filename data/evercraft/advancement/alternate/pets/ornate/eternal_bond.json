@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/ornate/thirty_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {"text": "Eternal Bond", "color": "dark_purple"},
+    "description": {"text": "Raise a pet to Eternal Bond (level 5)"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

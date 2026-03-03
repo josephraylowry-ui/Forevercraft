@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/the_culinary_knight",
+  "display": {
+    "icon": {"id": "minecraft:diamond_shovel"},
+    "title": {"text": "Eternal Gatherer", "color": "light_purple"},
+    "description": {"text": "Forage 200 + prospect 200"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

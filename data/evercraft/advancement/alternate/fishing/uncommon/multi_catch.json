@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/uncommon/three_hundred_fish",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {"text": "Double Trouble", "color": "blue"},
+    "description": {"text": "Trigger multi-catch ability"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

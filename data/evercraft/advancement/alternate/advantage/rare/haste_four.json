@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/rare/fifteen_hearts",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "text": "Power Surge",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Trigger Miner's Surge at +75% speed"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

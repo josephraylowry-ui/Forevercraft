@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/three_structure_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {"text": "City Plunderer", "color": "aqua"},
+    "description": {"text": "Find 5 artifacts from Ancient Cities"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

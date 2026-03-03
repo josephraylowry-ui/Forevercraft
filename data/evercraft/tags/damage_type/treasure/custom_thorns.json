@@ -1,0 +1,10 @@
+{
+    "values": [
+      "minecraft:arrow",
+      "minecraft:fireworks",
+      "minecraft:player_attack",
+      "minecraft:mob_attack",
+      "minecraft:mob_projectile",
+      "minecraft:mob_attack_no_aggro"
+    ]
+  }

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/common/ten_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Uncommon Find", "color": "white"},
+    "description": {"text": "Open an Uncommon crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

@@ -1,9 +1,0 @@
-execute if items entity @s hotbar.0 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"0"}
-execute if items entity @s hotbar.1 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"1"}
-execute if items entity @s hotbar.2 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"2"}
-execute if items entity @s hotbar.3 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"3"}
-execute if items entity @s hotbar.4 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"4"}
-execute if items entity @s hotbar.5 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"5"}
-execute if items entity @s hotbar.6 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"6"}
-execute if items entity @s hotbar.7 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"7"}
-execute if items entity @s hotbar.8 minecraft:compass[minecraft:lodestone_tracker] run function wawo:compass/modify/hotbar/exec {slot:"8"}

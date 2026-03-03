@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/ornate/exquisite_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {"text": "Village Legend", "color": "dark_purple"},
+    "description": {"text": "Reach Revered reputation in a village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

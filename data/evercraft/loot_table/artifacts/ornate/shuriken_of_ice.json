@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": "Shuriken of Ice",
+                "minecraft:lore": [
+                  {
+                    "text": "Ornate Artifact",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "A frozen star of crystallized ice,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "razor-sharp and relentless.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {"text": "Javelin Class", "color": "#00CED1", "bold": true, "italic": false},
+                  {"text": "\u25c6 Melee: ", "color": "gray", "italic": false, "extra": [{"text": "Freeze + Slowness II on target", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Thrown: ", "color": "gray", "italic": false, "extra": [{"text": "Blizzard AoE (3-block freeze)", "color": "dark_gray"}]}
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "shuriken_of_ice",
+                  "is_artifact": true,
+                  "tier": "ornate",
+                  "javelin": true,
+                  "javelin_id": 5
+                },
+                "minecraft:enchantments": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 9,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.2,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/phase_three_survivor",
+  "display": {
+    "icon": {"id": "minecraft:diamond_sword"},
+    "title": {"text": "Titan Toppler", "color": "light_purple"},
+    "description": {"text": "Defeat 25 World Bosses"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

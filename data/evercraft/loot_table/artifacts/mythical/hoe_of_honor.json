@@ -1,0 +1,115 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Hoe of Honor",
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Artifact",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Blessed by the spirit of growth,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "it nurtures the land itself.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "\u25c6 Auto-Harvest: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Harvests mature crops",
+                        "color": "green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\u25c6 Replant: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Automatically replants",
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\u25c6 Area Till: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "3x3 tilling",
+                        "color": "yellow"
+                      }
+                    ]
+                  },
+                  "",
+                  {
+                    "text": "Part of the ",
+                    "color": "dark_gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Harvest Set",
+                        "color": "green",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "hoe_of_honor",
+                  "is_artifact": true,
+                  "tier": "mythical",
+                  "artifact_set": "harvest",
+                  "ability_harvest": true,
+                  "ability_replant": true,
+                  "ability_area_till": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:hoe_honor_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": 0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:hoe_honor_speed"
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

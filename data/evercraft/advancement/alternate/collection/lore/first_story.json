@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/curious_collector",
+  "display": {
+    "icon": {"id": "minecraft:book"},
+    "title": {"text": "First Story", "color": "blue"},
+    "description": {"text": "Complete your first lore set"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"reflect\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Reflect", "color": "light_purple", "italic": false}], "mode": "append"}
+]

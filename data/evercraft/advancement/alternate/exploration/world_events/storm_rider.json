@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {"id": "minecraft:lightning_rod"},
+    "title": {"text": "Storm Rider", "color": "aqua"},
+    "description": {"text": "Experience 3 Starfall events"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

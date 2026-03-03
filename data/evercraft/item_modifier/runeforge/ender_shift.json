@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"ender_shift\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Ender Shift", "color": "dark_purple", "italic": false}], "mode": "append"}
+]

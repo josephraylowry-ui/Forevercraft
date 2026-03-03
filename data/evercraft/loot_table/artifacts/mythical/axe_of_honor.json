@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Axe of Honor",
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Artifact",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "An ancient tool wielded by the",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "legendary woodcutters of old.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "\u25c6 Timber: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Fells entire trees",
+                        "color": "green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\u25c6 Nature's Wrath: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Lightning on crit",
+                        "color": "aqua"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\u25c6 Harvest: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Auto-replants saplings",
+                        "color": "dark_green"
+                      }
+                    ]
+                  },
+                  "",
+                  {
+                    "text": "Part of the ",
+                    "color": "dark_gray",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Harvest Set",
+                        "color": "green",
+                        "bold": true
+                      }
+                    ]
+                  },
+                  "",
+                  {"text": "Berserker Class", "color": "#DC143C", "bold": true, "italic": false},
+                  {"text": "\u25c6 Dual Axes: ", "color": "gray", "italic": false, "extra": [{"text": "2x speed, -7 armor, -5\u2764", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Rage: ", "color": "gray", "italic": false, "extra": [{"text": "Right-click \u2014 10s auto-swing + Str II", "color": "dark_gray"}]}
+                ],
+                "minecraft:consumable": {"consume_seconds": 999999},
+                "minecraft:custom_data": {
+                  "artifact": "axe_of_honor",
+                  "is_artifact": true,
+                  "tier": "mythical",
+                  "artifact_set": "harvest",
+                  "ability_timber": true,
+                  "ability_lightning": true,
+                  "ability_replant": true
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 14,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:axe_honor_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.8,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:axe_honor_speed"
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

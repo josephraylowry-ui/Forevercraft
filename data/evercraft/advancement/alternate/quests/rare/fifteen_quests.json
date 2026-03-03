@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/uncommon/thousand_quest_xp",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {"text": "Seasoned Adventurer", "color": "aqua"},
+    "description": {"text": "Complete 15 quests"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

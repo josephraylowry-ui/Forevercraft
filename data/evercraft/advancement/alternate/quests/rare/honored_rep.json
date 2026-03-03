@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/rare/ornate_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {"text": "Village Honor", "color": "aqua"},
+    "description": {"text": "Reach Honored reputation in a village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

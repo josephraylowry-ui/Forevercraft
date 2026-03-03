@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "strike": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": {},
+        "bystander": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:achievements/detect/on_lightning"
+  }
+}

@@ -1,0 +1,77 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Frozen Apple",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:enchantment_glint_override": true,
+                    "minecraft:max_stack_size": 99,
+                    "minecraft:food": {
+                      "nutrition": 2,
+                      "saturation": 5,
+                      "can_always_eat": true
+                    },
+                    "minecraft:consumable": {
+                      "consume_seconds": 2,
+                      "sound": "entity.generic.eat",
+                      "has_consume_particles": false,
+                      "on_consume_effects": [
+                        {
+                          "type": "minecraft:apply_effects",
+                          "effects": [
+                            {
+                              "id": "minecraft:resistance",
+                              "amplifier": 0,
+                              "duration": 2400
+                            },
+                            {
+                              "id": "minecraft:regeneration",
+                              "amplifier": 0,
+                              "duration": 600
+                            }
+                          ],
+                          "probability": 1
+                        }
+                      ]
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "Gives Resistance I 2 min ",
+                        "color": "gray",
+                        "italic": false
+                      },
+                      {
+                        "text": "& Regeneration I for 30s",
+                        "color": "gray",
+                        "italic": false
+                      }
+                    ],                    
+                    "minecraft:custom_data": {
+                      "food": "mt.frozen_apple"
+                    }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "items": "wooden_sword",
+        "predicates": {
+          "custom_data": {"PetMenuKey": true}
+        }
+      }
+    }
+  }
+}

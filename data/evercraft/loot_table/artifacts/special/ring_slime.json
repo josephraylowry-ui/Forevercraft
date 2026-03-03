@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text": "Slime Ring", "color": "#55FF55", "italic": false},
+                "minecraft:lore": [
+                  {"text": "A bouncy ring of condensed slime.", "color": "gray", "italic": false},
+                  "",
+                  {"text": "Effect: Jump Boost", "color": "green", "italic": false},
+                  "",
+                  {"text": "Uncommon Ring", "color": "blue", "italic": false}
+                ],
+                "minecraft:custom_data": {"artifact": "ring_slime", "is_artifact": true, "ring": true},
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

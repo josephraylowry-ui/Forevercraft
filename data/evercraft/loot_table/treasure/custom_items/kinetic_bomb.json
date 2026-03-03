@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Throws a kinetic-charged bomb ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:max_stack_size": 16,
+                "minecraft:item_model": "flow_armor_trim_smithing_template",
+                "minecraft:use_cooldown": {
+                  "seconds": 5,
+                  "cooldown_group": "evercraft:treasure/kinetic_bomb"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "text": "Kinetic Bomb",
+                "color": "aqua",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

@@ -1,0 +1,2861 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 11,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 12 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.75 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 14 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.75 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 16 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.75 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 17,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 18 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.75 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 11 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 11,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 12 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 14 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 16 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 17,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 18 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 11 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.05 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 11,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 12 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.05 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 14 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.05 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 16 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.05 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 17,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 18 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.05 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 11 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 11,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 12 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 14 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 16 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 1.2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 17,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 18 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.2 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 11,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 12 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 14 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 16 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Rumble Axe",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Consecutive hits grant +10% ATK ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "speed and +5% ATK DMG per hit. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Caps at 50% and 25%.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "rumble_axe",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "min": 1,
+                  "max": 5
+                },
+                "minecraft:bane_of_arthropods": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:smite": {
+                  "min": 1,
+                  "max": 3
+                },
+                "minecraft:knockback": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "rumble_axe_rm",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": -4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_speed",
+                  "amount": 0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "id": "rumble_axe",
+                  "attribute": "minecraft:attack_damage",
+                  "amount": 17,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "  "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 18 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 0.9 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

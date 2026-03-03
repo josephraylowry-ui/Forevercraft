@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/rare/ancient_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "text": "Bastion Explorer",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Find a Bastion Remnant"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

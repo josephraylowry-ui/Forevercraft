@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/common/first_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:poppy"
+    },
+    "title": {"text": "New Face", "color": "white"},
+    "description": {"text": "Reach Acquaintance reputation in a village"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

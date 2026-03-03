@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/rare/wolf_damage",
+  "display": {
+    "icon": {
+      "id": "minecraft:blast_furnace"
+    },
+    "title": {
+      "text": "Quick Forge",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Instantly smelt a stack with Blacksmith"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

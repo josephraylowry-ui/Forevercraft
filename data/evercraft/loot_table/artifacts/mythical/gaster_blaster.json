@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Gaster Blaster",
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  {"text": "Mythical Artifact", "color": "gold", "italic": false},
+                  "",
+                  {"text": "A weapon from beyond the void", "color": "gray", "italic": true},
+                  {"text": "that fires beams of pure energy.", "color": "gray", "italic": true},
+                  "",
+                  {"text": "Archer Class", "color": "#32CD32", "bold": true, "italic": false},
+                  {"text": "\u25c6 Overcharge: ", "color": "gray", "italic": false, "extra": [{"text": "Oblivion \u2014 Void zone AoE (5 blocks, 5s)", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Disengage: ", "color": "gray", "italic": false, "extra": [{"text": "Shift+Draw \u2014 backward leap", "color": "dark_gray"}]}
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "archer_gaster_blaster",
+                  "is_artifact": true,
+                  "tier": "mythical",
+                  "archer": true,
+                  "archer_id": "gaster_blaster"
+                },
+                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

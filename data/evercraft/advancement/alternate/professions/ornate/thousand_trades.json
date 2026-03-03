@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/professions/ornate/all_adventurer",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "text": "Commerce King",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Complete 1000 trades"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

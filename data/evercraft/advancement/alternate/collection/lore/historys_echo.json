@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/tale_weaver",
+  "display": {
+    "icon": {"id": "minecraft:echo_shard"},
+    "title": {"text": "History's Echo", "color": "dark_purple"},
+    "description": {"text": "Find 50 lore fragments"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

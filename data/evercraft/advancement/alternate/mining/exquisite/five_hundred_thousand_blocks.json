@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/exquisite/mining_crate_exquisite",
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "text": "Bedrock Breaker",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Mine 500000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

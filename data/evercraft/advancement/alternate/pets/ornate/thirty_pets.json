@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/manage_ten_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {"text": "Menagerie Keeper", "color": "dark_purple"},
+    "description": {"text": "Adopt 30 different pets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

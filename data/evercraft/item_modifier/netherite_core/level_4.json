@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {"text": "An artifact of immense power", "color": "gray", "italic": false},
+      {"text": "forged in the depths of the Nether.", "color": "gray", "italic": false},
+      {"text": " "},
+      {"text": "Level 4 - MAXIMUM POWER", "color": "light_purple", "bold": true, "italic": false},
+      {"text": " "},
+      {"text": "Primary Effects Available:", "color": "gray", "italic": false},
+      {"text": "  • Speed", "color": "aqua", "italic": false},
+      {"text": "  • Haste", "color": "yellow", "italic": false},
+      {"text": "  • Resistance", "color": "dark_aqua", "italic": false},
+      {"text": "  • Jump Boost", "color": "green", "italic": false},
+      {"text": "  • Strength", "color": "red", "italic": false},
+      {"text": " "},
+      {"text": "Secondary Effects Available:", "color": "gray", "italic": false},
+      {"text": "  • Regeneration", "color": "light_purple", "italic": false},
+      {"text": "  • OR upgrade Primary to Level II", "color": "gold", "italic": false},
+      {"text": " "},
+      {"text": "244/244 Netherite Blocks - COMPLETE", "color": "gold", "italic": false},
+      {"text": " "},
+      {"text": "Place in Ender Chest for effects", "color": "dark_purple", "italic": true}
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{ancient_netherite_core:1b,level:4,primary:0,secondary:0,consumed_blocks:244,is_artifact:1b}"
+  }
+]

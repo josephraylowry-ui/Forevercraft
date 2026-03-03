@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Wanderer's Anecdote",
+                  "author": "The Nomad Sage",
+                  "pages": [
+                    {
+                      "text": "\n\n   §6§lWANDERER'S\n    ANECDOTE§r\n\n§7§oReflections from one\nwho walked every path\nand found treasure in\nthe strangest places...§r\n\n§8— The Nomad Sage"
+                    },
+                    {
+                      "text": "§6§lFour Paths, One Truth§r\n\n§7§oWhether you cast\na line, swing a pick,\ntend the fields, or\nface the beasts...\n\nThe world rewards\nall who persist.\nTreasure finds those\nwho seek it.§r"
+                    },
+                    {
+                      "text": "§6§lThe Weight of Dreams§r\n\n§7§oI've seen common\nfolk find wonders,\nand kings find dust.\n\nThe difference? Their\ndreams. The brighter\nthey burn within you,\nthe more the world\nnotices... and gives.§r"
+                    },
+                    {
+                      "text": "§6§lOf Glowing Beasts§r\n\n§7§oSome creatures walk\nwith an inner light.\nThey are stronger,\nrarer, more dangerous.\n\nDefeat them, and they\nmay share a portion\nof their radiance\nwith you.§r"
+                    },
+                    {
+                      "text": "§6§lThe Dreamer's Gate§r\n\n§7§oCertain treasures\nhide behind doors\nthat only open for\nthose who dream\nboldly enough.\n\nBuild your spirit\nfirst. The rarest\ngifts require a\nworthy recipient.§r"
+                    },
+                    {
+                      "text": "§6§lWhat the Crates Hold§r\n\n§7§oI've opened thousands.\nTools, armor, strange\nbrews, companions\nwaiting to be freed,\nrelics of power...\n\nEach one different.\nEach one a gift from\na world that wants\nto be discovered.§r"
+                    },
+                    {
+                      "text": "§6§lBottled Starlight§r\n\n§7§oSometimes you find\nstrange potions.\nDrink them.\n\nThe best ones taste\nlike crystallized\nhope, and for a\ntime, your dreams\nshine brighter.\n\n§8Walk far, friend.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Wanderer's Anecdote",
+                  "color": "yellow",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Tales from every road",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "wanderers_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

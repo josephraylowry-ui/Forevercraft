@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Fisherman's Anecdote",
+                  "author": "Old Seadog",
+                  "pages": [
+                    {
+                      "text": "\n\n   §b§lFISHERMAN'S\n    ANECDOTE§r\n\n§7§oMusings from an old\nsalt who spent his\nyears listening to\nthe whispers of\nthe tide...§r\n\n§8— Old Seadog"
+                    },
+                    {
+                      "text": "§b§lOf Rain and Dreams§r\n\n§7§oThey say when the\nskies weep upon the\nwaters, the fish\nswim closer to the\nsurface... and perhaps\nyour dreams swim\ncloser too.§r\n\n§8Cast your line when\nthe clouds gather."
+                    },
+                    {
+                      "text": "§b§lThe Enchanted Rod§r\n\n§7§oA wise angler once\ntold me: 'Bless your\nrod with the sea's\nown fortune, and the\ndeep shall reward\nyour patience.'\n\nThe stronger the\nblessing, the more\nvivid your dreams.§r"
+                    },
+                    {
+                      "text": "§b§lOf Worthy Dreamers§r\n\n§7§oNot all treasures\nreveal themselves to\nthe uninitiated.\n\nThe rarest catches\ndemand a dreamer who\nhas proven their\nworth... their spirit\nmust be bright enough\nto attract them.§r"
+                    },
+                    {
+                      "text": "§b§lBottled Dreams§r\n\n§7§oSometimes the sea\ngifts you more than\nfish. Strange brews\nwash up in the crates\nshe offers...\n\nDrink deep, and your\ndreams may shine\nbrighter for a time.§r"
+                    },
+                    {
+                      "text": "§b§lThe Ocean's Bounty§r\n\n§7§oEach body of water\nholds different\nsecrets. The cold\nseas yield frost,\nthe deep yields void.\n\nTravel far, cast wide,\nand let the waters\nteach you their\nindividual songs.§r"
+                    },
+                    {
+                      "text": "§b§lThe Shroud of Tides§r\n\n§7§oLegends speak of\narmor blessed by\nPoseidon himself...\n\nThose who gather all\nfour pieces find\nthemselves at home\nbeneath the waves.\n\n§8Tight lines, friend.\nMay your dreams\nfind you.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Fisherman's Anecdote",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Musings of an old salt",
+                    "color": "dark_aqua",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "fishermans_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

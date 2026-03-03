@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/companions/party/pack_tactics_pro",
+  "display": {
+    "icon": {"id": "minecraft:shield"},
+    "title": {"text": "Shield Wall!", "color": "aqua"},
+    "description": {"text": "Activate Shield Wall combo"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

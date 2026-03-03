@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/adventurers_first_steps",
+  "display": {
+    "icon": {"id": "minecraft:crafting_table"},
+    "title": {"text": "Jack of All Trades", "color": "blue"},
+    "description": {"text": "Use cooking, runeforge, and transmute"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

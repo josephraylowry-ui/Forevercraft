@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/the_renaissance_player",
+  "display": {
+    "icon": {"id": "minecraft:gold_ingot"},
+    "title": {"text": "Deep Pockets", "color": "dark_purple"},
+    "description": {"text": "50 crates + 25 artifacts + 500k XP"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:knowledge_book",
+  "result": {
+    "id": "minecraft:tropical_fish_spawn_egg",
+    "count": 1
+  }
+}

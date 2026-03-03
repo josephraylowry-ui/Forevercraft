@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/ornate/all_common_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {"text": "Tireless Companion", "color": "dark_purple"},
+    "description": {"text": "Interact with pets 1000 times total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

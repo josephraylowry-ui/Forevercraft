@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/ornate/thousand_fish",
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "text": "Treasure Master",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Catch 25 treasure items"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

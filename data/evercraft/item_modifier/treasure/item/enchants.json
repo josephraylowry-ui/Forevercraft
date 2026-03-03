@@ -1,0 +1,63 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:protection": {
+          "min": 1,
+          "max": 6
+        },
+        "minecraft:projectile_protection": {
+          "min": 1,
+          "max": 6
+        },
+        "minecraft:blast_protection": {
+          "min": 1,
+          "max": 6
+        }
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "#evercraft:treasure/armor"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:sharpness": {
+          "min": 1,
+          "max": 10
+        },
+        "minecraft:fire_aspect": {
+          "min": 1,
+          "max": 5
+        },
+        "minecraft:looting": {
+          "min": 1,
+          "max": 5
+        }
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "#evercraft:treasure/weapons"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

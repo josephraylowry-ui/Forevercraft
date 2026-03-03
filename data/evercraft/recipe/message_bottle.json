@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

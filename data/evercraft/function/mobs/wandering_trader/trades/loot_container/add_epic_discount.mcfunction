@@ -1,0 +1,3 @@
+# Add Epic Crate (Ornate) trade to wandering trader with Hero of the Village discount
+# Price: 4 emerald blocks (discounted from 8)
+data modify entity @s Offers.Recipes prepend value {max_uses:1,buy:{id:"minecraft:emerald_block",count:4},sell:{id:"minecraft:barrel",count:1,components:{"minecraft:container_loot":{loot_table:"evercraft:fishing/crate_contents/epic/1"},"minecraft:item_name":{text:"Epic Crate",bold:true,color:"dark_purple"},"minecraft:custom_data":{fc_rarity:"epic",fc_stat:false},"minecraft:max_stack_size":32,"minecraft:food":{nutrition:0,saturation:0,can_always_eat:true},"minecraft:consumable":{consume_seconds:0.05}}}}

@@ -1,0 +1,89 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:globe_banner_pattern",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Mysterichant",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "RUNE",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Hold an armor piece or a weapon in ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "your offhand and right click for a ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "random essential enchantment. Max ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "is Sharpness X and Protection VI. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                 "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "max_stack_size": 16,
+                  "minecraft:consumable": {
+                    "consume_seconds": 0,
+                    "sound": "intentionally_empty",
+                    "has_consume_particles": false
+                  },
+                  "minecraft:use_cooldown": {
+                    "seconds": 5,
+                    "cooldown_group": "evercraft:treasure/rune"
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {
+                    "rune": "mt.mysterichant",
+                      "mt": "rune"
+                    }
+                  }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/uncommon/fifty_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "text": "Nether Warrior",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Kill 50 mobs in the Nether"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:universal",
+    "evercraft:day",
+    "evercraft:moon",
+    "minecraft:early_game",
+    "evercraft:ambient_fog"
+  ]
+}

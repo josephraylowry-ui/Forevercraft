@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/uncommon/five_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "text": "Ornate Full Set",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Complete an Ornate full armor set"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

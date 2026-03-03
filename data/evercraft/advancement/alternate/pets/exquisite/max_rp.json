@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/ten_max_relationship",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {"text": "Perfect Bond", "color": "light_purple"},
+    "description": {"text": "Raise a pet's relationship to 5000 RP (max)"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

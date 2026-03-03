@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/satchel/pocketful_of_wonders",
+  "display": {
+    "icon": {"id": "minecraft:chest"},
+    "title": {"text": "Trinket Collector", "color": "blue"},
+    "description": {"text": "Store 5 artifacts in the satchel"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

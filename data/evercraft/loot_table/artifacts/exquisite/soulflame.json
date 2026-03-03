@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "epic",
+                "minecraft:custom_name": {"text":"The Soul Mirror","color":"dark_purple","italic":false},
+                "minecraft:lore": [
+                  {"text":"Ornate Artifact","color":"dark_purple","italic":false},
+                  "",
+                  {"text":"Burns with spectral fire that","color":"gray","italic":true},
+                  {"text":"consumes the very soul.","color":"gray","italic":true},
+                  "",
+                  {"text": "Rogue Class", "color": "#9B59B6", "bold": true, "italic": false},
+                  {"text": "\u25c6 Auto-Swing: ", "color": "gray", "italic": false, "extra": [{"text": "5 dmg, 2 targets, 0.7s", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Soul Drain: ", "color": "gray", "italic": false, "extra": [{"text": "Darkness + Strength I (2s)", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Dual Wield: ", "color": "gray", "italic": false, "extra": [{"text": "+30% swing speed", "color": "dark_gray"}]}
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "soulflame",
+                  "is_artifact": true,
+                  "tier": "ornate",
+                  "rogue": true,
+                  "rogue_tier": 4
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:rogue_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -3.4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:rogue_speed"
+                  },
+                  {
+                    "type": "minecraft:movement_speed",
+                    "amount": 0.10,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand",
+                    "id": "evercraft:rogue_speed_boost"
+                  },
+                  {
+                    "type": "minecraft:entity_interaction_range",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:rogue_range"
+                  }
+                ],
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

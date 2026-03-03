@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/cat_creeper_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "text": "Gift Receiver",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Get villager gifts (Taskmaster max)"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

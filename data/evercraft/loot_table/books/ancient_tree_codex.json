@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Ancient Tree Codex",
+                  "author": "The Nymph",
+                  "pages": [
+                    {
+                      "text": "\n\n    §2§lANCIENT TREE\n    CODEX§r\n\n§7§oThe roots remember\nwhat hands forget.\nHerein lie the shapes\nof creation...§r\n\n§8— The Nymph"
+                    },
+                    {
+                      "text": "§2§lThe Waystone§r\n\n§7§oFour stones that\nfind what is lost,\nalternating with the\ndarkest metal's cost.\n\nA fallen star rests\nat the heart of all,\nand from this anchor\nworlds may call.§r"
+                    },
+                    {
+                      "text": "§2§lColors of the Path§r\n\n§7§oA waystone shaped\nmay yet be painted.\nThe hue of sky,\nof leaves, of sunset,\nor of blood.\n\nSimply wed the stone\nto the color of\nyour choosing.\nNo table required.§r"
+                    },
+                    {
+                      "text": "§2§lThe World Spinner§r\n\n§7§oThe darkest metal\nsix times placed,\ntwo wheels of time\nabove embraced.\n\nBetween them, a needle\nthat points to death.\nBelow, a frame\nof netherite breath.\n\n§8Bind it to stone\nthat pulls the lost.§r"
+                    },
+                    {
+                      "text": "§2§lThe Timekeeper§r\n\n§7§oFour bars of ancient\nmetal, four faces\nthat tell the hour.\n\nA diamond shape of\ndarkness and time,\nwith a dying star\nburning at its core.\n\n§8It hears the ruins\nbreathing.§r"
+                    },
+                    {
+                      "text": "§2§lThe Sleeping Giant§r\n\n§7§oEight walls of the\ndensest dark, forged\ninto solid blocks.\n\nWithin this cage\nof compressed might,\na beam of infinite\nlight waits unawoken.\n\n§8Feed it more of\nits own kind to grow.§r"
+                    },
+                    {
+                      "text": "§2§lThe Sweet Machine§r\n\n§7§oFour walls of wax\nbuilt by the bees,\nand one bar of\nsunlit metal between.\n\nA cross of honey\naround gold's gleam.\nKnowledge flows from\nnature's cream.§r"
+                    },
+                    {
+                      "text": "§2§lThe Beast's Delight§r\n\n§7§oCarrots blessed by\nMidas at each corner.\nSweet nectar above\nand below the center.\n\nBones of the earth\nflank a crystal heart.\nFour treats emerge\nfrom this culinary art.§r"
+                    },
+                    {
+                      "text": "§2§lThe Binder of Souls§r\n\n§7§oA treasure from the\ndeepest sea, paired\nwith fortune's foot.\n\nCrying stone beside\na mountain's call.\nTwo by two, compact\nand small.\n\n§8A ledger for those\nwho walk beside you.§r"
+                    },
+                    {
+                      "text": "§8§o\n\n\n  The tree remembers.\n\n  Craft wisely,\n  traveler.\n\n\n        §2— N§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Ancient Tree Codex",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Secrets of forgotten crafts",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "ancient_tree_codex",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

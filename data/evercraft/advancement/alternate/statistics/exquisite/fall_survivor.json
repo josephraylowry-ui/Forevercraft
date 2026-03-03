@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/exquisite/play_five_hundred_hours",
+  "display": {
+    "icon": {"id": "minecraft:elytra"},
+    "title": {"text": "Fall Survivor", "color": "light_purple"},
+    "description": {"text": "Fall a total of 1,000,000 blocks"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

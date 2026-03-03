@@ -1,2 +1,0 @@
-$execute if block ~ ~-1 ~ #minecraft:wool run return run data modify storage eden:database waypoints.hubs.$(id).announcement set value "disabled"
-$execute unless block ~ ~-1 ~ #minecraft:wool run return run data modify storage eden:database waypoints.hubs.$(id).announcement set value "enabled"

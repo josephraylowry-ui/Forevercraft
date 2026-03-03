@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/ten_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": {"text": "Exquisite Set Master", "color": "light_purple"},
+    "description": {"text": "Complete all Exquisite artifact sets"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

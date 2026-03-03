@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/professions/exquisite/potion_dreams",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Ultimate Merchant",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Complete 10000 trades"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

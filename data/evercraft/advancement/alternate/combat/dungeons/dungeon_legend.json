@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat/dungeons/wave_master",
+  "display": {
+    "icon": {"id": "minecraft:spawner"},
+    "title": {"text": "Dungeon Legend", "color": "light_purple"},
+    "description": {"text": "Complete 50 dungeons"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

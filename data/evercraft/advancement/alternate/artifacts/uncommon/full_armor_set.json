@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/equip_armor",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {"text": "Fully Armored", "color": "blue"},
+    "description": {"text": "Equip a full artifact armor set (4 pieces)"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

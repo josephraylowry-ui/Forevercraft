@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/world_events/dream_walker",
+  "display": {
+    "icon": {"id": "minecraft:chorus_flower"},
+    "title": {"text": "Rift Pioneer", "color": "dark_purple"},
+    "description": {"text": "Experience 3 Rift Echoes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

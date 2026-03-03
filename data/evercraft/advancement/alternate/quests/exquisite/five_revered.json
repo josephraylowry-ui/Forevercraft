@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/exquisite/sixty_quests",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
+    },
+    "title": {"text": "Revered Everywhere", "color": "light_purple"},
+    "description": {"text": "Reach Revered in 5 villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

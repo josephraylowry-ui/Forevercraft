@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/common/favorite_food",
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {"text": "Generous Keeper", "color": "blue"},
+    "description": {"text": "Feed pets 100 times total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

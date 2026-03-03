@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/world_shaper",
+  "display": {
+    "icon": {"id": "minecraft:blaze_rod"},
+    "title": {"text": "Rune Warrior", "color": "dark_purple"},
+    "description": {"text": "Defeat a Boss with a rune effect active"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

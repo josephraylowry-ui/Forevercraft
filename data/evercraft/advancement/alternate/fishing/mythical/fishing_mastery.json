@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/mythical/fishing_completionist",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Fishing Mastery",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Max Fishing tree and catch 10000 fish with 100 treasure"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

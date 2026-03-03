@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/lorebook_keeper",
+  "display": {
+    "icon": {"id": "minecraft:enchanted_book"},
+    "title": {"text": "The Archivist", "color": "light_purple"},
+    "description": {"text": "Find 100 lore fragments"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

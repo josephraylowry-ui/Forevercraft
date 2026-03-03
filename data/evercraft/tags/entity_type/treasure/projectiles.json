@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:arrow",
+        "minecraft:trident",
+        "minecraft:spectral_arrow",
+        "minecraft:fireball",
+        "minecraft:snowball",
+        "minecraft:splash_potion",
+        "minecraft:lingering_potion",
+        "minecraft:snowball",
+        "minecraft:ender_pearl",
+        "minecraft:falling_block",
+        "minecraft:firework_rocket",
+        "minecraft:tnt",
+        "minecraft:fishing_bobber",
+        "minecraft:small_fireball",
+        "minecraft:egg",
+        "minecraft:llama_spit",
+        "minecraft:wither_skull"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/rare/mythical_armor",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "text": "Ornate Mastery",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Complete all 15 Ornate armor sets"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

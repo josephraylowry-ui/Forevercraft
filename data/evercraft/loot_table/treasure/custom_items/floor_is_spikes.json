@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "minecraft:structure_block",
+                  "minecraft:entity_data": {
+                    "id": "minecraft:armor_stand",
+                    "Tags": [
+                      "mt.floor_is_spikes"
+                    ]
+                  },
+                  "minecraft:lore": [
+                    {
+                      "text": "Damages all enemies on ground in a ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "10 block radius every 2s, 10 times. ",
+                      "color": "gray",
+                      "italic": false
+                    }
+                  ],                
+                  "minecraft:item_name": "{\"text\":\"Floor is Spikes\"}",
+                  "minecraft:rarity": "rare",
+                  "minecraft:custom_data": {
+                    "mt.floor_is_spikes": 1
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "functions": []
+  }

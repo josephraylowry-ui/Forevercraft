@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/collection/transmute/molecular_maestro",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "The Philosopher's Stone", "color": "gold"},
+    "description": {"text": "Transmute 250 items"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

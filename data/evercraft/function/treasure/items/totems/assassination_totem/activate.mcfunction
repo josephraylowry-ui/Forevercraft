@@ -1,0 +1,1 @@
+schedule function evercraft:treasure/items/totems/assassination_totem/as_player 1t append

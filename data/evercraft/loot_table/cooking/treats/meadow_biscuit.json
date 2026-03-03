@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {"text": "Meadow Biscuit", "color": "green", "italic": false, "bold": true},
+                                "minecraft:lore": [
+                                    {"text": "A fragrant biscuit for your companion.", "color": "gray", "italic": false},
+                                    "",
+                                    {"text": "Right-click your companion to feed.", "color": "yellow", "italic": false},
+                                    {"text": "+100 Relationship Points", "color": "green", "italic": false}
+                                ],
+                                "minecraft:custom_data": {
+                                    "PetTreat": true,
+                                    "treat_tier": 2
+                                },
+                                "minecraft:rarity": "uncommon"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

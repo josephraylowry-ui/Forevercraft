@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/ten_biomes",
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {"text": "World Traveler", "color": "dark_purple"},
+    "description": {"text": "Find artifacts in all 24 biomes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

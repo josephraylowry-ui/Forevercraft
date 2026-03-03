@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/ornate/stronghold",
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "text": "Rare Biome",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Find a Mushroom Island biome"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

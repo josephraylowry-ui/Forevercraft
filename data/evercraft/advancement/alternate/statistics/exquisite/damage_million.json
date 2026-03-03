@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/exquisite/walk_ten_million",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "text": "Million Damage",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Deal 1000000 damage"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/runeforge/runecaster",
+  "display": {
+    "icon": {"id": "minecraft:crying_obsidian"},
+    "title": {"text": "Rune Warden", "color": "dark_purple"},
+    "description": {"text": "Forge 30 runes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

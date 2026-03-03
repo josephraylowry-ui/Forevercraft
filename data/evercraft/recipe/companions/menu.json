@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HR",
+    "CO"
+  ],
+  "key": {
+    "H": "minecraft:heart_of_the_sea",
+    "R": "minecraft:rabbit_foot",
+    "C": "minecraft:crying_obsidian",
+    "O": "minecraft:goat_horn"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "minecraft:writable_book",
+      "minecraft:tooltip_display": {
+        "hidden_components": ["minecraft:attribute_modifiers"]
+      },
+      "minecraft:custom_name": {
+        "text": "Companion Catalogue",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-Click to open",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": {
+        "PetMenuKey": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 999999,
+        "sound": "intentionally_empty",
+        "has_consume_particles": false
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "evercraft:companion_catalogue"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/uncommon/five_hundred_crops",
+  "display": {
+    "icon": {
+      "id": "minecraft:ancient_debris"
+    },
+    "title": {
+      "text": "Ancient Discovery",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Find ancient debris"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

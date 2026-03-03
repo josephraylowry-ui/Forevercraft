@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/common/first_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_sword"
+    },
+    "title": {
+      "text": "Mob Slayer",
+      "color": "white"
+    },
+    "description": {
+      "text": "Kill 100 mobs"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

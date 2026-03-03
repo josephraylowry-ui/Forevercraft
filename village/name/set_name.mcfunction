@@ -1,5 +1,0 @@
-$execute positioned $(x) $(y) $(z) unless entity @e[type=armor_stand,tag=mob_manager.village.name,distance=..96] if block ~ ~ ~ minecraft:bell run summon armor_stand ~ ~ ~ {data:{mob_manager:{locator_bar:{icon:"bell",color:"$(waypoint_color)"}}},attributes:[{id:"minecraft:waypoint_transmit_range",base:$(waypoint_range)}],Small:1b,NoGravity:1b,Marker:1b,Invisible:1b,Tags:["mob_manager.village.name"],CustomName:{"bold":false,"color":"#$(color)","italic":false,"text":"$(name)"}}
-
-$execute positioned $(x) $(y) $(z) if data storage eden:settings mob_manager.misc{locator_assets:"disabled"} run waypoint modify @n[type=minecraft:armor_stand,distance=..3,tag=mob_manager.village.name] color hex $(waypoint_color)
-$execute positioned $(x) $(y) $(z) if data storage eden:settings mob_manager.misc{locator_assets:"enabled"} run waypoint modify @n[type=minecraft:armor_stand,distance=..3,tag=mob_manager.village.name] style set mob_manager:bell
-$execute positioned $(x) $(y) $(z) if data storage eden:settings mob_manager.misc{locator_assets:"enabled"} run waypoint modify @n[type=minecraft:armor_stand,distance=..3,tag=mob_manager.village.name] color white

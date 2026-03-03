@@ -1,0 +1,1 @@
+tellraw @a [{selector:"@p[tag=Pets.Owner, limit=1]", color:"white"},{text:" has completed the challenge ",color:"white"},{text:"[", color:"dark_gray"},{text:"Divine Beast Tamer",color:"gold", hover_event:{action:"show_text", value:[{text:"Divine Beast Tamer\nReach level 100 with any pet.", color:"gold"}]}},{text:"]", color:"dark_gray"},{text:"!", color:"white"}]

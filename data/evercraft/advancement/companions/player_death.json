@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[Pets.ActivePet], death_time:1s}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "evercraft:companions/handler/active_pet/player_death"
+    }
+}

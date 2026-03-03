@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/exploration/journal/end_explorer",
+  "display": {
+    "icon": {"id": "minecraft:filled_map"},
+    "title": {"text": "Master Cartographer", "color": "gold"},
+    "description": {"text": "Complete every journal region"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

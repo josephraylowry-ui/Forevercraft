@@ -1,0 +1,32 @@
+{
+    "function": "set_lore",
+    "entity": "this",
+    "lore": [
+        {
+            "text": "Click to toggle the visibility",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "of your active pet.",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": ""
+        },
+        {
+            "text": "Status: ",
+            "color": "gray",
+            "italic": false,
+            "extra": [
+                {
+                    "text": "Hidden",
+                    "color": "red",
+                    "italic": false
+                }
+            ]
+        }
+    ],
+    "mode": "replace_all"
+}

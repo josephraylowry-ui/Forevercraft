@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/mythical/million_blocks",
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "text": "Mining Completionist",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Max Mining tree and mine 1M blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

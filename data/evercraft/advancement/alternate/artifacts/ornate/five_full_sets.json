@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/three_full_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {"text": "Fashion Icon", "color": "dark_purple"},
+    "description": {"text": "Equip 5 different full armor sets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

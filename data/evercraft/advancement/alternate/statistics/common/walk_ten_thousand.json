@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/common/play_one_hour",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "text": "First Steps",
+      "color": "white"
+    },
+    "description": {
+      "text": "Walk 10000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

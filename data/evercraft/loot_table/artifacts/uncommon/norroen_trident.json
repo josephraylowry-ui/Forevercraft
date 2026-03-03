@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:custom_name": "Norroen Trident",
+                "minecraft:lore": [
+                  {
+                    "text": "Uncommon Artifact",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Carved from ice-bound Nordic oak,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "still cold to the touch.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {"text": "Javelin Class", "color": "#00CED1", "bold": true, "italic": false},
+                  {"text": "\u25c6 Melee: ", "color": "gray", "italic": false, "extra": [{"text": "Slowness I on target", "color": "dark_gray"}]},
+                  {"text": "\u25c6 Thrown: ", "color": "gray", "italic": false, "extra": [{"text": "Frost Burst (2-block AoE)", "color": "dark_gray"}]}
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "norroen_trident",
+                  "is_artifact": true,
+                  "tier": "uncommon",
+                  "javelin": true,
+                  "javelin_id": 1
+                },
+                "minecraft:enchantments": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 7,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.6,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:artifact_speed"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

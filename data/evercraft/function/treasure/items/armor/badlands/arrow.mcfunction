@@ -1,0 +1,1 @@
+data merge entity @s {damage:5d,crit:1b}

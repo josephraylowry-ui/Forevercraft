@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/exquisite/exalted_rep",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {"text": "World Wanderer", "color": "light_purple"},
+    "description": {"text": "Complete quests in 10 different villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

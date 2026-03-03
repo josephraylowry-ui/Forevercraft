@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/natures_bounty",
+  "display": {
+    "icon": {"id": "minecraft:raw_gold"},
+    "title": {"text": "Vein Finder", "color": "aqua"},
+    "description": {"text": "Mine 50 prospect nodes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

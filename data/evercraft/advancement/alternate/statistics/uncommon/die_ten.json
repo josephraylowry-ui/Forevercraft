@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/uncommon/eat_thousand",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Learning Experience",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Die 10 times"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

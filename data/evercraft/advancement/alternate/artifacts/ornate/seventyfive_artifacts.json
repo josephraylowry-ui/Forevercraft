@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/fifty_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {"text": "Artifact Hoarder", "color": "dark_purple"},
+    "description": {"text": "Find 75 different artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

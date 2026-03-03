@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/ten_thousand_levels",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Maximum Health",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Reach max hearts (20) with Vitality"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

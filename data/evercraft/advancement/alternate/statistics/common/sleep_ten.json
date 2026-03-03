@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/common/eat_hundred",
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "text": "Well Rested",
+      "color": "white"
+    },
+    "description": {
+      "text": "Sleep 10 times"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

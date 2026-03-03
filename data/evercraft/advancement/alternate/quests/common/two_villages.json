@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/common/first_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {"text": "Traveling Worker", "color": "white"},
+    "description": {"text": "Complete quests in 2 different villages"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/combat/dungeons/dungeon_legend",
+  "display": {
+    "icon": {"id": "minecraft:dragon_head"},
+    "title": {"text": "The Gauntlet Runner", "color": "gold"},
+    "description": {"text": "Complete every unique dungeon"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

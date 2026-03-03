@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/professions/common/first_trade",
+  "display": {
+    "icon": {
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "text": "New Merchant",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover a custom profession villager"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Beastkeeper's Anecdote",
+                  "author": "The Old Shepherd",
+                  "pages": [
+                    {
+                      "text": "\n\n  §a§lBEASTKEEPER'S\n    ANECDOTE§r\n\n§7§oStories and secrets\nfrom one who learned\nto speak with the\ncreatures of this\nworld...§r\n\n§8— The Old Shepherd"
+                    },
+                    {
+                      "text": "§a§lThe Bound Spirits§r\n\n§7§oThey are everywhere,\nchild. Spirits of\nbeast and legend,\nwaiting in hidden\nplaces to bond with\nthose who find them.\n\nSome common as cats.\nOthers rare as\ndragonfire.§r"
+                    },
+                    {
+                      "text": "§a§lWhere They Dwell§r\n\n§7§oSpirits slumber in\ntreasure. The same\ncrates that yield\ngold and gems may\nalso yield a loyal\ncompanion.\n\nThe richer the\ntreasure, the rarer\nthe spirit within.§r"
+                    },
+                    {
+                      "text": "§a§lThe Growing Bond§r\n\n§7§oA spirit grows\nstronger the longer\nit stays with you.\nPatience rewards\nthe keeper.\n\nIn time, they share\nmore of their\nessence... and your\ndreams grow with\ntheirs.§r"
+                    },
+                    {
+                      "text": "§a§lLegendary Spirits§r\n\n§7§oI have heard tales\nof spirits beyond\nimagining. Dragons\nof gold. Walkers of\nthe void. Weavers\nof time itself.\n\nThey exist. But only\nthose who dream\nboldly find them.§r"
+                    },
+                    {
+                      "text": "§a§lThe Keeper's Trade§r\n\n§7§oSome folk have made\na profession of it —\nthe Zookeepers, they\ncall themselves.\n\nThey trade in spirits\nand shards. Seek\nthem if you wish\nto expand your\nmenagerie.§r"
+                    },
+                    {
+                      "text": "§a§lA Final Thought§r\n\n§7§oThe spirits choose\nus as much as we\nchoose them.\n\nBe worthy of their\ncompany. Treat them\nwell. And they will\nwalk beside you\nthrough any darkness.\n\n§8Be kind, keeper.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Beastkeeper's Anecdote",
+                  "color": "green",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Secrets of the spirit-bound",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "beastkeepers_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

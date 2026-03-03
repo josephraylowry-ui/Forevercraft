@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/common/ability_activate",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {"text": "Skilled Companions", "color": "blue"},
+    "description": {"text": "Trigger pet abilities 50 times"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

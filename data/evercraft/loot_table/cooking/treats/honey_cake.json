@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {"text": "Honey Cake", "color": "yellow", "italic": false, "bold": true},
+                                "minecraft:lore": [
+                                    {"text": "A sweet cake that companions adore.", "color": "gray", "italic": false},
+                                    "",
+                                    {"text": "Right-click your companion to feed.", "color": "yellow", "italic": false},
+                                    {"text": "+150 Relationship Points", "color": "green", "italic": false}
+                                ],
+                                "minecraft:custom_data": {
+                                    "PetTreat": true,
+                                    "treat_tier": 3
+                                },
+                                "minecraft:rarity": "rare"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

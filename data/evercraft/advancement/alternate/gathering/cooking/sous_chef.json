@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/kitchen_apprentice",
+  "display": {
+    "icon": {"id": "minecraft:cooked_mutton"},
+    "title": {"text": "Sous Chef", "color": "blue"},
+    "description": {"text": "Cook 30 meals"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

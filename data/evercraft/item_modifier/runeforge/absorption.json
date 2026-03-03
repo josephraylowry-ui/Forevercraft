@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"absorption\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Absorption", "color": "yellow", "italic": false}], "mode": "append"}
+]

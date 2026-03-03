@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polished_deepslate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text":"Frostbite Inscription Stone","color":"aqua","italic":false},
+                "minecraft:custom_data": {"inscription_stone":true,"rune_type":"frostbite"},
+                "minecraft:lore": [{"text":"Place to create a zone of frost","color":"gray","italic":true}],
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

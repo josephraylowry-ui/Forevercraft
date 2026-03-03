@@ -1,0 +1,14 @@
+# Artifact Collection — Refresh Common Armor
+# Checks advancements and updates display text
+# Run as the player
+
+execute if entity @s[advancements={evercraft:artifacts/collected/common_thief_helmet=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_thief_helmet,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Thief Helmet",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/common_thief_helmet=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_thief_helmet,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/common_fox_chestplate=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_fox_chestplate,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Fox Chestplate",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/common_fox_chestplate=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_fox_chestplate,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/common_ocelot_leggings=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_ocelot_leggings,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Ocelot Leggings",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/common_ocelot_leggings=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_ocelot_leggings,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/common_wolf_boots=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_wolf_boots,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Wolf Boots",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/common_wolf_boots=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_wolf_boots,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/common_renegade_chestplate=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_renegade_chestplate,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Renegade Chestplate",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/common_renegade_chestplate=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_common_renegade_chestplate,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}

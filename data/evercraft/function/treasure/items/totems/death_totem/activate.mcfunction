@@ -1,0 +1,1 @@
+schedule function evercraft:treasure/items/totems/death_totem/as_player 1t append

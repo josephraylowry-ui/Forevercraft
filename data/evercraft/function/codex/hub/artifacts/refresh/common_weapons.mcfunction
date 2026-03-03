@@ -1,0 +1,24 @@
+# Artifact Collection — Refresh Common Weapons
+# Checks advancements and updates display text
+# Run as the player
+
+execute if entity @s[advancements={evercraft:artifacts/collected/bone_slingshot=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_bone_slingshot,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Bone Slingshot",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/bone_slingshot=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_bone_slingshot,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/boneclub=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_boneclub,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Boneclub",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/boneclub=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_boneclub,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/broadsword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_broadsword,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Broadsword",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/broadsword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_broadsword,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/deku_shield=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_deku_shield,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Deku Shield",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/deku_shield=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_deku_shield,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/highland_mace=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_highland_mace,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Highland Mace",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/highland_mace=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_highland_mace,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/hunting_bow=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_hunting_bow,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Hunting Bow",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/hunting_bow=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_hunting_bow,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/norroen_sword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_norroen_sword,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Norroen Sword",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/norroen_sword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_norroen_sword,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/plunger=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_plunger,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Plunger",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/plunger=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_plunger,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/slingshot=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_slingshot,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Slingshot",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/slingshot=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_slingshot,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}
+execute if entity @s[advancements={evercraft:artifacts/collected/vex_iron_sword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_vex_iron_sword,limit=1,sort=nearest] text set value [{text:"\u2713 ",color:"green"},{text:"Dagger",color:"white"}]
+execute unless entity @s[advancements={evercraft:artifacts/collected/vex_iron_sword=true}] run data modify entity @e[type=text_display,tag=Adv.ArtI_vex_iron_sword,limit=1,sort=nearest] text set value {text:"? ???",color:"dark_gray"}

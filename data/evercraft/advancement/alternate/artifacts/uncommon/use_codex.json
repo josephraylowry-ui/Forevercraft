@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/ten_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {"text": "Knowledge Seeker", "color": "blue"},
+    "description": {"text": "Use the Codex of Everything"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

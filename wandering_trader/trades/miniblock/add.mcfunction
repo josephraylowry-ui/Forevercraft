@@ -1,1 +1,0 @@
-$data modify entity @s Offers.Recipes prepend value {maxUses:1,buy:{id:"$(payitem)",count:$(price)},sell:$(entry)}

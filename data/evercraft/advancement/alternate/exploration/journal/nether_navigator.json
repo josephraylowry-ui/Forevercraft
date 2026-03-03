@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/journal/cavern_cartographer",
+  "display": {
+    "icon": {"id": "minecraft:netherrack"},
+    "title": {"text": "Nether Navigator", "color": "dark_purple"},
+    "description": {"text": "Complete the Nether region"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

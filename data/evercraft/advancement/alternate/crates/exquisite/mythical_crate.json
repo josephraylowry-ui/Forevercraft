@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/exquisite/thousand_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Mythical Unveiling", "color": "light_purple"},
+    "description": {"text": "Open a Mythical crate"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/ornate/all_passive_abilities",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {"text": "Exquisite Trinkets", "color": "light_purple"},
+    "description": {"text": "Collect all Exquisite accessories"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

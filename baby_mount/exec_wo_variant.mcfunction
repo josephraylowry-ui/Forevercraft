@@ -1,3 +1,0 @@
-$summon $(type) ~ ~ ~ {Age:1200,Color:$(color_parent),Tags:["mob_manager.baby_mount.set"],Passengers:[{id:"minecraft:$(type)",Age:-999999999,Color:$(color_baby),IsBaby:1b,Tags:["mob_manager.settings.applied","mob_manager.settings.perma_baby"]}]}
-tp @s ~ -3000 ~
-kill @s

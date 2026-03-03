@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"guardian\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Guardian Aura", "color": "blue", "italic": false}], "mode": "append"}
+]

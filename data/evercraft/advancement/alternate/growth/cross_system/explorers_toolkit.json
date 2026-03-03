@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/jack_of_all_trades_cs",
+  "display": {
+    "icon": {"id": "minecraft:compass"},
+    "title": {"text": "Explorer's Toolkit", "color": "blue"},
+    "description": {"text": "Forage, prospect, and find lore in one session"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

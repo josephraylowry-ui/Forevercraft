@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/first_common",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {"text": "Rising Quality", "color": "white"},
+    "description": {"text": "Find your first Uncommon artifact"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

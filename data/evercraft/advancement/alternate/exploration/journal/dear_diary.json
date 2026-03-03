@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": {"id": "minecraft:writable_book"},
+    "title": {"text": "Dear Diary...", "color": "white"},
+    "description": {"text": "Record your first journal entry"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_common"}
+}

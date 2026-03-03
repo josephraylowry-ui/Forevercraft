@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/three_patron_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {"text": "Patron Slayer", "color": "dark_purple"},
+    "description": {"text": "Get artifacts from all Mob Patron tiers"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

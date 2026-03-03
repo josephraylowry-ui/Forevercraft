@@ -1,7 +1,0 @@
-{
-  "values": [
-    "wawo:waypoint_hub/place/tick",
-    "wawo:waypoint_hub/break/init",
-    "wawo:waypoint_hub/properties/radius_particles/init"
-  ]
-}

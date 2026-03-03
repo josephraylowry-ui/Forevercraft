@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/rare/five_biome_armor",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "Mythical Armor",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Equip a Mythical armor piece"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

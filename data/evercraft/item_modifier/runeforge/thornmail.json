@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"thornmail\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Thornmail", "color": "dark_green", "italic": false}], "mode": "append"}
+]

@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {
+      "text": "Crate Cracker",
+      "color": "white"
+    },
+    "description": {
+      "text": "Open 5 crates from any source"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

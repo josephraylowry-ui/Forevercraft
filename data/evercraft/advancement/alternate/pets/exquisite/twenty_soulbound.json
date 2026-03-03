@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/fifty_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {"text": "Soulbound Army", "color": "light_purple"},
+    "description": {"text": "Raise 20 pets to Soulbound"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

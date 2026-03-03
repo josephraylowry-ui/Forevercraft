@@ -1,0 +1,19 @@
+{
+  "parent": "evercraft:alternate/combat/mythical/combat_perfection",
+  "display": {
+    "icon": {"id": "minecraft:enchanted_golden_apple"},
+    "title": {"text": "Combat Champion", "color": "gold", "bold": true},
+    "description": {"text": "Complete all 44 combat achievements"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

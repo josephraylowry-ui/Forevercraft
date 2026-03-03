@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/rare/level_fifteen",
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_sapling"
+    },
+    "title": {
+      "text": "All Trees",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Unlock all 13 trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

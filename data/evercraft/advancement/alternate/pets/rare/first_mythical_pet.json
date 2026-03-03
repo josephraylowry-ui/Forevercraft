@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/exquisite_crate_pet",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {"text": "Mythical Discovery", "color": "aqua"},
+    "description": {"text": "Adopt a Mythical pet"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

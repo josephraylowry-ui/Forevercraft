@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/armor/common/two_piece_bonus",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "text": "Full Set",
+      "color": "white"
+    },
+    "description": {
+      "text": "Equip a complete 4-piece armor set"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

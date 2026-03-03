@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/max_multi_catch",
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": {
+      "text": "Cat Bomb",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Have cats kill creepers (Beastmaster max)"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "predicates": {
+                "minecraft:custom_data": "{armor:\"swamp_chestplate\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/items/armor/swamp/clear"
+  }
+}

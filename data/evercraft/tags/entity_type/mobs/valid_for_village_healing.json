@@ -1,0 +1,13 @@
+{
+    "values": [
+      "minecraft:iron_golem",
+      "minecraft:snow_golem",
+      "minecraft:cat",
+      "minecraft:player",
+      "minecraft:villager",
+      "minecraft:wolf",
+      "minecraft:wandering_trader",
+      "#evercraft:mobs/is_mount"
+    ]
+  }
+  

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/rare/fifteen_mining_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Dungeon Diver", "color": "aqua"},
+    "description": {"text": "Open 10 structure crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

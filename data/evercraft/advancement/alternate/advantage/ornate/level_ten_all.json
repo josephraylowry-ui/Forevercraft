@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/level_fifteen_five",
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "text": "Double Digits All",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Reach level 10 in all trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/uncommon/five_treasure",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {"text": "Rainy Day Fisher", "color": "blue"},
+    "description": {"text": "Catch a fish in the rain"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

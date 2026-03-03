@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/exquisite/all_structure_types",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Cartographer",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Fill 20 maps"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

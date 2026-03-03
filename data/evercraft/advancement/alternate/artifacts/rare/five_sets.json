@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/three_sets",
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {"text": "Set Hoarder", "color": "aqua"},
+    "description": {"text": "Complete 5 different artifact sets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

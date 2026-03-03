@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/journal/nether_navigator",
+  "display": {
+    "icon": {"id": "minecraft:end_stone"},
+    "title": {"text": "End Explorer", "color": "dark_purple"},
+    "description": {"text": "Complete the End region"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_ornate"}
+}

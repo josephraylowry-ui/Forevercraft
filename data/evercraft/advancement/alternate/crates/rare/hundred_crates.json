@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/rare/ten_mob_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Centurion Unboxer", "color": "aqua"},
+    "description": {"text": "Open 100 crates total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

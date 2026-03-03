@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_11"
+          ],
+          "predicates": {
+  "minecraft:custom_data": "{spawn:\"mt.saturation_cow\"}"
+      }        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/mobs/saturation_cow"
+  }
+}

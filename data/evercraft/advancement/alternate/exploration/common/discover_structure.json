@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/common/discover_village",
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "text": "Ruins Found",
+      "color": "white"
+    },
+    "description": {
+      "text": "Find a generated structure"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

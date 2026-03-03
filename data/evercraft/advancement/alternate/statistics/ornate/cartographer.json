@@ -1,0 +1,18 @@
+{
+  "parent": "evercraft:alternate/statistics/ornate/craft_hundred_thousand",
+  "display": {
+    "icon": {"id": "minecraft:filled_map"},
+    "title": {"text": "Cartographer", "color": "dark_purple"},
+    "description": {"text": "Craft 50 maps"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

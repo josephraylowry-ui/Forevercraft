@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/housing/home_sweet_home",
+  "display": {
+    "icon": {"id": "minecraft:crafting_table"},
+    "title": {"text": "Fixer Upper", "color": "blue"},
+    "description": {"text": "Upgrade your home to Tier 2"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

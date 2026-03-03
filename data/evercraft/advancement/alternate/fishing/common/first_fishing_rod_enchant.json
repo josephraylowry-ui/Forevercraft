@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/common/fifty_fish",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {"text": "Enchanted Waters", "color": "white"},
+    "description": {"text": "Use an enchanted fishing rod"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

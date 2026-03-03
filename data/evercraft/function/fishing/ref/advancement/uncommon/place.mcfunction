@@ -1,0 +1,6 @@
+# Handle Fishing Crate placement - uncommon
+# Revoke advancement immediately so it can trigger again
+advancement revoke @s only evercraft:fishing/core/uncommon/place
+
+# Find the placed barrel nearby and start animation
+execute positioned ~ ~1.6 ~ run function evercraft:crate_anim/find_placed_barrel {tier:"uncommon",system_tag:"fishing_crate",plot_start:10,skin:"ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY3NDQ1OCwKICAicHJvZmlsZUlkIiA6ICIxODEzOTc2N2Q2YjU0N2E5OWY3M2M0ZjRmZjEzOTZhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJVc2FXaW1hIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkZGYwYTEwOGNkM2JjYWNmOTZjZmJmMzBlMTVkMzU0N2ZmN2JmZjk1ZDBmOTI0M2VjMzU0N2NhZWM2YWQzZmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",nbt_key:"fc_rarity",nbt_val:"uncommon"}

@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {"text": "Savory Bone Broth", "color": "aqua", "italic": false, "bold": true},
+                                "minecraft:lore": [
+                                    {"text": "A hearty broth that deeply satisfies.", "color": "gray", "italic": false},
+                                    "",
+                                    {"text": "Right-click your companion to feed.", "color": "yellow", "italic": false},
+                                    {"text": "+200 Relationship Points", "color": "green", "italic": false}
+                                ],
+                                "minecraft:custom_data": {
+                                    "PetTreat": true,
+                                    "treat_tier": 4
+                                },
+                                "minecraft:rarity": "rare"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

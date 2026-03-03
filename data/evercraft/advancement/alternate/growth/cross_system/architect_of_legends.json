@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/lore_hunter_supreme",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "Architect of Legends", "color": "light_purple"},
+    "description": {"text": "Max housing + Legend rank + 25 boss kills"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

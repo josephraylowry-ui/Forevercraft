@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/mythical/mining_completionist",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Harvest Completionist",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Max Gathering tree and harvest 1M crops"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

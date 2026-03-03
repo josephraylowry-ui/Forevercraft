@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/weapon_ten_triggers",
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {"text": "Arsenal Master", "color": "blue"},
+    "description": {"text": "Trigger 5 different weapon abilities"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

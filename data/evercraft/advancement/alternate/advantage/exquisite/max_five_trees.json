@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/exquisite/level_twenty_all",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "text": "Five Perfected",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Max out 5 different trees"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

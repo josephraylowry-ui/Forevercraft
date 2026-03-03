@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/rare/walk_million",
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "text": "Jumper",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Jump 100000 times"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/village/specialized_diplomat",
+  "display": {
+    "icon": {"id": "minecraft:nether_star"},
+    "title": {"text": "Master of All Trades", "color": "gold"},
+    "description": {"text": "Reach Legend in all 6 village specializations"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

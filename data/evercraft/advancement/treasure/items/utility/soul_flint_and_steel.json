@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ],
+              "predicates": {
+                "minecraft:custom_data": "{weapon:\"soul_steel\"}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk",
+                  "minecraft:sculk_catalyst",
+                  "minecraft:sculk_sensor",
+                  "minecraft:sculk_shrieker",
+                  "minecraft:sculk_vein"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/items/utility/soul_flint/use"
+  }
+}

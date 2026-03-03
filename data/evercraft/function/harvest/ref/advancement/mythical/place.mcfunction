@@ -1,0 +1,6 @@
+# Handle Harvest Crate placement - mythical
+# Revoke advancement immediately so it can trigger again
+advancement revoke @s only evercraft:harvest/core/mythical/place
+
+# Find the placed barrel nearby and start animation
+execute positioned ~ ~1.6 ~ run function evercraft:crate_anim/find_placed_barrel {tier:"mythical",system_tag:"harvest_crate",plot_start:30,skin:"ewogICJ0aW1lc3RhbXAiIDogMTc3MDQ2NTY2NzEzNSwKICAicHJvZmlsZUlkIiA6ICI3OThlZWM3OGYzNGU0MGJhYjlmNjk0ODIwYzM3ZTcxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbENoYW5vbk1DIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc0ZDNmNDY0NmYxMWRlODY2MDhkZTY0NjM2NmE4YmU4YThlOWQ4MjA3ZjhhZDRjZDU2YzQzOTk2Y2JhZWMwOTUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",nbt_key:"hc_rarity",nbt_val:"mythical"}

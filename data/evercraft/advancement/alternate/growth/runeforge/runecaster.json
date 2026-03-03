@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/runeforge/rune_scribe",
+  "display": {
+    "icon": {"id": "minecraft:enchanting_table"},
+    "title": {"text": "Runecaster", "color": "aqua"},
+    "description": {"text": "Forge 15 runes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

@@ -1,0 +1,1002 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Zombie",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Common",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:zombie"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:zombie"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Skeleton",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Common",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:skeleton"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:skeleton"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Spider",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Common",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:spider"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:spider"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Creeper",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Common",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:creeper"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:creeper"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Slime",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:slime"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:slime"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Cave Spider",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:cave_spider"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:cave_spider"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Enderman",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:enderman"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:enderman"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Witch",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:witch"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:witch"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Drowned",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:drowned"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:drowned"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Phantom",
+                    "color": "aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Uncommon",
+                    "color": "yellow",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:phantom"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:phantom"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Husk",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Rare",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:husk"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:husk"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Stray",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Rare",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:stray"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:stray"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Blaze",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Rare",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:blaze"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:blaze"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Magma Cube",
+                    "color": "light_purple",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Rare",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:magma_cube"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:magma_cube"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Wither Skeleton",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Very Rare",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:wither_skeleton"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:wither_skeleton"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Ancient Spawner",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A mysterious spawner containing",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the essence of hostile creatures.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Mob: Piglin Brute",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "Rarity: Very Rare",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:mob_spawner",
+                  "SpawnData": {
+                    "entity": {
+                      "id": "minecraft:piglin_brute"
+                    }
+                  },
+                  "SpawnPotentials": [
+                    {
+                      "weight": 1,
+                      "data": {
+                        "entity": {
+                          "id": "minecraft:piglin_brute"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

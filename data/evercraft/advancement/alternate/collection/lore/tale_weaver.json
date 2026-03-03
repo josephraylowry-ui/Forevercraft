@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/lore/fragment_finder",
+  "display": {
+    "icon": {"id": "minecraft:writable_book"},
+    "title": {"text": "Tale Weaver", "color": "aqua"},
+    "description": {"text": "Complete 3 lore sets"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

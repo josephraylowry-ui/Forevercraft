@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/exploration/journal/wayfinder",
+  "display": {
+    "icon": {"id": "minecraft:grass_block"},
+    "title": {"text": "Overworld Surveyed", "color": "aqua"},
+    "description": {"text": "Complete the Overworld Surface region"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/runeforge/arcane_smith",
+  "display": {
+    "icon": {"id": "minecraft:beacon"},
+    "title": {"text": "Runic Grandmaster", "color": "gold"},
+    "description": {"text": "Forge 100 runes"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

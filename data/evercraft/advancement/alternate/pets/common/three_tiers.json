@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/common/three_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign"
+    },
+    "title": {"text": "Tier Explorer", "color": "white"},
+    "description": {"text": "Adopt pets from 3 different tiers"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

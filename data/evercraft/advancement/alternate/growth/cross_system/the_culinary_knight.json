@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/rune_warrior",
+  "display": {
+    "icon": {"id": "minecraft:golden_sword"},
+    "title": {"text": "The Culinary Knight", "color": "light_purple"},
+    "description": {"text": "Cook a Feast meal and defeat a Boss in same day"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

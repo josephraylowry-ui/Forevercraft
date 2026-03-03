@@ -1,0 +1,4 @@
+# Behemoth's Heart — Health Boost II + Absorption I + Dream Rate +1.5
+effect give @s health_boost 5 1 false
+effect give @s absorption 5 0 false
+attribute @s luck modifier add evercraft:behemoths_heart_luck 1.5 add_value

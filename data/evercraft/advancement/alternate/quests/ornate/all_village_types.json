@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/ornate/revered_rep",
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {"text": "Cultural Explorer", "color": "dark_purple"},
+    "description": {"text": "Complete quests in all village types"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

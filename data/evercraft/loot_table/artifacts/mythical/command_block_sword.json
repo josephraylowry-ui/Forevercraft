@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Command Block Sword",
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Artifact",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Forged from the very code",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "that governs all of reality.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "\u25c6 Admin Strike: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Ignores all armor and resistance",
+                        "color": "gold"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "\u25c6 Reality Warp: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Teleport behind target on crit",
+                        "color": "light_purple"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "command_block_sword",
+                  "is_artifact": true,
+                  "tier": "mythical",
+                  "ability": "true_strike",
+                  "flame_strike": 2,
+                  "looting_bonus": 3
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "amount": 18.0,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:command_block_sword_damage"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "amount": -2.4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:command_block_sword_speed"
+                  }
+                ],
+                                "minecraft:unbreakable": {},
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:rarity": "uncommon"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

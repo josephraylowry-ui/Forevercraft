@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/collection/satchel/walking_museum",
+  "display": {
+    "icon": {"id": "minecraft:shulker_box"},
+    "title": {"text": "Artifact Hoarder", "color": "light_purple"},
+    "description": {"text": "Store 35 artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

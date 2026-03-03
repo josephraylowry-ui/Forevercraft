@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/chicken", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/cow", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/dog", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/mooshroom", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/pig", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/silverfish", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/snail", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/squid", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/turtle", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/worm", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:lead"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/whistle"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/menu"}
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/items/pet_treat"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "comment": "DREAM AEGIS - 0.01% chance",
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 9999
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:artifacts/mythical/dream_aegis",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

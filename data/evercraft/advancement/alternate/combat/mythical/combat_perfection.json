@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/mythical/two_hundred_patrons",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Combat Perfection",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Defeat every patron mob and patron tier with 10000 abilities"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

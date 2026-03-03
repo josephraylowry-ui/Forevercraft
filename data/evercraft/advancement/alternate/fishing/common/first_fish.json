@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/gathering_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "text": "Gone Fishing",
+      "color": "white"
+    },
+    "description": {
+      "text": "Catch your first fish"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

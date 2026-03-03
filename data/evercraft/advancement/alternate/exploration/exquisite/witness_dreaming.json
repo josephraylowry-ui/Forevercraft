@@ -1,0 +1,16 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": { "id": "minecraft:amethyst_shard" },
+    "title": { "text": "Witness to The Dreaming", "color": "#8c0691" },
+    "description": { "text": "Be online when The Dreaming is awakened" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": { "trigger": "minecraft:impossible" }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

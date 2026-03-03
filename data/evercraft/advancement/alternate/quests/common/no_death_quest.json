@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/common/first_quest",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {"text": "Flawless Service", "color": "white"},
+    "description": {"text": "Complete a quest without dying"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

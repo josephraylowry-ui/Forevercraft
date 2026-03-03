@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "LNL",
+    "NSN",
+    "LNL"
+  ],
+  "key": {
+    "L": "minecraft:lodestone",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:lodestone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {"text": "Guidestone", "color": "light_purple", "bold": true, "italic": false},
+      "minecraft:lore": [
+        {"text": "Place and right-click to create", "color": "gray", "italic": false},
+        {"text": "a waypoint in the network.", "color": "gray", "italic": false},
+        "",
+        {"text": "Right-click a placed Guidestone", "color": "dark_purple", "italic": false},
+        {"text": "to open the teleport menu.", "color": "dark_purple", "italic": false}
+      ],
+      "minecraft:custom_data": {
+        "guidestone": true,
+        "evercraft_item": true,
+        "gs_color": "amethyst"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic"
+    }
+  }
+}

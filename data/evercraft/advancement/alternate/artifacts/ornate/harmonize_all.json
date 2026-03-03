@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/rare/harmonize_three",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": {"text": "Perfect Harmony", "color": "dark_purple"},
+    "description": {"text": "Harmonize all 6 harmonizable effects"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

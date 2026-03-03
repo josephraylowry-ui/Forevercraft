@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/housing/fixer_upper",
+  "display": {
+    "icon": {"id": "minecraft:bricks"},
+    "title": {"text": "Estate Builder", "color": "aqua"},
+    "description": {"text": "Upgrade your home to Tier 3"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

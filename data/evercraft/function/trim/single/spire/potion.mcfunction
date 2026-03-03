@@ -1,0 +1,3 @@
+give @p[tag=single_spire] splash_potion[custom_name={text:"Potion of Levitation",italic:false},lore=[{text:"Gives you slow falling for 10s instead",italic:false}],potion_contents={custom_color:11919584,custom_effects:[{id:"minecraft:levitation",amplifier:0b,duration:60}]},custom_data={trim_abilities_custom_item:1b,trim_abilities_potion_of_levitation:1b}] 1
+tag @p[tag=single_spire] add trim_threw_levi_potion
+effect give @p[tag=single_spire] unluck 10 0 false

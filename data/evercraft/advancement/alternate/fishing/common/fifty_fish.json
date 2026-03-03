@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/common/first_junk",
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {"text": "Patient Angler", "color": "white"},
+    "description": {"text": "Catch 50 fish"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

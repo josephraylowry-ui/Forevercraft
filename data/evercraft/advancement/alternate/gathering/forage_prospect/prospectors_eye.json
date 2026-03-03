@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/gatherers_path",
+  "display": {
+    "icon": {"id": "minecraft:raw_iron"},
+    "title": {"text": "Prospector's Eye", "color": "blue"},
+    "description": {"text": "Mine 10 prospect nodes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_uncommon"}
+}

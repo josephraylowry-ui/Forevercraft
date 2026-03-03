@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/ornate/thirty_mob_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Crate Hoarder", "color": "dark_purple"},
+    "description": {"text": "Open 500 crates total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "blocks": "minecraft:carrots",
+      "state": {
+        "age": "7"
+      }
+    }
+  }
+}

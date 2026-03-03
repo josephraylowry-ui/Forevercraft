@@ -1,0 +1,82 @@
+{
+    "function": "set_lore",
+    "entity": "this",
+    "lore": [
+        {
+            "text": "Displays your pet's level,",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "current exp, and the exp",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": "needed for the next level.",
+            "color": "gray",
+            "italic": false
+        },
+        {
+            "text": ""
+        },
+        {
+            "nbt": "pet_display.\"minecraft:custom_name\"",
+            "storage": "pets",
+            "source": "storage",
+            "type": "nbt",
+            "interpret": true,
+            "extra": [
+                {
+                    "text": "   ",
+                    "color": "gray"
+                },
+                {
+                    "score": {
+                        "name": "#XPPercentage",
+                        "objective": "Pets.Calc"
+                    },
+                    "color": "dark_purple"
+                },
+                {
+                    "text": "%",
+                    "color": "dark_purple"
+                }
+            ]
+        },
+        {
+            "nbt": "pet_display.xp_bar",
+            "storage": "pets",
+            "source": "storage",
+            "type": "nbt",
+            "interpret": true,
+            "extra": [
+                {
+                    "text": " "
+                },
+                {
+                    "nbt": "pet_display.\"minecraft:profile\".properties[{name:\"exp\"}].value",
+                    "storage": "pets",
+                    "source": "storage",
+                    "type": "nbt",
+                    "color": "yellow",
+                    "bold": false
+                },
+                {
+                    "text": "/",
+                    "color": "gray",
+                    "bold": false
+                },
+                {
+                    "nbt": "pet_display.\"minecraft:profile\".properties[{name:\"exp\"}].signature",
+                    "storage": "pets",
+                    "source": "storage",
+                    "type": "nbt",
+                    "color": "yellow",
+                    "bold": false
+                }
+            ]
+        }
+    ],
+    "mode": "replace_all"
+}

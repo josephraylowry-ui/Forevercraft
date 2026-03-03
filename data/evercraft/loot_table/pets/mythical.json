@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/butterfly",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/leviathan",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/claude",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/golden_dragon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/void_walker",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/time_weaver",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/wither",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/snow_fox_spirit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/spirit_wolf",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/phoenix",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "evercraft:companions/pets/reaper",
+          "weight": 1
+        },
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/alien", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/snowman", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/regal_tiger", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/panther", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/red_panda", "weight": 1},
+        {"type": "minecraft:loot_table", "value": "evercraft:companions/pets/cow_of_eden", "weight": 1}
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ]
+}

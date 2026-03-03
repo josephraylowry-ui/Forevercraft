@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/ornate/discover_15_structures",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "text": "Dimension Hopper",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Visit all 3 dimensions"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

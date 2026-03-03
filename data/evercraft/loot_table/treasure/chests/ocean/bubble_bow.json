@@ -1,0 +1,164 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Bubble Bow",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Weapon: Ocean Biomes",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Arrows travel unimpeded through",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "water and deal extra damage to",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "aquatic mobs.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "bubble_bow",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "min": 3,
+                  "max": 5
+                },
+                "minecraft:punch": {
+                  "min": 1,
+                  "max": 2
+                },
+                "minecraft:infinity": 1,
+                "minecraft:impaling": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:repair_cost": 99999,
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": {
+                  "text": "Bubble Bow",
+                  "color": "gold",
+                  "italic": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Biome Weapon: Ocean Biomes",
+                    "color": "dark_aqua",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Ability:",
+                    "color": "green",
+                    "italic": false
+                  },
+                  {
+                    "text": "Arrows travel unimpeded through",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "water and deal extra damage to",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "aquatic mobs.",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "weapon": "bubble_bow",
+                  "mt": "weapon"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "min": 4,
+                  "max": 6
+                },
+                "minecraft:punch": {
+                  "min": 2,
+                  "max": 3
+                },
+                "minecraft:flame": 1,
+                "minecraft:infinity": 1,
+                "minecraft:impaling": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "minecraft:attribute_modifiers": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

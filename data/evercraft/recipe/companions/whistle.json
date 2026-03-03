@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:goat_horn",
+    "minecraft:netherite_sword",
+    "minecraft:cookie"
+  ],
+  "result": {
+    "id": "minecraft:goat_horn",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "command_whistle": true
+      },
+      "minecraft:custom_name": {
+        "text": "Command Whistle",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Right-click to command your",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "pet to attack nearby enemies",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "",
+          "italic": false
+        },
+        {
+          "text": "Requires an active companion",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ],
+      "minecraft:instrument": {
+        "sound_event": "minecraft:item.goat_horn.sound.0",
+        "use_duration": 7.0,
+        "range": 256.0,
+        "description": "Ponder Goat Horn"
+      }
+    }
+  }
+}

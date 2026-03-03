@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/rare/five_quests_one_day",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {"text": "Quest Expert", "color": "aqua"},
+    "description": {"text": "Earn 5000 XP from quests"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

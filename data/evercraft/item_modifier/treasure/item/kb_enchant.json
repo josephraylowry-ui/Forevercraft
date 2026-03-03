@@ -1,0 +1,24 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:knockback": {
+        "min": 0,
+        "max": 5
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "#evercraft:treasure/weapons"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

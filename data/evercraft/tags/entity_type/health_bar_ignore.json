@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#evercraft:treasure/non_entity",
+    "minecraft:text_display",
+    "minecraft:block_display",
+    "minecraft:item_display",
+    "minecraft:interaction",
+    "minecraft:mannequin",
+    "minecraft:ender_dragon",
+    "minecraft:wither"
+  ]
+}

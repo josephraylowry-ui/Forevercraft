@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/artifacts/exquisite/onefifty_artifacts",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_block"
+    },
+    "title": {"text": "Obsessive Collector", "color": "light_purple"},
+    "description": {"text": "Find 200 different artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_exquisite"
+  }
+}

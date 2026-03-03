@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/common/first_patron_mob_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "text": "Patron Slayer",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat a mob patron"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

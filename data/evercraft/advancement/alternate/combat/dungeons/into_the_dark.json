@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat_root",
+  "display": {
+    "icon": {"id": "minecraft:cobblestone"},
+    "title": {"text": "Into the Dark", "color": "white"},
+    "description": {"text": "Complete your first dungeon"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_common"}
+}

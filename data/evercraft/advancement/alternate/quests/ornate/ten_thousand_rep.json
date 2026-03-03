@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/ornate/all_village_types",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {"text": "Renowned Hero", "color": "dark_purple"},
+    "description": {"text": "Earn 10,000 reputation total"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

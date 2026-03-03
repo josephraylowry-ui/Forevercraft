@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[Pets.Panda,Pets.ActivePet]}",
+                    "location": {
+                        "biomes": "bamboo_jungle"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "evercraft:companions/handler/active_pet/abilities/trigger/panda_enter"
+    }
+}

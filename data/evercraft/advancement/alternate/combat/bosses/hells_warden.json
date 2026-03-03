@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/combat/bosses/overworld_protector",
+  "display": {
+    "icon": {"id": "minecraft:netherrack"},
+    "title": {"text": "Hell's Warden", "color": "aqua"},
+    "description": {"text": "Defeat all 3 Nether World Bosses"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

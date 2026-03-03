@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/ornate/thirty_structure_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Trophy Collector", "color": "dark_purple"},
+    "description": {"text": "Open 30 mob crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

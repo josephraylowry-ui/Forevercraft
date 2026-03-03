@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:lodestone",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "minecraft:lodestone",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Guidestone (Solar)",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Place and right-click to create",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "a waypoint in the network.",
+          "color": "gray",
+          "italic": false
+        },
+        "",
+        {
+          "text": "Right-click a placed Guidestone",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "text": "to open the teleport menu.",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "guidestone": true,
+        "evercraft_item": true,
+        "gs_color": "solar"
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:rarity": "epic"
+    }
+  }
+}

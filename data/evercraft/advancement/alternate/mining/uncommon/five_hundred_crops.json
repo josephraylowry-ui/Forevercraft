@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/mining/uncommon/thousand_blocks",
+  "display": {
+    "icon": {
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "text": "Farming Life",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Harvest 500 crops"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

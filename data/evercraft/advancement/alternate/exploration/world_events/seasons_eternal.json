@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/exploration/world_events/aurora_dancer",
+  "display": {
+    "icon": {"id": "minecraft:clock"},
+    "title": {"text": "Seasons Eternal", "color": "gold"},
+    "description": {"text": "Experience every event at least 3 times"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

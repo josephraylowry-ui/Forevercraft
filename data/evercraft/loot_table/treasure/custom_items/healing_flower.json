@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "weight": 1,
+                "name": "minecraft:armor_stand",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:item_model": "minecraft:structure_block",
+                      "minecraft:entity_data": {
+                        "id": "minecraft:armor_stand",
+                        "Tags": [
+                          "mt.healing_flower"
+                        ]
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "Heals everyone in a 10 block ",
+                          "color": "gray",
+                          "italic": false
+                        },
+                        {
+                          "text": "radius every 2s, 10 times. ",
+                          "color": "gray",
+                          "italic": false
+                        }
+                      ],                      
+                      "minecraft:item_name": "Healing Flower",
+                      "minecraft:rarity": "rare",
+                      "minecraft:custom_data": {
+                        "mt.healing_flower": 1
+                      }
+                    }
+                  }
+                ]
+            }
+        ]
+      }
+    ],
+    "functions": []
+  }

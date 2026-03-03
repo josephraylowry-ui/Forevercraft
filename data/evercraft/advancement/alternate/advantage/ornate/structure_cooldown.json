@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/advantage/ornate/villager_gifts",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "text": "Quick Return",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Reduce structure cooldown by 50%"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

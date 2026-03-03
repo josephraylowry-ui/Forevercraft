@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/uncommon/five_mining_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Ruin Raider", "color": "blue"},
+    "description": {"text": "Open 5 structure crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

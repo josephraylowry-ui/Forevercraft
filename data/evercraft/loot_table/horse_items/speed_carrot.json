@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_name": {
+                  "text": "Swift Carrot",
+                  "color": "aqua",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Mythical Horse Enhancement",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Eat while looking at a tamed horse",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "to permanently increase its speed.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "+0.05 Movement Speed",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "horse_enhancement": "speed",
+                  "enhancement_value": 0.05
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/uncommon/all_common",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_banner"
+    },
+    "title": {"text": "Uncommon Completionist", "color": "blue"},
+    "description": {"text": "Collect all 13 Uncommon artifacts"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

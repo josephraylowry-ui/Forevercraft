@@ -1,0 +1,59 @@
+# ============================================================
+# ACHIEVEMENTS — Meta-Achievement Checks
+# Called every 5s from achievements/tick.mcfunction
+# Meta-achievements require completing ALL mythical achievements in a category
+# ============================================================
+
+# --- Artifact Completionist: all 8 artifact mythical achievements ---
+execute as @a[advancements={evercraft:alternate/artifacts/mythical/all_artifacts=true,evercraft:alternate/artifacts/mythical/own_every_artifact=true,evercraft:alternate/artifacts/mythical/all_27_sets=true,evercraft:alternate/artifacts/mythical/all_mythical_armor_sets=true,evercraft:alternate/artifacts/mythical/all_structure_artifacts=true,evercraft:alternate/artifacts/mythical/all_crate_artifacts=true,evercraft:alternate/artifacts/mythical/master_weapon_abilities=true,evercraft:alternate/artifacts/mythical/master_accessory_abilities=true}] unless entity @s[advancements={evercraft:alternate/artifacts/mythical/artifact_completionist=true}] run advancement grant @s only evercraft:alternate/artifacts/mythical/artifact_completionist
+
+# --- Pet Master: all 5 pet mythical achievements ---
+execute as @a[advancements={evercraft:alternate/pets/mythical/all_pets=true,evercraft:alternate/pets/mythical/all_eternal_bond=true,evercraft:alternate/pets/mythical/all_exquisite_pets=true,evercraft:alternate/pets/mythical/all_mythical_pets=true,evercraft:alternate/pets/mythical/all_max_relationship=true}] unless entity @s[advancements={evercraft:alternate/pets/mythical/pet_master=true}] run advancement grant @s only evercraft:alternate/pets/mythical/pet_master
+
+# --- Quest Legend: all 5 quest mythical achievements ---
+execute as @a[advancements={evercraft:alternate/quests/mythical/all_quests=true,evercraft:alternate/quests/mythical/all_exalted=true,evercraft:alternate/quests/mythical/all_exquisite_quests=true,evercraft:alternate/quests/mythical/all_mythical_quests=true,evercraft:alternate/quests/mythical/million_rep=true}] unless entity @s[advancements={evercraft:alternate/quests/mythical/quest_legend=true}] run advancement grant @s only evercraft:alternate/quests/mythical/quest_legend
+
+# --- Tree Sage: all 8 advantage mythical achievements ---
+execute as @a[advancements={evercraft:alternate/advantage/mythical/max_all_trees=true,evercraft:alternate/advantage/mythical/hundred_thousand_levels=true,evercraft:alternate/advantage/mythical/max_combat_trees=true,evercraft:alternate/advantage/mythical/max_gathering_trees=true,evercraft:alternate/advantage/mythical/max_utility_trees=true,evercraft:alternate/advantage/mythical/max_social_trees=true,evercraft:alternate/advantage/mythical/max_blacksmith=true,evercraft:alternate/advantage/mythical/absolute_perfection=true}] unless entity @s[advancements={evercraft:alternate/advantage/mythical/tree_sage=true}] run advancement grant @s only evercraft:alternate/advantage/mythical/tree_sage
+
+# --- Combat Champion: all 4 combat mythical achievements ---
+execute as @a[advancements={evercraft:alternate/combat/mythical/combat_completionist=true,evercraft:alternate/combat/mythical/combat_perfection=true,evercraft:alternate/combat/mythical/master_all_abilities=true,evercraft:alternate/combat/mythical/two_hundred_patrons=true}] unless entity @s[advancements={evercraft:alternate/combat/mythical/combat_champion=true}] run advancement grant @s only evercraft:alternate/combat/mythical/combat_champion
+
+# --- Master Gatherer: all fishing + mining + professions mythical ---
+execute as @a[advancements={evercraft:alternate/fishing/mythical/fishing_completionist=true,evercraft:alternate/fishing/mythical/fishing_crate_mythical=true,evercraft:alternate/fishing/mythical/fishing_mastery=true}] unless entity @s[advancements={evercraft:alternate/fishing/mythical/master_gatherer=true}] run advancement grant @s only evercraft:alternate/fishing/mythical/master_gatherer
+
+# --- World Wanderer: all exploration + statistics mythical ---
+execute as @a[advancements={evercraft:alternate/exploration/mythical/exploration_completionist=true,evercraft:alternate/exploration/mythical/every_structure_looted=true,evercraft:alternate/exploration/mythical/world_mastery=true,evercraft:alternate/statistics/mythical/play_thousand_hours=true,evercraft:alternate/statistics/mythical/stat_completionist=true,evercraft:alternate/statistics/mythical/ultimate_player=true}] unless entity @s[advancements={evercraft:alternate/exploration/mythical/world_wanderer=true}] run advancement grant @s only evercraft:alternate/exploration/mythical/world_wanderer
+
+# --- Evercraft Legend: ALL meta-achievements earned ---
+execute as @a[advancements={evercraft:alternate/artifacts/mythical/artifact_completionist=true,evercraft:alternate/pets/mythical/pet_master=true,evercraft:alternate/quests/mythical/quest_legend=true,evercraft:alternate/advantage/mythical/tree_sage=true,evercraft:alternate/combat/mythical/combat_champion=true,evercraft:alternate/fishing/mythical/master_gatherer=true,evercraft:alternate/exploration/mythical/world_wanderer=true}] unless entity @s[advancements={evercraft:alternate/secrets/evercraft_legend=true}] run advancement grant @s only evercraft:alternate/secrets/evercraft_legend
+
+# ============================================================
+# PRESTIGE TOKENS — Grant token when meta-achievement is earned
+# Token given each time (including after prestige re-earns it)
+# Only give if player doesn't already have one in inventory
+# ============================================================
+
+# Combat Champion → Combat Prestige Token
+execute as @a[advancements={evercraft:alternate/combat/mythical/combat_champion=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] run loot give @s loot evercraft:achievements/prestige/token_combat
+execute as @a[advancements={evercraft:alternate/combat/mythical/combat_champion=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"combat"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Combat",color:"red",bold:true},{text:"! Right-click to prestige!",color:"gray"}]
+
+# Master Gatherer → Gathering Prestige Token
+execute as @a[advancements={evercraft:alternate/fishing/mythical/master_gatherer=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] run loot give @s loot evercraft:achievements/prestige/token_gathering
+execute as @a[advancements={evercraft:alternate/fishing/mythical/master_gatherer=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"gathering"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Gathering",color:"green",bold:true},{text:"! Right-click to prestige!",color:"gray"}]
+
+# Pet Master + Quest Legend → Companions Prestige Token (need BOTH)
+execute as @a[advancements={evercraft:alternate/pets/mythical/pet_master=true,evercraft:alternate/quests/mythical/quest_legend=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] run loot give @s loot evercraft:achievements/prestige/token_companions
+execute as @a[advancements={evercraft:alternate/pets/mythical/pet_master=true,evercraft:alternate/quests/mythical/quest_legend=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"companions"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Companions",color:"yellow",bold:true},{text:"! Right-click to prestige!",color:"gray"}]
+
+# World Wanderer → Exploration Prestige Token
+execute as @a[advancements={evercraft:alternate/exploration/mythical/world_wanderer=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] run loot give @s loot evercraft:achievements/prestige/token_exploration
+execute as @a[advancements={evercraft:alternate/exploration/mythical/world_wanderer=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"exploration"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Exploration",color:"aqua",bold:true},{text:"! Right-click to prestige!",color:"gray"}]
+
+# Artifact Completionist → Collection Prestige Token
+execute as @a[advancements={evercraft:alternate/artifacts/mythical/artifact_completionist=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] run loot give @s loot evercraft:achievements/prestige/token_collection
+execute as @a[advancements={evercraft:alternate/artifacts/mythical/artifact_completionist=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"collection"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Collection",color:"light_purple",bold:true},{text:"! Right-click to prestige!",color:"gray"}]
+
+# Tree Sage → Growth Prestige Token
+execute as @a[advancements={evercraft:alternate/advantage/mythical/tree_sage=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] run loot give @s loot evercraft:achievements/prestige/token_growth
+execute as @a[advancements={evercraft:alternate/advantage/mythical/tree_sage=true}] unless items entity @s container.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] unless items entity @s weapon.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] unless items entity @s enderchest.* carrot_on_a_stick[custom_data~{prestige_tab:"growth"}] run tellraw @s ["",{text:"✦ ",color:"gold"},{text:"You received a ",color:"gray"},{text:"Prestige Token: Growth",color:"dark_purple",bold:true},{text:"! Right-click to prestige!",color:"gray"}]

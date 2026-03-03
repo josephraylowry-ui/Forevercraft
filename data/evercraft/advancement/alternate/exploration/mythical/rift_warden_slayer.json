@@ -1,0 +1,23 @@
+{
+  "parent": "evercraft:alternate/exploration_root",
+  "display": {
+    "icon": { "id": "minecraft:sculk_shrieker" },
+    "title": { "text": "Rift Warden Slayer", "color": "gold" },
+    "description": { "text": "Defeat the Rift Warden during a Rift Echo event" },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"RIFT.Boss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

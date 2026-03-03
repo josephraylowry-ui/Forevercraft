@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "Petalwhip",
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  {
+                    "text": "Ornate Artifact",
+                    "color": "dark_purple",
+                    "italic": false
+                  },
+                  "",
+                  {
+                    "text": "Cherry petals cling to the line,",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  {
+                    "text": "fish rise to meet the blooms.",
+                    "color": "gray",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "text": "◆ Passive: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "+4 Luck while held",
+                        "color": "dark_purple"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "◆ Harvest Hook: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "5% chance for harvest crate loot on catch",
+                        "color": "dark_purple"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "◆ Lure I: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Fish bite faster while held",
+                        "color": "green"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "◆ Awaken: ",
+                    "color": "white",
+                    "italic": false,
+                    "extra": [
+                      {
+                        "text": "Scaling enchants replace base levels",
+                        "color": "yellow"
+                      }
+                    ]
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "artifact": "ornate_blossom_fishing_rod",
+                  "is_artifact": true,
+                  "tier": "ornate"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:luck",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "mainhand",
+                    "id": "evercraft:blossom_rod_luck"
+                  }
+                ],
+                "minecraft:enchantments": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

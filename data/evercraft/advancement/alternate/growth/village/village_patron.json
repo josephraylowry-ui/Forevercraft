@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/growth/village/village_newcomer",
+  "display": {
+    "icon": {"id": "minecraft:bell"},
+    "title": {"text": "Village Patron", "color": "aqua"},
+    "description": {"text": "Complete 3 village upgrades"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

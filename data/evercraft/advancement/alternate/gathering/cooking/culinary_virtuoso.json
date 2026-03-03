@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/feast_master",
+  "display": {
+    "icon": {"id": "minecraft:honey_bottle"},
+    "title": {"text": "Culinary Virtuoso", "color": "light_purple"},
+    "description": {"text": "Cook 200 meals"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

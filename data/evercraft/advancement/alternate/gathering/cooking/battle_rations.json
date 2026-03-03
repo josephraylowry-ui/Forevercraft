@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/cooking/chef_de_partie",
+  "display": {
+    "icon": {"id": "minecraft:cooked_salmon"},
+    "title": {"text": "Battle Rations", "color": "aqua"},
+    "description": {"text": "Cook every Combat recipe tier"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_rare"}
+}

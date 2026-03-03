@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/exploration/rare/end_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "text": "Deep Explorer",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Find an Ancient City"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

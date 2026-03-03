@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/fishing/rare/triple_catch",
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {"text": "Mythical Catch", "color": "aqua"},
+    "description": {"text": "Catch a Mythical fishing crate item"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

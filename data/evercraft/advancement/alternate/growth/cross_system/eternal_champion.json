@@ -1,0 +1,13 @@
+{
+  "parent": "evercraft:alternate/growth/cross_system/the_collector_supreme",
+  "display": {
+    "icon": {"id": "minecraft:netherite_chestplate"},
+    "title": {"text": "Eternal Champion", "color": "gold"},
+    "description": {"text": "100 bosses + 50 dungeons + 200 patrons"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_mythical"}
+}

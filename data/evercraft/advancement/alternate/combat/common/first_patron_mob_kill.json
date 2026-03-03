@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/common/hundred_kills",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Rare Encounter",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat a patron mob"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

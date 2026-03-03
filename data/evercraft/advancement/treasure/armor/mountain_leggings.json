@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:treasure/items/armor/mountain_leggings"
+  }
+}

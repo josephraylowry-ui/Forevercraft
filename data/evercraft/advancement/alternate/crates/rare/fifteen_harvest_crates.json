@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/crates/rare/fifteen_fishing_crates",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel"
+    },
+    "title": {"text": "Harvest Hoarder", "color": "aqua"},
+    "description": {"text": "Open 15 harvest crates"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

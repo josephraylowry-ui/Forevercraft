@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Scholar's Anecdote",
+                  "author": "The Archivist",
+                  "pages": [
+                    {
+                      "text": "\n\n    §5§lSCHOLAR'S\n    ANECDOTE§r\n\n§7§oFragments of wisdom\ngathered from dusty\ntomes and whispered\nlegends...§r\n\n§8— The Archivist"
+                    },
+                    {
+                      "text": "§5§lOf Ancient Relics§r\n\n§7§oHundreds exist.\nWeapons that sing\nwith power. Armor\nforged by forgotten\ngodsmiths. Trinkets\nthat hum when held.\n\nThey wait in dark\nplaces for worthy\nhands.§r"
+                    },
+                    {
+                      "text": "§5§lThe Hierarchy§r\n\n§7§oSome relics are\ncommon as iron.\nOthers rare as\nstarfall. A precious\nfew are mythical —\nspoken of only in\nlegends, touched by\nfew mortals.\n\nSeek them all.§r"
+                    },
+                    {
+                      "text": "§5§lWhere They Sleep§r\n\n§7§oRelics appear where\ntreasure gathers.\nIn ancient chests,\nin the spoils of\nbattle, in the\ndepths of mines.\n\nThe rarer the\ntreasure, the rarer\nthe relic within.§r"
+                    },
+                    {
+                      "text": "§5§lThe Dormant Powers§r\n\n§7§oMany relics hold\nsleeping abilities.\nFrost that drains.\nLightning called\nfrom clear skies.\nVoid energy that\nshreds armor.\n\nLearn what each\none can do.§r"
+                    },
+                    {
+                      "text": "§5§lCarried Treasures§r\n\n§7§oSome relics need\nnot be wielded.\nMerely carrying them\ngrants their gifts.\n\nA lantern that\nreveals ore. A coin\nthat brightens\nyour dreams. A heart\nthat defies death.§r"
+                    },
+                    {
+                      "text": "§5§lThe Complete Sets§r\n\n§7§oThe ancients forged\nmatching pieces.\nGather them all,\nand powers beyond\nthe individual\npieces awaken.\n\n§8Study the relics,\nscholar. They have\nmuch to teach.§r"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Scholar's Anecdote",
+                  "color": "dark_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Whispers of ancient power",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "evercraft_book": "scholars_anecdote",
+                  "evercraft_item": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

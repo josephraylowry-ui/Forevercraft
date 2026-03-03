@@ -1,0 +1,1 @@
+execute if score #mt.hit mt.ray_line matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] positioned ~0.95 ~0.95 ~0.95 run function evercraft:treasure/items/weapons/laser/hit_entity with storage evercraft:treasure/write data

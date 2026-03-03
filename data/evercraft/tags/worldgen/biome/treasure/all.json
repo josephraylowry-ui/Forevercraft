@@ -1,0 +1,25 @@
+{
+    "values": [
+      "minecraft:nether_wastes",
+      "#evercraft:treasure/badlands",
+      "#evercraft:treasure/dark_forest",
+      "#evercraft:treasure/deep_dark",
+      "#evercraft:treasure/default_nether",
+      "#evercraft:treasure/desert",
+      "#evercraft:treasure/dripstone",
+      "#evercraft:treasure/flower",
+      "#evercraft:treasure/ice",
+      "#evercraft:treasure/jungle",
+      "#evercraft:treasure/lush_cave",
+      "#evercraft:treasure/mountain",
+      "#evercraft:treasure/mushroom",
+      "#evercraft:treasure/ocean",
+      "#evercraft:treasure/savanna",
+      "#evercraft:treasure/soul_valley",
+      "#evercraft:treasure/swamp",
+      "#evercraft:treasure/taiga",
+      "#evercraft:treasure/warped_forest",
+      "#evercraft:treasure/wind",
+      "#minecraft:is_end"
+    ]
+  }

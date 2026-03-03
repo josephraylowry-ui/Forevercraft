@@ -1,0 +1,2 @@
+# Give player a Runeforge Block (lodestone)
+give @s lodestone[custom_name={text:"Runeforge",color:"red",italic:false,bold:true},lore=[{text:"Place to create a Runeforge station",color:"gray",italic:false},{text:"Permanently bind rune enchantments",color:"gray",italic:false},{text:"to weapons and armor",color:"gray",italic:false},{text:"",italic:false},{text:"Mythical Workstation",color:"dark_purple",italic:true}],custom_data={runeforge_block:1b},enchantment_glint_override=true,rarity=epic] 1

@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/quests/mythical/all_exalted",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {"text": "Exquisite Completionist", "color": "gold"},
+    "description": {"text": "Complete all Exquisite quests"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

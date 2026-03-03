@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/fishing/ornate/thousand_fish",
+  "display": {
+    "icon": {
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "text": "Quadruple Catch",
+      "color": "dark_purple"
+    },
+    "description": {
+      "text": "Catch 4 fish at once"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_ornate"
+  }
+}

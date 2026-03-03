@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:wooden_sword",
+                    "predicates": {
+                        "minecraft:custom_data": "{PetMenuKey:1b}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "evercraft:companions/handler/menu_v2/open"
+    }
+}

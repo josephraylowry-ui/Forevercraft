@@ -1,5 +1,0 @@
-schedule function mob_manager:baby_mount/scheduled 60s
-
-execute as @e[type=#mob_manager:valid_for_keep_baby,tag=mob_manager.settings.perma_baby] run data modify entity @s Age set value -999999999
-execute as @e[type=#mob_manager:valid_for_keep_baby,tag=mob_manager.settings.perma_baby] unless predicate mob_manager:entity/has_vehicle run data modify entity @s Age set value -6000
-execute as @e[type=#mob_manager:valid_for_keep_baby,tag=mob_manager.settings.perma_baby] unless predicate mob_manager:entity/has_vehicle run tag @s remove mob_manager.settings.perma_baby

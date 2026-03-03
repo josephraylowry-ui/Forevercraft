@@ -1,0 +1,12 @@
+{
+  "parent": "evercraft:alternate/gathering/forage_prospect/natures_champion",
+  "display": {
+    "icon": {"id": "minecraft:emerald"},
+    "title": {"text": "Earth's Riches", "color": "light_purple"},
+    "description": {"text": "Mine 250 prospect nodes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {"requirement": {"trigger": "minecraft:impossible"}},
+  "rewards": {"function": "evercraft:quests/advancement_rewards/grant_exquisite"}
+}

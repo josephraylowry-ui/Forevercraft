@@ -1,0 +1,21 @@
+{
+  "parent": "evercraft:alternate/pets/exquisite/seventy_pets",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {"text": "Master of Beasts", "color": "gold"},
+    "description": {"text": "Adopt all 93 pets"},
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_mythical"
+  }
+}

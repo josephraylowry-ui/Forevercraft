@@ -1,0 +1,3 @@
+# Add Mythical Crate (Exquisite) trade to wandering trader with Hero of the Village discount
+# Price: 6 emerald blocks (discounted from 12)
+data modify entity @s Offers.Recipes prepend value {max_uses:1,buy:{id:"minecraft:emerald_block",count:6},sell:{id:"minecraft:barrel",count:1,components:{"minecraft:container_loot":{loot_table:"evercraft:fishing/crate_contents/mythical/1"},"minecraft:item_name":{text:"Mythical Crate",bold:true,color:"gold"},"minecraft:custom_data":{fc_rarity:"mythical",fc_stat:false},"minecraft:max_stack_size":16,"minecraft:food":{nutrition:0,saturation:0,can_always_eat:true},"minecraft:consumable":{consume_seconds:0.05}}}}

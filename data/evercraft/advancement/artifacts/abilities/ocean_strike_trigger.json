@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "hit_with_ocean_strike": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident",
+              "nbt": "{item:{components:{\"minecraft:custom_data\":{ability:\"ocean_strike\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:artifacts/abilities/ocean_strike"
+  }
+}

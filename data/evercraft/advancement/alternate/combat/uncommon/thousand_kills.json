@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/combat/uncommon/ornate_patron_mob_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "text": "Thousand Slain",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Kill 1000 mobs"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "enchanted_book",
+          "count": 1,
+          "predicates": {
+            "minecraft:custom_data": "{pet:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "evercraft:companions/handler/database/add_to_db"
+  }
+}

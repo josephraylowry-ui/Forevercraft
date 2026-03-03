@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/pets/rare/five_devoted",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {"text": "Biome Collector", "color": "aqua"},
+    "description": {"text": "Adopt pets from 10 different biomes"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_rare"
+  }
+}

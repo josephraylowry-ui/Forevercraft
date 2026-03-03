@@ -1,0 +1,1 @@
+$data modify entity @s CustomName.text set value "[Lvl $(level)] $(name)"

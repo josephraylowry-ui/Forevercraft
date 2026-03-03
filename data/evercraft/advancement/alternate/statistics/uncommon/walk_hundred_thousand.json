@@ -1,0 +1,25 @@
+{
+  "parent": "evercraft:alternate/statistics/uncommon/play_ten_hours",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "text": "Long Walk",
+      "color": "blue"
+    },
+    "description": {
+      "text": "Walk 100000 blocks"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_uncommon"
+  }
+}

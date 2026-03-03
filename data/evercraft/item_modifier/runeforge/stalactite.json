@@ -1,0 +1,4 @@
+[
+  {"function": "minecraft:set_custom_data", "tag": "{runeforge:1b,rf_type:\"stalactite\"}"},
+  {"function": "minecraft:set_lore", "lore": [{"text": "Runeforged: Stalactite", "color": "gold", "italic": false}], "mode": "append"}
+]

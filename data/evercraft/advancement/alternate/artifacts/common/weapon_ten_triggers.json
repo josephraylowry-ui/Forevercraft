@@ -1,0 +1,20 @@
+{
+  "parent": "evercraft:alternate/artifacts/common/weapon_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {"text": "Battle-Tested", "color": "white"},
+    "description": {"text": "Trigger a weapon's on-hit ability 10 times"},
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "evercraft:quests/advancement_rewards/grant_common"
+  }
+}

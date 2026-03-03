@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {"text": "Redstone Ring", "color": "#55FF55", "italic": false},
+                "minecraft:lore": [
+                  {"text": "A ring humming with energy.", "color": "gray", "italic": false},
+                  "",
+                  {"text": "Effect: Haste", "color": "yellow", "italic": false},
+                  "",
+                  {"text": "Uncommon Ring", "color": "blue", "italic": false}
+                ],
+                "minecraft:custom_data": {"artifact": "ring_redstone", "is_artifact": true, "ring": true},
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
