@@ -1,0 +1,3 @@
+{
+  "extends": "@forevercraft/config/tsconfig.base.json"
+}
