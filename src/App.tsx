@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './components/layout/Navigation'
+import ScrollToTop from './components/effects/ScrollToTop'
 import Footer from './components/layout/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
 
@@ -39,6 +40,7 @@ function Loading() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <ScrollProgress />
       <Navigation />
       <Suspense fallback={<Loading />}>

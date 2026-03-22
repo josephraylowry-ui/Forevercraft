@@ -13,9 +13,17 @@ export default function ScrollReveal({ children, className = '', delay = 0 }: Pr
   useEffect(() => {
     const el = ref.current
     if (!el) return
+
+    // If element is already in viewport on mount, show immediately
+    const rect = el.getBoundingClientRect()
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      setVisible(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect() } },
-      { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+      { threshold: 0.05, rootMargin: '50px 0px -20px 0px' }
     )
     observer.observe(el)
     return () => observer.disconnect()
