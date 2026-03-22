@@ -23,7 +23,7 @@ const PHASES = [
       'Mining naturally triggers Mining Crates — your first taste of the artifact system.',
       'Any crate can contain an artifact, even Common ones. Every artifact has abilities.',
       'Keep every artifact you find. Weak ones still contribute to Constellations later.',
-      'Class weapons can drop from your very first crate — you can pick a fighting style early.',
+      'Newcomers receive a free spirit weapon at the start — Adventurers must earn theirs.',
     ],
     spoiler: 'Your Dream Rate starts near 0. Shipwrecks require only 1 DR to loot — explore coastlines early. Villages need 3 DR. Your first permanent DR item will likely be a Crystalized Dream Dropping from killing bats (5% drop). The Gacha Fountain can drop Crumbs of Dreams once you find one. There are 20+ permanent DR-increasing items scattered across the world — hunt them all.',
   },
@@ -186,6 +186,65 @@ export default function Guide() {
               punching your first tree to wielding a transcendent weapon at Dream Rate 50.
               Take it at your own pace. Every player's journey is different.
             </p>
+          </div>
+        </ScrollReveal>
+
+        {/* Difficulty Choice */}
+        <ScrollReveal>
+          <div className="mb-12 rounded-lg border border-yellow-800/30 overflow-hidden">
+            <div className="px-8 py-5 bg-gradient-to-r from-yellow-900/15 to-transparent">
+              <h2 className="font-['Press_Start_2P'] text-[0.85rem] text-yellow-400 mb-2">CHOOSE YOUR PATH</h2>
+              <p className="font-['Crimson_Pro'] text-lg text-stone-400 italic">
+                When you first join, Forevercraft asks you one question. It shapes everything that follows.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-stone-800/30">
+              <div className="px-8 py-6">
+                <h3 className="font-['Press_Start_2P'] text-[0.75rem] text-green-400 mb-3">🌱 NEWCOMER</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-300 mb-4 leading-relaxed">
+                  For those who want to experience the world at their own pace, with a helping hand.
+                </p>
+                <ul className="space-y-2">
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-green-500 mt-1">✦</span>
+                    <span>Free spirit weapon or spirit tool on first join — choose your class immediately</span>
+                  </li>
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-green-500 mt-1">✦</span>
+                    <span>Relaxed dungeon mobs — enemies deal reduced damage</span>
+                  </li>
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-green-500 mt-1">✦</span>
+                    <span>+10% bonus rewards on combat coins and fishing crates</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="px-8 py-6">
+                <h3 className="font-['Press_Start_2P'] text-[0.75rem] text-red-400 mb-3">⚔️ ADVENTURER</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-300 mb-4 leading-relaxed">
+                  The intended Forevercraft experience. Every reward is earned. Nothing is given.
+                </p>
+                <ul className="space-y-2">
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-red-500 mt-1">✦</span>
+                    <span>No free weapons — spirit weapons must be won from raid bosses (5% drop)</span>
+                  </li>
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-red-500 mt-1">✦</span>
+                    <span>Full challenge — mobs scale with Dream Rate at standard difficulty</span>
+                  </li>
+                  <li className="font-['Crimson_Pro'] text-base text-stone-400 flex items-start gap-2">
+                    <span className="text-red-500 mt-1">✦</span>
+                    <span>Standard reward rates — the world gives you exactly what you deserve</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="px-8 py-4 bg-stone-900/30 border-t border-stone-800/30">
+              <p className="font-['Crimson_Pro'] text-base text-stone-500 text-center">
+                You can switch between modes with a 14-day cooldown. Choose what feels right — both paths lead to the same endgame.
+              </p>
+            </div>
           </div>
         </ScrollReveal>
 
