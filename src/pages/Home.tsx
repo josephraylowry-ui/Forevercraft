@@ -51,15 +51,7 @@ export default function Home() {
             Every world has loot. This one has dreams.
           </p>
 
-          {/* Stat Counters */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 animate-[fade-in-up_0.8s_ease-out_0.6s_both]">
-            <StatCounter end={STATS.totalArtifacts} label="Artifacts" />
-            <StatCounter end={STATS.totalCompanions} label="Companions" />
-            <StatCounter end={STATS.totalSpiritWeapons} label="Spirit Weapons" />
-            <StatCounter end={STATS.totalQuests} label="Quests" />
-            <StatCounter end={STATS.totalLoreFragments} label="Lore" />
-            <StatCounter end={STATS.totalFunctions} label="Functions" />
-          </div>
+          {/* Stat counters moved to bottom */}
         </div>
 
         {/* Scroll indicator */}
@@ -326,7 +318,15 @@ export default function Home() {
               "Take your time. The committed win the race to glory. The quick fall into the traps
               the world has laid before you."
             </p>
-            <p className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-800 tracking-widest">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mt-12">
+              <StatCounter end={STATS.totalArtifacts} label="Artifacts" />
+              <StatCounter end={STATS.totalCompanions} label="Companions" />
+              <StatCounter end={STATS.totalSpiritWeapons} label="Spirit Weapons" />
+              <StatCounter end={STATS.totalQuests} label="Quests" />
+              <StatCounter end={STATS.totalLoreFragments} label="Lore" />
+              <StatCounter end={STATS.totalFunctions} label="Functions" />
+            </div>
+            <p className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-800 tracking-widest mt-10">
               BUILT WITH LOVE · ONE FUNCTION AT A TIME
             </p>
           </ScrollReveal>
