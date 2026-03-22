@@ -53,19 +53,27 @@ const MYTHICAL_SETS = [
   {
     name: 'Infernal',
     pieces: 5,
-    twoBonus: '+15% Nether damage, lava resistance',
-    fourBonus: 'Fire trail, +20% attack speed',
-    fiveBonus: 'Hellfire Nova — devastating AOE on taking lethal damage',
-    theme: 'Smelted in the deepest lava lakes of the Nether fortress.',
+    twoBonus: 'Infernal Resilience — Resistance I',
+    fourBonus: 'Infernal Eruption — AoE fire burst (horn)',
+    fiveBonus: 'Infernal Wrath — Strength II',
+    theme: 'Full armor toughness 3 on every piece. Lava-forged destruction.',
+  },
+  {
+    name: 'Hero',
+    pieces: 5,
+    twoBonus: 'Heroic Presence — nearby allies gain Strength I',
+    fourBonus: 'Hero\'s Stand — damage reduction at low HP',
+    fiveBonus: 'Legend\'s Call — rally all nearby mobs to target you',
+    theme: 'The armor of legends. Worn by those who answered every call.',
   },
 ]
 
 const EXQUISITE_SETS = [
-  { name: 'Stormcaller', pieces: 4, theme: 'Lightning-forged plate that crackles with each strike.', twoBonus: '+10% ranged damage', fourBonus: 'Lightning strikes on critical hits' },
-  { name: 'Frostweave', pieces: 4, theme: 'Ice-crystal mesh that slows all who dare attack.', twoBonus: '+10% cold damage', fourBonus: 'Freezing aura slows nearby enemies' },
-  { name: 'Shadowstep', pieces: 4, theme: 'Woven from pure shadow, near-invisible in darkness.', twoBonus: '+15% stealth bonus', fourBonus: 'Invisibility on sneak for 3 seconds' },
-  { name: 'Ironbloom', pieces: 4, theme: 'Living iron that repairs itself over time.', twoBonus: '+3 armor, auto-repair', fourBonus: 'Damage reflection, +5 armor toughness' },
-  { name: 'Soulbound', pieces: 4, theme: 'Bound to the wearer\'s soul. Persists through death.', twoBonus: 'Kept on death', fourBonus: '+15% XP retention on death, soul shield' },
+  { name: 'Fireforged', pieces: 4, theme: 'Forged in phoenix flame. 50% revive on death, fire immunity, lava walking.', twoBonus: 'Blazing Aura — Permanent Fire Resistance', fourBonus: 'Phoenix Rebirth — Auto-revive once per day' },
+  { name: 'Ember', pieces: 4, theme: 'Nether-locked armor that burns brighter in the depths.', twoBonus: 'Fire damage boost in Nether', fourBonus: 'Ember Trail — leave fire in your wake' },
+  { name: 'Ninja', pieces: 4, theme: 'Silent armor of shadow. Move unseen, strike without warning.', twoBonus: 'Speed boost while crouching', fourBonus: 'Smoke Bomb — vanish on taking damage' },
+  { name: 'Cloaked Skull', pieces: 4, theme: 'Bone-white armor draped in dark cloth. Feared by the undead.', twoBonus: 'Undead flee on sight', fourBonus: 'Death\'s Embrace — damage boost at low HP' },
+  { name: 'Space', pieces: 4, theme: 'Otherworldly plating from beyond the End. Defies gravity.', twoBonus: 'Reduced gravity, slow falling', fourBonus: 'Zero-G Burst — launch nearby mobs upward' },
 ]
 
 const STANDARD_COUNT = 15
@@ -81,7 +89,7 @@ export default function ArmorSets() {
       <PageHero
         title="ARMOR SETS"
         badge="THE ARMORY"
-        subtitle="27 complete armor sets with set bonuses. Collect pieces, unlock synergies, become unstoppable."
+        subtitle="28 complete armor sets with set bonuses. Collect pieces, unlock synergies, become unstoppable."
         particleColor="#a855f7"
       />
 
@@ -90,7 +98,7 @@ export default function ArmorSets() {
         <ScrollReveal>
           <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-16">
             <div className="text-center rounded-lg border border-yellow-700/40 bg-yellow-900/10 p-4">
-              <p className="font-['Press_Start_2P'] text-lg text-yellow-400">7</p>
+              <p className="font-['Press_Start_2P'] text-lg text-yellow-400">8</p>
               <p className="font-['Press_Start_2P'] text-[0.35rem] text-yellow-700 mt-1">MYTHICAL (5pc)</p>
             </div>
             <div className="text-center rounded-lg border border-purple-700/40 bg-purple-900/10 p-4">
