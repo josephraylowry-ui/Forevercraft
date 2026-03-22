@@ -185,9 +185,9 @@ export default function Home() {
         <FeatureSection title="Companions">
           <p className="text-stone-300">
             106 companions, each one different. A Moldwarp that makes you mine faster.
-            A Claude that detects ores through walls. A Butterfly whose Chaos Wings
-            grant +9 permanent Dreams at max level. A Golden Dragon that wraps you
-            in resistance and fire immunity just by existing.
+            A Claude that detects ores through walls. A Butterfly whose Dream Weaver
+            ability scales your luck up to +3.0 at max level. A Golden Dragon that
+            wraps you in resistance and fire immunity just by existing.
           </p>
           <p className="mt-4 text-stone-400">
             Companions level from 1 to 100. Feed them, build a relationship, reach{' '}

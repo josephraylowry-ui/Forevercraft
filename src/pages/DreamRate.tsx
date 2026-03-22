@@ -3,7 +3,7 @@ import ScrollReveal from '../components/effects/ScrollReveal'
 import Accordion from '../components/ui/Accordion'
 
 const PERMANENT = [
-  { name: 'Butterfly Pet at Level 100', value: '+9', max: 9 },
+  { name: 'Butterfly Pet (scales Lv1-100)', value: '+0.5 to +3.0', max: 3 },
   { name: 'Mythical Armor Pieces', value: '+0.5 each (up to +2.5)', max: 2.5 },
   { name: 'Artifact Constellations', value: '+0.25 each (10 sets, up to +2.5)', max: 2.5 },
   { name: 'Crystal of Dreams', value: '+1 (consumable, once per player)', max: 1 },
