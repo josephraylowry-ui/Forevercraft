@@ -1,6 +1,5 @@
 import { useState, useMemo } from 'react'
 import PageHero from '../components/layout/PageHero'
-import ScrollReveal from '../components/effects/ScrollReveal'
 import { artifacts } from '../data/artifacts'
 import { companions } from '../data/companions'
 import { spiritWeapons } from '../data/spirit-weapons'
@@ -120,23 +119,21 @@ export default function Codex() {
 
       <div className="max-w-6xl mx-auto px-6 py-10">
         {/* Category Filters */}
-        <ScrollReveal>
-          <div className="flex gap-2 flex-wrap mb-8 sticky top-14 z-40 bg-stone-950/95 backdrop-blur-sm py-4 -mx-6 px-6 border-b border-yellow-900/20">
-            {CATEGORIES.map(cat => (
-              <button
-                key={cat.key}
-                onClick={() => setActiveCategory(cat.key)}
-                className={`font-['Press_Start_2P'] text-[0.38rem] px-3 py-2 rounded border transition-all ${
-                  activeCategory === cat.key
-                    ? 'bg-yellow-900/60 border-yellow-600 text-yellow-400'
-                    : 'bg-stone-900 border-stone-700 text-stone-500 hover:border-yellow-900'
-                }`}
-              >
-                {cat.label} ({cat.count})
-              </button>
-            ))}
-          </div>
-        </ScrollReveal>
+        <div className="flex gap-2 flex-wrap mb-8 sticky top-14 z-40 bg-stone-950/95 backdrop-blur-sm py-4 -mx-6 px-6 border-b border-yellow-900/20">
+          {CATEGORIES.map(cat => (
+            <button
+              key={cat.key}
+              onClick={() => setActiveCategory(cat.key)}
+              className={`font-['Press_Start_2P'] text-[0.38rem] px-3 py-2 rounded border transition-all ${
+                activeCategory === cat.key
+                  ? 'bg-yellow-900/60 border-yellow-600 text-yellow-400'
+                  : 'bg-stone-900 border-stone-700 text-stone-500 hover:border-yellow-900'
+              }`}
+            >
+              {cat.label} ({cat.count})
+            </button>
+          ))}
+        </div>
 
         {/* Results */}
         {filtered.length === 0 ? (
@@ -147,35 +144,33 @@ export default function Codex() {
         ) : (
           <div className="space-y-10">
             {Object.entries(grouped).map(([category, items]) => (
-              <ScrollReveal key={category}>
-                <div>
-                  <div className="flex items-baseline gap-3 mb-4">
-                    <h2 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-400">{category.toUpperCase()}S</h2>
-                    <span className="font-['Crimson_Pro'] text-sm text-stone-600">{items.length} results</span>
-                  </div>
-
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {items.map((item, i) => {
-                      const tierStyle = item.tier ? TIER_COLORS[item.tier] || 'text-stone-400 border-stone-600' : 'text-stone-400 border-stone-700'
-                      const [tierText] = tierStyle.split(' ')
-                      return (
-                        <div
-                          key={`${item.category}-${item.name}-${i}`}
-                          className={`rounded-lg border ${tierStyle.split(' ').slice(1).join(' ')} bg-stone-900/30 p-4`}
-                        >
-                          <div className="flex items-baseline justify-between mb-1">
-                            <h3 className={`font-['Press_Start_2P'] text-[0.45rem] ${tierText}`}>{item.name}</h3>
-                            {item.tier && (
-                              <span className={`font-['Press_Start_2P'] text-[0.3rem] ${tierText} opacity-60`}>{item.tier}</span>
-                            )}
-                          </div>
-                          <p className="font-['Crimson_Pro'] text-xs text-stone-500">{item.detail}</p>
-                        </div>
-                      )
-                    })}
-                  </div>
+              <div key={category}>
+                <div className="flex items-baseline gap-3 mb-4">
+                  <h2 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-400">{category.toUpperCase()}S</h2>
+                  <span className="font-['Crimson_Pro'] text-sm text-stone-600">{items.length} results</span>
                 </div>
-              </ScrollReveal>
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {items.map((item, i) => {
+                    const tierStyle = item.tier ? TIER_COLORS[item.tier] || 'text-stone-400 border-stone-600' : 'text-stone-400 border-stone-700'
+                    const [tierText] = tierStyle.split(' ')
+                    return (
+                      <div
+                        key={`${item.category}-${item.name}-${i}`}
+                        className={`rounded-lg border ${tierStyle.split(' ').slice(1).join(' ')} bg-stone-900/30 p-4`}
+                      >
+                        <div className="flex items-baseline justify-between mb-1">
+                          <h3 className={`font-['Press_Start_2P'] text-[0.45rem] ${tierText}`}>{item.name}</h3>
+                          {item.tier && (
+                            <span className={`font-['Press_Start_2P'] text-[0.3rem] ${tierText} opacity-60`}>{item.tier}</span>
+                          )}
+                        </div>
+                        <p className="font-['Crimson_Pro'] text-xs text-stone-500">{item.detail}</p>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
             ))}
           </div>
         )}
