@@ -24,6 +24,7 @@ const Lore = lazy(() => import('./pages/Lore'))
 const Codex = lazy(() => import('./pages/Codex'))
 const Gacha = lazy(() => import('./pages/Gacha'))
 const Guide = lazy(() => import('./pages/Guide'))
+const Downloads = lazy(() => import('./pages/Downloads'))
 
 function Loading() {
   return (
@@ -65,6 +66,7 @@ export default function App() {
             <Route path="/codex" element={<Codex />} />
             <Route path="/gacha" element={<Gacha />} />
             <Route path="/guide" element={<Guide />} />
+            <Route path="/downloads" element={<Downloads />} />
           </Routes>
         </main>
       </Suspense>
