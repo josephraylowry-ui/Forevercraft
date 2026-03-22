@@ -185,13 +185,13 @@ export default function Guide() {
                 >
                   <div className="flex items-center gap-4 mb-2">
                     <div
-                      className="font-['Press_Start_2P'] text-[0.5rem] px-3 py-1.5 rounded"
+                      className="font-['Press_Start_2P'] text-[0.7rem] px-3 py-1.5 rounded"
                       style={{ backgroundColor: `${phase.color}20`, color: phase.color, border: `1px solid ${phase.color}40` }}
                     >
                       PHASE {phase.phase}
                     </div>
                     <div
-                      className="font-['Press_Start_2P'] text-[0.4rem] px-2 py-1 rounded bg-stone-900/60"
+                      className="font-['Press_Start_2P'] text-[0.6rem] px-2 py-1 rounded bg-stone-900/60"
                       style={{ color: phase.color }}
                     >
                       DR {phase.dr}
@@ -207,14 +207,14 @@ export default function Guide() {
 
                 {/* Steps */}
                 <div className="px-6 py-5 border-t border-stone-800/30">
-                  <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-stone-500 tracking-widest mb-3">
+                  <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-stone-500 tracking-widest mb-3">
                     WHAT TO DO
                   </h3>
                   <div className="space-y-2">
                     {phase.steps.map((step, j) => (
                       <div key={j} className="flex items-start gap-3">
                         <span
-                          className="font-['Press_Start_2P'] text-[0.35rem] mt-1 shrink-0 w-5 text-center"
+                          className="font-['Press_Start_2P'] text-[0.55rem] mt-1 shrink-0 w-5 text-center"
                           style={{ color: phase.color }}
                         >
                           {j + 1}
@@ -227,13 +227,13 @@ export default function Guide() {
 
                 {/* Tips */}
                 <div className="px-6 py-4 border-t border-stone-800/30 bg-stone-900/20">
-                  <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-700 tracking-widest mb-2">
+                  <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-700 tracking-widest mb-2">
                     TIPS
                   </h3>
                   <div className="space-y-1.5">
                     {phase.tips.map((tip, j) => (
                       <div key={j} className="flex items-start gap-2">
-                        <span className="text-yellow-800 text-xs mt-0.5">★</span>
+                        <span className="text-yellow-800 text-base mt-0.5">★</span>
                         <p className="font-['Crimson_Pro'] text-stone-400 text-sm">{tip}</p>
                       </div>
                     ))}
@@ -243,7 +243,7 @@ export default function Guide() {
                 {/* Spoiler */}
                 <div className="px-6 pb-4">
                   <Spoiler>
-                    <p className="font-['Crimson_Pro'] text-stone-400 text-sm leading-relaxed">
+                    <p className="font-['Crimson_Pro'] text-stone-400 text-base leading-relaxed">
                       {phase.spoiler}
                     </p>
                   </Spoiler>

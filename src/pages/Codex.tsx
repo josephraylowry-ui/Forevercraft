@@ -138,8 +138,8 @@ export default function Codex() {
         {/* Results */}
         {filtered.length === 0 ? (
           <div className="text-center py-20">
-            <p className="font-['Press_Start_2P'] text-[0.5rem] text-stone-600 mb-2">NO RESULTS</p>
-            <p className="font-['Crimson_Pro'] text-sm text-stone-500">Try a different search term or category.</p>
+            <p className="font-['Press_Start_2P'] text-[0.7rem] text-stone-600 mb-2">NO RESULTS</p>
+            <p className="font-['Crimson_Pro'] text-base text-stone-500">Try a different search term or category.</p>
           </div>
         ) : (
           <div className="space-y-10">
@@ -147,7 +147,7 @@ export default function Codex() {
               <div key={category}>
                 <div className="flex items-baseline gap-3 mb-4">
                   <h2 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-400">{category.toUpperCase()}S</h2>
-                  <span className="font-['Crimson_Pro'] text-sm text-stone-600">{items.length} results</span>
+                  <span className="font-['Crimson_Pro'] text-base text-stone-600">{items.length} results</span>
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -160,12 +160,12 @@ export default function Codex() {
                         className={`rounded-lg border ${tierStyle.split(' ').slice(1).join(' ')} bg-stone-900/30 p-4`}
                       >
                         <div className="flex items-baseline justify-between mb-1">
-                          <h3 className={`font-['Press_Start_2P'] text-[0.45rem] ${tierText}`}>{item.name}</h3>
+                          <h3 className={`font-['Press_Start_2P'] text-[0.65rem] ${tierText}`}>{item.name}</h3>
                           {item.tier && (
-                            <span className={`font-['Press_Start_2P'] text-[0.3rem] ${tierText} opacity-60`}>{item.tier}</span>
+                            <span className={`font-['Press_Start_2P'] text-[0.7rem] ${tierText} opacity-60`}>{item.tier}</span>
                           )}
                         </div>
-                        <p className="font-['Crimson_Pro'] text-xs text-stone-500">{item.detail}</p>
+                        <p className="font-['Crimson_Pro'] text-base text-stone-500">{item.detail}</p>
                       </div>
                     )
                   })}
@@ -178,7 +178,7 @@ export default function Codex() {
         {/* Result count */}
         {filtered.length > 0 && (
           <div className="text-center mt-10 pt-6 border-t border-stone-800">
-            <p className="font-['Crimson_Pro'] text-sm text-stone-600">
+            <p className="font-['Crimson_Pro'] text-base text-stone-600">
               Showing {filtered.length} of {allItems.length} entries
             </p>
           </div>

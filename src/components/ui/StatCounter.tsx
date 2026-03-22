@@ -44,7 +44,7 @@ export default function StatCounter({ end, label, duration = 2000, prefix = '', 
       <div className="font-['Press_Start_2P'] text-[0.7rem] md:text-[0.85rem] text-yellow-400 mb-1">
         {prefix}{formatted}{suffix}
       </div>
-      <div className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-700 tracking-widest uppercase">
+      <div className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-700 tracking-widest uppercase">
         {label}
       </div>
     </div>

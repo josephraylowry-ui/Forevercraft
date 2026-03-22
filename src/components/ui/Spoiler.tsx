@@ -15,10 +15,10 @@ export default function Spoiler({ children, label = "Caution! For fear that the 
         className="w-full flex items-center gap-3 px-4 py-3 bg-yellow-950/20 hover:bg-yellow-950/30 transition-colors text-left"
       >
         <span className="text-yellow-700 text-sm">{open ? '🔓' : '🔒'}</span>
-        <span className="font-['Crimson_Pro'] italic text-yellow-700/80 text-sm flex-1">
+        <span className="font-['Crimson_Pro'] italic text-yellow-700/80 text-base flex-1">
           {label}
         </span>
-        <span className={`text-yellow-800 text-xs transition-transform duration-300 ${open ? 'rotate-180' : ''}`}>
+        <span className={`text-yellow-800 text-base transition-transform duration-300 ${open ? 'rotate-180' : ''}`}>
           ▼
         </span>
       </button>

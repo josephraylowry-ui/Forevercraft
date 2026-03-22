@@ -16,7 +16,7 @@ export default function PageHero({ title, subtitle, badge, children, particles =
       {particles && <ParticleField count={20} color={particleColor} />}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 py-16 md:py-20 text-center">
         {badge && (
-          <p className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-700 tracking-[0.3em] mb-4 uppercase">
+          <p className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-700 tracking-[0.3em] mb-4 uppercase">
             {badge}
           </p>
         )}

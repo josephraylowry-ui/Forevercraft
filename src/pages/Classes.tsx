@@ -31,7 +31,7 @@ export default function Classes() {
 
         <ScrollReveal delay={100}>
           <Spoiler label="How classes work under the hood...">
-            <div className="space-y-3 font-['Crimson_Pro'] text-sm text-stone-400">
+            <div className="space-y-3 font-['Crimson_Pro'] text-base text-stone-400">
               <p><span className="text-yellow-500 font-semibold">Activation:</span> Equip the class weapon type in your mainhand. The class activates automatically based on what you're holding.</p>
               <p><span className="text-yellow-500 font-semibold">Dual-Wield Classes:</span> Rogue (daggers), Berserker (axes), Dancer (fans) require weapons in both hands. They trade armor for damage.</p>
               <p><span className="text-yellow-500 font-semibold">Shield Classes:</span> Knight (sword+shield), Hoplite (trident+shield), Sentinel (mace+shield) gain defensive bonuses from the offhand shield.</p>
@@ -57,7 +57,7 @@ export default function Classes() {
               }`}
             >
               {cls.isSecret && (
-                <div className="absolute -top-1 -right-1 bg-purple-600 text-[0.3rem] font-['Press_Start_2P'] text-white px-1.5 py-0.5 rounded">
+                <div className="absolute -top-1 -right-1 bg-purple-600 text-[0.7rem] font-['Press_Start_2P'] text-white px-1.5 py-0.5 rounded">
                   SECRET
                 </div>
               )}
@@ -105,12 +105,12 @@ export default function Classes() {
                       {selected.name}
                     </h2>
                     {selected.isSecret && (
-                      <span className="font-['Press_Start_2P'] text-[0.35rem] bg-purple-600 text-white px-2 py-1 rounded">
+                      <span className="font-['Press_Start_2P'] text-[0.55rem] bg-purple-600 text-white px-2 py-1 rounded">
                         SECRET CLASS
                       </span>
                     )}
                   </div>
-                  <p className="font-['Press_Start_2P'] text-[0.4rem] text-stone-500 tracking-widest mb-4">
+                  <p className="font-['Press_Start_2P'] text-[0.6rem] text-stone-500 tracking-widest mb-4">
                     {selected.archetype.toUpperCase()} · {selected.weaponType.toUpperCase()}
                   </p>
 
@@ -123,17 +123,17 @@ export default function Classes() {
                   {/* Strengths / Weaknesses */}
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
                     <div>
-                      <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-green-500 tracking-widest mb-2">STRENGTHS</h3>
+                      <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-green-500 tracking-widest mb-2">STRENGTHS</h3>
                       {selected.strengths.map(s => (
-                        <p key={s} className="font-['Crimson_Pro'] text-stone-400 text-sm flex gap-2">
+                        <p key={s} className="font-['Crimson_Pro'] text-stone-400 text-base flex gap-2">
                           <span className="text-green-600">+</span> {s}
                         </p>
                       ))}
                     </div>
                     <div>
-                      <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-red-500 tracking-widest mb-2">WEAKNESSES</h3>
+                      <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-red-500 tracking-widest mb-2">WEAKNESSES</h3>
                       {selected.weaknesses.map(w => (
-                        <p key={w} className="font-['Crimson_Pro'] text-stone-400 text-sm flex gap-2">
+                        <p key={w} className="font-['Crimson_Pro'] text-stone-400 text-base flex gap-2">
                           <span className="text-red-600">−</span> {w}
                         </p>
                       ))}
@@ -143,11 +143,11 @@ export default function Classes() {
 
                 {/* Right: Abilities */}
                 <div className="md:w-[340px]">
-                  <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-600 tracking-widest mb-3">ABILITIES</h3>
+                  <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-600 tracking-widest mb-3">ABILITIES</h3>
                   <div className="space-y-3">
                     {selected.abilities.map(a => (
                       <div key={a.name} className="bg-stone-900/60 rounded border border-stone-800/50 p-3">
-                        <p className="font-['Press_Start_2P'] text-[0.4rem] text-stone-200 mb-1">{a.name}</p>
+                        <p className="font-['Press_Start_2P'] text-[0.6rem] text-stone-200 mb-1">{a.name}</p>
                         <p className="font-['Crimson_Pro'] text-stone-400 text-sm">{a.description}</p>
                       </div>
                     ))}
@@ -155,7 +155,7 @@ export default function Classes() {
 
                   {/* Spirit Weapon */}
                   <div className="mt-4 bg-purple-950/20 border border-purple-800/30 rounded p-3">
-                    <p className="font-['Press_Start_2P'] text-[0.35rem] text-purple-400 tracking-widest mb-1">SPIRIT WEAPON</p>
+                    <p className="font-['Press_Start_2P'] text-[0.55rem] text-purple-400 tracking-widest mb-1">SPIRIT WEAPON</p>
                     <p className="font-['Crimson_Pro'] text-stone-300">
                       {selected.spiritWeapon}
                     </p>
@@ -172,7 +172,7 @@ export default function Classes() {
         {/* No selection prompt */}
         {!selected && (
           <div className="text-center py-12">
-            <p className="font-['Press_Start_2P'] text-[0.5rem] text-stone-600">
+            <p className="font-['Press_Start_2P'] text-[0.7rem] text-stone-600">
               SELECT A CLASS ABOVE TO VIEW DETAILS
             </p>
           </div>

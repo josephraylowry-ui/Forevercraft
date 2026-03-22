@@ -93,7 +93,7 @@ export default function Navigation() {
                         : 'text-stone-500 hover:text-yellow-600'
                     }`}
                   >
-                    {item.label.toUpperCase()} <span className="text-[0.5rem] ml-1">▾</span>
+                    {item.label.toUpperCase()} <span className="text-[0.7rem] ml-1">▾</span>
                   </button>
                   {/* Dropdown */}
                   <div className="absolute top-full left-0 pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
@@ -137,7 +137,7 @@ export default function Navigation() {
                 <Link
                   to={item.to}
                   onClick={() => setMobileOpen(false)}
-                  className={`block px-6 py-3 font-['Press_Start_2P'] text-[0.45rem] tracking-wider no-underline ${
+                  className={`block px-6 py-3 font-['Press_Start_2P'] text-[0.65rem] tracking-wider no-underline ${
                     isActive(item.to) ? 'text-yellow-400 bg-yellow-950/30' : 'text-stone-400'
                   }`}
                 >
@@ -147,18 +147,18 @@ export default function Navigation() {
                 <>
                   <button
                     onClick={() => setOpenDropdown(openDropdown === item.label ? null : item.label)}
-                    className={`w-full text-left px-6 py-3 font-['Press_Start_2P'] text-[0.45rem] tracking-wider ${
+                    className={`w-full text-left px-6 py-3 font-['Press_Start_2P'] text-[0.65rem] tracking-wider ${
                       isChildActive(item.children) ? 'text-yellow-400' : 'text-stone-400'
                     }`}
                   >
-                    {item.label.toUpperCase()} <span className={`text-[0.35rem] ml-1 inline-block transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`}>▼</span>
+                    {item.label.toUpperCase()} <span className={`text-[0.55rem] ml-1 inline-block transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`}>▼</span>
                   </button>
                   {openDropdown === item.label && item.children?.map(child => (
                     <Link
                       key={child.to}
                       to={child.to}
                       onClick={() => setMobileOpen(false)}
-                      className={`block px-10 py-2.5 font-['Press_Start_2P'] text-[0.4rem] tracking-wider no-underline ${
+                      className={`block px-10 py-2.5 font-['Press_Start_2P'] text-[0.6rem] tracking-wider no-underline ${
                         isActive(child.to) ? 'text-yellow-400' : 'text-stone-500 hover:text-yellow-600'
                       }`}
                     >

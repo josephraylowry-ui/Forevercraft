@@ -50,7 +50,7 @@ export default function Home() {
           <h1 className="font-['Press_Start_2P'] text-4xl md:text-6xl text-metallic-gold mb-4 leading-tight animate-[fade-in-up_0.8s_ease-out_0.1s_both]">
             FOREVERCRAFT
           </h1>
-          <p className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-700 tracking-[0.4em] mb-6 uppercase animate-[fade-in-up_0.8s_ease-out_0.2s_both]">
+          <p className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-700 tracking-[0.4em] mb-6 uppercase animate-[fade-in-up_0.8s_ease-out_0.2s_both]">
             A Fantasy Minecraft Overhaul
           </p>
           <p className="font-['Crimson_Pro'] italic text-xl md:text-2xl text-stone-400 mb-12 animate-[fade-in-up_0.8s_ease-out_0.4s_both]">
@@ -86,7 +86,7 @@ export default function Home() {
                     <span className="text-2xl" style={{ filter: `drop-shadow(0 0 8px ${card.color}40)` }}>
                       {card.icon}
                     </span>
-                    <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-500 tracking-wider leading-relaxed pt-1">
+                    <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-500 tracking-wider leading-relaxed pt-1">
                       {card.title}
                     </h3>
                   </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
                 {/* Content */}
                 <div className={`ml-14 md:ml-0 md:w-[45%] ${i % 2 === 0 ? 'md:pr-12 md:text-right' : 'md:pl-12'}`}>
-                  <div className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-500 mb-1">
+                  <div className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-500 mb-1">
                     DR {m.dr}
                   </div>
                   <h3 className="font-['Press_Start_2P'] text-[0.55rem] text-stone-200 mb-2 leading-relaxed">
@@ -332,7 +332,7 @@ export default function Home() {
               <StatCounter end={STATS.totalLoreFragments} label="Lore" />
               <StatCounter end={STATS.totalFunctions} label="Functions" />
             </div>
-            <p className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-800 tracking-widest mt-10">
+            <p className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-800 tracking-widest mt-10">
               BUILT WITH LOVE · ONE FUNCTION AT A TIME
             </p>
           </ScrollReveal>

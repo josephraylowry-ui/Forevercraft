@@ -48,7 +48,7 @@ export default function SkillTrees() {
           {COLUMNS.map(col => (
             <ScrollReveal key={col.id}>
               <div>
-                <h3 className="font-['Press_Start_2P'] text-[0.5rem] tracking-widest mb-4 text-center"
+                <h3 className="font-['Press_Start_2P'] text-[0.7rem] tracking-widest mb-4 text-center"
                     style={{ color: col.color }}>
                   {col.name.toUpperCase()}
                 </h3>
@@ -69,7 +69,7 @@ export default function SkillTrees() {
                           <p className="font-['Press_Start_2P'] text-[0.42rem] text-stone-200">
                             {tree.name.toUpperCase()}
                           </p>
-                          <p className="font-['Crimson_Pro'] text-stone-500 text-sm mt-0.5">
+                          <p className="font-['Crimson_Pro'] text-stone-500 text-base mt-0.5">
                             Level 1-25 · 3 Prestige
                           </p>
                         </div>
@@ -92,7 +92,7 @@ export default function SkillTrees() {
                   <h2 className="font-['Press_Start_2P'] text-lg text-yellow-400">
                     {selected.name.toUpperCase()}
                   </h2>
-                  <p className="font-['Press_Start_2P'] text-[0.4rem] text-stone-500 tracking-widest">
+                  <p className="font-['Press_Start_2P'] text-[0.6rem] text-stone-500 tracking-widest">
                     LEVEL 1-25 · 3 PRESTIGE CYCLES · {selected.column.toUpperCase()}
                   </p>
                 </div>
@@ -125,21 +125,21 @@ export default function SkillTrees() {
                   })}
                 </div>
                 <div className="flex justify-between mt-1">
-                  <span className="font-['Press_Start_2P'] text-[0.3rem] text-stone-600">LV 1</span>
-                  <span className="font-['Press_Start_2P'] text-[0.3rem] text-stone-600">LV 25</span>
+                  <span className="font-['Press_Start_2P'] text-[0.7rem] text-stone-600">LV 1</span>
+                  <span className="font-['Press_Start_2P'] text-[0.7rem] text-stone-600">LV 25</span>
                 </div>
 
                 {/* Scaling display */}
                 {activeLevel !== null && selected && (
                   <div className="mt-3 bg-stone-900/80 border border-yellow-800/40 rounded px-4 py-3 text-center transition-all">
-                    <span className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-400">
+                    <span className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-400">
                       LV {activeLevel}
                     </span>
                     <span className="font-['Crimson_Pro'] text-stone-300 text-base ml-3">
                       {selected.scaling(activeLevel)}
                     </span>
                     {lockedLevel && (
-                      <span className="font-['Press_Start_2P'] text-[0.3rem] text-stone-600 ml-3">
+                      <span className="font-['Press_Start_2P'] text-[0.7rem] text-stone-600 ml-3">
                         (click to unlock)
                       </span>
                     )}
@@ -149,20 +149,20 @@ export default function SkillTrees() {
 
               {/* Prestige */}
               <div className="bg-yellow-950/20 border border-yellow-800/30 rounded p-4 space-y-3">
-                <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-500 tracking-widest mb-2">
+                <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-500 tracking-widest mb-2">
                   PRESTIGE REWARDS
                 </h3>
                 {selected.prestige.map((p, idx) => (
                   <div key={idx} className={`flex items-start gap-2 ${idx === 2 ? 'opacity-50' : ''}`}>
-                    <span className={`font-['Press_Start_2P'] text-[0.35rem] shrink-0 mt-0.5 ${idx === 2 ? 'text-stone-600' : 'text-yellow-500'}`}>
+                    <span className={`font-['Press_Start_2P'] text-[0.55rem] shrink-0 mt-0.5 ${idx === 2 ? 'text-stone-600' : 'text-yellow-500'}`}>
                       P{idx + 1}
                     </span>
-                    <p className={`font-['Crimson_Pro'] text-sm ${idx === 2 ? 'italic text-stone-600' : 'text-stone-300'}`}>
+                    <p className={`font-['Crimson_Pro'] text-base ${idx === 2 ? 'italic text-stone-600' : 'text-stone-300'}`}>
                       {p}
                     </p>
                   </div>
                 ))}
-                <p className="font-['Crimson_Pro'] text-stone-500 text-xs mt-2">
+                <p className="font-['Crimson_Pro'] text-stone-500 text-base mt-2">
                   Each prestige retains bonuses and raises the cap.
                 </p>
               </div>
@@ -174,36 +174,36 @@ export default function SkillTrees() {
         <Spoiler label="Advanced systems: prestige, synergies, respec, and cosmetics...">
           <div className="space-y-4">
             <div>
-              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">PRESTIGE SYSTEM</h3>
-              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+              <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 tracking-widest mb-2">PRESTIGE SYSTEM</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
                 When a tree reaches Level 25, you can prestige it — resetting to Level 1 while retaining all accumulated bonuses. Each prestige cycle unlocks a unique prestige ability. A tree can be prestiged up to 3 times, with each cycle raising the effective cap and stacking bonuses.
               </p>
             </div>
 
             <div>
-              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">CROSS-TREE SYNERGIES</h3>
-              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+              <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 tracking-widest mb-2">CROSS-TREE SYNERGIES</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
                 Multi-specialization is rewarded through cross-tree synergies. Leveling trees across different columns unlocks hidden bonuses that encourage well-rounded builds rather than single-tree focus.
               </p>
             </div>
 
             <div>
-              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">OPTIONAL CHALLENGES</h3>
-              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+              <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 tracking-widest mb-2">OPTIONAL CHALLENGES</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
                 Each tree offers optional challenges that award bonus XP and Tree Tokens when completed. You receive a progress notification at 75% completion to keep you motivated toward the finish line.
               </p>
             </div>
 
             <div>
-              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">SEED OF FORGETTING</h3>
-              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+              <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 tracking-widest mb-2">SEED OF FORGETTING</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
                 Made a build mistake? The Seed of Forgetting lets you respec a tree, resetting its level and refunding progress. Use it wisely — they are rare.
               </p>
             </div>
 
             <div className="rounded border border-purple-800/30 bg-purple-950/10 p-4">
-              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">COSMETIC CRATE</h3>
-              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+              <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-purple-400 tracking-widest mb-2">COSMETIC CRATE</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
                 Spend 15 Tree Tokens to open a Cosmetic Crate containing one of 36 cosmetics: 18 particle effects spread across 4 zones (head, chest, feet, ambient) and 18 unique titles. All cosmetic, all permanent.
               </p>
             </div>

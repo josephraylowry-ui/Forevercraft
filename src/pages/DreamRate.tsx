@@ -77,13 +77,13 @@ export default function DreamRate() {
               At 35 Dreams, you get 2x bonus rolls on every crate. At 50, you're Dream Transcendent.
             </p>
             <div className="mt-6 bg-stone-900/60 border border-yellow-900/30 rounded p-4 text-center">
-              <p className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 mb-1">
+              <p className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 mb-1">
                 MULTIPLIER FORMULA
               </p>
               <p className="font-['Press_Start_2P'] text-lg text-yellow-300">
                 1 + (dreams / 35)
               </p>
-              <p className="text-stone-500 text-sm mt-2">
+              <p className="text-stone-500 text-base mt-2">
                 At 35 Dreams = 2.0x · At 50 Dreams = 2.43x
               </p>
             </div>
@@ -101,7 +101,7 @@ export default function DreamRate() {
                     <div className="w-24 bg-stone-800 rounded-sm h-2 overflow-hidden">
                       <div className="h-full bg-yellow-500 rounded-sm" style={{ width: `${Math.min((s.max / 13) * 100, 100)}%` }} />
                     </div>
-                    <span className="font-['Press_Start_2P'] text-[0.35rem] text-yellow-500 w-16 text-right">
+                    <span className="font-['Press_Start_2P'] text-[0.55rem] text-yellow-500 w-16 text-right">
                       {s.value.split('(')[0].trim()}
                     </span>
                   </div>
@@ -118,7 +118,7 @@ export default function DreamRate() {
               {TEMPORARY.map(s => (
                 <div key={s.name} className="flex items-center justify-between">
                   <span className="font-['Crimson_Pro'] text-stone-300">{s.name}</span>
-                  <span className="font-['Press_Start_2P'] text-[0.35rem] text-stone-500">{s.value}</span>
+                  <span className="font-['Press_Start_2P'] text-[0.55rem] text-stone-500">{s.value}</span>
                 </div>
               ))}
             </div>
@@ -137,7 +137,7 @@ export default function DreamRate() {
             {GATES.map(g => (
               <div key={g.tier} className="flex items-center gap-4 bg-stone-900/50 rounded border border-stone-800/50 p-3">
                 <div
-                  className="font-['Press_Start_2P'] text-[0.45rem] w-10 text-center shrink-0"
+                  className="font-['Press_Start_2P'] text-[0.65rem] w-10 text-center shrink-0"
                   style={{ color: g.color }}
                 >
                   {g.tier}
@@ -148,10 +148,10 @@ export default function DreamRate() {
                     style={{ width: `${(g.dr / 18) * 100}%`, backgroundColor: g.color }}
                   />
                 </div>
-                <div className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-500 w-12 text-right shrink-0">
+                <div className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-500 w-12 text-right shrink-0">
                   DR {g.dr}
                 </div>
-                <p className="font-['Crimson_Pro'] text-stone-400 text-sm hidden md:block w-48 shrink-0">
+                <p className="font-['Crimson_Pro'] text-stone-400 text-base hidden md:block w-48 shrink-0">
                   {g.structures}
                 </p>
               </div>
@@ -161,7 +161,7 @@ export default function DreamRate() {
         {/* How It Affects Gameplay */}
         <ScrollReveal delay={400}>
           <Spoiler label="How Dream Rate affects every system in detail...">
-            <div className="space-y-3 font-['Crimson_Pro'] text-sm text-stone-400">
+            <div className="space-y-3 font-['Crimson_Pro'] text-base text-stone-400">
               <p><span className="text-yellow-500 font-semibold">Crate Quality:</span> Dream Rate multiplies bonus rolls on every crate. At DR 35 = 2.0x rolls. At DR 50 = 2.43x. Higher DR means more items per crate and better tier chances.</p>
               <p><span className="text-yellow-500 font-semibold">Time-of-Day Bonuses:</span> Morning fishing +0.5, noon mining +1.0, night combat +0.5. These temporary bonuses stack with permanent DR.</p>
               <p><span className="text-yellow-500 font-semibold">Moon Phase Bonuses:</span> Full Moon fishing +0.5. New Moon combat +0.5 (also 2x patron/furia spawns). Harvest Moon (1/8 chance on Full Moon) = +1.5 DR + randomTickSpeed=15 for crop growth.</p>

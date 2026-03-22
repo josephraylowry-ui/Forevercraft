@@ -41,7 +41,7 @@ export default function SpiritWeapons() {
               >
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
                   <div>
-                    <p className="font-['Press_Start_2P'] text-[0.4rem] tracking-widest mb-2"
+                    <p className="font-['Press_Start_2P'] text-[0.6rem] tracking-widest mb-2"
                        style={{ color: weapon.color }}>
                       {weapon.className.toUpperCase()} CLASS · {weapon.structure.toUpperCase()}
                     </p>
@@ -50,16 +50,16 @@ export default function SpiritWeapons() {
                       {weapon.name}
                     </h2>
                     {weapon.hasTwin && (
-                      <p className="font-['Press_Start_2P'] text-[0.4rem] text-stone-500 mt-1">
+                      <p className="font-['Press_Start_2P'] text-[0.6rem] text-stone-500 mt-1">
                         TWIN: <span style={{ color: weapon.color }}>{weapon.twinName}</span>
                       </p>
                     )}
                   </div>
                   <div className="flex items-center gap-3">
-                    <span className="font-['Press_Start_2P'] text-[0.4rem] text-stone-600">
+                    <span className="font-['Press_Start_2P'] text-[0.6rem] text-stone-600">
                       {weapon.weaponType.toUpperCase()}
                     </span>
-                    <span className="font-['Press_Start_2P'] text-[0.4rem] text-stone-500">
+                    <span className="font-['Press_Start_2P'] text-[0.6rem] text-stone-500">
                       {expandedId === weapon.id ? '▲ COLLAPSE' : '▼ EXPAND'}
                     </span>
                   </div>
@@ -83,7 +83,7 @@ export default function SpiritWeapons() {
 
                     {/* Tier Progression Bar */}
                     <div>
-                      <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-600 tracking-widest mb-4">
+                      <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-600 tracking-widest mb-4">
                         TIER PROGRESSION — click a tier to see what unlocks
                       </h3>
                       <div className="flex gap-1">
@@ -112,7 +112,7 @@ export default function SpiritWeapons() {
                                 }}
                               />
                               <TierBadge tier={tier as SpiritTier} size="sm" />
-                              <p className={`font-['Press_Start_2P'] text-[0.3rem] mt-1 transition-colors ${isExact ? 'text-yellow-400' : 'text-stone-500'}`}>
+                              <p className={`font-['Press_Start_2P'] text-[0.7rem] mt-1 transition-colors ${isExact ? 'text-yellow-400' : 'text-stone-500'}`}>
                                 {TIER_EFFECTIVENESS[tier]}
                               </p>
                             </div>
@@ -124,14 +124,14 @@ export default function SpiritWeapons() {
                       {selectedTier && (
                         <div className="mt-3 bg-stone-900/80 border border-yellow-800/40 rounded px-4 py-3">
                           <div className="flex items-center justify-between mb-2">
-                            <span className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-400">
+                            <span className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-400">
                               {selectedTier.toUpperCase()} TIER
                             </span>
-                            <span className="font-['Press_Start_2P'] text-[0.4rem] text-stone-400">
+                            <span className="font-['Press_Start_2P'] text-[0.6rem] text-stone-400">
                               {TIER_EFFECTIVENESS[selectedTier]} effectiveness
                             </span>
                           </div>
-                          <div className="font-['Crimson_Pro'] text-sm text-stone-300">
+                          <div className="font-['Crimson_Pro'] text-base text-stone-300">
                             {selectedTier === 'Common' && 'No abilities unlocked. Base weapon with 50% damage scaling.'}
                             {selectedTier === 'Uncommon' && 'Passive effects begin to activate at 60% strength.'}
                             {selectedTier === 'Rare' && 'First triggerable ability unlocks. 70% effectiveness.'}
@@ -146,13 +146,13 @@ export default function SpiritWeapons() {
                             return unlockIdx <= selIdx2
                           }).length > 0 && (
                             <div className="mt-2 pt-2 border-t border-stone-800/50">
-                              <p className="font-['Press_Start_2P'] text-[0.3rem] text-green-500 mb-1">UNLOCKED ABILITIES:</p>
+                              <p className="font-['Press_Start_2P'] text-[0.7rem] text-green-500 mb-1">UNLOCKED ABILITIES:</p>
                               {weapon.abilities.filter(a => {
                                 const unlockIdx = SPIRIT_TIER_ORDER.indexOf((a.unlockTier || 'Common') as SpiritTier)
                                 const selIdx2 = SPIRIT_TIER_ORDER.indexOf(selectedTier!)
                                 return unlockIdx <= selIdx2
                               }).map(a => (
-                                <p key={a.name} className="font-['Crimson_Pro'] text-xs text-stone-400">
+                                <p key={a.name} className="font-['Crimson_Pro'] text-base text-stone-400">
                                   <span className="text-stone-200">{a.name}</span> — {a.description}
                                 </p>
                               ))}
@@ -164,7 +164,7 @@ export default function SpiritWeapons() {
 
                     {/* Abilities */}
                     <div>
-                      <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-600 tracking-widest mb-3">
+                      <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-600 tracking-widest mb-3">
                         ABILITIES
                       </h3>
                       <div className="grid md:grid-cols-2 gap-3">
@@ -174,7 +174,7 @@ export default function SpiritWeapons() {
                             className="bg-stone-900/60 rounded border border-stone-800/50 p-3"
                           >
                             <div className="flex items-center justify-between mb-1">
-                              <span className="font-['Press_Start_2P'] text-[0.4rem] text-stone-200">
+                              <span className="font-['Press_Start_2P'] text-[0.6rem] text-stone-200">
                                 {ability.name}
                               </span>
                               {ability.unlockTier && (
@@ -191,13 +191,13 @@ export default function SpiritWeapons() {
 
                     {/* Metamorphosis Requirements */}
                     <div>
-                      <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-600 tracking-widest mb-3">
+                      <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-600 tracking-widest mb-3">
                         SPIRIT METAMORPHOSIS REQUIREMENTS
                       </h3>
                       <div className="space-y-1.5">
                         {weapon.metamorphosisRequirements.map((req, j) => (
                           <div key={j} className="flex items-start gap-2">
-                            <span className="text-stone-600 text-xs mt-0.5">◆</span>
+                            <span className="text-stone-600 text-base mt-0.5">◆</span>
                             <p className="font-['Crimson_Pro'] text-stone-400 text-sm">{req}</p>
                           </div>
                         ))}
@@ -207,7 +207,7 @@ export default function SpiritWeapons() {
                     {/* Twin Info */}
                     {weapon.hasTwin && (
                       <div className="bg-purple-950/20 border border-purple-800/30 rounded p-4">
-                        <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-purple-400 tracking-widest mb-2">
+                        <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-purple-400 tracking-widest mb-2">
                           DREAM STORM CRYSTAL · TWIN REVELATION
                         </h3>
                         <p className="font-['Crimson_Pro'] text-stone-400 text-sm">
@@ -220,7 +220,7 @@ export default function SpiritWeapons() {
 
                     {!weapon.hasTwin && (
                       <div className="bg-yellow-950/20 border border-yellow-800/30 rounded p-4">
-                        <h3 className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-500 tracking-widest mb-2">
+                        <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-yellow-500 tracking-widest mb-2">
                           SOLO WEAPON · 25% EFFECTIVENESS BOOST
                         </h3>
                         <p className="font-['Crimson_Pro'] text-stone-400 text-sm">

@@ -42,7 +42,7 @@ export default function Artifacts() {
           ].map((item, i) => (
             <ScrollReveal key={item.title} delay={i * 80}>
               <div className="rounded border border-stone-800 bg-stone-900/40 p-4 h-full">
-                <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-500 mb-2">{item.title}</h3>
+                <h3 className="font-['Press_Start_2P'] text-[0.6rem] text-yellow-500 mb-2">{item.title}</h3>
                 <p className="font-['Crimson_Pro'] text-stone-400 text-sm">{item.desc}</p>
               </div>
             </ScrollReveal>
@@ -51,7 +51,7 @@ export default function Artifacts() {
 
         <ScrollReveal delay={300}>
           <Spoiler>
-            <div className="space-y-3 font-['Crimson_Pro'] text-sm text-stone-400">
+            <div className="space-y-3 font-['Crimson_Pro'] text-base text-stone-400">
               <p><span className="text-yellow-500 font-semibold">Spawn Rates:</span> Non-structure containers: 7% (Common-Exquisite), 10% (Mythical). Structure chests: 25% (Common-Exquisite), 44% (Mythical). Biome matching adds +25%.</p>
               <p><span className="text-yellow-500 font-semibold">Weapon Mastery:</span> Awaken artifacts with tier-matched Awakening Stones (20% crate drop). Gain XP from orbs, auto-unlock enchantments per level. Prestige up to 3 times. All 5 gear slots gain XP simultaneously.</p>
               <p><span className="text-yellow-500 font-semibold">Patina System:</span> Tracks playtime with each artifact. Fresh → Worn → Seasoned → Storied → Legendary over 72+ hours. Each stage adds flavor text and a permanent stat bonus.</p>
@@ -119,7 +119,7 @@ export default function Artifacts() {
                   <button
                     key={sub}
                     onClick={() => setSelectedSubtype(sub)}
-                    className={`font-['Press_Start_2P'] text-[0.35rem] px-2 py-1.5 rounded border transition-all ${
+                    className={`font-['Press_Start_2P'] text-[0.55rem] px-2 py-1.5 rounded border transition-all ${
                       selectedSubtype === sub
                         ? 'bg-yellow-900/60 border-yellow-600 text-yellow-400'
                         : 'bg-stone-900 border-stone-700 text-stone-500 hover:border-yellow-900'
@@ -132,7 +132,7 @@ export default function Artifacts() {
             )}
           </div>
 
-          <p className="font-['Press_Start_2P'] text-[0.4rem] text-stone-600 tracking-widest">
+          <p className="font-['Press_Start_2P'] text-[0.6rem] text-stone-600 tracking-widest">
             {filtered.length} ARTIFACT{filtered.length !== 1 ? 'S' : ''} FOUND
           </p>
         </div>
@@ -152,17 +152,17 @@ export default function Artifacts() {
                   }`}
                 >
                   <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-stone-100 leading-relaxed">
+                    <h3 className="font-['Press_Start_2P'] text-[0.7rem] text-stone-100 leading-relaxed">
                       {artifact.name}
                     </h3>
                     <TierBadge tier={artifact.tier} />
                   </div>
                   <div className="flex gap-2">
-                    <span className="font-['Press_Start_2P'] text-[0.35rem] text-stone-500 tracking-widest">
+                    <span className="font-['Press_Start_2P'] text-[0.55rem] text-stone-500 tracking-widest">
                       {artifact.type.toUpperCase()}
                     </span>
                     {artifact.subtype && (
-                      <span className="font-['Press_Start_2P'] text-[0.35rem] text-stone-600 tracking-widest">
+                      <span className="font-['Press_Start_2P'] text-[0.55rem] text-stone-600 tracking-widest">
                         · {artifact.subtype.toUpperCase()}
                       </span>
                     )}

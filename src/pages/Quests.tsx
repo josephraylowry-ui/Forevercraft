@@ -40,7 +40,7 @@ export default function Quests() {
       <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-12">
-            <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">QUEST TIERS</h2>
+            <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">QUEST TIERS</h2>
             <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
               250 quests organized into six tiers of ascending difficulty and reward. From simple errands to world-shaping heroic undertakings.
             </p>
@@ -54,11 +54,11 @@ export default function Quests() {
                 <div className="w-1.5 bg-current opacity-40" style={{ color: tier.color.replace('text-', '').includes('stone') ? '#78716c' : undefined }} />
                 <div className="flex items-center gap-4 p-4 flex-1">
                   <div className="flex items-center justify-center w-8 h-8 rounded bg-stone-900/80">
-                    <span className={`font-['Press_Start_2P'] text-[0.5rem] ${tier.color}`}>{i + 1}</span>
+                    <span className={`font-['Press_Start_2P'] text-[0.7rem] ${tier.color}`}>{i + 1}</span>
                   </div>
                   <div>
                     <h3 className={`font-['Press_Start_2P'] text-[0.55rem] ${tier.color} mb-1`}>{tier.name}</h3>
-                    <p className="font-['Crimson_Pro'] text-sm text-stone-400">{tier.description}</p>
+                    <p className="font-['Crimson_Pro'] text-base text-stone-400">{tier.description}</p>
                   </div>
                 </div>
               </div>
@@ -72,7 +72,7 @@ export default function Quests() {
         <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-12">
-              <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">VILLAGE REPUTATION</h2>
+              <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">VILLAGE REPUTATION</h2>
               <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
                 Your standing with each village determines what quests, prices, and opportunities are available. Climb the ladder from unknown outsider to living legend.
               </p>
@@ -88,14 +88,14 @@ export default function Quests() {
                 <ScrollReveal key={level.name} delay={i * 80}>
                   <div className="flex items-start gap-5 pl-2">
                     <div className="relative z-10 flex items-center justify-center w-9 h-9 rounded-full bg-stone-900 border border-stone-700 shrink-0">
-                      <span className={`font-['Press_Start_2P'] text-[0.4rem] ${level.color}`}>{i + 1}</span>
+                      <span className={`font-['Press_Start_2P'] text-[0.6rem] ${level.color}`}>{i + 1}</span>
                     </div>
                     <div className="pt-1">
                       <div className="flex items-baseline gap-3 mb-1">
                         <h3 className={`font-['Press_Start_2P'] text-[0.55rem] ${level.color}`}>{level.name}</h3>
-                        <span className="font-['Crimson_Pro'] text-xs text-stone-600">{level.threshold} rep</span>
+                        <span className="font-['Crimson_Pro'] text-base text-stone-600">{level.threshold} rep</span>
                       </div>
-                      <p className="font-['Crimson_Pro'] text-sm text-stone-400">{level.description}</p>
+                      <p className="font-['Crimson_Pro'] text-base text-stone-400">{level.description}</p>
                     </div>
                   </div>
                 </ScrollReveal>
@@ -110,7 +110,7 @@ export default function Quests() {
         <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-12">
-              <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">BOUNTY SYSTEM</h2>
+              <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">BOUNTY SYSTEM</h2>
               <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
                 Named elite mobs spawn in biomes across the world. Hunt them down within the time limit for escalating rewards. Four tiers of increasing danger.
               </p>
@@ -122,12 +122,12 @@ export default function Quests() {
               <ScrollReveal key={bounty.tier} delay={i * 100}>
                 <div className="rounded-lg border border-stone-800 bg-stone-900/40 p-5">
                   <div className="flex items-baseline gap-2 mb-2">
-                    <span className={`font-['Press_Start_2P'] text-xs ${bounty.color}`}>TIER {bounty.tier}</span>
-                    <span className="font-['Crimson_Pro'] text-xs text-stone-600">|</span>
-                    <span className="font-['Crimson_Pro'] text-sm text-stone-500">{bounty.time} limit</span>
+                    <span className={`font-['Press_Start_2P'] text-base ${bounty.color}`}>TIER {bounty.tier}</span>
+                    <span className="font-['Crimson_Pro'] text-base text-stone-600">|</span>
+                    <span className="font-['Crimson_Pro'] text-base text-stone-500">{bounty.time} limit</span>
                   </div>
-                  <p className={`font-['Press_Start_2P'] text-[0.45rem] ${bounty.color} mb-2`}>{bounty.target}</p>
-                  <p className="font-['Crimson_Pro'] text-sm text-stone-400">{bounty.reward}</p>
+                  <p className={`font-['Press_Start_2P'] text-[0.65rem] ${bounty.color} mb-2`}>{bounty.target}</p>
+                  <p className="font-['Crimson_Pro'] text-base text-stone-400">{bounty.reward}</p>
                 </div>
               </ScrollReveal>
             ))}
