@@ -58,11 +58,11 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 bg-stone-950/95 backdrop-blur-sm border-b-2 border-yellow-800/80 shadow-lg shadow-black/30">
-      <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-14">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2.5 no-underline shrink-0">
-          <span className="text-xl">⛏</span>
-          <span className="font-['Press_Start_2P'] text-[0.5rem] md:text-[0.55rem] text-yellow-600 tracking-wider">
+          <span className="text-2xl">⛏</span>
+          <span className="font-['Press_Start_2P'] text-[0.7rem] md:text-[0.8rem] text-yellow-600 tracking-wider">
             FOREVERCRAFT
           </span>
         </Link>
@@ -74,7 +74,7 @@ export default function Navigation() {
               {item.to ? (
                 <Link
                   to={item.to}
-                  className={`font-['Press_Start_2P'] text-[0.42rem] tracking-widest px-3 py-2 rounded transition-colors no-underline ${
+                  className={`font-['Press_Start_2P'] text-[0.65rem] tracking-wider px-4 py-2.5 rounded transition-colors no-underline ${
                     isActive(item.to)
                       ? 'text-yellow-400 bg-yellow-950/40'
                       : 'text-stone-500 hover:text-yellow-600'
@@ -85,22 +85,22 @@ export default function Navigation() {
               ) : (
                 <>
                   <button
-                    className={`font-['Press_Start_2P'] text-[0.42rem] tracking-widest px-3 py-2 rounded transition-colors ${
+                    className={`font-['Press_Start_2P'] text-[0.65rem] tracking-wider px-4 py-2.5 rounded transition-colors ${
                       isChildActive(item.children)
                         ? 'text-yellow-400 bg-yellow-950/40'
                         : 'text-stone-500 hover:text-yellow-600'
                     }`}
                   >
-                    {item.label.toUpperCase()} <span className="text-[0.35rem] ml-0.5">▾</span>
+                    {item.label.toUpperCase()} <span className="text-[0.5rem] ml-1">▾</span>
                   </button>
                   {/* Dropdown */}
                   <div className="absolute top-full left-0 pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="bg-stone-900 border border-yellow-900/50 rounded shadow-xl shadow-black/40 py-1 min-w-[180px]">
+                    <div className="bg-stone-900 border border-yellow-900/50 rounded shadow-xl shadow-black/40 py-1 min-w-[220px]">
                       {item.children?.map(child => (
                         <Link
                           key={child.to}
                           to={child.to}
-                          className={`block px-4 py-2 font-['Press_Start_2P'] text-[0.4rem] tracking-wider no-underline transition-colors ${
+                          className={`block px-5 py-2.5 font-['Press_Start_2P'] text-[0.55rem] tracking-wider no-underline transition-colors ${
                             isActive(child.to)
                               ? 'text-yellow-400 bg-yellow-950/40'
                               : 'text-stone-400 hover:text-yellow-500 hover:bg-yellow-950/20'
