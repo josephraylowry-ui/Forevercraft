@@ -23,3 +23,11 @@ execute as @a[tag=ce.evolved_active,scores={vex_attack=1..}] run function evercr
 # On-hurt: player was hit (HurtTime:10s = just took damage this tick)
 execute as @a[tag=ce.evolved_active,nbt={HurtTime:10s}] run function evercraft:companion_evolution/on_hurt
 # On-kill: piggybacked off pet combat system's kill detection (per-tick overhead only when evolved active)
+
+
+# === COMPANION EVOLUTION: Store death pos (Endwalker recall) + Emberheart rebirth ===
+# Store death position for ALL dying players (Endwalker can use later)
+execute as @a[scores={ec.tomb_death=1..}] at @s run function evercraft:companion_evolution/on_death
+# Emberheart rebirth: if player has active Ascended Emberheart, cancel death
+execute as @a[tag=ce.evo_emberheart,scores={ec.tomb_death=1..}] at @s run function evercraft:companion_evolution/abilities/emberheart_rebirth
+execute as @a[tag=ce.evo_emberheart,scores={ec.tomb_death=1..}] run scoreboard players set @s ec.tomb_death 0

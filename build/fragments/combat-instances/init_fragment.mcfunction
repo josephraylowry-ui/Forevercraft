@@ -18,3 +18,7 @@ scoreboard objectives add ec.dng_attempts dummy "Dungeon Attempts"
 scoreboard objectives add ec.ready trigger "Dungeon Ready"
 scoreboard objectives add ec.dg_ready dummy "Dungeon Ready State"
 scoreboard players enable @a ec.ready
+
+# === SPIRIT RAID UNLOCK SYSTEM ===
+function evercraft:spirit_raid/load
+
