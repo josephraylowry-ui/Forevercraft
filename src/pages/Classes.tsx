@@ -13,7 +13,7 @@ export default function Classes() {
       <PageHero
         title="CLASSES"
         badge="CHOOSE YOUR PATH"
-        subtitle="14 weapon classes. From shadowy Rogues to the secret Dual Swordsman."
+        subtitle="14 weapon classes. Thirteen are known. One remains hidden."
         particleColor="rgba(96, 165, 250, 0.4)"
       />
 
@@ -33,7 +33,7 @@ export default function Classes() {
           <Spoiler label="How classes work under the hood...">
             <div className="space-y-3 font-['Crimson_Pro'] text-sm text-stone-400">
               <p><span className="text-yellow-500 font-semibold">Activation:</span> Equip the class weapon type in your mainhand. The class activates automatically based on what you're holding.</p>
-              <p><span className="text-yellow-500 font-semibold">Dual-Wield Classes:</span> Rogue (daggers), Berserker (axes), Dancer (fans), Dual Swordsman (swords) require weapons in both hands. They trade armor for damage.</p>
+              <p><span className="text-yellow-500 font-semibold">Dual-Wield Classes:</span> Rogue (daggers), Berserker (axes), Dancer (fans) require weapons in both hands. They trade armor for damage.</p>
               <p><span className="text-yellow-500 font-semibold">Shield Classes:</span> Knight (sword+shield), Hoplite (trident+shield), Sentinel (mace+shield) gain defensive bonuses from the offhand shield.</p>
               <p><span className="text-yellow-500 font-semibold">Spirit Weapons:</span> Each class has a corresponding Spirit Weapon dropped by a specific raid boss at 5%. These are the ultimate expression of the class.</p>
               <p><span className="text-yellow-500 font-semibold">Twin Weapons:</span> 7 classes can obtain a second spirit weapon via Dream Storm Crystal (1% drop from Castle floor 25+). Requires Mythical tier + Spirit Tome quest 50.</p>

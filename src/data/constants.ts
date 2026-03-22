@@ -87,7 +87,7 @@ export const CLASS_COLORS: Record<string, string> = {
   Sentinel:         '#6B7280',
   Tank:             '#78716C',
   Healer:           '#F472B6',
-  'Dual Swordsman': '#7C3AED',
+  '???':            '#7C3AED',
 }
 
 // ── Stat Numbers ──────────────────────────────────────────

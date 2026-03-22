@@ -158,15 +158,13 @@ export const classes: GameClass[] = [
     spiritWeapon: 'Lifewoven Branch', raidBoss: 'The Venomweaver', color: '#F472B6',
   },
   {
-    id: 'dual_swordsman', name: 'Dual Swordsman', archetype: 'Secret Class', weaponType: 'Dual Swords',
-    coreMechanic: 'Double damage at the cost of -5 armor and -5 toughness. 360° Whirlwind.',
-    strengths: ['2x damage multiplier', '360° Whirlwind auto-hit', 'Instant attack speed (Spirit)'],
-    weaknesses: ['-5 armor penalty', '-5 toughness penalty', 'Only obtainable from Gatekeeper raid'],
+    id: 'unknown', name: '???', archetype: '???', weaponType: '???',
+    coreMechanic: 'This class has not been discovered yet.',
+    strengths: ['???', '???', '???'],
+    weaknesses: ['???', '???', '???'],
     abilities: [
-      { name: 'Whirlwind', description: '360° auto-hit all mobs within 4 blocks (6s CD)' },
-      { name: 'Shadow Dance', description: '1/8 chance every 4s: auto-hit all mobs within 3 blocks' },
-      { name: 'Twin Resonance', description: 'Nite + Deih: removes armor penalty + instant attack speed at Spirit' },
+      { name: '???', description: 'Some say The Gatekeeper guards the answer.' },
     ],
-    isSecret: true, spiritWeapon: 'Nite', raidBoss: 'The Gatekeeper', color: '#7C3AED',
+    isSecret: true, spiritWeapon: '???', raidBoss: '???', color: '#7C3AED',
   },
 ]

@@ -10,7 +10,7 @@ const SYSTEM_CARDS = [
   { title: 'ARTIFACTS', desc: '358 unique items across six tiers — each with handcrafted abilities.', icon: '⚔️', to: '/artifacts', color: '#FB923C' },
   { title: 'SPIRIT WEAPONS', desc: '14 legendary endgame weapons with twin forms and metamorphosis.', icon: '🗡️', to: '/spirit-weapons', color: '#C084FC' },
   { title: 'COMPANIONS', desc: '106 companions that fight, level, evolve, and bond with you.', icon: '🐾', to: '/companions', color: '#4ADE80' },
-  { title: 'CLASSES', desc: '14 weapon classes from Rogue to the secret Dual Swordsman.', icon: '⚡', to: '/classes', color: '#60A5FA' },
+  { title: 'CLASSES', desc: '14 weapon classes. Some are earned. One is hidden.', icon: '⚡', to: '/classes', color: '#60A5FA' },
   { title: 'RAID BOSSES', desc: '14 multi-phase bosses with puzzles, phases, and unique loot.', icon: '💀', to: '/raid-bosses', color: '#DC2626' },
   { title: 'SKILL TREES', desc: '14 advantage trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
   { title: 'ARMOR SETS', desc: '28 armor sets with 2-piece, 4-piece, and mythical 5-piece bonuses.', icon: '🛡️', to: '/armor-sets', color: '#9CA3AF' },
@@ -180,7 +180,7 @@ export default function Home() {
           </p>
           <p className="mt-4 text-stone-400">
             Seven of them have twin forms — a second weapon revealed by the Dream Storm Crystal.
-            Nite and Deih. Firebrand and Aqualoch. Hollow Fangs and Ghost Fang.
+            Firebrand and Aqualoch. Hollow Fangs and Ghost Fang. Dragonheart and Johan Shield.
             When both twins are held, they unlock their true power.
           </p>
         </FeatureSection>
@@ -219,10 +219,9 @@ export default function Home() {
             Archers overcharge past full draw. Beastlords turn tamed animals into a war pack.
           </p>
           <p className="mt-4 text-stone-400">
-            The{' '}
-            <span className="text-yellow-500 font-semibold">Dual Swordsman</span> — the secret
-            14th class — can only be obtained by defeating The Gatekeeper in the Stronghold raid.
-            Double damage, Whirlwind ability, and at Spirit tier with both twins: instant attack speed.
+            Thirteen classes are known. The fourteenth... is not listed in any codex, not spoken
+            of by any profession villager. Some say The Gatekeeper in the Stronghold knows
+            something about it. Most dismiss this as rumor.
           </p>
         </FeatureSection>
 

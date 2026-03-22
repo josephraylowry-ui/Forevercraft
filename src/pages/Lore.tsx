@@ -194,6 +194,24 @@ export default function Lore() {
           </Spoiler>
         </div>
       </section>
+
+      {/* Easter egg — hidden anecdote */}
+      <section className="max-w-2xl mx-auto px-6 pb-20">
+        <div className="opacity-[0.15] hover:opacity-100 transition-opacity duration-1000">
+          <p className="font-['Crimson_Pro'] italic text-[0.7rem] text-stone-600 text-center leading-relaxed">
+            "I met a traveler once, at the foot of a stronghold, who carried two swords where
+            all others carried one. I asked him his class. He said nothing. I asked him his weapon's
+            name. He whispered something — 'Nite' — and then laughed, as if the word itself was
+            a secret he wasn't supposed to tell. When I looked again, he was gone.
+            His twin blade caught the dawn light as he vanished — dark orange, like the last ember
+            of a fire you thought was dead. I have searched every codex since. The fourteenth
+            class does not exist. And yet I saw it with my own eyes."
+          </p>
+          <p className="font-['Crimson_Pro'] italic text-[0.6rem] text-stone-700 text-center mt-2">
+            — A Torn Page, found near the End Portal
+          </p>
+        </div>
+      </section>
     </div>
   )
 }
