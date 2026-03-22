@@ -63,7 +63,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 no-underline shrink-0">
-          <img src="/icon.png" alt="Forevercraft" className="w-10 h-10 rounded" style={{ imageRendering: 'pixelated' }} />
+          <img src="/icon.png" alt="Forevercraft" className="w-10 h-auto" style={{ imageRendering: 'pixelated' }} />
           <span className="font-['Press_Start_2P'] text-[0.7rem] md:text-[0.8rem] text-yellow-600 tracking-wider">
             FOREVERCRAFT
           </span>

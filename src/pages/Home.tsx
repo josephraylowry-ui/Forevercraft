@@ -44,7 +44,7 @@ export default function Home() {
           <img
             src="/icon.png"
             alt="Forevercraft"
-            className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 rounded-lg shadow-[0_0_40px_rgba(200,140,40,0.3)] animate-[fade-in-up_0.8s_ease-out_both]"
+            className="w-28 h-auto md:w-36 mx-auto mb-6 drop-shadow-[0_0_30px_rgba(200,140,40,0.4)] animate-[fade-in-up_0.8s_ease-out_both]"
             style={{ imageRendering: 'pixelated' }}
           />
           <p className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-700 tracking-[0.4em] mb-6 uppercase animate-[fade-in-up_0.8s_ease-out_0.1s_both]">
