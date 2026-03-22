@@ -1,5 +1,6 @@
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const MECHANICS = [
   { label: 'Entry', value: 'Dungeon Key', detail: 'Consumed on entry. Found from world loot and quest rewards.' },
@@ -175,6 +176,46 @@ export default function InfiniteCastle() {
               </ScrollReveal>
             ))}
           </div>
+
+          {/* Spoiler: Full Mechanics */}
+          <Spoiler label="Full mechanics: keys, arenas, waves, rewards, and rare drops...">
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">DUNGEON KEYS</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  A Dungeon Key is required to enter the Infinite Castle. Keys are consumed on entry and obtained from world loot, quest rewards, and rare merchant trades. No key, no entry.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">ARENA THEMES</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Each floor generates a randomly themed arena. Themes include ice, nether, and end environments, each with unique hazards and visual identity. You never know what you are walking into.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">WAVE COMBAT</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Every floor consists of 5 combat waves. Wave difficulty scales with the floor number, so floor 50 waves are vastly harder than floor 5. A boss encounter replaces the final wave every 10 floors.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">REWARD STRUCTURE</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Milestone rewards are granted every 10 floors, with a special mega reward at floor 100 (Eternal Trophy + Legendary Cosmetic Set). Crate coins accumulate as you climb, rewarding sustained progress even on failed runs. Your highest floor reached is permanently tracked.
+                </p>
+              </div>
+
+              <div className="rounded border border-purple-800/30 bg-purple-950/10 p-4">
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">DREAM STORM CRYSTAL</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Starting from floor 25, every floor clear has a 1% chance to drop a Dream Storm Crystal — an extraordinarily rare crafting material used in endgame recipes. The drop chance does not increase with floor number.
+                </p>
+              </div>
+            </div>
+          </Spoiler>
         </div>
       </section>
     </div>

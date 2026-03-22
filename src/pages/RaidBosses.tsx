@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const BOSSES = [
   { name: 'The Hollow Sovereign', structure: 'Ancient City', class: 'Rogue', weapon: 'Hollow Fangs', difficulty: 4, color: '#8B5CF6', lore: 'Ruler of the deep dark. Silent. Patient. Lethal.', phases: ['Shadow Cloak — vanishes and strikes from darkness', 'Soul Harvest — drains HP from all players in range', 'Final Stand — duplicates into shadow clones'] },
@@ -30,6 +31,62 @@ export default function RaidBosses() {
         subtitle="Multi-phase bosses at the bottom of every structure. 5% to change your world forever."
         particleColor="rgba(220, 38, 38, 0.3)"
       />
+
+      {/* Raid Overview */}
+      <section className="max-w-5xl mx-auto px-6 pt-16 pb-8">
+        <ScrollReveal>
+          <div className="text-center mb-6">
+            <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">HOW RAIDS WORK</h2>
+            <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
+              Raid bosses lurk at the bottom of every major structure in the world. Locate the structure, fight through its defenders, and face the boss at the end. Defeat it for a chance at a spirit weapon that permanently changes your combat identity.
+            </p>
+          </div>
+        </ScrollReveal>
+
+        <Spoiler label="Detailed raid mechanics and rules...">
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">STRUCTURE &amp; PROGRESSION</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                Each structure dungeon has a 10-floor layout. Fight through all 10 floors to reach the raid boss on floor 10. After clearing floor 10, dungeon prompts change from "dungeon" to "raid" to reflect the increased challenge tier.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">VOTING SYSTEM</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                After each floor, the party votes: Continue deeper or Evacuate with current rewards. Majority rules. If the vote is tied, the party continues. A 30-second timer forces a decision — no stalling allowed.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-red-400 tracking-widest mb-2">BOSS ENCOUNTER</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                The floor 10 boss has a 10-minute enrage timer. If the timer expires, the boss becomes unstoppable and wipes the party. Requires DR 10 (Damage Reduction) to enter the boss floor.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="rounded border border-green-800/30 bg-green-950/10 p-3">
+                <h4 className="font-['Press_Start_2P'] text-[0.4rem] text-green-400 tracking-widest mb-2">WIN REWARDS</h4>
+                <ul className="font-['Crimson_Pro'] text-sm text-stone-400 space-y-1">
+                  <li>Teleported back to the structure entrance</li>
+                  <li>5% chance to receive a spirit weapon drop</li>
+                  <li>Structure loot and XP retained</li>
+                </ul>
+              </div>
+              <div className="rounded border border-red-800/30 bg-red-950/10 p-3">
+                <h4 className="font-['Press_Start_2P'] text-[0.4rem] text-red-400 tracking-widest mb-2">LOSE PENALTIES</h4>
+                <ul className="font-['Crimson_Pro'] text-sm text-stone-400 space-y-1">
+                  <li>Sent home (respawn point)</li>
+                  <li>Lose all XP levels</li>
+                  <li>Keep all gear and inventory</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </Spoiler>
+      </section>
 
       <div className="max-w-5xl mx-auto px-6 py-16 space-y-4">
         {BOSSES.map((boss, i) => (

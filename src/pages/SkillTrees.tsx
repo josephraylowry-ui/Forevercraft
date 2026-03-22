@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const TREES = [
   { name: 'Agility', column: 'adventure', icon: '💨', desc: '+4% movement speed per level. Leveled by blocks walked (4k to 100k).', prestige: 'Phantom Sprint — brief intangibility while sprinting' },
@@ -130,6 +131,46 @@ export default function SkillTrees() {
             </div>
           </ScrollReveal>
         )}
+
+        {/* Advanced Mechanics */}
+        <Spoiler label="Advanced systems: prestige, synergies, respec, and cosmetics...">
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">PRESTIGE SYSTEM</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                When a tree reaches Level 25, you can prestige it — resetting to Level 1 while retaining all accumulated bonuses. Each prestige cycle unlocks a unique prestige ability. A tree can be prestiged up to 3 times, with each cycle raising the effective cap and stacking bonuses.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">CROSS-TREE SYNERGIES</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                Multi-specialization is rewarded through cross-tree synergies. Leveling trees across different columns unlocks hidden bonuses that encourage well-rounded builds rather than single-tree focus.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">OPTIONAL CHALLENGES</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                Each tree offers optional challenges that award bonus XP and Tree Tokens when completed. You receive a progress notification at 75% completion to keep you motivated toward the finish line.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">SEED OF FORGETTING</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                Made a build mistake? The Seed of Forgetting lets you respec a tree, resetting its level and refunding progress. Use it wisely — they are rare.
+              </p>
+            </div>
+
+            <div className="rounded border border-purple-800/30 bg-purple-950/10 p-4">
+              <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">COSMETIC CRATE</h3>
+              <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                Spend 15 Tree Tokens to open a Cosmetic Crate containing one of 36 cosmetics: 18 particle effects spread across 4 zones (head, chest, feet, ambient) and 18 unique titles. All cosmetic, all permanent.
+              </p>
+            </div>
+          </div>
+        </Spoiler>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const SEASONS = [
   {
@@ -208,6 +209,46 @@ export default function Seasons() {
               <p className="font-['Press_Start_2P'] text-[0.4rem] text-red-500">{HARVEST_MOON.effect}</p>
             </div>
           </ScrollReveal>
+
+          {/* Spoiler: Under the Hood */}
+          <Spoiler label="Under the hood: time system, moon cycles, and event mechanics...">
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-amber-400 tracking-widest mb-2">CUSTOM TIME SYSTEM</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Days last 72,000 real ticks (1 real-world hour). DayTime advances by 1 every 3 ticks via a custom counter, with vanilla time advancement disabled. This means the full 24,000-tick day/night cycle plays out over a full hour rather than the default 20 minutes.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-amber-400 tracking-widest mb-2">SLEEP SKIP</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Sleep skipping uses a custom detection system. When all players have been sleeping for 100 consecutive ticks, the night is skipped and dawn arrives. This replaces vanilla sleep behavior entirely.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-amber-400 tracking-widest mb-2">MOON PHASE CYCLE</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  The 8 moon phases cycle over 192,000 DayTime ticks (8 full days). Each phase lasts exactly one in-game day, creating a predictable lunar calendar that experienced players can plan around.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-amber-400 tracking-widest mb-2">WORLD EVENT WARNINGS</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  All world events are preceded by a 60-second omen warning before they begin, giving players time to prepare or seek shelter. The Harvest Festival event has a bonus crate pool with exclusive seasonal rewards.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-amber-400 tracking-widest mb-2">CALENDAR LOGGING</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  All calendar events are logged to the Welcome Back Briefing, so players who were offline during a world event or seasonal transition can see what they missed when they next log in.
+                </p>
+              </div>
+            </div>
+          </Spoiler>
         </div>
       </section>
     </div>

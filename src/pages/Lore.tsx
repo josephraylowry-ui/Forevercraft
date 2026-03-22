@@ -1,8 +1,9 @@
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const LORE_STATS = [
-  { label: 'Fragments', value: '904', detail: 'Individual lore entries scattered across the world' },
+  { label: 'Fragments', value: '894', detail: 'Individual lore entries scattered across the world' },
   { label: 'Sets', value: '162', detail: 'Complete collections that tell cohesive stories' },
   { label: 'Dimensions', value: '4', detail: 'Overworld, Nether, End, and the Dream' },
   { label: 'Achievements', value: '767', detail: 'Tracked across 7 achievement tabs' },
@@ -41,7 +42,7 @@ export default function Lore() {
       <PageHero
         title="LORE & LEGACY"
         badge="THE ARCHIVES"
-        subtitle="904 fragments. 162 sets. Four dimensions of mystery. Every corner of this world has a story to tell."
+        subtitle="894 fragments. 162 sets. Four dimensions of mystery. Every corner of this world has a story to tell."
         particleColor="#8b5cf6"
       />
 
@@ -151,6 +152,46 @@ export default function Lore() {
               </ScrollReveal>
             ))}
           </div>
+
+          {/* Spoiler: Deep Dive */}
+          <Spoiler label="Deep dive: lore maps, achievement secrets, and meta-goals...">
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">LORE COLLECTION STRUCTURE</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  The 894 lore fragments form 162 complete sets spread across 4 dimensions (Overworld, Nether, End, and the Dream). Completing sets unlocks progress-based rewards that scale with your total collection.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">LORE COLLECTION MAP</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Use <span className="font-mono text-purple-400">/trigger ec.lore_map</span> to open a color-coded collection map. Sets are color-coded by completion status, and up to 10 in-progress sets are highlighted so you can focus your search.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">HIDDEN ACHIEVEMENTS</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Many achievements across the 7 tabs are hidden — their conditions are unknown until you unlock them. The Secret tab (115 achievements) is entirely hidden by design.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-purple-400 tracking-widest mb-2">CROSS-SYSTEM ACHIEVEMENTS</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Special achievements reward mastery across multiple systems: Renaissance Player (multi-discipline), Dream Architect (building + lore), and Beast Master Chef (pets + cooking). These require deep engagement with different parts of the game.
+                </p>
+              </div>
+
+              <div className="rounded border border-yellow-800/30 bg-yellow-950/10 p-4">
+                <h3 className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-400 tracking-widest mb-2">META-GOALS</h3>
+                <p className="font-['Crimson_Pro'] text-sm text-stone-400">
+                  Achievement milestones unlock meta-goal titles as you progress: starting at 200 achievements and culminating in the Legend of Evercraft title at 700. Each milestone grants a permanent title and cosmetic reward.
+                </p>
+              </div>
+            </div>
+          </Spoiler>
         </div>
       </section>
     </div>
