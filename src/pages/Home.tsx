@@ -14,7 +14,7 @@ const SYSTEM_CARDS = [
   { title: 'RAID BOSSES', desc: '14 multi-phase bosses with puzzles, phases, and unique loot.', icon: '💀', to: '/raid-bosses', color: '#DC2626' },
   { title: 'SKILL TREES', desc: '14 skill trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
   { title: 'ARMOR SETS', desc: '27 armor sets with 2-piece, 4-piece, and mythical 5-piece bonuses.', icon: '🛡️', to: '/armor-sets', color: '#9CA3AF' },
-  { title: 'QUESTS', desc: '250 quests across 6 tiers. Village reputation. Patron bounties.', icon: '📜', to: '/quests', color: '#D97706' },
+  { title: 'QUESTS', desc: '75 quests across 6 tiers. Village reputation. Patron bounties.', icon: '📜', to: '/quests', color: '#D97706' },
 ]
 
 const DR_MILESTONES = [
