@@ -223,13 +223,44 @@ export default function Downloads() {
     window.open('https://github.com/Deiontre10/forevercraft/releases', '_blank')
   }
 
+  const [buildResult, setBuildResult] = useState<{status: string, message?: string, downloadUrl?: string} | null>(null)
+
   const buildCustom = async () => {
     setBuilding(true)
-    // TODO: Call Cloudflare Worker build API
-    setTimeout(() => {
-      alert(`Custom build with ${resolved.size} modules (${totalFiles} files) — Build API coming soon!`)
+    setBuildResult(null)
+    try {
+      const response = await fetch('/api/build', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ modules: [...selected] })
+      })
+      const data = await response.json()
+
+      if (data.status === 'ready' && data.downloadUrl) {
+        // Pre-built combo available — download directly
+        window.location.href = data.downloadUrl
+        setBuildResult({ status: 'success', message: 'Download started!' })
+      } else if (response.ok && data.status === 'not_cached') {
+        // Custom combo not cached — show build command
+        setBuildResult({
+          status: 'manual',
+          message: `Custom build with ${data.resolved?.length || resolved.size} modules (${data.totalFiles?.toLocaleString() || totalFiles.toLocaleString()} files). Run locally:`,
+          downloadUrl: data.buildCommand
+        })
+      } else {
+        setBuildResult({ status: 'error', message: data.error || 'Build failed' })
+      }
+    } catch {
+      // API not available — show local build instructions
+      const moduleList = [...resolved].join(',')
+      setBuildResult({
+        status: 'manual',
+        message: `Custom pack: ${resolved.size} modules, ~${totalFiles.toLocaleString()} files. Clone the repo and run:`,
+        downloadUrl: `python3 build/scripts/build.py --modules ${moduleList} --output ./Forevercraft`
+      })
+    } finally {
       setBuilding(false)
-    }, 1500)
+    }
   }
 
   const getNodeRadius = (m: Module) => {
@@ -305,6 +336,22 @@ export default function Downloads() {
             </button>
           </div>
         </div>
+
+        {/* Build Result */}
+        {buildResult && (
+          <div className={`mb-6 rounded-lg border p-4 ${
+            buildResult.status === 'success' ? 'border-green-800/40 bg-green-900/15' :
+            buildResult.status === 'error' ? 'border-red-800/40 bg-red-900/15' :
+            'border-yellow-800/40 bg-yellow-900/15'
+          }`}>
+            <p className="font-['Crimson_Pro'] text-base text-stone-300 mb-2">{buildResult.message}</p>
+            {buildResult.downloadUrl && buildResult.status === 'manual' && (
+              <code className="block bg-stone-900 rounded p-3 text-sm text-green-400 font-mono overflow-x-auto">
+                {buildResult.downloadUrl}
+              </code>
+            )}
+          </div>
+        )}
 
         {/* Interactive Graph */}
         <div
