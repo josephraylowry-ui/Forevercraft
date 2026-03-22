@@ -75,7 +75,7 @@ export default function Home() {
             Explore the Systems
           </h2>
           <p className="font-['Crimson_Pro'] italic text-stone-400 text-center mb-12 text-lg">
-            95 interconnected systems. Every one handcrafted.
+            102 interconnected systems. Every one handcrafted.
           </p>
         </ScrollReveal>
 

@@ -11,27 +11,28 @@ html {
 body {
   background: #0a0906;
   image-rendering: pixelated;
-  animation: bg-rainbow 120s ease-in-out infinite;
+  animation: bg-hue-shift 120s ease-in-out infinite;
 }
 
-@keyframes bg-rainbow {
-  0%, 85%, 100% { background-color: #0a0906; }     /* native amber-black — rest 10s */
-  8.5%  { background-color: #0a0906; }               /* hold native */
-  12%   { background-color: #0d0608; }               /* deep rose */
-  20%   { background-color: #0d0608; }
-  22%   { background-color: #0a060d; }               /* deep violet */
-  30%   { background-color: #0a060d; }
-  32%   { background-color: #06080d; }               /* deep blue */
-  40%   { background-color: #06080d; }
-  42%   { background-color: #060d0a; }               /* deep teal */
-  50%   { background-color: #060d0a; }
-  52%   { background-color: #080d06; }               /* deep green */
-  60%   { background-color: #080d06; }
-  62%   { background-color: #0d0d06; }               /* deep yellow */
-  70%   { background-color: #0d0d06; }
-  72%   { background-color: #0d0a06; }               /* deep orange */
-  80%   { background-color: #0d0a06; }
-  83%   { background-color: #0a0906; }               /* back to native */
+/* Subtle hue rotation across the rainbow — shifts all page colors gently,
+   resting on native warm gold for 10s before cycling again */
+@keyframes bg-hue-shift {
+  0%, 83%, 100% { filter: hue-rotate(0deg); }
+  8.5%  { filter: hue-rotate(0deg); }
+  12%   { filter: hue-rotate(30deg); }      /* warm rose */
+  20%   { filter: hue-rotate(30deg); }
+  22%   { filter: hue-rotate(90deg); }      /* violet */
+  30%   { filter: hue-rotate(90deg); }
+  32%   { filter: hue-rotate(150deg); }     /* blue-teal */
+  40%   { filter: hue-rotate(150deg); }
+  42%   { filter: hue-rotate(200deg); }     /* teal-green */
+  50%   { filter: hue-rotate(200deg); }
+  52%   { filter: hue-rotate(250deg); }     /* green */
+  60%   { filter: hue-rotate(250deg); }
+  62%   { filter: hue-rotate(300deg); }     /* yellow-green */
+  70%   { filter: hue-rotate(300deg); }
+  72%   { filter: hue-rotate(340deg); }     /* back toward orange */
+  80%   { filter: hue-rotate(340deg); }
 }
 
 ::selection {
