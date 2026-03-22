@@ -3,11 +3,11 @@ import ScrollReveal from '../components/effects/ScrollReveal'
 
 const GUILD_FEATURES = [
   { name: 'Guild Stone', description: 'Place a Guild Stone to establish your guild\'s headquarters. Warp to it from anywhere.' },
-  { name: 'Guild Creation', description: 'Sign a guild charter to name your guild. Pay 64 emeralds to found it.' },
+  { name: 'Guild Creation', description: 'Name your guild with a charter. Place a Guild Stone and start building something bigger than yourself.' },
   { name: 'Members', description: 'Invite players to join your guild or kick members who aren\'t a good fit.' },
-  { name: 'Guild Expeditions', description: 'Launch coordinated group missions for exclusive guild-only rewards and loot.' },
-  { name: 'Rank Buffs', description: '7-tier rank system with passive guild-wide buffs: XP, luck, speed, and armor bonuses.' },
-  { name: 'Kick Voting', description: 'Democratic removal system. Members vote to remove problematic players — no single leader abuse.' },
+  { name: 'Guild Expeditions', description: 'Guild members share expedition bonuses for prospecting and XP gain.' },
+  { name: 'Donation Tracking', description: 'Track member contributions. Every resource donated strengthens the guild as a whole.' },
+  { name: 'Diplomacy', description: 'Build relationships with other guilds across the server — alliances and rivalries alike.' },
 ]
 
 const COMBO_ABILITIES = [
@@ -30,20 +30,20 @@ const DUEL_FEATURES = [
 ]
 
 const BUDDY_TIERS = [
-  { tier: 0, name: 'Acquaintance', color: 'text-stone-500' },
-  { tier: 1, name: 'Familiar', color: 'text-stone-400' },
-  { tier: 2, name: 'Trusted', color: 'text-green-400' },
-  { tier: 3, name: 'Devoted', color: 'text-blue-400' },
-  { tier: 4, name: 'Eternal', color: 'text-purple-400' },
-  { tier: 5, name: 'Mythic Bond', color: 'text-orange-400' },
-  { tier: 6, name: 'Spiritbound', color: 'text-yellow-400' },
+  { tier: 0, name: 'Acquaintance', color: 'text-stone-400' },
+  { tier: 1, name: 'Familiar', color: 'text-green-400' },
+  { tier: 2, name: 'Trusted', color: 'text-cyan-400' },
+  { tier: 3, name: 'Devoted', color: 'text-purple-400' },
+  { tier: 4, name: 'Eternal', color: 'text-yellow-400' },
+  { tier: 5, name: 'Mythic Bond', color: 'text-red-400' },
+  { tier: 6, name: 'Spiritbound', color: 'text-amber-400' },
 ]
 
 const FRIENDSHIP_LEVELS = [
-  { level: 1, name: 'Acquaintance', hearts: 10, bonus: 'Can see each other on map', color: 'text-stone-400' },
-  { level: 2, name: 'Close Friend', hearts: 30, bonus: 'Shared luck bonus when nearby', color: 'text-green-400' },
-  { level: 3, name: 'Best Friend', hearts: 60, bonus: 'Teleport to each other once per day', color: 'text-blue-400' },
-  { level: 4, name: 'Soulbound', hearts: 100, bonus: 'Passive XP sharing, exclusive cosmetics', color: 'text-yellow-400' },
+  { level: 1, name: 'Friend', hearts: 7, bonus: 'Basic friend status. Daily hearts from proximity.', color: 'text-stone-400' },
+  { level: 2, name: 'Close Friend', hearts: 30, bonus: 'Streak multipliers grow. Title evolves.', color: 'text-green-400' },
+  { level: 3, name: 'Best Friend', hearts: 60, bonus: 'Can propose marriage. Deeper bond abilities.', color: 'text-blue-400' },
+  { level: 4, name: 'Eternal Friend', hearts: 90, bonus: 'Maximum bond. Permanent passive bonuses.', color: 'text-yellow-400' },
 ]
 
 export default function Guilds() {
@@ -52,7 +52,7 @@ export default function Guilds() {
       <PageHero
         title="SOCIAL SYSTEMS"
         badge="BONDS & BATTLES"
-        subtitle="Guilds, parties, duels, buddies, and friendships. Every connection makes you stronger."
+        subtitle="Guilds, parties, duels, buddies, friendships, marriage, and family. Every connection makes you stronger."
         particleColor="#3b82f6"
       />
 

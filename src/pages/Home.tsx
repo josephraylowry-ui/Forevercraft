@@ -7,7 +7,7 @@ import { STATS } from '../data/constants'
 
 const SYSTEM_CARDS = [
   { title: 'DREAM RATE', desc: 'The backbone of everything. A custom RNG system that ties your entire journey together.', icon: '✦', to: '/dream-rate', color: '#FBBF24' },
-  { title: 'ARTIFACTS', desc: '358 unique items across six tiers — each with handcrafted abilities.', icon: '⚔️', to: '/artifacts', color: '#FB923C' },
+  { title: 'ARTIFACTS', desc: '408 unique items across six tiers — each with handcrafted abilities.', icon: '⚔️', to: '/artifacts', color: '#FB923C' },
   { title: 'SPIRIT WEAPONS', desc: '14 legendary endgame weapons with twin forms and metamorphosis.', icon: '🗡️', to: '/spirit-weapons', color: '#C084FC' },
   { title: 'COMPANIONS', desc: '106 companions that fight, level, evolve, and bond with you.', icon: '🐾', to: '/companions', color: '#4ADE80' },
   { title: 'CLASSES', desc: '14 weapon classes. Some are earned. One is hidden.', icon: '⚡', to: '/classes', color: '#60A5FA' },
@@ -202,8 +202,9 @@ export default function Home() {
           <p className="text-stone-300">
             Days last three times longer than vanilla. Four seasons cycle across a 64-day year,
             each bringing its own resource pack. World Events sweep across the land —
-            Starfall Convergence, The Dreaming, Abyssal Tremor, Aurora Bloom, Rift Echo, and the
-            Dimensional Rift — each with unique conditions and atmospheric warnings.
+            Starfall, The Dreaming, Abyssal Tremor, Aurora Bloom, Rift Echo,
+            Dimensional Rift, Harmonic Convergence, Blood Moon, and Dream Surge — each with
+            unique conditions and 60-second omen warnings.
           </p>
           <p className="mt-4 text-stone-400">
             Night Terrors stalk players past Dream Rate 30. On new moon nights, a scaled mini-boss

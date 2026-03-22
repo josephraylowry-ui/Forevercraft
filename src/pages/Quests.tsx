@@ -32,7 +32,7 @@ export default function Quests() {
       <PageHero
         title="QUESTS & BOUNTIES"
         badge="THE ADVENTURER'S PATH"
-        subtitle="75 handcrafted quests across six tiers of challenge. Build your reputation from Stranger to Legend."
+        subtitle="250 quests across six tiers. Place a Book & Quill in a village lectern to spawn the Quest Book — each village is independent."
         particleColor="#a855f7"
       />
 
@@ -131,6 +131,41 @@ export default function Quests() {
                 </div>
               </ScrollReveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Artifact Bounty Board & Exile */}
+      <section className="border-t border-yellow-900/20">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
+          <div className="grid md:grid-cols-2 gap-8">
+            <ScrollReveal>
+              <div className="rounded-lg border border-yellow-800/30 bg-stone-900/40 p-6">
+                <h3 className="font-['Press_Start_2P'] text-[0.75rem] text-yellow-400 mb-3">ARTIFACT BOUNTY BOARD</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 leading-relaxed mb-3">
+                  Found above the Quest Book in every village. Three daily artifact bounties rotate from
+                  a pool of 25, displayed with floating UI and gold dust particles.
+                </p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 leading-relaxed">
+                  Claim a bounty, hunt the artifact, return for your reward. Per-player daily claims
+                  prevent hoarding. A steady income of direction for collectors.
+                </p>
+              </div>
+            </ScrollReveal>
+            <ScrollReveal delay={100}>
+              <div className="rounded-lg border border-red-800/30 bg-stone-900/40 p-6">
+                <h3 className="font-['Press_Start_2P'] text-[0.75rem] text-red-400 mb-3">EXILE SYSTEM</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 leading-relaxed mb-3">
+                  Betray a village badly enough and the consequences are real. Exile mechanics
+                  strip your reputation and lock you out of quest boards, trade discounts, and
+                  village services.
+                </p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 leading-relaxed">
+                  Redemption is possible — but the village remembers. Rebuilding trust takes
+                  far longer than destroying it.
+                </p>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>

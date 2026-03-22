@@ -10,12 +10,12 @@ const LORE_STATS = [
 ]
 
 const GUIDE_BOOKS = [
-  { title: 'Wanderer\'s Anecdote', author: 'A nameless traveler', description: 'A travel-worn journal found in structure crates. Tales of roads walked and structures discovered.', color: 'text-yellow-400' },
-  { title: 'Beastkeeper\'s Anecdote', author: 'A shepherd', description: 'A shepherd\'s notebook. Observations on creatures tamed and wild, and the bonds between.', color: 'text-green-400' },
-  { title: 'Miner\'s Anecdote', author: 'A forgotten prospector', description: 'A dusty tome from deep underground. Notes on veins, caverns, and what glitters in the dark.', color: 'text-stone-400' },
-  { title: 'Fisherman\'s Anecdote', author: 'An old sailor', description: 'A salt-stained journal smelling of brine. Stories of catches that got away and ones that didn\'t.', color: 'text-cyan-400' },
-  { title: 'Elder\'s Anecdote', author: 'A village elder', description: 'A weathered tome of village wisdom. The history of settlements and the people who built them.', color: 'text-amber-400' },
-  { title: 'Scholar\'s Anecdote', author: 'An unknown academic', description: 'An ancient manuscript on enchantment and knowledge. Half the pages are written in a language no one speaks.', color: 'text-purple-400' },
+  { title: 'Elder\'s Anecdote', author: 'The Village Elder', description: 'A weathered tome of village wisdom. The history of settlements, their people, and the dreams that shaped them.', color: 'text-amber-400' },
+  { title: 'Fisherman\'s Anecdote', author: 'Old Seadog', description: 'A salt-stained journal smelling of brine. Stories of catches that got away, ones that didn\'t, and the sea that remembers all.', color: 'text-cyan-400' },
+  { title: 'Miner\'s Anecdote', author: 'The Old Prospector', description: 'A dusty tome from deep underground. Notes on veins, caverns, and the things that glitter in the dark when no one is watching.', color: 'text-stone-400' },
+  { title: 'Wanderer\'s Anecdote', author: 'The Nomad Sage', description: 'A travel-worn journal found in structure crates. Tales of roads walked, ruins explored, and truths discovered too late.', color: 'text-yellow-400' },
+  { title: 'Scholar\'s Anecdote', author: 'The Archivist', description: 'An ancient manuscript on enchantment and knowledge. Half the pages are written in a language no one speaks anymore.', color: 'text-purple-400' },
+  { title: 'Beastkeeper\'s Anecdote', author: 'The Old Shepherd', description: 'A shepherd\'s notebook. Observations on creatures tamed and wild, and the quiet bonds between handler and beast.', color: 'text-green-400' },
 ]
 
 // Personal milestones replace vanilla achievements

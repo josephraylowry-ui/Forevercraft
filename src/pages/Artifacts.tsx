@@ -35,7 +35,7 @@ export default function Artifacts() {
       <div className="max-w-[1400px] mx-auto px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           {[
-            { title: '358 Artifacts', desc: '29 Common, 29 Uncommon, 32 Rare, 116 Ornate, 60 Exquisite, 92 Mythical' },
+            { title: '408 Artifacts', desc: 'Six tiers of handcrafted items — every one with unique abilities.' },
             { title: '28 Armor Sets', desc: '8 Mythical (5pc), 5 Exquisite (4pc), 15 Ornate (4pc) with set bonuses' },
             { title: '46 Accessories', desc: 'Passive effects when held in inventory. 19 toggleable via sneak+mainhand.' },
             { title: '13 Rings', desc: 'Unique passive effects from Amethyst (Night Vision) to Void (Resistance II + Fire Resist + Slow Falling)' },

@@ -76,10 +76,38 @@ const WORLD_EVENTS = [
   },
   {
     name: 'Rift Echo',
-    description: 'Dimensional rifts tear open, spawning waves of otherworldly enemies. Survive the onslaught for powerful rewards.',
+    description: 'Residual echoes from dimensional tears ripple across the world. Dream energy surges unpredictably, amplifying loot and luck in strange bursts.',
     color: 'text-orange-400',
     bg: 'from-orange-900/30 to-orange-950/10',
     border: 'border-orange-700/40',
+  },
+  {
+    name: 'Dimensional Rift',
+    description: 'The barriers between dimensions fracture. Otherworldly enemies spill through tears in reality, bringing chaos — and powerful rewards for those who survive.',
+    color: 'text-fuchsia-400',
+    bg: 'from-fuchsia-900/30 to-fuchsia-950/10',
+    border: 'border-fuchsia-700/40',
+  },
+  {
+    name: 'Harmonic Convergence',
+    description: 'All elemental forces align. Four themed convergences — Celestial Tide, Veil of Embers, Frozen Aurora, Bloom of Eternity — each grant +2.0 luck to every player for 10 minutes.',
+    color: 'text-amber-400',
+    bg: 'from-amber-900/30 to-amber-950/10',
+    border: 'border-amber-700/40',
+  },
+  {
+    name: 'Blood Moon',
+    description: 'The sky runs red. All players gain +1.0 Dream Rate. Patron spawn rates double. The bravest hunters thrive. The unprepared fall.',
+    color: 'text-rose-500',
+    bg: 'from-rose-900/30 to-rose-950/10',
+    border: 'border-rose-700/40',
+  },
+  {
+    name: 'Dream Surge',
+    description: 'Dream energy floods the server. All crates roll Ornate-tier or higher for one hour. Everyone remembers a Dream Surge.',
+    color: 'text-violet-400',
+    bg: 'from-violet-900/30 to-violet-950/10',
+    border: 'border-violet-700/40',
   },
 ]
 
