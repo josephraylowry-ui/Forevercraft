@@ -47,12 +47,12 @@ export default function Home() {
             className="w-28 h-auto md:w-36 mx-auto mb-6 drop-shadow-[0_0_30px_rgba(200,140,40,0.4)] animate-[fade-in-up_0.8s_ease-out_both]"
             style={{ imageRendering: 'pixelated' }}
           />
-          <p className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-700 tracking-[0.4em] mb-6 uppercase animate-[fade-in-up_0.8s_ease-out_0.1s_both]">
-            A Fantasy Minecraft Overhaul
-          </p>
-          <h1 className="font-['Press_Start_2P'] text-4xl md:text-6xl text-yellow-400 mb-6 leading-tight drop-shadow-[0_0_40px_rgba(200,140,40,0.5)] animate-[fade-in-up_0.8s_ease-out_0.2s_both]">
+          <h1 className="font-['Press_Start_2P'] text-4xl md:text-6xl text-yellow-400 mb-4 leading-tight drop-shadow-[0_0_40px_rgba(200,140,40,0.5)] animate-[fade-in-up_0.8s_ease-out_0.1s_both]">
             FOREVERCRAFT
           </h1>
+          <p className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-700 tracking-[0.4em] mb-6 uppercase animate-[fade-in-up_0.8s_ease-out_0.2s_both]">
+            A Fantasy Minecraft Overhaul
+          </p>
           <p className="font-['Crimson_Pro'] italic text-xl md:text-2xl text-stone-400 mb-12 animate-[fade-in-up_0.8s_ease-out_0.4s_both]">
             Every world has loot. This one has dreams.
           </p>
