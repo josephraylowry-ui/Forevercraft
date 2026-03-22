@@ -112,7 +112,7 @@ export default function Seasons() {
       />
 
       {/* Season Cycle Overview */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-12">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">THE FOUR SEASONS</h2>
@@ -147,7 +147,7 @@ export default function Seasons() {
 
       {/* World Events */}
       <section className="border-t border-yellow-900/20 bg-stone-950">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-4">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">WORLD EVENTS</h2>
@@ -175,7 +175,7 @@ export default function Seasons() {
 
       {/* Moon Phases */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">MOON PHASES</h2>

@@ -24,7 +24,7 @@ export default function SpiritWeapons() {
         particleColor="rgba(192, 132, 252, 0.4)"
       />
 
-      <div className="max-w-5xl mx-auto px-6 py-16 space-y-20">
+      <div className="max-w-[1400px] mx-auto px-8 py-16 space-y-20">
         {spiritWeapons.map((weapon, i) => (
           <ScrollReveal key={weapon.id} delay={i * 50}>
             <section

@@ -117,7 +117,7 @@ export default function Codex() {
         </div>
       </PageHero>
 
-      <div className="max-w-6xl mx-auto px-6 py-10">
+      <div className="max-w-[1400px] mx-auto px-8 py-10">
         {/* Category Filters */}
         <div className="flex gap-2 flex-wrap mb-8 sticky top-14 z-40 bg-stone-950/95 backdrop-blur-sm py-4 -mx-6 px-6 border-b border-yellow-900/20">
           {CATEGORIES.map(cat => (

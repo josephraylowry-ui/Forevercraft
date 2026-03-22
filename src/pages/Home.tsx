@@ -40,7 +40,7 @@ export default function Home() {
       {/* ── Hero ─────────────────────────────────────── */}
       <div className="relative min-h-[90vh] flex items-center justify-center border-b border-yellow-900/40 bg-[radial-gradient(ellipse_at_top,_#2a1a0a_0%,_#0a0906_70%)] overflow-hidden">
         <ParticleField count={40} />
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+        <div className="relative z-10 max-w-[1200px] mx-auto px-8 text-center">
           <img
             src="/icon.png"
             alt="Forevercraft"
@@ -104,7 +104,7 @@ export default function Home() {
       <Divider />
 
       {/* ── Dream Rate Journey ───────────────────────── */}
-      <section className="max-w-4xl mx-auto px-6 py-20">
+      <section className="max-w-[1200px] mx-auto px-8 py-20">
         <ScrollReveal>
           <h2 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-600 tracking-widest mb-3 text-center uppercase">
             The Dream Rate Journey
@@ -145,7 +145,7 @@ export default function Home() {
       <Divider />
 
       {/* ── The Vision ───────────────────────────────── */}
-      <section className="max-w-4xl mx-auto px-6 py-20 font-['Crimson_Pro'] text-lg leading-relaxed">
+      <section className="max-w-[1200px] mx-auto px-8 py-20 font-['Crimson_Pro'] text-lg leading-relaxed">
         <ScrollReveal>
           <h2 className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-600 tracking-widest mb-8 uppercase">
             The Vision
@@ -169,7 +169,7 @@ export default function Home() {
       <Divider />
 
       {/* ── Feature Highlights ───────────────────────── */}
-      <section className="max-w-4xl mx-auto px-6 py-20 space-y-16 font-['Crimson_Pro'] text-lg leading-relaxed">
+      <section className="max-w-[1200px] mx-auto px-8 py-20 space-y-16 font-['Crimson_Pro'] text-lg leading-relaxed">
         <FeatureSection title="Spirit Weapons">
           <p className="text-stone-300">
             14 legendary weapons — one for each class. Dropped at 5% from raid bosses at the bottom
@@ -359,7 +359,7 @@ function FeatureSection({ title, children }: { title: string; children: React.Re
 
 function Divider() {
   return (
-    <div className="flex items-center gap-4 max-w-4xl mx-auto px-6">
+    <div className="flex items-center gap-4 max-w-[1200px] mx-auto px-8">
       <div className="flex-1 h-px bg-yellow-900/30" />
       <img src="/icon.png" alt="" className="w-5 h-5 rounded opacity-40" style={{ imageRendering: 'pixelated' }} />
       <div className="flex-1 h-px bg-yellow-900/30" />

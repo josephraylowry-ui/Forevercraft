@@ -14,7 +14,7 @@ export default function PageHero({ title, subtitle, badge, children, particles =
   return (
     <div className="relative border-b border-yellow-900/40 bg-[radial-gradient(ellipse_at_top,_#2a1a0a_0%,_#0a0906_70%)] overflow-hidden">
       {particles && <ParticleField count={20} color={particleColor} />}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 py-16 md:py-20 text-center">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-8 py-16 md:py-20 text-center">
         {badge && (
           <p className="font-['Press_Start_2P'] text-[0.45rem] text-yellow-700 tracking-[0.3em] mb-4 uppercase">
             {badge}

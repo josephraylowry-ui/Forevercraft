@@ -42,7 +42,7 @@ export default function CraftForever() {
       />
 
       {/* Spirit Tools */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-12">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">SPIRIT TOOLS</h2>
@@ -67,7 +67,7 @@ export default function CraftForever() {
 
       {/* Trade Trials */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">TRADE TRIALS</h2>
@@ -101,7 +101,7 @@ export default function CraftForever() {
 
       {/* Grand Forge */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">THE GRAND FORGE</h2>
@@ -138,7 +138,7 @@ export default function CraftForever() {
 
       {/* Artisan Rank */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">ARTISAN RANK</h2>

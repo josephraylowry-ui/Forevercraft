@@ -94,7 +94,7 @@ export default function ArmorSets() {
       />
 
       {/* Overview */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto mb-16">
             <div className="text-center rounded-lg border border-yellow-700/40 bg-yellow-900/10 p-4">

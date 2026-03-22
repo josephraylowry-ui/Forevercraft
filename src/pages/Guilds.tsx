@@ -57,7 +57,7 @@ export default function Guilds() {
       />
 
       {/* Guilds */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-10">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">GUILDS</h2>
@@ -81,7 +81,7 @@ export default function Guilds() {
 
       {/* Party Combos */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">PARTY COMBOS</h2>
@@ -109,7 +109,7 @@ export default function Guilds() {
 
       {/* Duels */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">DUELS</h2>
@@ -134,7 +134,7 @@ export default function Guilds() {
 
       {/* Buddy System */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">BUDDY SYSTEM</h2>
@@ -159,7 +159,7 @@ export default function Guilds() {
 
       {/* Friendship */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">FRIENDSHIP</h2>
@@ -187,7 +187,7 @@ export default function Guilds() {
 
       {/* Family & Marriage */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">FAMILY & MARRIAGE</h2>

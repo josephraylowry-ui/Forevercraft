@@ -33,7 +33,7 @@ export default function RaidBosses() {
       />
 
       {/* Raid Overview */}
-      <section className="max-w-5xl mx-auto px-6 pt-16 pb-8">
+      <section className="max-w-[1400px] mx-auto px-8 pt-16 pb-8">
         <ScrollReveal>
           <div className="text-center mb-6">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">HOW RAIDS WORK</h2>
@@ -88,7 +88,7 @@ export default function RaidBosses() {
         </Spoiler>
       </section>
 
-      <div className="max-w-5xl mx-auto px-6 py-16 space-y-4">
+      <div className="max-w-[1400px] mx-auto px-8 py-16 space-y-4">
         {BOSSES.map((boss, i) => (
           <ScrollReveal key={boss.name} delay={i * 40}>
             <div

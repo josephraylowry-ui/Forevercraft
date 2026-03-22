@@ -42,7 +42,7 @@ export default function SkillTrees() {
         particleColor="rgba(34, 197, 94, 0.3)"
       />
 
-      <div className="max-w-7xl mx-auto px-6 py-16">
+      <div className="max-w-[1600px] mx-auto px-8 py-16">
         {/* Three Column Layout */}
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {COLUMNS.map(col => (

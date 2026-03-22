@@ -31,7 +31,7 @@ export default function Gacha() {
       />
 
       {/* How It Works */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-12">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">HOW IT WORKS</h2>
@@ -60,7 +60,7 @@ export default function Gacha() {
 
       {/* Reward Pool */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">REWARD POOL</h2>
@@ -97,7 +97,7 @@ export default function Gacha() {
 
       {/* Currencies */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">CURRENCIES</h2>

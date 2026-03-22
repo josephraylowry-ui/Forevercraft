@@ -64,7 +64,7 @@ export default function DreamRate() {
         subtitle="The backbone of everything. Cap: 50. Formula: multiplier = 1 + (dreams / 35)."
       />
 
-      <div className="max-w-4xl mx-auto px-6 py-16 space-y-12">
+      <div className="max-w-[1200px] mx-auto px-8 py-16 space-y-12">
         {/* What is Dream Rate */}
         <ScrollReveal>
           <section className="font-['Crimson_Pro'] text-lg leading-relaxed">

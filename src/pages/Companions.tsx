@@ -34,7 +34,7 @@ export default function Companions() {
       />
 
       {/* System Overview */}
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-[1400px] mx-auto px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
           {[
             { title: 'Levels 1-100', desc: 'Every companion levels through experience, scaling their passive abilities from minimum to maximum.' },

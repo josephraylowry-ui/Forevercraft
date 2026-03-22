@@ -39,7 +39,7 @@ export default function Lore() {
       />
 
       {/* Stats Overview */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           {LORE_STATS.map((stat, i) => (
             <ScrollReveal key={stat.label} delay={i * 80}>
@@ -73,7 +73,7 @@ export default function Lore() {
 
       {/* Guide Books */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">THE SIX ANECDOTES</h2>
@@ -99,7 +99,7 @@ export default function Lore() {
 
       {/* Archaeology */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-6">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">ARCHAEOLOGY</h2>
@@ -113,7 +113,7 @@ export default function Lore() {
 
       {/* Personal Milestones */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">PERSONAL MILESTONES</h2>

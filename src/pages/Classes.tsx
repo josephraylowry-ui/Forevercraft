@@ -18,7 +18,7 @@ export default function Classes() {
       />
 
       {/* System Overview */}
-      <div className="max-w-4xl mx-auto px-6 py-12">
+      <div className="max-w-[1200px] mx-auto px-8 py-12">
         <ScrollReveal>
           <div className="font-['Crimson_Pro'] text-lg text-stone-400 text-center mb-8 max-w-2xl mx-auto">
             <p>

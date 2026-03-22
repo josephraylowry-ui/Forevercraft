@@ -157,7 +157,7 @@ export default function Guide() {
         particleColor="rgba(255, 170, 0, 0.3)"
       />
 
-      <div className="max-w-4xl mx-auto px-6 py-16">
+      <div className="max-w-[1200px] mx-auto px-8 py-16">
         {/* Intro */}
         <ScrollReveal>
           <div className="text-center mb-16">

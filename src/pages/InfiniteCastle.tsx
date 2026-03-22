@@ -53,7 +53,7 @@ export default function InfiniteCastle() {
       />
 
       {/* Core Mechanics */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-[1400px] mx-auto px-8 py-16">
         <ScrollReveal>
           <div className="text-center mb-12">
             <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">CORE MECHANICS</h2>
@@ -120,7 +120,7 @@ export default function InfiniteCastle() {
 
       {/* Named Bosses */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">NAMED BOSSES</h2>
@@ -156,7 +156,7 @@ export default function InfiniteCastle() {
 
       {/* Milestone Rewards */}
       <section className="border-t border-yellow-900/20">
-        <div className="max-w-6xl mx-auto px-6 py-16">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
           <ScrollReveal>
             <div className="text-center mb-10">
               <h2 className="font-['Press_Start_2P'] text-sm text-yellow-400 mb-3">MILESTONE REWARDS</h2>

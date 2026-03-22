@@ -32,7 +32,7 @@ export default function Artifacts() {
       />
 
       {/* System Overview */}
-      <div className="max-w-6xl mx-auto px-6 py-12">
+      <div className="max-w-[1400px] mx-auto px-8 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           {[
             { title: '358 Artifacts', desc: '29 Common, 29 Uncommon, 32 Rare, 116 Ornate, 60 Exquisite, 92 Mythical' },
