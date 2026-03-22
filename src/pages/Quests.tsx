@@ -12,11 +12,11 @@ const QUEST_TIERS = [
 
 const REPUTATION_LEVELS = [
   { name: 'Stranger', threshold: '0', color: 'text-stone-500', description: 'No one knows your name. Basic errands only.' },
-  { name: 'Acquaintance', threshold: '50', color: 'text-stone-400', description: 'They recognize your face. Task-tier quests unlock.' },
-  { name: 'Friend', threshold: '150', color: 'text-green-400', description: 'Villagers greet you warmly. Better prices, contract quests.' },
-  { name: 'Ally', threshold: '400', color: 'text-blue-400', description: 'You are trusted. Commission quests, village defense missions.' },
-  { name: 'Hero', threshold: '800', color: 'text-purple-400', description: 'Songs are sung. Expedition quests, unique dialogue.' },
-  { name: 'Legend', threshold: '1500', color: 'text-yellow-400', description: 'Your name echoes through history. Heroic quests, legendary rewards.' },
+  { name: 'Acquaintance', threshold: '100', color: 'text-stone-400', description: 'They recognize your face. Task-tier quests unlock.' },
+  { name: 'Friend', threshold: '250', color: 'text-green-400', description: 'Villagers greet you warmly. Better prices, contract quests.' },
+  { name: 'Ally', threshold: '500', color: 'text-blue-400', description: 'You are trusted. Commission quests, village defense missions.' },
+  { name: 'Hero', threshold: '1,000', color: 'text-purple-400', description: 'Songs are sung. Expedition quests, unique dialogue.' },
+  { name: 'Legend', threshold: '2,500', color: 'text-yellow-400', description: 'Your name echoes through history. Heroic quests, legendary rewards.' },
 ]
 
 const BOUNTY_TIERS = [
@@ -32,7 +32,7 @@ export default function Quests() {
       <PageHero
         title="QUESTS & BOUNTIES"
         badge="THE ADVENTURER'S PATH"
-        subtitle="250 handcrafted quests across six tiers of challenge. Build your reputation from Stranger to Legend."
+        subtitle="75 handcrafted quests across six tiers of challenge. Build your reputation from Stranger to Legend."
         particleColor="#a855f7"
       />
 
