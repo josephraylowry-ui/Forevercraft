@@ -17,7 +17,8 @@ const SYSTEM_CARDS = [
   { title: 'QUESTS', desc: '75 quests across 6 tiers. Village reputation. Patron bounties.', icon: '📜', to: '/quests', color: '#D97706' },
   { title: 'INFINITE CASTLE', desc: 'Endless escalating dungeon. Bosses every 10 floors. Dream Storm Crystals.', icon: '🏰', to: '/infinite-castle', color: '#78716C' },
   { title: 'COOKING', desc: '11 mastery categories. Seasonal recipes. Campfire crafting.', icon: '🍳', to: '/cooking', color: '#F59E0B' },
-  { title: 'GUILDS & SOCIAL', desc: 'Guilds, parties with 9 combo abilities, duels, pet duels, buddy system.', icon: '👥', to: '/guilds', color: '#0EA5E9' },
+  { title: 'GUILDS & SOCIAL', desc: 'Guilds, parties, duels, buddy system, marriage, and family.', icon: '👥', to: '/guilds', color: '#0EA5E9' },
+  { title: 'GACHA FOUNTAIN', desc: 'Dreamdust Fountain with pulls, Lucid currency, and the exclusive Crumb of Dreams.', icon: '🎰', to: '/gacha', color: '#A855F7' },
 ]
 
 const DR_MILESTONES = [
@@ -284,6 +285,35 @@ export default function Home() {
             The Codex system is a 751-function interactive encyclopedia tracking every artifact you've
             found. The Bestiary catalogs every mob encounter. Guidestones create a craftable
             teleportation network across dimensions.
+          </p>
+        </FeatureSection>
+
+        <FeatureSection title="Affinity & Morality">
+          <p className="text-stone-300">
+            Every class builds affinity through use — the more you fight with a weapon type,
+            the stronger your alignment grows. Per-class affinity totals scale your damage
+            through daily-capped progression across 7 stages.
+          </p>
+          <p className="mt-4 text-stone-400">
+            The <span className="text-yellow-500 font-semibold">Reaper system</span> tracks
+            your moral choices. Kill villagers and iron golems to build Infamy — the world
+            sends hunting parties after you. Trade peacefully to build Renown — bandits
+            target you for your reputation. Both decay over time. Neither path is permanent.
+            Your choices shape how the world responds to you.
+          </p>
+        </FeatureSection>
+
+        <FeatureSection title="Competitions & Trials">
+          <p className="text-stone-300">
+            Friendly competitions run daily — timed challenges with leaderboards, personal bests,
+            and lifetime win tracking. Head-to-head challenges let you test your skills against
+            other players in 1v1 format.
+          </p>
+          <p className="mt-4 text-stone-400">
+            <span className="text-yellow-500 font-semibold">Craft Trials</span> offer 6 categories
+            of timed challenges (Mining, Farming, Fishing, Building, Lumber, Artisan) with 10 tiers
+            each. Daily challenges give free entry without a Dungeon Key. Hard mode halves the timer
+            and applies Mining Fatigue. Master all 6 to earn Grand Master status.
           </p>
         </FeatureSection>
       </section>

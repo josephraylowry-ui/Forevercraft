@@ -35,6 +35,7 @@ const NAV_ITEMS: NavItem[] = [
       { label: 'Seasons & Events', to: '/seasons' },
       { label: 'Quests & Bounties', to: '/quests' },
       { label: 'Cooking', to: '/cooking' },
+      { label: 'Gacha Fountain', to: '/gacha' },
       { label: 'Lore & Discovery', to: '/lore' },
     ],
   },
