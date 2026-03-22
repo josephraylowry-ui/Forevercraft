@@ -5,6 +5,7 @@ import { TIER_CARD, TIER_GLOW } from '../data/constants'
 import PageHero from '../components/layout/PageHero'
 import TierBadge from '../components/ui/TierBadge'
 import ScrollReveal from '../components/effects/ScrollReveal'
+import Spoiler from '../components/ui/Spoiler'
 
 const SUBTYPES = ['All', 'Sword', 'Bow', 'Crossbow', 'Mace', 'Trident', 'Axe', 'Spear'] as const
 
@@ -29,6 +30,39 @@ export default function Artifacts() {
         badge="ARTIFACT CODEX"
         subtitle={`${artifacts.length} unique items across six tiers. Every one handcrafted.`}
       />
+
+      {/* System Overview */}
+      <div className="max-w-6xl mx-auto px-6 py-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+          {[
+            { title: '358 Artifacts', desc: '29 Common, 29 Uncommon, 32 Rare, 116 Ornate, 60 Exquisite, 92 Mythical' },
+            { title: '28 Armor Sets', desc: '8 Mythical (5pc), 5 Exquisite (4pc), 15 Ornate (4pc) with set bonuses' },
+            { title: '46 Accessories', desc: 'Passive effects when held in inventory. 19 toggleable via sneak+mainhand.' },
+            { title: '13 Rings', desc: 'Unique passive effects from Amethyst (Night Vision) to Void (Resistance II + Fire Resist + Slow Falling)' },
+          ].map((item, i) => (
+            <ScrollReveal key={item.title} delay={i * 80}>
+              <div className="rounded border border-stone-800 bg-stone-900/40 p-4 h-full">
+                <h3 className="font-['Press_Start_2P'] text-[0.4rem] text-yellow-500 mb-2">{item.title}</h3>
+                <p className="font-['Crimson_Pro'] text-stone-400 text-sm">{item.desc}</p>
+              </div>
+            </ScrollReveal>
+          ))}
+        </div>
+
+        <ScrollReveal delay={300}>
+          <Spoiler>
+            <div className="space-y-3 font-['Crimson_Pro'] text-sm text-stone-400">
+              <p><span className="text-yellow-500 font-semibold">Spawn Rates:</span> Non-structure containers: 7% (Common-Exquisite), 10% (Mythical). Structure chests: 25% (Common-Exquisite), 44% (Mythical). Biome matching adds +25%.</p>
+              <p><span className="text-yellow-500 font-semibold">Weapon Mastery:</span> Awaken artifacts with tier-matched Awakening Stones (20% crate drop). Gain XP from orbs, auto-unlock enchantments per level. Prestige up to 3 times. All 5 gear slots gain XP simultaneously.</p>
+              <p><span className="text-yellow-500 font-semibold">Patina System:</span> Tracks playtime with each artifact. Fresh → Worn → Seasoned → Storied → Legendary over 72+ hours. Each stage adds flavor text and a permanent stat bonus.</p>
+              <p><span className="text-yellow-500 font-semibold">Constellations:</span> 10 thematic groupings of artifacts. Complete a constellation = +0.25 permanent Dream Rate (up to +2.5 total).</p>
+              <p><span className="text-yellow-500 font-semibold">Transmutation:</span> Sacrifice same-tier artifacts for one of the next tier. 5 Common → 1 Uncommon, 4 Rare → 1 Ornate, 3 Exquisite → 1 Mythical. Artificer nearby reduces cost by 1 daily.</p>
+              <p><span className="text-yellow-500 font-semibold">Healer Artifacts:</span> 12 right-click healing items (2 per tier). Healer's Oath: during any healer cooldown, Weakness V is applied and arrows are neutralized.</p>
+              <p><span className="text-yellow-500 font-semibold">Glyphforge:</span> Permanent rune binding on artifacts. 12 glyphs + Arcanum (random). Capacity scales: 1 (base) to 13 (mythical). Time-gated: 3 days for first glyph, 15 for thirteenth.</p>
+            </div>
+          </Spoiler>
+        </ScrollReveal>
+      </div>
 
       <div className="max-w-7xl mx-auto px-6 py-10">
         {/* Filters */}
