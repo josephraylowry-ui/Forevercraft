@@ -100,7 +100,7 @@ export const STATS = {
   totalCompanions: 106,
   totalSpiritWeapons: 14,
   totalRaidBosses: 14,
-  totalSkillTrees: 13,
+  totalSkillTrees: 14,
   totalQuests: 250,
   totalLoreFragments: 904,
   totalArmorSets: 28,

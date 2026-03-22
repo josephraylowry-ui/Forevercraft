@@ -3,19 +3,20 @@ import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
 
 const TREES = [
-  { name: 'Agility', column: 'adventure', icon: '💨', desc: 'Movement speed bonuses at each level. Sprint faster, dodge better.', prestige: 'Phantom Sprint — brief intangibility while sprinting' },
-  { name: 'Vitality', column: 'adventure', icon: '❤️', desc: 'Extra hearts per level. More HP means more mistakes you can survive.', prestige: 'Second Wind — auto-heal 4 hearts when dropping below 20% HP' },
-  { name: 'Stealth', column: 'adventure', icon: '👁️', desc: 'Crouching invisibility at high levels. The shadows are your ally.', prestige: 'Shadow Meld — become fully invisible while crouching in darkness' },
-  { name: 'Dexterity', column: 'adventure', icon: '🎯', desc: 'Combat precision. Critical hit chance and attack speed scaling.', prestige: 'Perfect Strike — 10% chance for unblockable hits' },
-  { name: 'Evasion', column: 'adventure', icon: '🌀', desc: 'Damage avoidance chance per level. Sometimes the best defense is not being there.', prestige: 'Afterimage — dodged attacks leave a decoy for 2s' },
-  { name: 'Beastmaster', column: 'progression', icon: '🐺', desc: 'Tamed wolf combat power. Your pack fights harder at your side.', prestige: 'Alpha Call — summon spectral wolves to fight for 30s' },
-  { name: 'Blacksmith', column: 'progression', icon: '🔨', desc: 'Furnace smelting speed. Craft faster, forge stronger.', prestige: 'Master Forge — 5% chance to duplicate smelted items' },
-  { name: 'Culinary', column: 'progression', icon: '🍳', desc: 'Meal healing output. Your cooking restores more and lasts longer.', prestige: 'Chef\'s Kiss — meals grant a random bonus buff' },
-  { name: 'Victorian', column: 'progression', icon: '🏪', desc: 'Villager pricing discounts. Trade smarter, not harder.', prestige: 'Merchant Prince — unlock exclusive legendary trades' },
-  { name: 'Taskmaster', column: 'progression', icon: '📋', desc: 'Quest reward scaling. More XP, better loot from completed quests.', prestige: 'Double Down — 15% chance for double quest rewards' },
-  { name: 'Fishing', column: 'gathering', icon: '🎣', desc: 'Fishing-specific bonuses. Catch rarer fish and treasures.', prestige: 'Master Angler — exclusive legendary fish pool unlocked' },
-  { name: 'Mining', column: 'gathering', icon: '⛏️', desc: 'Mining-specific bonuses. Faster breaking, better drops.', prestige: 'Ore Sense — nearby ores glow through walls briefly' },
-  { name: 'Gathering', column: 'gathering', icon: '🌿', desc: 'Foraging and harvesting bonuses. Nature provides more.', prestige: 'Nature\'s Bounty — double crop/forage drops 10% of time' },
+  { name: 'Agility', column: 'adventure', icon: '💨', desc: '+4% movement speed per level. Leveled by blocks walked (4k to 100k).', prestige: 'Phantom Sprint — brief intangibility while sprinting' },
+  { name: 'Dexterity', column: 'adventure', icon: '🎯', desc: '+2% block reach per level. Leveled by blocks placed (4k to 100k).', prestige: 'Perfect Strike — 10% chance for unblockable hits' },
+  { name: 'Evasion', column: 'adventure', icon: '🌀', desc: '+1% dodge chance per level. Leveled by times hit by mobs (400 to 10k).', prestige: 'Afterimage — dodged attacks leave a decoy for 2s' },
+  { name: 'Stealth', column: 'adventure', icon: '👁️', desc: '+4% crouch speed per level. Leveled by blocks crouched (2k to 50k).', prestige: 'Shadow Meld — become fully invisible while crouching in darkness' },
+  { name: 'Vitality', column: 'adventure', icon: '❤️', desc: '+1 heart per level (from Lv.5). Leveled by fruits & veggies eaten (400 to 10k).', prestige: 'Second Wind — auto-heal 4 hearts when dropping below 20% HP' },
+  { name: 'Taskmaster', column: 'progression', icon: '📋', desc: '+4% quest XP and reputation per level. Leveled by quests completed (100 to 2.5k).', prestige: 'Double Down — 15% chance for double quest rewards' },
+  { name: 'Beastmaster', column: 'progression', icon: '🐺', desc: 'Tamed wolves deal more damage each level. Leveled by pets at max level (1 to 25).', prestige: 'Alpha Call — summon spectral wolves to fight for 30s' },
+  { name: 'Victorian', column: 'progression', icon: '🏪', desc: '+4% crate and patron XP per level. Leveled by mobs slain (2k to 50k).', prestige: 'Merchant Prince — unlock exclusive legendary trades' },
+  { name: 'Culinary', column: 'progression', icon: '🍳', desc: '+10% Well-Fed duration per 5 levels. Leveled by meals cooked (50 to 1.25k).', prestige: 'Chef\'s Kiss — meals grant a random bonus buff' },
+  { name: 'Fishing', column: 'gathering', icon: '🎣', desc: 'Multi-catch chance +0.625% per level. Leveled by fish caught (2k to 50k).', prestige: 'Master Angler — exclusive legendary fish pool unlocked' },
+  { name: 'Mining', column: 'gathering', icon: '⛏️', desc: 'Miner\'s Surge haste chance, grows stronger each tier. Leveled by blocks mined (40k to 1M).', prestige: 'Ore Sense — nearby ores glow through walls briefly' },
+  { name: 'Gathering', column: 'gathering', icon: '🌿', desc: 'Extra crop drops +0.625% per level. Leveled by crops harvested (1k to 25k).', prestige: 'Nature\'s Bounty — double crop/forage drops 10% of time' },
+  { name: 'Blacksmith', column: 'gathering', icon: '🔨', desc: 'Nearby furnaces smelt faster each level. Leveled by items smelted (2k to 50k).', prestige: 'Master Forge — 5% chance to duplicate smelted items' },
+  { name: 'Explorer', column: 'gathering', icon: '🧭', desc: 'Structure crate cooldown reduced by 4% per level. Leveled by structure crates looted (100 to 2.5k).', prestige: 'Pathfinder — reveal nearby undiscovered structures' },
 ]
 
 const COLUMNS = [
@@ -32,8 +33,8 @@ export default function SkillTrees() {
     <div className="bg-stone-950 text-stone-200 min-h-screen">
       <PageHero
         title="SKILL TREES"
-        badge="13 ADVANTAGE TREES"
-        subtitle="25 levels each. 3 prestige cycles. 67 unique prestige abilities. Synergies between trees."
+        badge="14 ADVANTAGE TREES"
+        subtitle="25 levels each. 3 prestige cycles. 67 unique prestige abilities. Cross-tree synergies."
         particleColor="rgba(34, 197, 94, 0.3)"
       />
 

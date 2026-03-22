@@ -12,7 +12,7 @@ const SYSTEM_CARDS = [
   { title: 'COMPANIONS', desc: '106 companions that fight, level, evolve, and bond with you.', icon: '🐾', to: '/companions', color: '#4ADE80' },
   { title: 'CLASSES', desc: '14 weapon classes from Rogue to the secret Dual Swordsman.', icon: '⚡', to: '/classes', color: '#60A5FA' },
   { title: 'RAID BOSSES', desc: '14 multi-phase bosses with puzzles, phases, and unique loot.', icon: '💀', to: '/raid-bosses', color: '#DC2626' },
-  { title: 'SKILL TREES', desc: '13 skill trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
+  { title: 'SKILL TREES', desc: '14 skill trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
   { title: 'ARMOR SETS', desc: '27 armor sets with 2-piece, 4-piece, and mythical 5-piece bonuses.', icon: '🛡️', to: '/armor-sets', color: '#9CA3AF' },
   { title: 'QUESTS', desc: '250 quests across 6 tiers. Village reputation. Patron bounties.', icon: '📜', to: '/quests', color: '#D97706' },
 ]
