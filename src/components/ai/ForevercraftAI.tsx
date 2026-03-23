@@ -167,6 +167,19 @@ export default function ForevercraftAI() {
     return ''
   }
 
+  // Check if donation popup is visible (shifts AI button up)
+  const [donoVisible, setDonoVisible] = useState(false)
+  useEffect(() => {
+    const check = () => {
+      const popup = document.getElementById('dono-popup')
+      setDonoVisible(popup !== null && popup.style.display !== 'none')
+    }
+    const observer = new MutationObserver(check)
+    observer.observe(document.body, { childList: true, subtree: true, attributes: true })
+    check()
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <>
       {/* Toggle Button */}
@@ -174,7 +187,7 @@ export default function ForevercraftAI() {
         onClick={() => setOpen(!open)}
         style={{
           position: 'fixed',
-          bottom: '24px',
+          bottom: donoVisible ? '180px' : '24px',
           right: '24px',
           zIndex: 99999,
           width: '56px',
@@ -183,18 +196,20 @@ export default function ForevercraftAI() {
           background: 'linear-gradient(135deg, #b8860b 0%, #daa520 50%, #b8860b 100%)',
           border: '2px solid rgba(218, 165, 32, 0.6)',
           color: '#1a1a2e',
-          fontSize: '24px',
+          fontSize: '22px',
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           boxShadow: '0 4px 20px rgba(218, 165, 32, 0.3)',
-          transition: 'transform 0.2s, box-shadow 0.2s',
+          transition: 'transform 0.2s, box-shadow 0.2s, bottom 0.3s ease',
+          fontWeight: 'bold',
         }}
         onMouseEnter={e => { e.currentTarget.style.transform = 'scale(1.1)'; e.currentTarget.style.boxShadow = '0 6px 30px rgba(218, 165, 32, 0.5)' }}
         onMouseLeave={e => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(218, 165, 32, 0.3)' }}
+        title="Ask the Forevercraft Guide"
       >
-        {open ? '✕' : '💎'}
+        {open ? '✕' : '❓'}
       </button>
 
       {/* Chat Panel */}
@@ -202,7 +217,7 @@ export default function ForevercraftAI() {
         <div
           style={{
             position: 'fixed',
-            bottom: '92px',
+            bottom: donoVisible ? '248px' : '92px',
             right: '24px',
             zIndex: 99998,
             width: '400px',

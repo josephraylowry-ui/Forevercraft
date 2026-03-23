@@ -186,6 +186,9 @@ export default function Guide() {
               punching your first tree to wielding a transcendent weapon at Dream Rate 50.
               Take it at your own pace. Every player's journey is different.
             </p>
+            <p className="font-['Crimson_Pro'] text-base text-stone-500 mt-3">
+              Have a question? Click the <span className="text-yellow-500">❓</span> in the bottom corner to ask our Forevercraft Guide — it knows every system inside and out.
+            </p>
           </div>
         </ScrollReveal>
 

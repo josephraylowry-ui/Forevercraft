@@ -48,6 +48,7 @@ export default function DonatePopup() {
   // No transform, no animation class, no backdrop-filter on fixed element
   return createPortal(
     <div
+      id="dono-popup"
       style={{
         position: 'fixed',
         bottom: '24px',
