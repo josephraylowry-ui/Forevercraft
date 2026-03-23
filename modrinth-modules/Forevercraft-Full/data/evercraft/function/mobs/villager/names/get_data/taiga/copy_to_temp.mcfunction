@@ -1,2 +1,0 @@
-$data modify storage eden:temp villager_names.taiga.first_name set from storage eden:database names.villager.taiga.first.$(first_name)
-$data modify storage eden:temp villager_names.taiga.last_name set from storage eden:database names.villager.taiga.last.$(last_name)

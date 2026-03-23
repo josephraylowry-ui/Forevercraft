@@ -1,1 +1,0 @@
-$attribute @s waypoint_transmit_range base set $(range)

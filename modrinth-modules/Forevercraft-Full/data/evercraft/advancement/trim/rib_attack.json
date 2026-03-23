@@ -1,8 +1,0 @@
-{
-  "parent": "evercraft:trim/root",
-  "criteria": {
-    "impossible": {
-      "trigger": "minecraft:impossible"
-    }
-  }
-}

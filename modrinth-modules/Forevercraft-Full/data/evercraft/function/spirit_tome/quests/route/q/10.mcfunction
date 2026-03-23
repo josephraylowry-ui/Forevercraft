@@ -1,4 +1,0 @@
-scoreboard players set @s ec.sq_type 2
-scoreboard players set @s ec.sq_target 15
-scoreboard players set @s ec.sq_sub 2
-data merge storage evercraft:sq_temp {name:"The Deep",desc:"Reach Castle floor 15.",flavor:"The castle has no mercy for the unprepared."}

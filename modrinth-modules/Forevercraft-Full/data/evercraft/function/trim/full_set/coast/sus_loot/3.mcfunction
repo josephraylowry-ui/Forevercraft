@@ -1,1 +1,0 @@
-$data merge block ~ ~ ~ {LootTable:"evercraft:trim/$(sus_block)"}

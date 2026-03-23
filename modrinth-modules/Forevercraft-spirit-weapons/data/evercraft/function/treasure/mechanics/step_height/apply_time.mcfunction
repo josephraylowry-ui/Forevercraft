@@ -1,1 +1,0 @@
-$scoreboard players set @s ec.step_height $(duration)

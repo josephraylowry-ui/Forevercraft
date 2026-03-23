@@ -1,1 +1,0 @@
-$execute as @s run tp $(hexUUID) ^ ^ ^

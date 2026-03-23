@@ -1,1 +1,0 @@
-advancement revoke @s only evercraft:treasure/mechanics/mooshroom/milk

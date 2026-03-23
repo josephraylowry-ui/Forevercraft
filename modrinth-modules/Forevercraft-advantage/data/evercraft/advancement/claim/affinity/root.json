@@ -1,8 +1,0 @@
-{
-  "criteria": {
-    "impossible": {
-      "trigger": "minecraft:impossible"
-    }
-  },
-  "parent": "evercraft:claim/root"
-}

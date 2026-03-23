@@ -1,8 +1,0 @@
-{
-  "values": [
-    "evercraft:init",
-    "evercraft:tomb/load",
-    "evercraft:armored_elytra/load",
-    "evercraft:friends/load"
-  ]
-}

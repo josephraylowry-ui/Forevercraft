@@ -1,1 +1,0 @@
-$execute as $(player) run function evercraft:treasure/treasure/player/facing

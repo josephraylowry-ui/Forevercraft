@@ -1,1 +1,0 @@
-ride @a[scores={ec.small_hit=0},distance=..6,limit=1] mount @s[type=!player]

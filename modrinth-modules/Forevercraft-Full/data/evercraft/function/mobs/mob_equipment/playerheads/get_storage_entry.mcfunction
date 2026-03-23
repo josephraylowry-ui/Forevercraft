@@ -1,1 +1,0 @@
-$function evercraft:mobs/mob_equipment/playerheads/equip_player_head with storage eden:database playerheads.$(rolled_id)

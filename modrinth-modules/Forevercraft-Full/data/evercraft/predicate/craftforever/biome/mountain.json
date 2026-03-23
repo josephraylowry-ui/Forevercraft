@@ -1,9 +1,0 @@
-{
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "biomes": [
-      "minecraft:stony_peaks",
-      "minecraft:meadow"
-    ]
-  }
-}

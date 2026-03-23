@@ -1,1 +1,0 @@
-$data modify storage eden:temp trader.miniblock.entry set from storage eden:database trades.miniblock.$(id)
