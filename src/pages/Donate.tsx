@@ -137,8 +137,44 @@ export default function Donate() {
           ))}
         </div>
 
-        {/* Bottom Note */}
+        {/* QR Codes */}
         <ScrollReveal delay={300}>
+          <div className="mt-16">
+            <h2 className="font-['Press_Start_2P'] text-[0.75rem] text-yellow-500 tracking-widest text-center mb-8">
+              SCAN TO DONATE
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+              {[
+                { name: 'Buy Me a Coffee', img: '/qr-bmc.png', color: '#F0C337' },
+                { name: 'PayPal', img: '/qr-paypal.png', color: '#0070E0' },
+                { name: 'CashApp', img: '/qr-cashapp.png', color: '#00C853' },
+              ].map(qr => (
+                <div key={qr.name} className="text-center">
+                  <div
+                    className="rounded-lg border p-6 bg-stone-900/30 inline-block"
+                    style={{ borderColor: `${qr.color}30` }}
+                  >
+                    <img
+                      src={qr.img}
+                      alt={`${qr.name} QR Code`}
+                      className="w-48 h-48 mx-auto"
+                      style={{ imageRendering: 'pixelated' }}
+                    />
+                  </div>
+                  <p
+                    className="font-['Press_Start_2P'] text-[0.6rem] mt-3 tracking-wider"
+                    style={{ color: qr.color }}
+                  >
+                    {qr.name.toUpperCase()}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
+
+        {/* Bottom Note */}
+        <ScrollReveal delay={400}>
           <div className="mt-16 text-center">
             <p className="font-['Crimson_Pro'] italic text-xl text-stone-500 max-w-2xl mx-auto">
               "Whether you donate or not, you are part of this journey. Thank you for playing
