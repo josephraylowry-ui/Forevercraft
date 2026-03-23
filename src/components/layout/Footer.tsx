@@ -22,6 +22,9 @@ export default function Footer() {
             <Link to="/terms" className="font-['Crimson_Pro'] text-stone-600 hover:text-stone-400 text-base no-underline transition-colors">
               Terms
             </Link>
+            <Link to="/support" className="font-['Crimson_Pro'] text-stone-600 hover:text-stone-400 text-base no-underline transition-colors">
+              Support
+            </Link>
             <span className="font-['Crimson_Pro'] text-stone-600 text-base italic">
               Minecraft 1.21.11 · Java Edition
             </span>
