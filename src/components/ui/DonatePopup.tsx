@@ -125,6 +125,6 @@ export default function DonatePopup() {
         </div>
       </div>
     </div>,
-    document.body
+    document.getElementById('popup-root') || document.body
   )
 }

@@ -5,6 +5,7 @@ import ScrollToTop from './components/effects/ScrollToTop'
 import Footer from './components/layout/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
 import DonatePopup from './components/ui/DonatePopup'
+import StarField from './components/effects/StarField'
 
 const Home = lazy(() => import('./pages/Home'))
 const Artifacts = lazy(() => import('./pages/Artifacts'))
@@ -47,6 +48,7 @@ function Loading() {
 export default function App() {
   return (
     <BrowserRouter>
+      <StarField />
       <ScrollToTop />
       <ScrollProgress />
       <Navigation />
