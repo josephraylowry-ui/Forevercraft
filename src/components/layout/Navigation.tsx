@@ -77,7 +77,7 @@ export default function Navigation() {
               {item.to ? (
                 <Link
                   to={item.to}
-                  className={`font-['Press_Start_2P'] text-[0.75rem] tracking-wider px-4 py-2.5 rounded transition-colors no-underline ${
+                  className={`font-['Press_Start_2P'] text-[0.75rem] tracking-wider px-4 py-2.5 rounded transition-colors no-underline inline-flex items-center h-10 ${
                     isActive(item.to)
                       ? 'text-yellow-400 bg-yellow-950/40'
                       : 'text-stone-500 hover:text-yellow-600'
@@ -88,7 +88,7 @@ export default function Navigation() {
               ) : (
                 <>
                   <button
-                    className={`font-['Press_Start_2P'] text-[0.75rem] tracking-wider px-4 py-2.5 rounded transition-colors ${
+                    className={`font-['Press_Start_2P'] text-[0.75rem] tracking-wider px-4 py-2.5 rounded transition-colors inline-flex items-center h-10 ${
                       isChildActive(item.children)
                         ? 'text-yellow-400 bg-yellow-950/40'
                         : 'text-stone-500 hover:text-yellow-600'
