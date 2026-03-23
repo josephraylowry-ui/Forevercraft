@@ -184,7 +184,7 @@ export default function Support() {
                 },
                 {
                   q: 'Is Forevercraft available for Bedrock Edition?',
-                  a: 'Not currently. Forevercraft uses Java Edition datapack features that don\'t have Bedrock equivalents. A Bedrock port is not planned at this time.',
+                  a: 'Yes! Forevercraft Bedrock Edition is fully available with 129 systems and 100% Java parity. Built on Minecraft\'s Script API, it runs natively on console, mobile, and PC. Visit the Downloads page or the Bedrock Edition page for more info.',
                 },
                 {
                   q: 'I want to support development — how?',

@@ -347,9 +347,12 @@ export default function Home() {
       <section className="border-t border-yellow-900/30 bg-[radial-gradient(ellipse_at_bottom,_#1a1200_0%,_#0a0906_70%)]">
         <div className="max-w-3xl mx-auto px-6 py-20 text-center">
           <ScrollReveal>
-            <p className="font-['Crimson_Pro'] italic text-2xl text-stone-400 leading-relaxed mb-8">
+            <p className="font-['Crimson_Pro'] italic text-2xl text-stone-400 leading-relaxed mb-4">
               "Take your time. The committed win the race to glory. The quick fall into the traps
               the world has laid before you."
+            </p>
+            <p className="font-['Crimson_Pro'] text-base text-stone-600 mb-8">
+              Got questions? Our <span className="text-yellow-500">❓ Forevercraft Guide</span> is always in the corner, ready to help you navigate every system.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mt-12">
               <StatCounter end={STATS.totalArtifacts} label="Artifacts" />
