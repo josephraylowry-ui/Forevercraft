@@ -49,7 +49,7 @@ function searchKB(query: string): KBEntry[] {
 function formatKBResponse(results: KBEntry[]): string {
   if (results.length === 0) return ''
   if (results.length === 1) return results[0].a
-  return results.map((r, i) => `**${r.q}**\n${r.a}`).join('\n\n')
+  return results.map(r => `**${r.q}**\n${r.a}`).join('\n\n')
 }
 
 // RAG endpoint (Cloudflare Workers AI)
