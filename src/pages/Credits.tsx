@@ -8,6 +8,20 @@ const CREDITS = {
   tools: [
     { name: 'Claude', role: 'AI Development Partner' },
   ],
+  family: [
+    {
+      name: 'Mamzeez',
+      note: 'Thank you for all your help and support through this entire process. Couldn\'t have done it without you.',
+    },
+    {
+      name: 'Nessa28',
+      note: 'Thank you for being amazing and the most supportive wife ever. Thank you for always taking care of me and our son — even after too many late nights coding, bug fixing, and making edits. You are everything.',
+    },
+    {
+      name: 'Redpanda300',
+      note: 'Thank you for always supporting in your own way as my sister — even though you deserve a dispenser filled with cavesludge spamming above your house. You\'ve been there since the start of the journey, in real life and in the game.',
+    },
+  ],
   supporters: [] as { name: string; tier: string }[],
 }
 
@@ -48,8 +62,26 @@ export default function Credits() {
           </div>
         </ScrollReveal>
 
-        {/* Supporters */}
+        {/* Family */}
         <ScrollReveal delay={200}>
+          <div className="mb-16">
+            <h2 className="font-['Press_Start_2P'] text-[0.8rem] text-yellow-400 tracking-widest mb-8 text-center">THE ONES WHO MADE IT POSSIBLE</h2>
+            <div className="space-y-6">
+              {CREDITS.family.map((person, i) => (
+                <div
+                  key={i}
+                  className="rounded-lg border border-yellow-800/30 bg-gradient-to-r from-yellow-950/10 to-transparent p-6"
+                >
+                  <p className="font-['Press_Start_2P'] text-[0.8rem] text-yellow-400 mb-3">{person.name}</p>
+                  <p className="font-['Crimson_Pro'] text-lg text-stone-400 italic leading-relaxed">{person.note}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
+
+        {/* Supporters */}
+        <ScrollReveal delay={300}>
           <div className="text-center mb-16">
             <h2 className="font-['Press_Start_2P'] text-[0.8rem] text-yellow-400 tracking-widest mb-4">SUPPORTERS</h2>
             <p className="font-['Crimson_Pro'] text-lg text-stone-500 italic mb-8">
@@ -87,7 +119,7 @@ export default function Credits() {
         </ScrollReveal>
 
         {/* Closing */}
-        <ScrollReveal delay={300}>
+        <ScrollReveal delay={400}>
           <div className="text-center">
             <p className="font-['Crimson_Pro'] italic text-xl text-stone-500 max-w-2xl mx-auto">
               "Take your time, the committed win the race to glory, the quick fall into the traps the world has laid before you."
