@@ -447,7 +447,7 @@ export default function Downloads() {
                 onClick={downloadFull}
                 className="px-10 py-4 rounded-lg bg-yellow-600 hover:bg-yellow-500 text-stone-950 font-['Press_Start_2P'] text-[0.8rem] transition-colors mt-2"
               >
-                DOWNLOAD FULL PACK
+                DOWNLOAD
               </button>
             </div>
           </div>
