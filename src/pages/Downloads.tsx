@@ -232,7 +232,7 @@ export default function Downloads() {
 
   const downloadFull = async () => {
     // Select all modules and build
-    const all = new Set(modules.map(m => m.id))
+    const all = new Set(MODULES.map((m: Module) => m.id))
     setSelected(all)
     // Slight delay so UI updates, then trigger build
     setTimeout(() => {
@@ -266,7 +266,7 @@ export default function Downloads() {
       const fragmentMap: Record<string, string[]> = {}
 
       for (const { zip } of moduleZips) {
-        for (const [path, file] of Object.entries(zip.files)) {
+        for (const [path, file] of Object.entries(zip.files) as [string, any][]) {
           if (file.dir) continue
           if (path.startsWith('_fragments/')) {
             const fragName = path.replace('_fragments/', '').replace('.txt', '')
