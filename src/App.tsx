@@ -4,6 +4,7 @@ import Navigation from './components/layout/Navigation'
 import ScrollToTop from './components/effects/ScrollToTop'
 import Footer from './components/layout/Footer'
 import ScrollProgress from './components/ui/ScrollProgress'
+import DonatePopup from './components/ui/DonatePopup'
 
 const Home = lazy(() => import('./pages/Home'))
 const Artifacts = lazy(() => import('./pages/Artifacts'))
@@ -71,6 +72,7 @@ export default function App() {
         </main>
       </Suspense>
       <Footer />
+      <DonatePopup />
     </BrowserRouter>
   )
 }

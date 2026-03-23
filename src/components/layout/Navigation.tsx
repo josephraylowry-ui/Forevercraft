@@ -118,6 +118,16 @@ export default function Navigation() {
               )}
             </div>
           ))}
+
+          {/* Donate Button */}
+          <a
+            href="https://buymeacoffee.com/forevercraft"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-3 px-4 py-2 rounded-lg bg-yellow-600/90 hover:bg-yellow-500 text-stone-950 font-['Press_Start_2P'] text-[0.6rem] tracking-wider transition-colors no-underline shrink-0"
+          >
+            DONATE
+          </a>
         </div>
 
         {/* Mobile Hamburger */}
@@ -170,6 +180,14 @@ export default function Navigation() {
               )}
             </div>
           ))}
+          <a
+            href="https://buymeacoffee.com/forevercraft"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block mx-6 my-3 px-4 py-3 rounded-lg bg-yellow-600/90 text-stone-950 font-['Press_Start_2P'] text-[0.6rem] tracking-wider text-center no-underline"
+          >
+            DONATE
+          </a>
         </div>
       )}
     </nav>
