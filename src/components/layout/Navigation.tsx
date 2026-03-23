@@ -124,7 +124,7 @@ export default function Navigation() {
             href="https://buymeacoffee.com/forevercraft"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-3 px-4 py-2 rounded-lg bg-yellow-600/90 hover:bg-yellow-500 text-stone-950 font-['Press_Start_2P'] text-[0.6rem] tracking-wider transition-colors no-underline shrink-0"
+            className="font-['Press_Start_2P'] text-[0.75rem] tracking-wider px-4 py-2.5 rounded transition-colors no-underline inline-flex items-center h-10 text-stone-500 hover:text-yellow-600 shrink-0"
           >
             DONATE
           </a>
@@ -184,7 +184,7 @@ export default function Navigation() {
             href="https://buymeacoffee.com/forevercraft"
             target="_blank"
             rel="noopener noreferrer"
-            className="block mx-6 my-3 px-4 py-3 rounded-lg bg-yellow-600/90 text-stone-950 font-['Press_Start_2P'] text-[0.6rem] tracking-wider text-center no-underline"
+            className="block mx-6 my-3 px-4 py-3 font-['Press_Start_2P'] text-[0.7rem] tracking-wider text-center no-underline text-stone-500 hover:text-yellow-600 transition-colors"
           >
             DONATE
           </a>

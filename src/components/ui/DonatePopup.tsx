@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 
 export default function DonatePopup() {
   const [visible, setVisible] = useState(false)
@@ -41,8 +42,18 @@ export default function DonatePopup() {
 
   if (!visible || dismissed) return null
 
-  return (
-    <div className="fixed bottom-6 right-6 z-50 animate-[slideUp_0.4s_ease-out]">
+  // Use portal to render directly on document.body — bypasses any parent
+  // transform/backdrop-filter that would break fixed positioning
+  return createPortal(
+    <div
+      style={{
+        position: 'fixed',
+        bottom: '24px',
+        right: '24px',
+        zIndex: 99999,
+      }}
+      className="animate-[slideUp_0.4s_ease-out]"
+    >
       <div className="bg-stone-900/95 backdrop-blur-sm border border-yellow-800/50 rounded-lg shadow-xl shadow-black/50 p-5 max-w-[320px]">
         <button
           onClick={dismiss}
@@ -75,6 +86,7 @@ export default function DonatePopup() {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
