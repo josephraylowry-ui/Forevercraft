@@ -248,12 +248,6 @@ function formatKBResponse(scored: ScoredResult[], query: string): string {
     }
   }
 
-  // If multiple results, add related (only for medium/high confidence)
-  if (scored.length > 1 && confidence !== 'low') {
-    const extras = scored.slice(1).map(r => r.entry.q).join(', ')
-    response += `\n\n📚 *Related:* ${extras}`
-  }
-
   return response
 }
 

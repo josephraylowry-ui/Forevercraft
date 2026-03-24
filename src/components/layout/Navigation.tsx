@@ -9,6 +9,7 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   { label: 'Home', to: '/' },
+  { label: 'Gallery', to: '/gallery' },
   {
     label: 'Systems',
     children: [
