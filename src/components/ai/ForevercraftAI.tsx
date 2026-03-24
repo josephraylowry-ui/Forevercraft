@@ -112,8 +112,6 @@ function searchKB(query: string): ScoredResult[] {
     .slice(0, 2)
 }
 
-type ScoredResult = { entry: KBEntry; score: number }
-
 // Conversational small talk patterns
 const GREETINGS = ['hey', 'hi', 'hello', 'sup', 'yo', 'howdy', 'greetings', 'hola', 'whats up', "what's up"]
 const THANKS = ['thanks', 'thank you', 'ty', 'thx', 'appreciate', 'helpful', 'perfect', 'awesome', 'great', 'cool', 'nice']
