@@ -104,15 +104,117 @@ function searchKB(query: string): KBEntry[] {
   return scored
     .filter(s => s.score > 6)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
+    .slice(0, 2)
     .map(s => s.entry)
 }
 
-// Format KB results into a response
-function formatKBResponse(results: KBEntry[]): string {
+// Conversational small talk patterns
+const GREETINGS = ['hey', 'hi', 'hello', 'sup', 'yo', 'howdy', 'greetings', 'hola', 'whats up', "what's up"]
+const THANKS = ['thanks', 'thank you', 'ty', 'thx', 'appreciate', 'helpful', 'perfect', 'awesome', 'great', 'cool', 'nice']
+const FAREWELLS = ['bye', 'goodbye', 'later', 'cya', 'see ya', 'gtg', 'gotta go', 'peace']
+const JOKES = ['joke', 'funny', 'lol', 'lmao', 'haha', 'tell me something']
+
+const GREETING_RESPONSES = [
+  "Hey there, adventurer! What can I help you with? Ask me anything about Forevercraft's 102 systems!",
+  "Welcome! I know every artifact, companion, and hidden mechanic in Forevercraft. What's on your mind?",
+  "Greetings, traveler! Whether it's Dream Rate, raids, or cooking recipes — I've got answers. Fire away!",
+  "Hey! Ready to dive into Forevercraft? I can help with anything from beginner tips to endgame strategy.",
+]
+
+const THANKS_RESPONSES = [
+  "Happy to help! Let me know if you have more questions. There's always more to discover!",
+  "Anytime! Forevercraft has 102 systems — I bet there's something else you're curious about!",
+  "You're welcome! If you need anything else, just ask. Good luck out there, adventurer!",
+  "Glad I could help! The dream awaits. Anything else?",
+]
+
+const FAREWELL_RESPONSES = [
+  "Safe travels, adventurer! May your Dream Rate be ever rising. Come back anytime!",
+  "See you out there! Remember — the committed win the race to glory.",
+  "Farewell! Every block you break, every fish you catch — it all matters. Good luck!",
+]
+
+const JOKE_RESPONSES = [
+  "Why did the Creeper go to the Black Market? Because it wanted to make an *explosive* deal! ...I'll see myself out. Got a real question for me?",
+  "What's a Rogue's favorite type of music? Anything with a good *backstab* beat! ...Okay, okay. What can I actually help with?",
+  "How many Forevercraft developers does it take to write 10,994 functions? Just one. One very dedicated person. That's not a joke, that's just impressive. What else you got?",
+]
+
+const NO_RESULT_RESPONSES = [
+  "Hmm, I'm not sure about that one! Try rephrasing, or ask about a specific system like Dream Rate, companions, raids, cooking, or classes.",
+  "I don't have that in my codex yet! I know about 102 systems though — try asking about artifacts, skill trees, spirit weapons, gacha, or housing!",
+  "That's a tricky one! My knowledge covers all of Forevercraft's systems. Try something like 'How do companions work?' or 'What is the Gacha Fountain?'",
+]
+
+// Conversational follow-up suggestions based on category
+const FOLLOW_UPS: Record<string, string[]> = {
+  'Dream Rate': ['How do I increase my DR?', 'What structures unlock at each DR?', 'What are temporary DR sources?'],
+  'Artifacts': ['How do armor sets work?', 'What are Constellations?', 'How does transmutation work?'],
+  'Companions': ['What are evolved companions?', 'How does the relationship system work?', 'Best companion for combat?'],
+  'Classes': ['How do I choose a class?', 'What is Class Affinity?', 'What are spirit weapons?'],
+  'Spirit Weapons': ['How do I get a Spirit Weapon?', 'What is Metamorphosis?', 'What is the Dream Storm Crystal?'],
+  'Skill Trees': ['What trees are available?', 'What are prestige abilities?', 'How do I respec?'],
+  'Raids': ['How many raid bosses are there?', 'How do I prepare for raids?', 'What does the voting system do?'],
+  'Cooking': ['What are the best combat meals?', 'What are seasonal recipes?', 'What are Spirit Fish?'],
+  'Gacha': ['What are the drop rates?', 'How does pity work?', 'What is Dreamdust?'],
+  'FAQ': ['Where can I download Forevercraft?', 'Is there a Bedrock Edition?', 'What Minecraft versions are supported?'],
+}
+
+function pickRandom<T>(arr: T[]): T {
+  return arr[Math.floor(Math.random() * arr.length)]
+}
+
+function checkSmallTalk(query: string): string | null {
+  const q = query.toLowerCase().trim()
+  if (GREETINGS.some(g => q === g || q.startsWith(g + ' ') || q.startsWith(g + '!'))) return pickRandom(GREETING_RESPONSES)
+  if (THANKS.some(t => q.includes(t))) return pickRandom(THANKS_RESPONSES)
+  if (FAREWELLS.some(f => q === f || q.startsWith(f + ' ') || q.startsWith(f + '!'))) return pickRandom(FAREWELL_RESPONSES)
+  if (JOKES.some(j => q.includes(j))) return pickRandom(JOKE_RESPONSES)
+  if (q === '?' || q === 'help' || q === 'what can you do') return "I'm the Forevercraft Guide! Ask me about any of the 102 systems — artifacts, companions, raids, cooking, classes, Dream Rate, housing, guilds, gacha, spirit weapons, skill trees, and way more. Just type your question!"
+  return null
+}
+
+// Format KB results into a conversational response
+function formatKBResponse(results: KBEntry[], query: string): string {
   if (results.length === 0) return ''
-  if (results.length === 1) return results[0].a
-  return results.map(r => `**${r.q}**\n${r.a}`).join('\n\n')
+
+  const main = results[0]
+  const answer = main.a
+
+  // Add conversational intro based on question type
+  const q = query.toLowerCase()
+  let intro = ''
+  if (q.startsWith('what is') || q.startsWith('what are') || q.startsWith("what's")) {
+    intro = pickRandom(['Great question! ', 'Ah, glad you asked! ', 'Good one — ', ''])
+  } else if (q.startsWith('how do') || q.startsWith('how does') || q.startsWith('how to') || q.startsWith('how can')) {
+    intro = pickRandom(["Here's how: ", 'Let me break it down — ', "Sure thing! ", ''])
+  } else if (q.includes('best') || q.includes('recommend') || q.includes('strongest')) {
+    intro = pickRandom(["Here's my take: ", 'Great question for strategy — ', "Let me help you decide! ", ''])
+  } else if (q.includes('where') || q.includes('find') || q.includes('locate')) {
+    intro = pickRandom(["I know exactly where! ", "Here's where to look: ", ''])
+  } else {
+    intro = pickRandom(['', '', 'Here you go — ', ''])
+  }
+
+  let response = intro + answer
+
+  // Add follow-up suggestions
+  const suggestions = FOLLOW_UPS[main.category]
+  if (suggestions) {
+    const filtered = suggestions.filter(s => s.toLowerCase() !== main.q.toLowerCase())
+    if (filtered.length > 0) {
+      const picks = filtered.slice(0, 2)
+      response += '\n\n💡 *You might also want to know:* ' + picks.map(p => `"${p}"`).join(' or ')
+    }
+  }
+
+  // If multiple results, add a brief mention of related topics
+  if (results.length > 1) {
+    const extras = results.slice(1).map(r => r.q).join(', ')
+    response += `\n\n📚 *Related:* ${extras}`
+  }
+
+  return response
 }
 
 // RAG endpoint (Cloudflare Workers AI)
