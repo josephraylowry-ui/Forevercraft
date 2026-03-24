@@ -105,8 +105,9 @@ function searchKB(query: string): KBEntry[] {
     .filter(s => s.score > 6)
     .sort((a, b) => b.score - a.score)
     .slice(0, 2)
-    .map(s => s.entry)
 }
+
+type ScoredResult = { entry: KBEntry; score: number }
 
 // Conversational small talk patterns
 const GREETINGS = ['hey', 'hi', 'hello', 'sup', 'yo', 'howdy', 'greetings', 'hola', 'whats up', "what's up"]
@@ -174,43 +175,79 @@ function checkSmallTalk(query: string): string | null {
   return null
 }
 
-// Format KB results into a conversational response
-function formatKBResponse(results: KBEntry[], query: string): string {
-  if (results.length === 0) return ''
+// Confidence levels based on score
+function getConfidence(score: number): 'high' | 'medium' | 'low' {
+  if (score >= 20) return 'high'
+  if (score >= 12) return 'medium'
+  return 'low'
+}
 
-  const main = results[0]
-  const answer = main.a
+// Confidence-aware intros
+const CONFIDENCE_INTROS = {
+  high: {
+    'what': ['Great question! ', 'Ah, glad you asked! ', ''],
+    'how': ["Here's how: ", 'Let me break it down — ', "Sure thing! "],
+    'best': ["Here's my take: ", 'Great question for strategy — ', ''],
+    'where': ["I know exactly where! ", "Here's where to look: ", ''],
+    'default': ['', 'Here you go — ', ''],
+  },
+  medium: {
+    'what': ["I'm fairly sure about this — ", "Here's what I know: ", ''],
+    'how': ["If I'm reading your question right — ", "Here's what should work: ", ''],
+    'best': ["Based on what I know — ", "Here's my best answer: ", ''],
+    'where': ["I believe it's — ", "Try this: ", ''],
+    'default': ["Here's what I found — ", ''],
+  },
+  low: {
+    'what': ["I'm not 100% sure, but here's my best guess — ", "This might be what you're looking for — "],
+    'how': ["I may not have the exact answer, but this could help — ", "Not fully sure, but try this — "],
+    'best': ["Take this with a grain of salt, but — ", "I'm less certain here, but — "],
+    'where': ["I'm not totally sure where, but — ", "My best guess — "],
+    'default': ["I found something that might help, but I'm not fully confident — ", "This might be what you need — "],
+  },
+}
 
-  // Add conversational intro based on question type
+// Format KB results into a conversational response with confidence
+function formatKBResponse(scored: ScoredResult[], query: string): string {
+  if (scored.length === 0) return ''
+
+  const main = scored[0]
+  const confidence = getConfidence(main.score)
+  const answer = main.entry.a
+
+  // Pick intro based on confidence + question type
   const q = query.toLowerCase()
-  let intro = ''
-  if (q.startsWith('what is') || q.startsWith('what are') || q.startsWith("what's")) {
-    intro = pickRandom(['Great question! ', 'Ah, glad you asked! ', 'Good one — ', ''])
-  } else if (q.startsWith('how do') || q.startsWith('how does') || q.startsWith('how to') || q.startsWith('how can')) {
-    intro = pickRandom(["Here's how: ", 'Let me break it down — ', "Sure thing! ", ''])
-  } else if (q.includes('best') || q.includes('recommend') || q.includes('strongest')) {
-    intro = pickRandom(["Here's my take: ", 'Great question for strategy — ', "Let me help you decide! ", ''])
-  } else if (q.includes('where') || q.includes('find') || q.includes('locate')) {
-    intro = pickRandom(["I know exactly where! ", "Here's where to look: ", ''])
-  } else {
-    intro = pickRandom(['', '', 'Here you go — ', ''])
-  }
+  let introType: 'what' | 'how' | 'best' | 'where' | 'default' = 'default'
+  if (q.startsWith('what is') || q.startsWith('what are') || q.startsWith("what's")) introType = 'what'
+  else if (q.startsWith('how do') || q.startsWith('how does') || q.startsWith('how to') || q.startsWith('how can')) introType = 'how'
+  else if (q.includes('best') || q.includes('recommend') || q.includes('strongest')) introType = 'best'
+  else if (q.includes('where') || q.includes('find') || q.includes('locate')) introType = 'where'
+
+  const intros = CONFIDENCE_INTROS[confidence][introType] || CONFIDENCE_INTROS[confidence]['default']
+  const intro = pickRandom(intros)
 
   let response = intro + answer
 
-  // Add follow-up suggestions
-  const suggestions = FOLLOW_UPS[main.category]
-  if (suggestions) {
-    const filtered = suggestions.filter(s => s.toLowerCase() !== main.q.toLowerCase())
-    if (filtered.length > 0) {
-      const picks = filtered.slice(0, 2)
-      response += '\n\n💡 *You might also want to know:* ' + picks.map(p => `"${p}"`).join(' or ')
+  // Low confidence: add a nudge to rephrase
+  if (confidence === 'low') {
+    response += '\n\n🔄 *Not quite what you meant? Try rephrasing or asking about a specific system!*'
+  }
+
+  // Add follow-up suggestions (high/medium confidence only)
+  if (confidence !== 'low') {
+    const suggestions = FOLLOW_UPS[main.entry.category]
+    if (suggestions) {
+      const filtered = suggestions.filter(s => s.toLowerCase() !== main.entry.q.toLowerCase())
+      if (filtered.length > 0) {
+        const picks = filtered.slice(0, 2)
+        response += '\n\n💡 *You might also want to know:* ' + picks.map(p => `"${p}"`).join(' or ')
+      }
     }
   }
 
-  // If multiple results, add a brief mention of related topics
-  if (results.length > 1) {
-    const extras = results.slice(1).map(r => r.q).join(', ')
+  // If multiple results, add related (only for medium/high confidence)
+  if (scored.length > 1 && confidence !== 'low') {
+    const extras = scored.slice(1).map(r => r.entry.q).join(', ')
     response += `\n\n📚 *Related:* ${extras}`
   }
 
@@ -275,9 +312,17 @@ export default function ForevercraftAI() {
     setMessages(prev => [...prev, { role: 'user', content: q }])
     setLoading(true)
 
-    // Tier 1: Knowledge Base (instant)
-    const kbResults = searchKB(q)
-    const kbAnswer = formatKBResponse(kbResults)
+    // Check small talk first (greetings, thanks, farewells, jokes)
+    const smallTalkResponse = checkSmallTalk(q)
+    if (smallTalkResponse) {
+      setMessages(prev => [...prev, { role: 'assistant', content: smallTalkResponse, source: 'kb' }])
+      setLoading(false)
+      return
+    }
+
+    // Tier 1: Knowledge Base (instant, with confidence scoring)
+    const kbScored = searchKB(q)
+    const kbAnswer = formatKBResponse(kbScored, q)
 
     if (kbAnswer) {
       setMessages(prev => [...prev, { role: 'assistant', content: kbAnswer, source: 'kb' }])
@@ -286,7 +331,7 @@ export default function ForevercraftAI() {
     }
 
     // Tier 2: RAG (free, slower)
-    setMessages(prev => [...prev, { role: 'assistant', content: 'Searching the archives...', source: 'rag' }])
+    setMessages(prev => [...prev, { role: 'assistant', content: '🔮 *Consulting the ancient codex...*', source: 'rag' }])
 
     const ragAnswer = await queryRAG(q)
     if (ragAnswer) {
@@ -312,12 +357,12 @@ export default function ForevercraftAI() {
       return
     }
 
-    // Fallback
+    // Fallback — use NO_RESULT_RESPONSES
     setMessages(prev => {
       const updated = [...prev]
       updated[updated.length - 1] = {
         role: 'assistant',
-        content: 'I couldn\'t find a specific answer for that. Try asking about Dream Rate, artifacts, companions, classes, raids, cooking, guilds, or any of our 102 systems! You can also check the Guide page for a full progression walkthrough.',
+        content: pickRandom(NO_RESULT_RESPONSES),
         source: 'kb'
       }
       return updated
