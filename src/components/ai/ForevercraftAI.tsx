@@ -38,7 +38,12 @@ const SYNONYMS: Record<string, string[]> = {
 // Stop words to ignore when matching
 const STOP_WORDS = new Set(['what', 'how', 'does', 'the', 'is', 'are', 'can', 'do', 'get', 'a', 'an', 'i', 'my', 'me', 'to', 'in', 'of', 'for', 'and', 'or', 'with', 'this', 'that', 'there', 'where', 'when', 'why', 'which', 'who', 'have', 'has', 'had', 'be', 'been', 'about', 'it', 'its', 'you', 'your', 'we', 'they', 'them', 'from', 'was', 'were', 'will', 'would', 'should', 'could', 'did', 'does', 'not', 'no', 'so', 'if', 'but', 'all', 'any', 'some', 'on', 'at', 'by', 'up'])
 
-function searchKB(query: string): KBEntry[] {
+interface ScoredResult {
+  entry: KBEntry
+  score: number
+}
+
+function searchKB(query: string): ScoredResult[] {
   const q = query.toLowerCase().trim()
   const allWords = q.split(/\s+/)
   const contentWords = allWords.filter(w => w.length > 1 && !STOP_WORDS.has(w))
