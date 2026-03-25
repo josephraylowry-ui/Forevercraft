@@ -201,7 +201,7 @@ export default function Guide() {
                 When you first join, Forevercraft asks you one question. It shapes everything that follows.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-stone-800/30">
+            <div className="grid md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-stone-800/30">
               <div className="px-8 py-6">
                 <h3 className="font-['Press_Start_2P'] text-[0.75rem] text-green-400 mb-3">🌱 NEWCOMER</h3>
                 <p className="font-['Crimson_Pro'] text-base text-stone-300 mb-4 leading-relaxed">
