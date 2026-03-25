@@ -108,7 +108,7 @@ export default function Gacha() {
             <ScrollReveal delay={0}>
               <div className="rounded-lg border border-yellow-900/30 bg-yellow-950/10 p-5 text-center h-full">
                 <p className="font-['Press_Start_2P'] text-[0.7rem] text-yellow-400 mb-2">FOUNTAIN COINS</p>
-                <p className="font-['Crimson_Pro'] text-base text-stone-400">Primary pull currency. Earned from patron kills, dungeons, bounties, bosses, and pet activities.</p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400">Primary pull currency. Earned from allowance, quests, crates, companion pickups, and more.</p>
               </div>
             </ScrollReveal>
             <ScrollReveal delay={80}>
