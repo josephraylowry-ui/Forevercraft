@@ -31,6 +31,93 @@ const MILESTONE_TITLES = [
   { rank: 1000, title: 'Grand Artisan' },
 ]
 
+const CRAFT_TRACKS = [
+  { name: 'Chemistry', color: '#22D3EE', icon: '⚗️', eternal: 'ETERNAL ALCHEMIST', milestones: [
+    { rank: 5, title: 'Apprentice Alchemist', reward: 'T2 fusion recipes' },
+    { rank: 10, title: 'Adept Alchemist', reward: 'T3 fusion recipes' },
+    { rank: 15, title: "Brewer's Intuition", reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Alchemist', reward: 'T4 fusion recipes' },
+    { rank: 30, title: 'Reagent Mastery', reward: '10% preserve reagent' },
+    { rank: 40, title: 'Master Alchemist', reward: 'T5 fusion recipes' },
+    { rank: 50, title: 'Grand Alchemist', reward: 'T6 recipes + Glowie' },
+    { rank: 60, title: 'Sage Alchemist', reward: 'T7 fusion recipes' },
+    { rank: 75, title: 'Legendary Alchemist', reward: '15% double potions' },
+    { rank: 100, title: 'ETERNAL ALCHEMIST', reward: 'All bonuses active' },
+  ]},
+  { name: 'Cooking', color: '#EF4444', icon: '🍳', eternal: 'ETERNAL CHEF', milestones: [
+    { rank: 5, title: 'Apprentice Chef', reward: 'T2 cooking recipes' },
+    { rank: 10, title: 'Adept Chef', reward: 'T3 cooking recipes' },
+    { rank: 15, title: 'Culinary Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Chef', reward: 'T4 cooking recipes' },
+    { rank: 30, title: 'Flavor Mastery', reward: '10% preserve ingredient' },
+    { rank: 40, title: 'Master Chef', reward: 'T5 cooking recipes' },
+    { rank: 50, title: 'Grand Chef', reward: 'T6 recipes + Glowie' },
+    { rank: 60, title: 'Sage Chef', reward: 'T7 cooking recipes' },
+    { rank: 75, title: 'Legendary Chef', reward: '15% double meals' },
+    { rank: 100, title: 'ETERNAL CHEF', reward: 'All bonuses active' },
+  ]},
+  { name: 'Forging', color: '#A855F7', icon: '🔨', eternal: 'ETERNAL FORGEMASTER', milestones: [
+    { rank: 5, title: 'Apprentice Smith', reward: 'T2 forge recipes' },
+    { rank: 10, title: 'Adept Smith', reward: 'T3 forge recipes' },
+    { rank: 15, title: 'Hammer Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Smith', reward: 'T4 forge recipes' },
+    { rank: 30, title: 'Alloy Mastery', reward: '10% preserve catalyst' },
+    { rank: 40, title: 'Master Smith', reward: 'T5 forge recipes' },
+    { rank: 50, title: 'Grand Smith', reward: 'T6 recipes + Glowie' },
+    { rank: 60, title: 'Sage Smith', reward: 'T7 forge recipes' },
+    { rank: 75, title: 'Legendary Smith', reward: '15% double output' },
+    { rank: 100, title: 'ETERNAL FORGEMASTER', reward: 'All bonuses active' },
+  ]},
+  { name: 'Mining', color: '#F59E0B', icon: '⛏️', eternal: 'ETERNAL EXCAVATOR', milestones: [
+    { rank: 5, title: 'Apprentice Miner', reward: 'T2 ore finds' },
+    { rank: 10, title: 'Adept Miner', reward: 'T3 ore finds' },
+    { rank: 15, title: 'Vein Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Miner', reward: 'T4 ore finds' },
+    { rank: 30, title: 'Ore Mastery', reward: '10% preserve rare ore' },
+    { rank: 40, title: 'Master Miner', reward: 'T5 ore finds' },
+    { rank: 50, title: 'Grand Miner', reward: 'T6 ores + Glowie' },
+    { rank: 60, title: 'Sage Miner', reward: 'T7 ore finds' },
+    { rank: 75, title: 'Legendary Miner', reward: '15% double ore' },
+    { rank: 100, title: 'ETERNAL EXCAVATOR', reward: 'All bonuses active' },
+  ]},
+  { name: 'Fishing', color: '#3B82F6', icon: '🎣', eternal: 'ETERNAL FISHERMAN', milestones: [
+    { rank: 5, title: 'Apprentice Angler', reward: 'T2 catches' },
+    { rank: 10, title: 'Adept Angler', reward: 'T3 catches' },
+    { rank: 15, title: 'Current Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Angler', reward: 'T4 catches' },
+    { rank: 30, title: 'Tide Mastery', reward: '10% preserve bait' },
+    { rank: 40, title: 'Master Angler', reward: 'T5 catches' },
+    { rank: 50, title: 'Grand Angler', reward: 'T6 catches + Glowie' },
+    { rank: 60, title: 'Sage Angler', reward: 'T7 catches' },
+    { rank: 75, title: 'Legendary Angler', reward: '15% double fish' },
+    { rank: 100, title: 'ETERNAL FISHERMAN', reward: 'All bonuses active' },
+  ]},
+  { name: 'Foraging', color: '#8B5CF6', icon: '🌿', eternal: 'ETERNAL HARVESTER', milestones: [
+    { rank: 5, title: 'Apprentice Forager', reward: 'T2 gathers' },
+    { rank: 10, title: 'Adept Forager', reward: 'T3 gathers' },
+    { rank: 15, title: 'Growth Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Forager', reward: 'T4 gathers' },
+    { rank: 30, title: 'Harvest Mastery', reward: '10% preserve rare seed' },
+    { rank: 40, title: 'Master Forager', reward: 'T5 gathers' },
+    { rank: 50, title: 'Grand Forager', reward: 'T6 gathers + Glowie' },
+    { rank: 60, title: 'Sage Forager', reward: 'T7 gathers' },
+    { rank: 75, title: 'Legendary Forager', reward: '15% double harvest' },
+    { rank: 100, title: 'ETERNAL HARVESTER', reward: 'All bonuses active' },
+  ]},
+  { name: 'Building', color: '#10B981', icon: '🏗️', eternal: 'ETERNAL ARCHITECT', milestones: [
+    { rank: 5, title: 'Apprentice Builder', reward: 'T2 blueprints' },
+    { rank: 10, title: 'Adept Builder', reward: 'T3 blueprints' },
+    { rank: 15, title: 'Design Intuition', reward: '+1 quality bonus' },
+    { rank: 20, title: 'Expert Builder', reward: 'T4 blueprints' },
+    { rank: 30, title: 'Structure Mastery', reward: '10% preserve material' },
+    { rank: 40, title: 'Master Builder', reward: 'T5 blueprints' },
+    { rank: 50, title: 'Grand Builder', reward: 'T6 blueprints + Glowie' },
+    { rank: 60, title: 'Sage Builder', reward: 'T7 blueprints' },
+    { rank: 75, title: 'Legendary Builder', reward: '15% double blocks' },
+    { rank: 100, title: 'ETERNAL ARCHITECT', reward: 'All bonuses active' },
+  ]},
+]
+
 export default function CraftForever() {
   return (
     <div className="bg-stone-950 text-stone-200 min-h-screen">
@@ -137,6 +224,45 @@ export default function CraftForever() {
               </p>
             </div>
           </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Craft Mastery Tracks */}
+      <section className="border-t border-yellow-900/20">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
+          <ScrollReveal>
+            <div className="text-center mb-10">
+              <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">CRAFT MASTERY TRACKS</h2>
+              <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
+                7 individual mastery progressions tied to your Artisan Rank. Each track unlocks recipe tiers,
+                quality bonuses, and at rank 100 — the Eternal title with all bonuses permanently active.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {CRAFT_TRACKS.map((track, i) => (
+              <ScrollReveal key={track.name} delay={i * 60}>
+                <div className="rounded-lg border border-stone-800/60 bg-stone-900/30 p-5">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span className="text-2xl">{track.icon}</span>
+                    <h3 className="font-['Press_Start_2P'] text-[0.7rem]" style={{ color: track.color }}>{track.name.toUpperCase()}</h3>
+                  </div>
+                  <div className="space-y-1.5">
+                    {track.milestones.map(m => (
+                      <div key={m.rank} className="flex items-center justify-between text-sm">
+                        <div className="flex items-center gap-2">
+                          <span className="font-['Press_Start_2P'] text-[0.5rem] text-stone-600 w-8">{m.rank}</span>
+                          <span className={`font-['Crimson_Pro'] ${m.rank === 100 ? 'text-yellow-400 font-bold' : 'text-stone-300'}`}>{m.title}</span>
+                        </div>
+                        <span className="font-['Crimson_Pro'] text-stone-500 text-xs">{m.reward}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
