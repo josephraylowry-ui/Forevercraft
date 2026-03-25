@@ -107,7 +107,7 @@ export default function CraftForever() {
               <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">ARTIFACT FORGE MATERIALS</h2>
               <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
                 28 crafting materials across 4 categories and 7 tiers. Found through prospect mining, biome-inclined drops,
-                and alchemy. Forge them at the Artisan's Table to create artifacts — or fail and still have a 7% chance at one.
+                and chemistry. Forge them at the Artisan's Table to create artifacts — or fail and still have a 7% chance at one.
               </p>
             </div>
           </ScrollReveal>
@@ -120,9 +120,9 @@ export default function CraftForever() {
                 <p className="font-['Crimson_Pro'] text-base text-stone-500">Store them in the <span className="text-stone-300">Ore Bag</span> (earned at Blacksmith level 1). 28 slots, 3 pages of portable forge storage.</p>
               </div>
               <div className="rounded-lg border border-purple-800/40 bg-purple-950/10 p-5">
-                <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-purple-400 mb-3">ALCHEMY MATERIALS</h3>
-                <p className="font-['Crimson_Pro'] text-base text-stone-400 mb-3">Potion ingredients and alchemical reagents for the new Alchemy advantage track. Brew potions, create elixirs, and push your craft.</p>
-                <p className="font-['Crimson_Pro'] text-base text-stone-500">Store them in the <span className="text-stone-300">Ingredient Binder</span> (earned at Alchemy level 1). 28 slots, 3 pages of portable alchemy storage.</p>
+                <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-purple-400 mb-3">CHEMISTRY MATERIALS</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 mb-3">Potion ingredients and chemical reagents for the new Chemistry advantage track. Brew potions, create elixirs, and push your craft.</p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-500">Store them in the <span className="text-stone-300">Ingredient Binder</span> (earned at Chemistry level 1). 28 slots, 3 pages of portable chemistry storage.</p>
               </div>
             </div>
           </ScrollReveal>
