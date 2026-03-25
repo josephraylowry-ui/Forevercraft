@@ -172,7 +172,7 @@ export default function Support() {
                 },
                 {
                   q: 'My Dream Rate isn\'t going up',
-                  a: 'Open your Forevercraft Codex (book in inventory) and check the Dream Rate breakdown. DR comes from many sources — artifacts, companions, constellations, consumables, and more. Early game, focus on finding permanent DR items like Crystal of Dreams from bat drops.',
+                  a: 'Click the word "Forevercraft" inside the book header in your inventory to trigger a stats dropdown with your full DR breakdown. DR comes from many sources — artifacts, companions, constellations, consumables, and more. Early game, focus on finding permanent DR items like Crystallized Dream Droppings from bats (5% drop).',
                 },
                 {
                   q: 'Can I use Forevercraft with other datapacks?',
