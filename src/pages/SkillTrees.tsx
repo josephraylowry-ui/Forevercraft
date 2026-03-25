@@ -16,7 +16,8 @@ const TREES = [
   { name: 'Fishing', column: 'gathering', icon: '🎣', desc: 'Multi-catch chance +0.625% per level. Leveled by fish caught (2k to 50k).', scaling: (lv: number) => `+${(lv * 0.625).toFixed(1)}% multi-catch`, prestige: ['Water Net — passive fish trap, auto-catches hourly', 'Second Net — deploy a second net', '...the fish come to you now. In your sleep.'] },
   { name: 'Mining', column: 'gathering', icon: '⛏️', desc: 'Miner\'s Surge haste chance, grows stronger each tier. Leveled by blocks mined (40k to 1M).', scaling: (lv: number) => `Tier ${Math.min(Math.ceil(lv / 5), 5)} Miner's Surge`, prestige: ['Ore Magnet — nearby ore drops pulled to you (8 blocks)', 'Ore Doubling — 5% chance to double ore drops', '...the stone whispers where the gold hides.'] },
   { name: 'Gathering', column: 'gathering', icon: '🌿', desc: 'Extra crop drops +0.625% per level. Leveled by crops harvested (1k to 25k).', scaling: (lv: number) => `+${(lv * 0.625).toFixed(1)}% extra crops`, prestige: ['Green Thumb — crops auto-replant on harvest', 'Fertile Aura — 25% crop growth speed in 16-block radius', '...the seeds plant themselves now. You just watch.'] },
-  { name: 'Blacksmith', column: 'gathering', icon: '🔨', desc: 'Nearby furnaces smelt faster each level. Leveled by items smelted (2k to 50k).', scaling: (lv: number) => `+${lv * 4}% smelt speed`, prestige: ['Master Alloy — 2x smelt output chance + 50% less anvil XP', 'Efficient Fuel — 50% chance to not consume fuel', '...the fire burns hotter for you. No one knows why.'] },
+  { name: 'Blacksmith', column: 'gathering', icon: '🔨', desc: 'Forge mastery — leveled by artifact forging at the Artisan Table (50 to 1.25k). Smelting contributes at 40:1 ratio. Ore Bag at level 1.', scaling: (lv: number) => `Forge skill ${lv}`, prestige: ['Master Alloy — 2x smelt output chance + 50% less anvil XP', 'Efficient Fuel — 50% chance to not consume fuel', '...the fire burns hotter for you. No one knows why.'] },
+  { name: 'Alchemy', column: 'gathering', icon: '⚗️', desc: 'Potion and alchemy mastery — leveled by brewing (50 to 1.25k). Vanilla brewing contributes at 20:1 ratio. Ingredient Binder at level 1.', scaling: (lv: number) => `Brew skill ${lv}`, prestige: ['Volatile Mix — 10% chance for double potion output', 'Pure Distillation — potions last 25% longer', '...the bubbles speak to you now. You understand.'] },
   { name: 'Explorer', column: 'gathering', icon: '🧭', desc: 'Structure crate cooldown reduced by 4% per level. Leveled by structure crates looted (100 to 2.5k).', scaling: (lv: number) => `-${lv * 4}% crate cooldown`, prestige: ['Structure Sense — alert within 100 blocks of structures', 'Cartographer — locate nearest structure (50hr CD)', '...you close your eyes. The path is already there.'] },
 ]
 
@@ -37,8 +38,8 @@ export default function SkillTrees() {
     <div className="bg-stone-950 text-stone-200 min-h-screen">
       <PageHero
         title="SKILL TREES"
-        badge="14 ADVANTAGE TREES"
-        subtitle="25 levels each. 3 prestige cycles. 67 unique prestige abilities. Cross-tree synergies."
+        badge="15 ADVANTAGE TREES"
+        subtitle="25 levels each. 3 prestige cycles. 70 unique prestige abilities. Cross-tree synergies."
         particleColor="rgba(34, 197, 94, 0.3)"
       />
 
