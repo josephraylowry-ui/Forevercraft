@@ -14,24 +14,38 @@ export default function ScrollReveal({ children, className = '', delay = 0 }: Pr
     const el = ref.current
     if (!el) return
 
-    // Small delay to let layout settle after navigation
-    const timer = setTimeout(() => {
+    const checkVisible = () => {
+      if (visible) return
       const rect = el.getBoundingClientRect()
-      if (rect.top < window.innerHeight && rect.bottom > 0) {
+      if (rect.top < window.innerHeight + 100 && rect.bottom > -100) {
         setVisible(true)
-        return
       }
+    }
 
-      const observer = new IntersectionObserver(
-        ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect() } },
-        { threshold: 0.02, rootMargin: '0px 0px 0px 0px' }
-      )
-      observer.observe(el)
-      return () => observer.disconnect()
-    }, 50)
+    // Check immediately after layout
+    const timer = setTimeout(checkVisible, 50)
 
-    return () => clearTimeout(timer)
-  }, [])
+    // Observer for scroll-based reveal
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect() } },
+      { threshold: 0.01, rootMargin: '100px 0px 100px 0px' }
+    )
+    observer.observe(el)
+
+    // Re-check when tab becomes visible again
+    const onVisibility = () => { if (document.visibilityState === 'visible') checkVisible() }
+    document.addEventListener('visibilitychange', onVisibility)
+
+    // Also re-check on focus (covers alt-tab)
+    window.addEventListener('focus', checkVisible)
+
+    return () => {
+      clearTimeout(timer)
+      observer.disconnect()
+      document.removeEventListener('visibilitychange', onVisibility)
+      window.removeEventListener('focus', checkVisible)
+    }
+  }, [visible])
 
   return (
     <div
