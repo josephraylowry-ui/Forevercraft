@@ -99,6 +99,47 @@ export default function CraftForever() {
         </div>
       </section>
 
+      {/* Artifact Forge Materials */}
+      <section className="border-t border-yellow-900/20">
+        <div className="max-w-[1400px] mx-auto px-8 py-16">
+          <ScrollReveal>
+            <div className="text-center mb-10">
+              <h2 className="font-['Press_Start_2P'] text-base text-yellow-400 mb-3">ARTIFACT FORGE MATERIALS</h2>
+              <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl mx-auto">
+                28 crafting materials across 4 categories and 7 tiers. Found through prospect mining, biome-inclined drops,
+                and alchemy. Forge them at the Artisan's Table to create artifacts — or fail and still have a 7% chance at one.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={100}>
+            <div className="grid md:grid-cols-2 gap-6 mb-10">
+              <div className="rounded-lg border border-stone-800 bg-stone-900/40 p-5">
+                <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-amber-400 mb-3">FORGE MATERIALS</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 mb-3">Weapon, Armor, Tool, and Accessory materials in 7 tiers — from Raw Blade Shards to the legendary Doomforge Core.</p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-500">Store them in the <span className="text-stone-300">Ore Bag</span> (earned at Blacksmith level 1). 28 slots, 3 pages of portable forge storage.</p>
+              </div>
+              <div className="rounded-lg border border-purple-800/40 bg-purple-950/10 p-5">
+                <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-purple-400 mb-3">ALCHEMY MATERIALS</h3>
+                <p className="font-['Crimson_Pro'] text-base text-stone-400 mb-3">Potion ingredients and alchemical reagents for the new Alchemy advantage track. Brew potions, create elixirs, and push your craft.</p>
+                <p className="font-['Crimson_Pro'] text-base text-stone-500">Store them in the <span className="text-stone-300">Ingredient Binder</span> (earned at Alchemy level 1). 28 slots, 3 pages of portable alchemy storage.</p>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={200}>
+            <div className="rounded-lg border border-stone-800 bg-stone-900/30 p-5">
+              <h3 className="font-['Press_Start_2P'] text-[0.65rem] text-stone-400 mb-3">BIOME-INCLINED DROPS</h3>
+              <p className="font-['Crimson_Pro'] text-base text-stone-400">
+                Materials drop with biome weighting — mine in the Desert for more Weapon and Accessory materials,
+                in Mountains for Armor, in Jungles for Accessories, in the Nether for Weapons. 7 biome groups with
+                unique category weights. Higher-tier ores yield higher-tier materials (diamond ore → T4, ancient debris → T6-T7).
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Grand Forge */}
       <section className="border-t border-yellow-900/20">
         <div className="max-w-[1400px] mx-auto px-8 py-16">
