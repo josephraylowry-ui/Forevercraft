@@ -157,6 +157,7 @@ const PHASES = [
       'Twin weapons share XP and mastery with the original. Both must be held for full twin bonuses.',
       'The Spirit Tome gives XP equal to the quest number in levels — quest 100 = 100 levels worth.',
       'The Infinite Castle has 3 runs per day. Your highest floor is tracked permanently.',
+      'The Salvation Stone is the rarest item in the game — a consumable that protects you from death. Find it through milestones, bosses, or extreme luck.',
       'The Artisan Tome tracks 100 crafting quests alongside the Spirit Tome\'s combat quests.',
       'Sneak near a Black Market barrel with a Dungeon Key for the Heist — 60 seconds of pure adrenaline.',
     ],
