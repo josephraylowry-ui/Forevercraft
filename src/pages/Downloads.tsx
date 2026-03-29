@@ -402,6 +402,28 @@ export default function Downloads() {
           </div>
         </ScrollReveal>
 
+        {/* Resource Packs Section */}
+        <ScrollReveal>
+          <div className="rounded-lg border border-purple-800/40 bg-purple-950/10 hover:bg-purple-950/20 p-8 mb-6 transition-colors">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div>
+                <span className="font-['Press_Start_2P'] text-[0.55rem] text-purple-600 tracking-widest">TOODLE PACK</span>
+                <h3 className="font-['Press_Start_2P'] text-[0.9rem] text-purple-400 mt-2 mb-2">RESOURCE PACKS</h3>
+                <p className="font-['Crimson_Pro'] text-lg text-stone-400">
+                  Seasonal texture overhaul — animated client-side cycling or individual packs for server-side season swapping.
+                  6 packs available plus a full server setup guide.
+                </p>
+              </div>
+              <a
+                href="/resource-packs"
+                className="inline-block px-8 py-3 rounded-lg bg-purple-700 hover:bg-purple-600 text-stone-100 font-['Press_Start_2P'] text-[0.65rem] transition-colors no-underline shrink-0"
+              >
+                VIEW PACKS
+              </a>
+            </div>
+          </div>
+        </ScrollReveal>
+
         {/* Custom Builder Section */}
         <ScrollReveal>
           <div className="text-center mb-8">
