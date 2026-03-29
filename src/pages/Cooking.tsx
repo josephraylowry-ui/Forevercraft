@@ -62,7 +62,7 @@ export default function Cooking() {
             { title: 'Campfire GUI', description: 'Right-click a cooking utensil near a campfire to open the cooking interface. Combine ingredients to create meals with custom buffs.' },
             { title: 'Pantry Storage', description: 'Portable ingredient storage that auto-pulls ingredients when cooking at a campfire. Stores meals, utensils, and ingredients with multi-page GUI.' },
             { title: 'Well-Fed Timer', description: 'Eating prepared meals grants Well-Fed buff with passive stat bonuses. Duration scales with the Culinary skill tree (+10% per 5 levels).' },
-            { title: 'Culinary Skill Tree', description: 'One of the 14 Advantage Trees. +10% Well-Fed duration per 5 levels. Leveled by meals cooked (50 to 1,250).' },
+            { title: 'Culinary Skill Tree', description: 'One of the 15 Advantage Trees. +10% Well-Fed duration per 5 levels. Leveled by meals cooked (50 to 1,250).' },
           ].map((feat, i) => (
             <ScrollReveal key={feat.title} delay={i * 80}>
               <div className="rounded-lg border border-stone-800 bg-stone-900/30 p-5 h-full">

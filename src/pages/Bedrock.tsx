@@ -56,7 +56,7 @@ const PARITY_SECTIONS = [
   {
     category: 'Progression',
     count: 10,
-    systems: 'Advantage Trees (13), Class Affinity (14 classes), Dream Rate, Constellations (10), Biome Mastery (25), Milestones (100 personal + 34 realm), Achievements, Patina Aging, Claim Rewards, Daily Challenges',
+    systems: 'Advantage Trees (15), Class Affinity (14 classes), Dream Rate, Constellations (10), Biome Mastery (25), Milestones (100 personal + 34 realm), Achievements, Patina Aging, Claim Rewards, Daily Challenges',
   },
   {
     category: 'Economy',
@@ -137,7 +137,7 @@ export default function Bedrock() {
           <div className="text-center mb-16">
             <p className="font-['Crimson_Pro'] text-xl text-stone-400 max-w-3xl mx-auto leading-relaxed">
               Everything that made Forevercraft special on Java — 408 artifacts, 14 spirit weapons,
-              102 companions, 13 raid bosses, an infinite castle, and 102 interconnected systems —
+              102 companions, 14 raid bosses, an infinite castle, and 138 interconnected systems —
               now runs natively on Bedrock Edition through Minecraft's Script API. No mods. No
               experimental toggles. Just install the behavior pack and play.
             </p>

@@ -12,7 +12,7 @@ const SYSTEM_CARDS = [
   { title: 'COMPANIONS', desc: '102 companions that fight, level, evolve, and bond with you.', icon: '🐾', to: '/companions', color: '#4ADE80' },
   { title: 'CLASSES', desc: '14 weapon classes. Some are earned. One is hidden.', icon: '⚡', to: '/classes', color: '#60A5FA' },
   { title: 'RAID BOSSES', desc: '14 multi-phase bosses with puzzles, phases, and unique loot.', icon: '💀', to: '/raid-bosses', color: '#DC2626' },
-  { title: 'SKILL TREES', desc: '14 advantage trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
+  { title: 'SKILL TREES', desc: '15 advantage trees with 25 levels each, prestige, and synergies.', icon: '🌳', to: '/skill-trees', color: '#22C55E' },
   { title: 'ARMOR SETS', desc: '28 armor sets with 2-piece, 4-piece, and mythical 5-piece bonuses.', icon: '🛡️', to: '/armor-sets', color: '#9CA3AF' },
   { title: 'QUESTS', desc: '75 quests across 6 tiers. Village reputation. Patron bounties.', icon: '📜', to: '/quests', color: '#D97706' },
   { title: 'INFINITE CASTLE', desc: 'Endless escalating dungeon. Bosses every 10 floors. Dream Storm Crystals.', icon: '🏰', to: '/infinite-castle', color: '#78716C' },
@@ -20,6 +20,15 @@ const SYSTEM_CARDS = [
   { title: 'GUILDS & SOCIAL', desc: 'Guilds, parties, duels, buddy system, marriage, and family.', icon: '👥', to: '/guilds', color: '#0EA5E9' },
   { title: 'GACHA FOUNTAIN', desc: 'Fountain of Eternal Dreams. Feed it Forever Coins from allowance, quests, crates and more!', icon: '🏺', to: '/gacha', color: '#A855F7' },
   { title: 'CRAFTFOREVER', desc: '7 craft mastery tracks. 38 biome materials. Forging, chemistry, and the Grand Forge.', icon: '🔨', to: '/craftforever', color: '#E879F9' },
+  { title: 'STORY MODE', desc: '50-chapter narrative across 5 acts. Dual paths — Dream Resonance and Chaos Resonance. The Hollow awaits.', icon: '📖', to: '/lore', color: '#F472B6' },
+  { title: 'PROFESSIONS', desc: '12 custom villager professions. Village reputation from Stranger to Legend. Bounty boards and quest books.', icon: '🏘️', to: '/quests', color: '#A3E635' },
+  { title: 'HOUSING', desc: 'Hearthstone home zones with 5 upgrade tiers. Auto-garden, comfort scoring, and Quick Stash sorting.', icon: '🏠', to: '/seasons', color: '#FCD34D' },
+  { title: 'BESTIARY', desc: 'Catalog every mob encounter. Track kills, rare spawns, and unlock hidden lore entries.', icon: '📕', to: '/codex', color: '#F87171' },
+  { title: 'BOUNTIES', desc: 'Artifact bounty boards in every village. Daily rotating targets with tiered rewards.', icon: '🎯', to: '/quests', color: '#FB923C' },
+  { title: 'COMPETITIONS', desc: 'Daily timed challenges with leaderboards. 6 Craft Trial categories with 10 tiers each.', icon: '🏆', to: '/guilds', color: '#FBBF24' },
+  { title: 'PARTY SYSTEM', desc: 'Team up with friends. Shared XP, party chat, and coordinated raid mechanics.', icon: '🤝', to: '/guilds', color: '#38BDF8' },
+  { title: 'BLACK MARKET', desc: 'Illicit trades at night. Nightmare Ingot currency. Daily deals and artifact appraisal.', icon: '🌑', to: '/seasons', color: '#6B7280' },
+  { title: 'HEIST SYSTEM', desc: 'Timed stealth missions. Laser traps, guard patrols, and vault-cracking for rare loot.', icon: '🔓', to: '/infinite-castle', color: '#EF4444' },
 ]
 
 const DR_MILESTONES = [
@@ -74,7 +83,7 @@ export default function Home() {
             Explore the Systems
           </h2>
           <p className="font-['Crimson_Pro'] italic text-stone-400 text-center mb-12 text-lg">
-            102 interconnected systems. Every one handcrafted.
+            138 interconnected systems. Every one handcrafted.
           </p>
         </ScrollReveal>
 
@@ -187,7 +196,7 @@ export default function Home() {
 
         <FeatureSection title="Companions">
           <p className="text-stone-300">
-            106 companions, each one different. A Moldwarp that makes you mine faster.
+            102 companions, each one different. A Moldwarp that makes you mine faster.
             A Claude that detects ores through walls. A Butterfly whose Dream Weaver
             ability scales your luck up to +3.0 at max level. A Golden Dragon that
             wraps you in resistance and fire immunity just by existing.
@@ -331,7 +340,7 @@ export default function Home() {
                   <span className="font-['Press_Start_2P'] text-[0.55rem] text-cyan-600 tracking-widest">NOW AVAILABLE</span>
                   <h3 className="font-['Press_Start_2P'] text-[0.9rem] text-cyan-400 mt-2 mb-2">BEDROCK EDITION</h3>
                   <p className="font-['Crimson_Pro'] text-lg text-stone-400">
-                    129 systems. Full Java parity. Script API powered.
+                    138 systems. Full Java parity. Script API powered.
                     Console, mobile, and PC — same dream, every platform.
                   </p>
                 </div>

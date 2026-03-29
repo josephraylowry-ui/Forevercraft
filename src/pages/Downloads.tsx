@@ -365,7 +365,7 @@ export default function Downloads() {
                 <span className="font-['Press_Start_2P'] text-[0.5rem] text-yellow-700 border border-yellow-800/40 rounded px-2 py-1">v1.0</span>
               </div>
               <p className="font-['Crimson_Pro'] text-lg text-stone-400 max-w-2xl">
-                All 102 systems. 18,111 files. The complete experience including Companions, Mining Crates, and everything else.
+                All 138 systems. 23,639 files. The complete experience including Companions, Mining Crates, and everything else.
               </p>
               <a
                 href="/builds/Forevercraft-Java-26.1.zip"

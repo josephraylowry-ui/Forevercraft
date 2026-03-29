@@ -180,7 +180,7 @@ export default function Guide() {
         <ScrollReveal>
           <div className="text-center mb-16">
             <p className="font-['Crimson_Pro'] text-xl text-stone-400 max-w-3xl mx-auto leading-relaxed">
-              Forevercraft weaves 102 interconnected systems into Minecraft — from a custom
+              Forevercraft weaves 138 interconnected systems into Minecraft — from a custom
               Dream Rate engine that ties your entire journey together, to 408 artifacts with
               handcrafted abilities, to 14 spirit weapons that grow through seven tiers of
               metamorphosis. This guide walks you through the natural progression — from

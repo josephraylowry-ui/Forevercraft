@@ -13,7 +13,7 @@ const IMAGES = [
   { src: '/gallery/hearthstone.png', title: 'Hearthstone', desc: 'Claim your home zone' },
   { src: '/gallery/artisan.png', title: 'Artisan Forge', desc: 'Spirit tool crafting station' },
   { src: '/gallery/gacha.png', title: 'Gacha Fountain', desc: 'The Fountain of Eternal Dreams' },
-  { src: '/gallery/advantage-tree-1.png', title: 'Advantage Trees', desc: '13 skill trees with prestige' },
+  { src: '/gallery/advantage-tree-1.png', title: 'Advantage Trees', desc: '15 skill trees with prestige' },
   { src: '/gallery/advantage-tree-2.png', title: 'Tree Progression', desc: 'Level up and unlock abilities' },
 ]
 

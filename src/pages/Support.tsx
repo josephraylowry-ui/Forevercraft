@@ -168,7 +168,7 @@ export default function Support() {
               {[
                 {
                   q: 'The datapack doesn\'t load / I get errors on startup',
-                  a: 'Make sure you\'re running Minecraft Java Edition 1.21.11. Forevercraft requires pack format 94.1. Place the datapack in your world\'s datapacks folder, then run /reload.',
+                  a: 'Make sure you\'re running Minecraft Java Edition 26.1. Forevercraft requires pack format 101.1. Place the datapack in your world\'s datapacks folder, then run /reload.',
                 },
                 {
                   q: 'My Dream Rate isn\'t going up',

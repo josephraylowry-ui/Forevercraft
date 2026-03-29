@@ -93,18 +93,18 @@ export const CLASS_COLORS: Record<string, string> = {
 // ── Stat Numbers ──────────────────────────────────────────
 
 export const STATS = {
-  totalFiles: 18111,
-  totalFunctions: 10994,
-  totalLines: 800000,
+  totalFiles: 23639,
+  totalFunctions: 16101,
+  totalLines: 842566,
   totalArtifacts: 408,
-  totalCompanions: 106,
+  totalCompanions: 102,
   totalSpiritWeapons: 14,
   totalRaidBosses: 14,
-  totalSkillTrees: 14,
+  totalSkillTrees: 15,
   totalQuests: 250,
   totalLoreFragments: 904,
   totalArmorSets: 27,
-  totalSystems: 102,
+  totalSystems: 138,
   dreamRateCap: 50,
   evolvableCompanions: 6,
 }

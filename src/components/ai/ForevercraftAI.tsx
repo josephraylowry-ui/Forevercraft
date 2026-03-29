@@ -119,7 +119,7 @@ const FAREWELLS = ['bye', 'goodbye', 'later', 'cya', 'see ya', 'gtg', 'gotta go'
 const JOKES = ['joke', 'funny', 'lol', 'lmao', 'haha', 'tell me something']
 
 const GREETING_RESPONSES = [
-  "Hey there, adventurer! What can I help you with? Ask me anything about Forevercraft's 102 systems!",
+  "Hey there, adventurer! What can I help you with? Ask me anything about Forevercraft's 138 systems!",
   "Welcome! I know every artifact, companion, and hidden mechanic in Forevercraft. What's on your mind?",
   "Greetings, traveler! Whether it's Dream Rate, raids, or cooking recipes — I've got answers. Fire away!",
   "Hey! Ready to dive into Forevercraft? I can help with anything from beginner tips to endgame strategy.",
@@ -127,7 +127,7 @@ const GREETING_RESPONSES = [
 
 const THANKS_RESPONSES = [
   "Happy to help! Let me know if you have more questions. There's always more to discover!",
-  "Anytime! Forevercraft has 102 systems — I bet there's something else you're curious about!",
+  "Anytime! Forevercraft has 138 systems — I bet there's something else you're curious about!",
   "You're welcome! If you need anything else, just ask. Good luck out there, adventurer!",
   "Glad I could help! The dream awaits. Anything else?",
 ]
@@ -141,12 +141,12 @@ const FAREWELL_RESPONSES = [
 const JOKE_RESPONSES = [
   "Why did the Creeper go to the Black Market? Because it wanted to make an *explosive* deal! ...I'll see myself out. Got a real question for me?",
   "What's a Rogue's favorite type of music? Anything with a good *backstab* beat! ...Okay, okay. What can I actually help with?",
-  "How many Forevercraft developers does it take to write 10,994 functions? Just one. One very dedicated person. That's not a joke, that's just impressive. What else you got?",
+  "How many Forevercraft developers does it take to write 16,101 functions? Just one. One very dedicated person. That's not a joke, that's just impressive. What else you got?",
 ]
 
 const NO_RESULT_RESPONSES = [
   "Hmm, I'm not sure about that one! Try rephrasing, or ask about a specific system like Dream Rate, companions, raids, cooking, or classes.",
-  "I don't have that in my codex yet! I know about 102 systems though — try asking about artifacts, skill trees, spirit weapons, gacha, or housing!",
+  "I don't have that in my codex yet! I know about 138 systems though — try asking about artifacts, skill trees, spirit weapons, gacha, or housing!",
   "That's a tricky one! My knowledge covers all of Forevercraft's systems. Try something like 'How do companions work?' or 'What is the Gacha Fountain?'",
 ]
 
@@ -174,7 +174,7 @@ function checkSmallTalk(query: string): string | null {
   if (THANKS.some(t => q.includes(t))) return pickRandom(THANKS_RESPONSES)
   if (FAREWELLS.some(f => q === f || q.startsWith(f + ' ') || q.startsWith(f + '!'))) return pickRandom(FAREWELL_RESPONSES)
   if (JOKES.some(j => q.includes(j))) return pickRandom(JOKE_RESPONSES)
-  if (q === '?' || q === 'help' || q === 'what can you do') return "I'm the Forevercraft Guide! Ask me about any of the 102 systems — artifacts, companions, raids, cooking, classes, Dream Rate, housing, guilds, gacha, spirit weapons, skill trees, and way more. Just type your question!"
+  if (q === '?' || q === 'help' || q === 'what can you do') return "I'm the Forevercraft Guide! Ask me about any of the 138 systems — artifacts, companions, raids, cooking, classes, Dream Rate, housing, guilds, gacha, spirit weapons, skill trees, and way more. Just type your question!"
   return null
 }
 
@@ -287,7 +287,7 @@ export default function ForevercraftAI() {
   const [open, setOpen] = useState(false)
   const [input, setInput] = useState('')
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'system', content: 'Welcome, adventurer! I\'m the Forevercraft Guide — ask me anything about the pack\'s 102 systems, artifacts, companions, raids, or progression. I know it all!' }
+    { role: 'system', content: 'Welcome, adventurer! I\'m the Forevercraft Guide — ask me anything about the pack\'s 138 systems, artifacts, companions, raids, or progression. I know it all!' }
   ])
   const [loading, setLoading] = useState(false)
   const messagesEnd = useRef<HTMLDivElement>(null)
