@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import PageHero from '../components/layout/PageHero'
 import ScrollReveal from '../components/effects/ScrollReveal'
 import Spoiler from '../components/ui/Spoiler'
@@ -370,6 +371,14 @@ export default function Guide() {
             </p>
           </div>
         </ScrollReveal>
+
+        {/* Hidden access point — fixed bottom-right, tucked near the AI ? button */}
+        <Link
+          to="/agency"
+          className="fixed bottom-[88px] right-[26px] w-3 h-3 rounded-full opacity-[0.03] hover:opacity-20 bg-purple-500 transition-opacity duration-700 cursor-default z-[9999]"
+          aria-hidden="true"
+          tabIndex={-1}
+        />
       </div>
     </div>
   )

@@ -37,6 +37,7 @@ const Bedrock = lazy(() => import('./pages/Bedrock'))
 const Gallery = lazy(() => import('./pages/Gallery'))
 const PressKit = lazy(() => import('./pages/PressKit'))
 const ResourcePacks = lazy(() => import('./pages/ResourcePacks'))
+const Agency = lazy(() => import('./pages/Agency'))
 
 function Loading() {
   return (
@@ -89,6 +90,7 @@ export default function App() {
             <Route path="/press" element={<PressKit />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/resource-packs" element={<ResourcePacks />} />
+            <Route path="/agency" element={<Agency />} />
           </Routes>
         </main>
       </Suspense>
