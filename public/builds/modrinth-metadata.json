@@ -1,0 +1,21 @@
+{
+  "name": "Forevercraft",
+  "summary": "A massive RPG datapack with 140+ interconnected systems - quests, companions, artifacts, professions, housing, dreaming, raids, story mode, and more.",
+  "description": "Forevercraft transforms vanilla Minecraft into a full RPG experience. Features include:\n\n- 50-chapter main story with 8 side branches (700+ chapters total)\n- 100+ tameable companions with abilities and evolution\n- 14 spirit weapons with unique ability trees\n- 13 raid bosses with puzzle mechanics\n- Infinite Castle with scaling difficulty\n- Full artisan crafting system (alchemy, forging, cooking)\n- Player housing with decoration and gardening\n- Guild system with expeditions and diplomacy\n- Dream Rate progression system\n- Lore discovery with 162 collectible sets\n- Quest board with 6 tiers\n- And 130+ more systems",
+  "categories": ["adventure", "cursed", "economy", "equipment", "food", "game-mechanics", "magic", "management", "mobs", "quests", "social", "storage", "technology", "transportation", "utility", "worldgen"],
+  "client_side": "required",
+  "server_side": "required",
+  "project_type": "mod",
+  "loaders": ["datapack"],
+  "game_versions": ["26.1", "26.1.1"],
+  "license_id": "ARR",
+  "version_number": "26.1.0",
+  "version_title": "Forevercraft 26.1 — Major Bug Fix & Optimization Update",
+  "changelog_file": "CHANGELOG-26.1-bugfix.md",
+  "files": [
+    {
+      "filename": "Forevercraft-Java-26.1.zip",
+      "description": "Full datapack (all 149 systems)"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "displayName": "Forevercraft 26.1 — Major Bug Fix & Optimization Update",
+  "gameVersions": [
+    {"version": "26.1"},
+    {"version": "26.1.1"}
+  ],
+  "releaseType": "release",
+  "relations": {
+    "projects": []
+  },
+  "changelog": "See CHANGELOG-26.1-bugfix.md for full details. ~200 bugs fixed, 13 performance optimizations applied, 370+ story chapter files created.",
+  "changelogType": "markdown"
+}
